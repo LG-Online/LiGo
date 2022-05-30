@@ -1,0 +1,2 @@
+# LiGo
+Literaturwissenschaftliche Grundbegriffe online
