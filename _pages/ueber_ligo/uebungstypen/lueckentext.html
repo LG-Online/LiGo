@@ -1,0 +1,47 @@
+---
+title: Lückentext
+layout: default
+exercise: dnd_luecken
+---
+<h1>Lückentext</h1>
+<div class="content">
+    <div class="exercise">
+        <div class="task">
+            <span class="pretext">Fragestellung: </span>
+            Wie muss der Satz zum Prolog richtig lauten?
+        </div>   
+        <table class="dnd_table">
+            <tr>
+                <td colspan="2" id="drop_areas" class="gaptext">
+                    Im Prolog wird <div class="gaps" id="drop_area_1" ondrop="drop(event, this)" ondragover="allowDrop(event)"></div>, 
+                    in der Exposition dagegen wird <div class="gaps" id="drop_area_2" ondrop="drop(event, this)" ondragover="allowDrop(event)"></div>.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="draggable_items_container">
+                    <div id="draggable_items">
+                        <div id="item1" class="drop_area_1" draggable="true" ondragstart="drag(event)">ein Rahmen für den nachfolgenden Dramentext geschaffen</div>
+                        <div id="item2" draggable="true" ondragstart="drag(event)">Information vergeben</div>
+                        <div id="item3" class="drop_area_2" draggable="true" ondragstart="drag(event)">die Theatralität verdeutlicht</div>
+                        <div id="item4" draggable="true" ondragstart="drag(event)">die nachfolgende Handlung kommentiert</div>
+                        <div id="item5" class="drop_area_2" draggable="true" ondragstart="drag(event)">die Theatralität verdeutlicht</div>
+                        <div id="item6" class="drop_area_1" draggable="true" ondragstart="drag(event)">ein Rahmen für die nachfolgende Handlung gebildet</div>
+                        <div id="item7" draggable="true" ondragstart="drag(event)">die Handlung kommentiert</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><button id="res_button">Übung zurücksetzen</button></td>
+                <td><button id="sol_button">Lösung anzeigen</button></td>
+            </tr>
+            <tr>
+                <td colspan="2" id="gaps_feedback"></td>
+            </tr>
+            <tr>
+                <td colspan="2" id="solution">
+                    Da der Prolog außerhalb des eigentlichen Dramentextes zu finden ist, hat er oft rahmende Funktion. Die Exposition dagegen dient der Verdeutlichung der Theatralität.
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

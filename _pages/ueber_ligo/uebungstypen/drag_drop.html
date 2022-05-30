@@ -1,0 +1,65 @@
+---
+title: Drag and Drop
+layout: default
+exercise: dnd_luecken
+---
+<h1>Drag and Drop</h1>
+<div class="content">
+    <div class="exercise">
+        <div class="task">
+            <span class="pretext">Fragestellung:</span>
+            Bitte ordnen Sie die folgenden Begriffe der jeweiligen Dramenform zu.
+        </div>
+        <table class="dnd_table">
+            <tr>
+                <th class="table_head">Geschlossene Form</th>
+                <th class="table_head">Offene Form</th>
+            </tr>
+            <tr id="drop_areas">
+                <td class="drop_content" id="drop_area_1" ondrop="drop(event, this)" ondragover="allowDrop(event)"></td>
+                <td class="drop_content" id="drop_area_2" ondrop="drop(event, this)" ondragover="allowDrop(event)"></td>
+            </tr>
+        </table>
+        <table class="dnd_table">
+            <tr>
+                <td colspan="2" id="draggable_items_container">
+                    <div id="draggable_items">
+                        <span id="item1" class="drop_area_1" draggable="true" ondragstart="drag(event)">Wenig Personal<br/></span>
+                        <span id="item2" class="drop_area_1" draggable="true" ondragstart="drag(event)">Pyramidenförmige Spannungskurve<br/></span>
+                        <span id="item3" class="drop_area_1" draggable="true" ondragstart="drag(event)">Intentionalität der Handlung<br/></span>
+                        <span id="item4" class="drop_area_1" draggable="true" ondragstart="drag(event)">Hoher Stil<br/></span>
+                        <span id="item5" class="drop_area_2" draggable="true" ondragstart="drag(event)">Häufige Schauplatzwechsel<br/></span>
+                        <span id="item6" class="drop_area_2" draggable="true" ondragstart="drag(event)">Verschiedene Sprachniveaus<br/></span>
+                        <span id="item7" class="drop_area_2" draggable="true" ondragstart="drag(event)">Komplementäre Sequenzen<br/></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><button id="res_button">Übung zurücksetzen</button></td>
+                <td><button id="sol_button">Lösung anzeigen</button></td>
+            </tr>
+        </table>
+        <div id="solution">
+            <div id="dnd_feedback"></div>
+            <table class="dnd_table">
+                <tr>
+                    <th class="table_head">Geschlossene Form</th>
+                    <th class="table_head">Offene Form</th>
+                </tr>
+                <tr>
+                    <td class="drop_content">
+                        <span>Wenig Personal<br/></span>
+                        <span>Pyramidenförmige Spannungskurve<br/></span>
+                        <span>Intentionalität der Handlung<br/></span>
+                        <span>Hoher Stil<br/></span>
+                    </td>
+                    <td class="drop_content">
+                        <span>Häufige Schauplatzwechsel<br/></span>
+                        <span>Verschiedene Sprachniveaus<br/></span>
+                        <span>Komplementäre Sequenzen<br/></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

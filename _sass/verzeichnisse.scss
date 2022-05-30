@@ -1,0 +1,41 @@
+/* Verzeichnisse (Glossar, Bibliographie, Personen) */
+
+.toc {
+    margin-top: 2vh;
+}
+
+.toc_item, .gloss_entry, .bib_entry, .pers_entry {
+    margin: 0.5rem 0;
+}
+
+.toc_link, .gloss_link, .top_link {
+    text-decoration: none;
+    color: #003aad;
+}
+
+.toc_link:hover, .gloss_link:hover, .top_link:hover {
+    color: #9c0707;
+}
+
+.gloss_term, .bib_author, .pers_name {
+    font-weight: bold;
+}
+
+.toc_items, .gloss_entries, .bib_entries, .pers_entries {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.bib_entry:before, .pers_entry:before {
+    content: '\2013';
+    margin-right: 8px;
+    color: #9c0707;
+    -webkit-text-stroke: 0.5px #9c0707;
+}
+
+.return_link {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}

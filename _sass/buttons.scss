@@ -1,0 +1,96 @@
+/* Suche-Button für Bootstrap-Navigationsleiste */
+
+.btn-primary {
+    color: white !important;
+    background-color: #003aad !important;
+    border-color: #003aad !important;
+    border-radius: 0px !important;
+}
+
+.btn-primary:hover {
+    color: #003aad !important;
+    background-color: white !important;
+    border-color: #003aad !important;
+}
+
+
+/* Auswahl-Button Medium für Übungen und Kursseiten */
+
+.button-m {
+    color: white;
+    background-color: #003aad;
+    border: 2px solid #003aad;
+    width: 250px;
+    padding: 25px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button-m:hover {
+    color: #003aad;
+    background-color: white;
+}
+
+
+/* Auswahl-Button Large für Startseite und Auswahlseiten */
+
+.button-l {
+    color: #003aad;
+    background-color: white;
+    border: 2px solid #003aad;
+    width: 300px;
+    padding: 40px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button-l:hover {
+    color: white;
+    background-color: #003aad;
+}
+
+
+/* Alle Ausklappen/Einklappen-Button für Drop-Down-Listen & Kursseiten */
+
+.expand-collapse-button {
+    color: #003aad;
+    background-color: white;
+    border: 2px solid #003aad;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 1vh 0;
+    cursor: pointer;
+}
+
+.expand-collapse-button:hover {
+    color: white;
+    background-color: #003aad;
+}
+
+
+/* Buttons für die Übungen */
+
+#sol_button, #res_button, #mark_button {
+    color: white;
+    background-color: #003aad;
+    border: 2px solid #003aad;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 180px;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+#sol_button:hover, #res_button:hover, #mark_button:hover {
+    color: #003aad;
+    background-color: white;
+    border: 2px solid #003aad;
+}

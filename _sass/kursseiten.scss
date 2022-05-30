@@ -1,0 +1,117 @@
+/* Brotkrumen- & Kurs-Navigation */
+
+.separation_line {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: #9c0707;
+    opacity: 1;
+}
+
+.course_items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.only_next_item {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.next_link, .course_link, .previous_link, .breadcrumb_link {
+    text-decoration: none;
+    color: #003aad;
+}
+
+.next_link:hover, .course_link:hover, .previous_link:hover, .breadcrumb_link:hover {
+    color: #9c0707;
+}
+
+.course_separator {
+    color: #9c0707;
+}
+
+
+/* Abstände */
+
+:not(.explanation, .quotation) > .info_example, 
+.definition {
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+
+.info_example > .list-group-item {
+    margin-top: 1.5vh;
+}
+
+.list-group {
+    margin-top: 1vh;
+}
+
+.section, .cast_stage {
+    margin: 0;
+}
+
+.author_title, .content_data {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+/* Medien (Bilder/Videos) */
+
+.media {
+    border: 1px solid black;
+}
+
+
+/* Listen */
+
+.unordered_list {
+    list-style: none;
+}
+
+.list_item::before {
+    content: "\2022";
+    color: #9c0707;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    width: 20px;
+    margin-left: -20px;
+}
+
+
+/* Tabellen */
+
+.content_table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    display: contents;
+}
+
+.table_head {
+    padding: 10px 30px 10px 10px;
+    border: 0.5px solid black;
+}
+
+.table_data {
+    padding: 10px 30px 10px 10px;
+    border: 0.5px solid black;
+}
+
+
+/* Fußnoten */
+
+.footnote_link, .back_link {
+    display: inline-block;
+    text-decoration: none;
+    color: #003aad;
+}
+
+.footnote_link:hover, .back_link:hover {
+    color: #9c0707;
+}

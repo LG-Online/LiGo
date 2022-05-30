@@ -1,0 +1,68 @@
+/* Überschriften */
+
+h1 {
+    font-size: 1.8rem !important;
+    color: #003aad;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.4rem !important;
+}
+
+h3 {
+    font-size: 1.2rem !important;
+    color: #9c0707;
+}
+
+h4 {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    margin-bottom: 0 !important;
+}
+
+h5 {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    color: #9c0707;
+    margin-bottom: 0 !important;
+}
+
+
+/* Text */
+
+.term {
+    font-weight: bold;
+    color: #9c0707;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.title, .stage_dir {
+    font-style: italic;
+    display: contents;
+}
+
+.pretext {
+    font-weight: bold;
+}
+
+.internal_link, .external_link, .mail_link, {
+    color: #003aad;
+    text-decoration: none;
+}
+
+.internal_link:hover, .external_link:hover, .mail_link:hover {
+    color: #9c0707;
+}
+
+.bi-envelope, .bi-box-arrow-up-right {
+    font-size: 0.8rem;
+}
+
+.bi-box-arrow-up-right {
+    position: relative;
+    bottom: 0.1rem;
+}

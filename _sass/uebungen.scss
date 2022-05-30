@@ -1,0 +1,162 @@
+/* Alle Übungen */
+
+#mc_feedback,
+#dnd_feedback,
+#gaps_feedback {
+    font-weight: bold;
+}
+
+#solution {
+    visibility: hidden;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.right {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.task {
+    margin-bottom: 0.5rem;
+}
+
+.buttons_solution {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+}
+
+
+/* Drag & Drop- & Lückentext-Übung */
+
+.dnd_table {
+    text-align: center;
+    margin: 10px auto 10px auto;
+    width: 700px;
+}
+
+#drop_areas {
+    height: 250px;
+}
+
+#draggable_items_container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table_head {
+    color: #003aad;
+}
+
+.drop_content {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+.gaps {
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    border: 1.5px solid #003aad;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+#draggable_items >*,
+.drop_content >* {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#draggable_items {
+    margin-bottom: 15px;
+}
+
+#dnd_feedback, 
+#gaps_feedback {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.gaptext {
+    height: auto !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Markieren-Übung */
+
+.marked {
+    background-color: yellow;
+}
+
+.marked_false {
+    background-color: red;
+}
+
+.marked_correct {
+    background-color: chartreuse;
+    font-weight: bold;
+}
+
+.unmarked_correct {
+    background-color: deepskyblue;
+    font-weight: bold;
+}
+
+
+/* Texteingabe-Übung */
+
+#input_field {
+    width: 100%;
+    height: 150px;
+}
+
+
+/* Multiple Choice- & Alternative Textbeispiele-Übung */
+
+.mc_option {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mc_feedback {
+    margin: 0;
+}
+
+input[name = "mc"] {
+    accent-color: #003aad;
+    position: absolute;
+    margin: 0;
+    width: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+label > .quotation {
+    display: contents;
+}
+
+label {
+    display: block;
+    padding-left: 40px;
+}
+
+#solution_pool {
+    visibility: hidden;
+}

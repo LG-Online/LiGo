@@ -1,0 +1,45 @@
+/* Ausgefüllte Carets als Navbar-Drop-Down-Links */
+.bi-caret-down-fill {
+    color: #003aad;
+}
+
+/* Chevron-Marker für interne Links */
+.bi-chevron-right {
+    font-size: 0.8rem;
+    -webkit-text-stroke: 0.7px;
+}
+
+/* Doppel-Chevron-Marker oben für Links zum Zurück-nach-oben-springen */
+.bi-chevron-double-up {
+    font-size: 0.9rem;
+    -webkit-text-stroke: 0.5px;
+}
+
+/* Doppel-Chevron-Marker links/rechts für Link zur voherigen/nächsten Kurseinheit */
+.bi-chevron-double-left, .bi-chevron-double-right {
+    font-size: 0.9rem;
+    -webkit-text-stroke: 0.5px;
+}
+
+/* Nicht-ausgefüllte Carets für Brotkrumen-Navigation */
+.bi-caret-right {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    color: #9c0707;
+}
+
+/* Chevron-Marker für ausklappbare Einheiten */
+.bi-chevron-down {
+    display: inline-block;
+    color: #003aad;
+    -webkit-text-stroke: 0.5px #003aad;
+}
+.bi-chevron-down.active {
+    color: #9c0707;
+    -webkit-text-stroke: 0.5px #9c0707;
+}
+
+/* Ausgefüllte Caret-Marker für Pop-Over-Links */
+.bi-caret-right-fill {
+    display: inline-block;
+}

@@ -1,0 +1,15 @@
+<script src="{{'/assets/js/bootstrap/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+<script src="{{'/assets/js/jquery/jquery-3.6.0.min.js' | prepend: site.baseurl}}"></script>
+<script src="{{'/assets/js/expand_list.js' | prepend: site.baseurl}}"></script>
+{% if page.exercise == 'markieren' %}
+    <script src="{{'/assets/js/uebungen/markieren.js' | prepend: site.baseurl}}"></script>
+{% endif %}
+{% if page.exercise == 'texteingabe' %}
+    <script src="{{'/assets/js/uebungen/texteingabe.js' | prepend: site.baseurl}}"></script>
+{% endif %}
+{% if page.exercise == 'multiple_choice'%}
+    <script src="{{'/assets/js/uebungen/multiple_choice.js' | prepend: site.baseurl}}"></script>
+{% endif %}
+{% if page.exercise == 'dnd_luecken'%}
+    <script src="{{'/assets/js/uebungen/dnd_luecken.js' | prepend: site.baseurl}}"></script>
+{% endif %}

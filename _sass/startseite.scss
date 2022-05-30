@@ -1,0 +1,30 @@
+/* Startseite */
+
+.start_flex {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: calc(2*(500px + 20px));
+    gap: 20px;
+}
+
+.inner_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: calc(2*(250px + 20px));
+    gap: 20px;
+}
+
+.start_text {
+    margin-bottom: 20px;
+    text-align: center;
+}
