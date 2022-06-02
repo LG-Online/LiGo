@@ -30,6 +30,7 @@
 
 .course_separator {
     color: #9c0707;
+
 }
 
 
@@ -64,43 +65,29 @@
 
 .media {
     border: 1px solid black;
+    max-width: 100%;
+    height: auto;
 }
 
 
 /* Listen */
 
-.unordered_list {
-    list-style: none;
-}
-
-.list_item::before {
-    content: "\2022";
+.list_item::marker {
     color: #9c0707;
-    font-weight: bold;
-    font-size: 20px;
-    display: inline-block;
-    width: 20px;
-    margin-left: -20px;
 }
 
 
 /* Tabellen */
 
 .content_table {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border: 1px solid black;
-    display: contents;
-}
-
-.table_head {
-    padding: 10px 30px 10px 10px;
-    border: 0.5px solid black;
+    margin: 1rem 0;
+    display: block;
+    overflow-x: auto;
 }
 
 .table_data {
-    padding: 10px 30px 10px 10px;
-    border: 0.5px solid black;
+    padding: 0.5rem;
+    border: 1px solid black;
 }
 
 

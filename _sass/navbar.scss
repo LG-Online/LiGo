@@ -21,13 +21,16 @@
     white-space: nowrap;
 }
 
+.dropdown-toggle {
+    display: inline-block;
+    padding-left: 0 3px !important;
+}
+
 .dropdown-toggle::after {
     display: none !important;
 }
 
-.nav-link, .dropdown-toggle {
-    padding: 0.1rem !important;
-}
+
 
 .dropdown-toggle:hover ~ .dropdown-menu,
 .dropdown-menu:hover {

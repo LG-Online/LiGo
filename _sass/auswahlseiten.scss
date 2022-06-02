@@ -6,26 +6,21 @@
     justify-content: center;
 }
 
-.verzeichnisse_flex, .tests_flex {
+.verzeichnisse_flex, .tests_flex, .wissensbereiche_flex, .uebungstypen_flex, .ueber_ligo_flex, .literaturgeschichte_flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: calc(2*(300px + 20px));
     gap: 15px;
 }
 
-.ueber_ligo_flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: calc(4*(300px + 20px));
-    gap: 15px;
+.verzeichnisse_flex, .tests_flex {
+    max-width: calc(2*(300px + 20px));
 }
 
 .wissensbereiche_flex, .uebungstypen_flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     max-width: calc(3*(300px + 20px));
-    gap: 15px;
+}
+
+.ueber_ligo_flex, .literaturgeschichte_flex {
+    max-width: calc(4*(300px + 20px));
 }
