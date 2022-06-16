@@ -43,3 +43,15 @@
 .bi-caret-right-fill {
     display: inline-block;
 }
+
+/* Briefumschlag-Symbol für E-Mail-Links */
+.bi-envelope {
+    font-size: 0.8rem;
+}
+
+/* In-neuem-Fenster-öffnen-Symbol für externe Links */
+.bi-box-arrow-up-right {
+    position: relative;
+    font-size: 0.8rem;
+    bottom: 0.1rem;
+}

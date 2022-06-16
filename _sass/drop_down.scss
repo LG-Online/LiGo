@@ -6,8 +6,6 @@
 }
 
 .no-chevron {
-    vertical-align: middle;
-    display: inline;
     margin: 0 0 0 1.2rem;
 }
 
@@ -16,12 +14,20 @@
     display: inline;
 }
 
-.list-link {
+.list-link, .expand-link {
     white-space: normal;
     display: inline-block;
     margin-left: 0.5rem;
     text-decoration: none;
     color: black;
+}
+
+.list-link:hover {
+    color: #003aad;
+}
+
+.expand-link:hover {
+    color: #9c0707;
 }
 
 .level-2, .level-3, .level-4, .level-5, .level-6, .level-7, .level-8  {

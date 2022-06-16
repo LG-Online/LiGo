@@ -36,13 +36,12 @@ h5 {
     color: #9c0707;
 }
 
-.highlight {
+.person, .highlight {
     font-weight: bold;
 }
 
-.title, .stage_dir {
+.title, .stage_dir, .italic {
     font-style: italic;
-    display: contents;
 }
 
 .pretext {
@@ -58,11 +57,6 @@ h5 {
     color: #9c0707;
 }
 
-.bi-envelope, .bi-box-arrow-up-right {
-    font-size: 0.8rem;
-}
-
-.bi-box-arrow-up-right {
-    position: relative;
-    bottom: 0.1rem;
+.warning {
+    color: #9c0707;
 }

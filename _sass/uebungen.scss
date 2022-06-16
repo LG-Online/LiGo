@@ -37,19 +37,25 @@
 
 /* Drag & Drop- & Lückentext-Übung */
 
+.buttons_solution.dnd {
+    justify-content: center;
+}
+
 .dnd_table {
     text-align: center;
-    margin: 10px auto 10px auto;
-    width: 700px;
+    margin: 1rem 0;
+    width: 100%;
+    table-layout: fixed
 }
 
 #drop_areas {
     height: 250px;
 }
 
-#draggable_items_container {
-    margin-top: 10px;
-    margin-bottom: 10px;
+#draggable_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .table_head {
@@ -57,9 +63,7 @@
 }
 
 .drop_content {
-    width: 350px;
-    padding: 10px;
-    border: 1px solid #aaaaaa;
+    border: 1px solid black;
 }
 
 .gaps {
@@ -73,15 +77,19 @@
     margin-bottom: 5px;
 }
 
-#draggable_items >*,
+[draggable] {
+    cursor: move;
+    cursor: grab;
+}
+
+[draggable]:active {
+    cursor: grabbing;
+}
+
 .drop_content >* {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-
-#draggable_items {
-    margin-bottom: 15px;
 }
 
 #dnd_feedback, 
