@@ -5,9 +5,16 @@ exercise: multiple_choice
 ---
 <h1>Multiple Choice</h1>
 <div class="exercise">
+    <div class="explanation">
+        <div class="pretext">Erläuterung:</div>
+        Loggen Sie die korrekte Antwort auf die untenstehende Frage per Klick auf den Text oder den danebenliegenden Radiobutton ein. 
+        Klicken Sie anschließend auf den <span class="italic">Lösung anzeigen</span>-Button, um zu sehen, ob Ihre eingeloggte Antwort richtig war, und um ein Feedback zu erhalten.
+        Falls Sie falsch lagen und es erneut versuchen möchten, klicken Sie auf den <span class="italic">Übung zurücksetzen</span>-Button, um danach eine andere Antwort einloggen zu können.
+    </div>
     <div class="task">
         <div class="pretext">Fragestellung:</div>
-        Handelt es sich bei dieser Passage um eine interne Fokalisierung? Machen Sie sich auch klar, auf welche Indizien im Text Sie Ihre Position stützen.</div>
+        Handelt es sich bei dieser Passage um eine interne Fokalisierung? Machen Sie sich auch klar, auf welche Indizien im Text Sie Ihre Position stützen.
+    </div>
     <div class="quotation">
         <div class="pretext">Textbeispiel:</div>
         <div class="info_example">
@@ -32,7 +39,10 @@ exercise: multiple_choice
     <div class="buttons_solution">
         <button id="res_button">Übung zurücksetzen</button>
         <button id="sol_button">Lösung anzeigen</button>
-        <div class="mc_answer"><p id="mc_feedback"></p><p id="mc_solution"></p></div>
+    </div>
+    <div class="mc_answer">
+        <p id="mc_feedback"></p>
+        <p id="mc_solution"></p>
     </div>
     <div id="solution_pool" hidden="hidden">
         <span class="option_1">

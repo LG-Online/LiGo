@@ -3,15 +3,11 @@
     border-width: 0;
     padding: 0.2rem 0;
     white-space: nowrap;
+    align-items: center;
 }
 
 .no-chevron {
     margin: 0 0 0 1.2rem;
-}
-
-.chevron-link {
-    vertical-align: middle;
-    display: inline;
 }
 
 .list-link, .expand-link {
@@ -32,6 +28,15 @@
 
 .level-2, .level-3, .level-4, .level-5, .level-6, .level-7, .level-8  {
     margin: 0 0 0 0.8rem;
+}
+
+.list-group-item.example, .list-group.example {
+    border-width: 0;
+    padding: 0;
+}
+
+.list-group.example {
+    margin: 0 0 0 1.2rem;
 }
 
 .rotate {

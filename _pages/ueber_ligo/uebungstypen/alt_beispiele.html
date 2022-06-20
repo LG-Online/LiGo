@@ -5,6 +5,12 @@ exercise: multiple_choice
 ---
 <h1>Alternative Textbeispiele</h1>
 <div class="exercise">
+    <div class="explanation">
+        <div class="pretext">Erläuterung:</div>
+        Loggen Sie die korrekte Antwort auf die untenstehende Frage per Klick auf den Text oder den danebenliegenden Radiobutton ein. 
+        Klicken Sie anschließend auf den <span class="italic">Lösung anzeigen</span>-Button, um zu sehen, ob Ihre eingeloggte Antwort richtig war, und um ein Feedback zu erhalten.
+        Falls Sie falsch lagen und es erneut versuchen möchten, klicken Sie auf den <span class="italic">Übung zurücksetzen</span>-Button, um danach eine andere Antwort einloggen zu können.
+    </div>
     <div class="task">
         <div class="pretext">Fragestellung:</div>
         In welcher der Passagen liegt dehnendes Erzählen vor?
@@ -23,7 +29,7 @@ exercise: multiple_choice
                 eigentlich ein sehr ruhiger Mann, seines Zeichens Lepidopterologe, und
                 konnte von sich sagen, daß er die Welt mit Gelassenheit
                 betrachtete.<br/>
-                Otto Julius Bierbaum: Stilpe. Ein Roman aus der Froschperspektive (Beginn)
+                <span class="author_title"><span class="author">Otto Julius Bierbaum:</span>&#160;<span class="title">Stilpe. Ein Roman aus der Froschperspektive</span>&#160;(Beginn)</span>
             </label>
         </div>
         <div class="mc_option">
@@ -40,7 +46,7 @@ exercise: multiple_choice
                 mehr er ihm näher kam. Er warf sich also ganz Atemlos unter einen Baum hin,
                 der eine kleine Terrasse umschaltete, auf welcher er die einbrechende Nacht
                 zuzubringen beschloß.<br/>
-                Christoph Martin Wieland: Geschichte des Agathon (1. Buch, 1. Kapitel)
+                <span class="author_title"><span class="author">Christoph Martin Wieland:</span>&#160;<span class="title">Geschichte des Agathon</span>&#160;(1. Buch, 1. Kapitel)</span>
             </label>
         </div>
         <div class="mc_option">
@@ -56,14 +62,17 @@ exercise: multiple_choice
                 borstige Schmieren des Schweinrückens an den Brettern, das Quietschen und
                 Knarren der Bretter, das Knirschen der Bretter und lockeren Pfosten an der
                 Hauswand.<br/>
-                Peter Weiss: Der Schatten des Körpers des Kutschers
+                <span class="author_title"><span class="author">Peter Weiss:</span>&#160;<span class="title">Der Schatten des Körpers des Kutschers</span></span>
             </label>
         </div>
     </fieldset>
     <div class="buttons_solution">
         <button id="res_button">Übung zurücksetzen</button>
         <button id="sol_button">Lösung anzeigen</button>
-        <div class="mc_answer"><p id="mc_feedback"></p><p id="mc_solution"></p></div>
+    </div>
+    <div class="mc_answer">
+        <p id="mc_feedback"></p>
+        <p id="mc_solution"></p>
     </div>
     <div id="solution_pool" hidden="hidden">
         <span class="option_1">
