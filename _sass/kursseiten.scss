@@ -1,8 +1,7 @@
 /* Brotkrumen- & Kurs-Navigation */
 
 .separation_line {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin: 2vh 0;
     color: #9c0707;
     opacity: 1;
 }
@@ -19,18 +18,21 @@
     flex-wrap: wrap;
 }
 
-.next_link, .course_link, .previous_link, .breadcrumb_link {
+.breadcrumb_link, .course_link, .previous_link, .next_link {
     text-decoration: none;
     color: #003aad;
 }
 
-.next_link:hover, .course_link:hover, .previous_link:hover, .breadcrumb_link:hover {
+.breadcrumb_link:hover, .course_link:hover, .previous_link:hover, .next_link:hover {
     color: #9c0707;
+}
+
+.previous_link, .next_link {
+    white-space: nowrap;
 }
 
 .course_separator {
     color: #9c0707;
-
 }
 
 
@@ -50,8 +52,12 @@
     margin-top: 1vh;
 }
 
-.section, .cast_stage {
+.section, .text_line, .poem_line {
     margin: 0;
+}
+
+.poem_linegroup {
+    padding: 0.3rem 0;
 }
 
 .author_title, .content_data, .reference {

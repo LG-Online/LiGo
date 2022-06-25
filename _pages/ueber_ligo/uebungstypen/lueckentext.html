@@ -1,41 +1,43 @@
 ---
-title: Lückentext
+title: "Lückentext"
 layout: default
-exercise: dnd_luecken
+type: lerneinheit
 ---
 <h1>Lückentext</h1>
-<div class="exercise">
+<div class="exercise gaps">
     <div class="explanation">
         <div class="pretext">Erläuterung:</div>
-        Greifen Sie einen der Satzteile unterhalb des Lückentexts, indem Sie ihn mit Ihrer Maus anklicken und die Maustaste gedrückt halten.
-        Ordnen Sie den Satzteil dann der korrekten Lücke zu, indem Sie ihn zur jeweiligen Lücke ziehen und die Maustaste loslassen.
-        Falls Sie bei der Zuordnung einen Fehler gemacht haben, können Sie den Satzteil auch nachträglich noch von einer Lücke in die andere ziehen.
-        Nachdem Sie sämtliche Lücken auf diese Weise gefüllt haben, klicken Sie anschließend auf den <span class="italic">Lösung anzeigen</span>-Button, um zu sehen, wie viele und welche Lücken Sie korrekt oder falsch gefüllt haben, und um die Musterlösung anzuzeigen.
-        Wenn Sie es danach erneut versuchen möchten, klicken Sie auf den <span class="italic">Übung zurücksetzen</span>-Button, um mit der Zuordnung der Satzteile von vorne beginnen zu können.
+        Klicken Sie auf die blau umrahmten Felder im untenstehenden Text, um eine Auswahl an Satzteilen zu öffnen, mit denen Sie die Textlücke füllen können.
+        Nachdem Sie das passende Satzteil für jede Lücken ausgewählt haben, klicken Sie anschließend auf den <span class="italic">Lösung anzeigen</span>-Button, um zu sehen, wie viele und welche Lücken Sie korrekt oder falsch gefüllt haben, und um eine Erläuterung anzuzeigen.
+        Wenn Sie es danach erneut versuchen möchten, klicken Sie auf den <span class="italic">Übung zurücksetzen</span>-Button, um mit dem Ausfüllen der Lücken von vorne beginnen zu können.
     </div>
     <div class="task">
         <div class="pretext">Fragestellung:</div>
         Wie muss der Satz zum Prolog richtig lauten?
     </div>   
-        <div id="drop_areas" class="gaptext">
-            Im Prolog wird <div class="gaps" id="drop_area_1" ondrop="drop(event, this)" ondragover="allowDrop(event)"></div>, 
-            in der Exposition dagegen wird <div class="gaps" id="drop_area_2" ondrop="drop(event, this)" ondragover="allowDrop(event)"></div>.
-        </div>
-        <div id="draggable_items">
-            <div id="item1" class="drop_area_1" draggable="true" ondragstart="drag(event)">ein Rahmen für den nachfolgenden Dramentext geschaffen</div>
-            <div id="item2" draggable="true" ondragstart="drag(event)">Information vergeben</div>
-            <div id="item3" class="drop_area_2" draggable="true" ondragstart="drag(event)">die Theatralität verdeutlicht</div>
-            <div id="item4" draggable="true" ondragstart="drag(event)">die nachfolgende Handlung kommentiert</div>
-            <div id="item5" class="drop_area_2" draggable="true" ondragstart="drag(event)">die Theatralität verdeutlicht</div>
-            <div id="item6" class="drop_area_1" draggable="true" ondragstart="drag(event)">ein Rahmen für die nachfolgende Handlung gebildet</div>
-            <div id="item7" draggable="true" ondragstart="drag(event)">die Handlung kommentiert</div>
-        </div>
-    <div class="buttons_solution">
-        <button id="res_button">Übung zurücksetzen</button>
-        <button id="sol_button">Lösung anzeigen</button>
+    <div id="gap_text_1" class="gap_text">
+        Im Prolog wird
+        <select name="dropdown" class="gap">
+            <option value="standard">--- bitte auswählen ---</option>
+            <option value="true">ein Rahmen für den nachfolgenden Dramentext geschaffen</option>
+            <option value="false">Information vergeben.</option>
+            <option value="false">die Theatralität verdeutlicht.</option>
+            <option value="false">die nachfolgende Handlung kommentiert.</option>
+        </select>
+        , in der Exposition dagegen wird
+        <select name="dropdown" class="gap">
+            <option value="standard">--- bitte auswählen ---</option>
+            <option value="true">die Theatralität verdeutlicht.</option>
+            <option value="false">ein Rahmen für die nachfolgende Handlung gebildet.</option>
+            <option value="false">die Handlung kommentiert.</option>
+        </select>
     </div>
-    <div id="solution">
-        <div id="gaps_feedback"></div>
-        Da der Prolog außerhalb des eigentlichen Dramentextes zu finden ist, hat er oft rahmende Funktion. Die Exposition dagegen dient der Verdeutlichung der Theatralität.
+    <div class="exercise_buttons">
+        <button id="reset_button_1">Übung zurücksetzen</button>
+        <button id="solution_button_1">Lösung anzeigen</button>
+    </div>
+    <div id="solution_1" class="solution">
+        <p id="feedback_1" class="feedback"></p>
+        <p id="answer_1" class="answer">Da der Prolog außerhalb des eigentlichen Dramentextes zu finden ist, hat er oft rahmende Funktion. Die Exposition dagegen dient der Verdeutlichung der Theatralität.</p>
     </div>
 </div>

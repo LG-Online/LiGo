@@ -1,10 +1,10 @@
 ---
-title: Texteingabe
+title: "Texteingabe"
 layout: default
-exercise: texteingabe
+type: lerneinheit
 ---
 <h1>Texteingabe</h1>
-<div class="exercise">
+<div class="exercise text">
     <div class="explanation">
         <div class="pretext">Erläuterung:</div>
         Beantworten Sie die Fragestellung, indem Sie einen eigenen Text in das untenstehende Textfeld eintippen.
@@ -27,11 +27,14 @@ exercise: texteingabe
     </div>
     <div class="input">
         <div class="pretext">Ihre Formulierung:</div>
-        <textarea id="input_field"></textarea>
+        <textarea id="input_field_1" class="input_field"></textarea>
     </div>
-    <div class="buttons_solution">
-        <button id="res_button">Übung zurücksetzen</button>
-        <button id="sol_button">Lösung anzeigen</button>
+    <div class="exercise_buttons">
+        <button id="reset_button_1">Übung zurücksetzen</button>
+        <button id="solution_button_1">Lösung anzeigen</button>
     </div>
-    <div id="solution">Den anderen Tag entschädigte sich die Gräfin wenigstens damit bei ihren Bekannten, dass sie etwas erzählte.</div>
+    <div id="solution_1" class="solution">
+        <p id="feedback_1" class="feedback">Musterlösung:</p>
+        <p id="answer_1" class="answer">Den anderen Tag entschädigte sich die Gräfin wenigstens damit bei ihren Bekannten, dass sie etwas erzählte.</p>
+    </div>
 </div>

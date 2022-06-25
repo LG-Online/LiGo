@@ -1,58 +1,65 @@
 ---
 title: "Kollation"
 layout: default
-exercise: markieren
-
+type: lerneinheit
 ---
 <div class="breadcrumb_nav"><a class="breadcrumb_link" href="{{ '_pages/verzeichnisse/inhalt_edition.html' | relative_url }}">
       Kursübersicht
-      </a><i class="bi bi-caret-right"></i><a class="breadcrumb_link" href="{{ '_pages/wissensbereiche/edition/editionsphilologie.html' | relative_url }}">Edition</a><i class="bi bi-caret-right"></i>Kollation</div><hr class="separation_line"></hr><h1 class="head" id="top">Kollation</h1><div class="content"><button class="expand-collapse-button">Alle Beispiele/Übungen anzeigen/verbergen</button><div class="info_example">
+      </a><i class="bi bi-caret-right"></i><a class="breadcrumb_link" href="{{ '_pages/wissensbereiche/edition/editionsphilologie.html' | relative_url }}">Edition</a><i class="bi bi-caret-right"></i>Kollation</div><hr class="separation_line"></hr><h1 id="top">Kollation</h1><div class="content"><button class="expand-collapse-button">Alle Beispiele/Übungen anzeigen/verbergen</button><div class="info_example">
       <div class="list-group-item"><a class="chevron-link" data-bs-toggle="collapse" aria-expanded="false" href="#uebungkollationUeb" aria-controls="#uebungkollationUeb"><i class="bi bi-chevron-down rotate"></i><span class="list-link">Übung Kollation</span></a><div class="list-group collapse" id="uebungkollationUeb">
-            <div class="task">
-               <div class="pretext">Fragestellung:</div>Wie heißt der Bearbeitungsschritt des Editors, der der Erstellung des Variantenapparates
-               unmittelbar vorangeht?</div>
-            <fieldset id="option_pool">
-               <div class="mc_option"><input type="radio" name="mc" id="uebungkollationL1" value="false"></input><label for="uebungkollationL1">Konjektur</label></div>
-               <div class="mc_option"><input type="radio" name="mc" id="uebungkollationL2" value="true"></input><label for="uebungkollationL2">Kollation</label></div>
-               <div class="mc_option"><input type="radio" name="mc" id="uebungkollationL3" value="false"></input><label for="uebungkollationL3">Emendation</label></div>
-            </fieldset>
-            <div class="buttons_solution">
-               <div><button id="res_button">Übung zurücksetzen</button></div>
-               <div class="middle_column"><button id="sol_button">Lösung anzeigen</button></div>
-               <div class="right_column">
-                  <div id="mc_feedback"></div>
-                  <div id="mc_solution"></div>
+            <div class="exercise mc">
+               <div class="task">
+                  <div class="pretext">Fragestellung:</div>Wie heißt der Bearbeitungsschritt des Editors, der der Erstellung des Variantenapparates
+                  unmittelbar vorangeht?</div>
+               <fieldset id="option_pool_1">
+                  <div class="option"><input type="radio" name="set_1" id="option_1_uebungkollationL1" value="false"></input><label for="option_1_uebungkollationL1">Konjektur</label></div>
+                  <div class="option"><input type="radio" name="set_1" id="option_1_uebungkollationL2" value="true"></input><label for="option_1_uebungkollationL2">Kollation</label></div>
+                  <div class="option"><input type="radio" name="set_1" id="option_1_uebungkollationL3" value="false"></input><label for="option_1_uebungkollationL3">Emendation</label></div>
+               </fieldset>
+               <div class="exercise_buttons"><button id="reset_button_1">
+                     Übung zurücksetzen
+                     </button><button id="solution_button_1">
+                     Lösung anzeigen
+                     </button></div>
+               <div class="solution" id="solution_1">
+                  <div class="feedback" id="feedback_1"></div>
+                  <div class="answer" id="answer_1"></div>
                </div>
+               <div class="answer_pool" id="answer_pool_1"><span class="option_1_uebungkollationL1"></span><span class="option_1_uebungkollationL2"></span><span class="option_1_uebungkollationL3"></span></div>
             </div>
-            <div id="solution_pool" hidden="hidden"><span class="uebungkollationL1"></span><span class="uebungkollationL2"></span><span class="uebungkollationL3"></span></div>
          </div>
       </div>
    </div>
    <div class="info_example">
       <div class="list-group-item"><a class="chevron-link" data-bs-toggle="collapse" aria-expanded="false" href="#zweiteuebungzurkollationUeb" aria-controls="#zweiteuebungzurkollationUeb"><i class="bi bi-chevron-down rotate"></i><span class="list-link">Zweite Übung zur Kollation</span></a><div class="list-group collapse" id="zweiteuebungzurkollationUeb">
-            <div class="task">
-               <div class="pretext">Fragestellung:</div>Markieren Sie die abweichenden Textstellen in der Fassung von 1787</div>
-            <div class="quotation" id="markable_text">
-               <div class="pretext">Textbeispiel:</div>
-               <div class="info_example">Fassung 1774:
-                  <p class="cast_stage">	Erster Theil</p>
-                  <p class="cast_stage">Was ich von der Geschichte des armen Werthers nur habe auffinden können, habe ich
-                     mit Fleiß gesammelt, und leg es euch hier vor, und weis, daß ihr mir´s danken werdet.
-                     Ihr könnt seinem Geist und seinem Charakter eure Bewunderung und Liebe, und seinem
-                     Schicksaale eure Thränen nicht versagen.</p>
-                  <p class="cast_stage">Fassung 1787:</p>
-                  <p class="cast_stage">	Erstes Buch</p>
-                  <p class="cast_stage">Was ich von der Geschichte des armen Werthers nur habe auffinden können, habe ich
-                     mit Fleiß gesammelt, und lege es euch hier vor, und weiß, daß ihr mir´s danken werdet. Ihr könnt seinem Geiste und seinem Character eure Bewunderung und Liebe, seinem Schicksale eure Thränen nicht versagen.</p>
-                  <p class="author_title"><span class="author">Johann Wolfgang von Goethe: </span><span class="title">Die Leiden des jungen Werther</span></p>
+            <div class="exercise marker">
+               <div class="task">
+                  <div class="pretext">Fragestellung:</div>Markieren Sie die abweichenden Textstellen in der Fassung von 1787</div>
+               <div class="quotation" id="markable_text_2">
+                  <div class="pretext">Textbeispiel:</div>
+                  <div class="info_example">Fassung 1774:
+                     <p class="text_line">	Erster Theil</p>
+                     <p class="text_line">Was ich von der Geschichte des armen Werthers nur habe auffinden können, habe ich
+                        mit Fleiß gesammelt, und leg es euch hier vor, und weis, daß ihr mir´s danken werdet.
+                        Ihr könnt seinem Geist und seinem Charakter eure Bewunderung und Liebe, und seinem
+                        Schicksaale eure Thränen nicht versagen.</p>
+                     <p class="text_line">Fassung 1787:</p>
+                     <p class="text_line">	Erste<span class="correct_marker">s Buch</span></p>
+                     <p class="text_line">Was ich von der Geschichte des armen Werthers nur habe auffinden können, habe ich
+                        mit Fleiß gesammelt, und lege es euch hier vor, und <span class="correct_marker">weiß</span>, daß ihr mir´s danken werdet. Ihr könnt seinem <span class="correct_marker">Geiste</span> und seinem <span class="correct_marker">Character</span> eure Bewunderung und Liebe, <span class="correct_marker">seinem Schicksale</span> eure Thränen nicht versagen.</p><span class="author_title"><span class="author">Johann Wolfgang von Goethe: </span><span class="title">Die Leiden des jungen Werther</span></span></div>
                </div>
-            </div>
-            <div class="buttons_solution">
-               <div class="left_column"><button id="mark_button">Markierung setzen</button></div>
-               <div class="left_column"><button id="res_button">Übung zurücksetzen</button></div>
-               <div class="middle_column"><button id="sol_button">Lösung anzeigen</button></div>
-               <div class="right_column">
-                  <div id="solution"></div>
+               <div class="exercise_buttons"><button id="mark_button_2">
+                     Markierung setzen
+                     </button><button id="reset_button_2">
+                     Übung zurücksetzen
+                     </button><button id="solution_button_2">
+                     Lösung anzeigen
+                     </button></div>
+               <div class="solution" id="solution_2">
+                  <div class="feedback" id="feedback_2">
+                     Erläuterung:
+                     </div>
+                  <div class="answer" id="answer_2"></div>
                </div>
             </div>
          </div>
@@ -61,9 +68,7 @@ exercise: markieren
    <div class="content_data"><span class="content_author">© Eva Scheuermann, Christine Pohl, Ulrich Joost / </span><span class="content_date">Letzte inhaltiche Änderung am: 14.01.2008</span></div>
    <hr class="separation_line"></hr>
    <div class="course_items">
-      <div class="previous_course"><a class="previous_link" href="{{ '_pages/wissensbereiche/edition/entstehungsapparatentstehungskritik.html' | relative_url }}"><i class="bi bi-chevron-double-left"></i>
-            Vorherige Lerneinheit
-            </a></div>
+      <div class="previous_course"><a class="previous_link" href="{{ '_pages/wissensbereiche/edition/entstehungsapparatentstehungskritik.html' | relative_url }}"><i class="bi bi-chevron-double-left"></i><span class="link_text">Vorherige Lerneinheit</span></a></div>
       <div class="course_separator">
          |
          </div>
@@ -107,8 +112,6 @@ exercise: markieren
       <div class="course_separator">
          |
          </div>
-      <div class="next_course"><a class="course_link" href="{{ '_pages/wissensbereiche/edition/konjektur.html' | relative_url }}">
-            Nächste Lerneinheit
-            <i class="bi bi-chevron-double-right"></i></a></div>
+      <div class="next_course"><a class="next_link" href="{{ '_pages/wissensbereiche/edition/konjektur.html' | relative_url }}"><span class="link_text">Nächste Lerneinheit</span><i class="bi bi-chevron-double-right"></i></a></div>
    </div>
 </div>

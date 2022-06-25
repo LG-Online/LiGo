@@ -42,6 +42,10 @@ details[open] > .pop_over_link {
     color: #9c0707;
 }
 
+.pop_over_link {
+    white-space: nowrap;
+}
+
 .pop_over_course_link {
     display: block;
     float: right;

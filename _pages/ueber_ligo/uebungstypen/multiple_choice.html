@@ -1,10 +1,10 @@
 ---
-title: Multiple Choice
+title: "Multiple Choice"
 layout: default
-exercise: multiple_choice
+type: lerneinheit
 ---
 <h1>Multiple Choice</h1>
-<div class="exercise">
+<div class="exercise mc">
     <div class="explanation">
         <div class="pretext">Erläuterung:</div>
         Loggen Sie die korrekte Antwort auf die untenstehende Frage per Klick auf den Text oder den danebenliegenden Radiobutton ein. 
@@ -19,46 +19,46 @@ exercise: multiple_choice
         <div class="pretext">Textbeispiel:</div>
         <div class="info_example">
             Nathanael fand eine Einladungskarte und ging mit hochklopfendem Herzen zur bestimmten Stunde, als schon die Wagen rollten und die Lichter in den geschmückten Sälen schimmerten, zum Professor.
-            <p class="author_title"><span class="author">E. T. A. Hofmann:&#160;</span><span class="title">Der Sandmann</span></p>
+            <p class="author_title"><span class="author">E. T. A. Hofmann:</span>&#160;<span class="title">Der Sandmann</span></p>
         </div>
     </div>
-    <fieldset id="option_pool">
-        <div class="mc_option">
-            <input type="radio" id="option_1" name="mc" value="true">
-            <label for="option_1">Ja. Hier liegt eine interne Fokalisierung vor.</label>
+    <fieldset id="option_pool_1">
+        <div class="option">
+            <input type="radio" name="set_1" id="option_1_1" value="true">
+            <label for="option_1_1">Ja. Hier liegt eine interne Fokalisierung vor.</label>
         </div>
-        <div class="mc_option">
-            <input type="radio" id="option_2" name="mc" value="false">
-            <label for="option_2">Nein. Hier liegt keine interne Fokalisierung vor.</label>
+        <div class="option">
+            <input type="radio" name="set_1" id="option_1_2" value="false">
+            <label for="option_1_2">Nein. Hier liegt keine interne Fokalisierung vor.</label>
         </div>
-        <div class="mc_option">
-            <input type="radio" id="option_3" name="mc" value="false">
-            <label for="option_3">Im Text wechselt die Fokalisierung; interne Fokalisierung liegt zum Teil vor.</label>
+        <div class="option">
+            <input type="radio" name="set_1" id="option_1_3" value="false">
+            <label for="option_1_3">Im Text wechselt die Fokalisierung; interne Fokalisierung liegt zum Teil vor.</label>
         </div>
     </fieldset>
-    <div class="buttons_solution">
-        <button id="res_button">Übung zurücksetzen</button>
-        <button id="sol_button">Lösung anzeigen</button>
+    <div class="exercise_buttons">
+        <button id="reset_button_1">Übung zurücksetzen</button>
+        <button id="solution_button_1">Lösung anzeigen</button>
     </div>
-    <div class="mc_answer">
-        <p id="mc_feedback"></p>
-        <p id="mc_solution"></p>
+    <div id="solution_1" class="solution">
+        <p id="feedback_1" class="feedback"></p>
+        <p id="answer_1" class="answer"></p>
     </div>
-    <div id="solution_pool" hidden="hidden">
-        <span class="option_1">
+    <div id="answer_pool_1" class="answer_pool">
+        <span class="option_1_1">
             Zwei Indizien sprechen für eine interne Fokalisierung: a) „mit
             hochklopfendem Herzen“ ist eine Innensicht; b) „fand eine Einladungskarte“
             beschreibt einen Umstand (dass eine Einladungskarte für Nathanael in seiner Post
             liegt) aus der Sichtweise von Nathanael.
         </span>
-        <span class="option_2">
+        <span class="option_1_2">
             Es liegt interne Fokalisierung vor.
             Zwei Indizien sprechen dafür: a) „mit hochklopfendem Herzen“ ist eine
             Innensicht; b) „fand eine Einladungskarte“ beschreibt einen Umstand (dass eine
             Einladungskarte für Nathanael in seiner Post liegt) aus der Sichtweise von
             Nathanael.
         </span>
-        <span class="option_3">
+        <span class="option_1_3">
             Es liegt kein Indiz für einen Wechsel der Fokalisierung vor.
         </span>
     </div>
