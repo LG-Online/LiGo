@@ -7,3 +7,6 @@
     <script src="{{'/assets/js/uebungen/uebungen.js' | prepend: site.baseurl}}"></script>
     <script src="{{'/assets/js/listen/ausklappen_rotieren.js' | prepend: site.baseurl}}"></script>
 {% endif %}
+{% if page.type == 'test' %}
+    <script src="{{'/assets/js/uebungen/tests.js' | prepend: site.baseurl}}"></script>
+{% endif %}

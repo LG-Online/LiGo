@@ -1,0 +1,54 @@
+.progress {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 3vh !important;
+    z-index: 1;
+}
+
+.progress-bar {
+    width: 100%;
+}
+
+#timeout_pop_up, #warning_pop_up {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255 ,255, 0.9);
+    z-index: 2;
+}
+
+
+#timeout_content, #warning_content {
+    width: 40%;
+    padding: 5px 20px 13px 20px;
+    border: 2px solid #9c0707;
+    border-radius: 6px;
+    background-color: white;
+    z-index: 3;
+}
+
+#exercises, #reset_button {
+    display: none;
+}
+
+#feedback {
+    text-align: center;
+}
+
+.max_time {
+    background-color: #006400 !important;
+}
+
+.mid_time {
+    background-color: #003aad !important;
+}
+
+.min_time {
+    background-color: #9c0707 !important;
+}

@@ -260,18 +260,12 @@ function dnd_exercise(ex_nr){
     const num_items_total = dnd_items.childElementCount;
     var num_items_correct = 0;
     
-    var dnd_items_height = dnd_items.clientHeight;
-    dnd_items.style.height = dnd_items_height+"px";
-    for (var l = 0; l < drop_areas.children.length; l++){
-        drop_areas.children[l].getElementsByClassName("drop_area")[0].style.height = dnd_items_height+"px";
-    }
-    
     solution_button.addEventListener('click', function validate(){
         for (var s = 1; s <= drop_areas.children.length; s++){
             var drop_area = document.getElementById("drop_area_"+ex_nr+"_"+s);
             colorizeCheck(drop_area);
         }
-        feedback.innerHTML = num_items_correct + " von " + num_items_total + " Begriffen korrekt zugeordnet. Musterlösung:";
+        feedback.innerHTML = num_items_correct + " von " + num_items_total + " Begriffen korrekt zugeordnet.";
         
         showSolution(solution_button, solution);
     });

@@ -38,10 +38,9 @@
 
 /* Abstände */
 
-:not(.explanation, .quotation) > .info_example, 
+:not(.explanation) > .info_example, 
 .definition {
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
+    margin: 1.5vh 0;
 }
 
 .info_example > .list-group-item {
@@ -52,12 +51,12 @@
     margin-top: 1vh;
 }
 
-.section, .text_line, .poem_line {
+.section, .text, .poem_line {
     margin: 0;
 }
 
 .poem_linegroup {
-    padding: 0.3rem 0;
+    padding: 0 0 0.3rem 0;
 }
 
 .author_title, .content_data, .reference {
