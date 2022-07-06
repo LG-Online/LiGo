@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Geschlossene Form" author="Martin Huber, Elisabeth Böhm"
+        creationTime="09.09.2007" label="geschlosseneform" topics="Geschlossene Form">
+        <definition title="Geschlossene Form" label="geschlosseneformdef">
+            <LMMLtext>Im idealtypischen Drama der geschlossenen Form sollten die Einheit des Ortes,
+                der Zeit und der Handlung eingehalten werden, der Aufbau nach dem symmetrischen
+                Schema Exposition, Steigerung, Höhe-/Wendepunkt, Verzögerung, Katastrophe gestaltet
+                sein und den strengen Regeln der Personenverteilung gehorchen sowie die
+                    <referencesLink target="staendeklausel"><referencesLink show="new"
+                        type="defines" target="staendeklauseldef"
+                    >Ständeklausel</referencesLink></referencesLink> eingehalten werden und damit
+                der hohe Redestil etabliert sein. Außerdem sollte die Fabel auf transparente Weise
+                ein ideelles Problem darstellen.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Das Drama der geschlossenen Form beginnt mit einer klar exponierenden
+                Ausgangssituation, welche auf einem abgeschlossenen und überschaubaren Satz an
+                Fakten beruht und endet nicht nur mit einem endgültigen, sondern auch mit einem
+                eindeutigen Ende. Die Fabel entspricht somit der aristotelischen Forderung nach
+                Ganzheit. Die Forderung nach Einheit wird durch eine eindeutig dominierende
+                Haupthandlung gewährleistet. Sämtliche Nebenhandlungen sind für die Haupthandlung
+                funktionalisiert und ihr somit untergeordnet. Diese Form des Dramenaufbaus
+                begünstigt also einen zielstrebigen und linearen Handlungsablauf. Einzelnen Details
+                kommt gerade soviel Bedeutung zu, wie zum Handlungsfortschritt notwendig ist. Jedes
+                Teil ist unersetzbar, da alles nicht Unentbehrliche eliminiert ist.</LMMLtext>
+            <LMMLtext>Die Struktur der Fabel ist meist pyramidal und symmetrisch angelegt -
+                    <referencesLink target="exposition"><referencesLink show="new" type="defines"
+                        target="expositiondef">Exposition</referencesLink></referencesLink>
+                (erregendes Moment), <referencesLink target="steigerung"><referencesLink show="new"
+                        type="defines" target="steigerungdef"
+                    >Steigerung</referencesLink></referencesLink>, <referencesLink
+                    target="hoehewendepunktperipetie"><referencesLink show="new" type="defines"
+                        target="hoehewendepunktperipetiedef"
+                    >Höhepunkt</referencesLink></referencesLink>, (tragisches Moment), Fall/Umkehr,
+                    <referencesLink target="retardierendesmoment"><referencesLink show="new"
+                        type="defines" target="retardierendesmomentdef">retardierendes
+                        Moment</referencesLink></referencesLink>, (Moment der letzten Spannung),
+                    <referencesLink target="katastrophe"><referencesLink show="new" type="defines"
+                        target="katastrophedef">Katastrophe</referencesLink></referencesLink>. Der
+                Idealtyp der geschlossenen Form entspricht sowohl in seinem Aufbau wie auch seiner
+                inhaltlichen Anordnung einer hierarchisch organisierten Struktur: Die Fabel als
+                Ganzes determiniert jedes Teil.</LMMLtext>
+            <LMMLtext>Das Personal ist gemäß der <referencesLink target="staendeklausel"
+                        ><referencesLink show="new" type="defines" target="staendeklauseldef"
+                        >Ständeklausel</referencesLink></referencesLink> eingegrenzt, es verfügt
+                über die notwendige <referencesLink target="fallhoehe"><referencesLink show="new"
+                        type="defines" target="fallhoehedef"
+                    >Fallhöhe</referencesLink></referencesLink>, um die Handlung tragisch wirksam
+                werden zu lassen. Entsprechend können die Figuren über ein hohes Sprachniveau
+                verfügen, um dem Gegenstand eine angemessene sprachlich-stilistische Ausgestaltung
+                zukommen zu lassen. Deswegen finden sich häufig die typischen Stilmittel, z.B.
+                    <referencesLink target="stichomythie"><referencesLink show="new" type="defines"
+                        target="stichomythiedef">Stichomythie</referencesLink></referencesLink>,
+                Gleichnisrede, <referencesLink target="metapher"><referencesLink show="new"
+                        type="defines" target="metapherdef"
+                    >Metaphern</referencesLink></referencesLink> etc.</LMMLtext>
+            <LMMLtext>Zahlenmäßig geringes Personal garantiert übersichtliche Konstellationen und
+                die Konzentration auf die Haupthandlung. Zudem sollten bei den einzelnen Auf- und
+                Abtritten die strengen Regeln beachtet werden, so dass die Bühne während eines Aktes
+                nie leer bleibt. Wenige Ortswechsel und kaum Zeitsprünge konzentrieren die
+                Aufmerksamkeit wiederum auf die eine, zentrale Haupthandlung, zudem dienen sie dem
+                Wahrscheinlichkeitspostulat. </LMMLtext>
+            <LMMLtext>Die Vorstellungen der geschlossenen Form des Dramas werden vom französischen
+                Klassizismus (v.a. Racine) nach Deutschland übernommen. Zwar liegt sie den
+                normativen Poetiken des 18. Jahrhunderts zu Grunde, doch manifestiert sie sich erst
+                mit Freytags Dramenmodell im 19. Jahrhundert, noch immer ohne dabei den Begriff
+                aufzugreifen. Dieser taucht erst 1915 bei Wölfflin auf und wird von Volker Klotz
+                1960 für die Literaturwissenschaft endgültig geprägt. Dass die Idealform nur in
+                wenigen Dramen wirklich realisiert zu finden ist, wurde von Kritikern immer wieder
+                herausgestellt. </LMMLtext>
+            <LMMLtext><referencesLink type="exercises" target="uebunggeschlosseneoffeneformUeb"/></LMMLtext>
+        </illustration>
+        <exercise topics="dragunddrop" label="uebunggeschlosseneoffeneformUeb" title="Übung geschlossene und offene Form">
+            <task type="textbeispiel">
+                <quotation>
+                    <LMMLtext/>
+                </quotation>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>Bitte ordnen Sie die folgenden Begriffe der jeweiligen Dramenform
+                    zu.</LMMLtext>
+            </task>
+            <task type="dnd">
+                <LMMLtext type="columnA">Geschlossene Form</LMMLtext>
+                <LMMLtext type="columnB">Offene Form</LMMLtext>
+                <LMMLtext type="input1" title="1">Wenig Personal</LMMLtext>
+                <LMMLtext type="input6" title="2">Verschiedene Sprachniveaus</LMMLtext>
+                <LMMLtext type="input2" title="1">Pyramidenförmige Spannungskurve</LMMLtext>
+                <LMMLtext type="input4" title="1">Hoher Stil</LMMLtext>
+                <LMMLtext type="input5" title="2">Häufige Schauplatzwechsel</LMMLtext> 
+                <LMMLtext type="input3" title="1">Intentionalität der Handlung</LMMLtext>
+                <LMMLtext type="input7" title="2">Komplementäre Sequenzen</LMMLtext>
+                <LMMLtext type="input8"/>
+            </task>
+        </exercise>
+    </section>
+</lmml>

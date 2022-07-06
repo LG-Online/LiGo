@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/personen.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="Personen" author="Katrin Fischer" creationTime="26.09.05" label="personen">
+		<remark author="Genette, Gérard" label="genettegérard">
+			<LMMLtext> Professor für Literaturwissenschaft an der Ecole des Hautes Etudes en Sciences Sociales in Paris.</LMMLtext>
+		</remark>
+		<remark author="Klotz, Volker" label="klotzvolker">
+			<LMMLtext>Em. Professor der Literaturwissenschaft mit Schwerpunkt auf Dramen- und Operettenforschung, er war zuletzt an der Universität Stuttgart tätig.</LMMLtext>
+		</remark>
+		<remark author="Pfister, Manfred" label="pfistermanfred">
+			<LMMLtext>ist Anglist an der Freien Universität Berlin; hat den strukturalistischen Zugriff auf das Drama in seinem Buch Das Drama exemplarisch dargestellt.</LMMLtext>
+		</remark>
+		<remark author="Fischer-Lichte, Erika" label="fischer-lichteerika">
+			<LMMLtext> ist Professorin für Theaterwissenschaften an der Freien Universität Berlin und gehört zu den einflussreichsten Vertretern ihres Fachs.</LMMLtext>
+		</remark>
+	</section>
+</lmml>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Metrische Typologie" author="Sebastian Donat" creationTime="22.10.2007" label="metrischetypologie" topics="Metrische Typologie">
+		<definition title="Metrische Typologie" label="metrischetypologiedef">
+			<LMMLtext>Klassifikation zur möglichst einfachen und zugleich trennscharfen Beschreibung und Unterscheidung verschiedener Vers- und Gedichtformen. </LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Besonders einflussreich sind in der westeuropäischen Verswissenschaft die Entwürfe von John Lotz (<referencesLink show="new" type="book" target="Lotz1960">Lotz 1960</referencesLink> u. <referencesLink show="new" type="book" target="johnlotz1972">Lotz 1971</referencesLink>) und Christian Wagenknecht (<referencesLink show="new" type="book" target="christianwagenknecht1993">Wagenknecht 1993</referencesLink>, S. 26-30). In der hier abgebildeten deskriptiv-typologischen Matrix von Sebastian Donat (<referencesLink show="new" type="book" target="sebastiandonat2006">Donat 2006</referencesLink>, S. 113-118) werden diese Modelle systematisch weitergeführt:</LMMLtext>
+		</illustration>
+	</section>
+</lmml>

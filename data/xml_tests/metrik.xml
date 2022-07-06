@@ -1,0 +1,12 @@
+<exerciselist time="600" title="Metrik">
+    <exercise section="metrik" location="jambus" locallabel="uebungjambusUeb" title="bung Jambus"
+        type="alternativen"/>
+    <exercise section="metrik" location="trochaeus" locallabel="uebungtrochaeusUeb"
+        title="bung Trochus" type="alternativen"/>
+    <exercise section="metrik" location="daktylus" locallabel="uebungdaktylusUeb"
+        title="bung Daktylus" type="alternativen"/>
+    <exercise section="metrik" location="anapaest" locallabel="uebunganapaestUeb"
+        title="bung Anapst" type="alternativen"/>
+    <exercise section="metrik" location="amphibrachys" locallabel="uebungamphibrachysUeb"
+        title="bung Amphibrachys" type="alternativen"/>
+</exerciselist>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Bewusstseinsstrom"
+        author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="30.07.2005"
+        label="bewusstseinsstrom" modifiedTime="27.10.07">
+        <definition title="Bewusstseinsstrom (stream of consciousness)"
+            label="bewusstseinsstromstreamofconsciousness">
+            <LMMLtext>Radikalisierung des <referencesLink show="new" type="defines"
+                    target="innerermonologdef">Inneren Monologs</referencesLink>: Es werden nicht
+                mehr nur die Bewusstseinsinhalte direkt und unmittelbar wiedergegeben, sondern auch
+                noch deren (vermeintlich) assoziative, ungesteuerte und völlig freie Struktur im
+                discours sprachlich nachgebildet.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext><referencesLink type="illustrates"
+                    target="beispielfuereinenbewusstseinsstromBsp"/><referencesLink type="exercises"
+                    target="uebunbzumbewusstseinsstromUeb"/></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel für einen Bewusstseinsstrom"
+            label="beispielfuereinenbewusstseinsstromBsp">
+            <quotation booktitle="Ulysses (letztes Kapitel)" authorname="James" authorfamily="Joyce">
+                <LMMLtext>es geht doch nichts über so einen Kuß lang und heiß geht einem runter bis
+                    in die Seele ja lähmt einen fast und dann kann ich diese ganze Beichterei auf
+                    den Tod nicht ausstehen wie ich immer zu Pater Corrigan gegangen bin er hat mich
+                    angefaßt Pater na wenn schon was ist denn dabei und er gleich wo und ich wie ein
+                    richtiges Doofchen als Antwort am Kanalufer aber ich meine doch wo an deinem
+                    Körper mein Kind am Bein hinten oben ja ziemlich hoch oben wars dort wo du sitzt
+                    etwa ja o mein Gott konnte er nicht einfach Hintern sagen.</LMMLtext>
+            </quotation>
+            <illustration label="beispielfuereinenbewusstseinsstromBspIllu">
+                <LMMLtext>Die Gedanken von Molly Bloom aus James Joyces Roman Ulysses werden hier
+                    ganz unvermittelt und ohne Einmischung des Erzählers wiedergegeben. Die Wortwahl
+                    ist die der Figur (hier z.B. zu erkennen an: „Beichterei“, „Doofchen“) und es
+                    liegen freie und schnelle Sprünge zwischen den einzelnen Themen (z.B. vom Küssen
+                    zum Beichten) vor. Satzzeichen, verba dicendi und sentiendi, Anführungszeichen
+                    und Absätze fehlen ganz (was es in der vorliegenden Passage schwer macht, zu
+                    sortieren, was der Pater sagte und was Molly dachte).</LMMLtext>
+            </illustration>
+        </section>
+        <exercise topics="dragunddrop" label="uebunbzumbewusstseinsstromUeb"
+            title="Übung zum Bewusstseinsstrom">
+            <task type="fragestellung">
+                <LMMLtext>Wodurch ist der <referencesLink show="new" type="defines"
+                        target="innerermonologdef">innere Monolog</referencesLink> charakterisiert,
+                    wodurch der <referencesLink show="new" type="defines"
+                        target="bewusstseinsstromstreamofconsciousness"
+                        >Bewusstseinsstrom</referencesLink>?</LMMLtext>
+            </task>
+            <task type="dnd">
+                <LMMLtext type="columnA">Innerer Monolog</LMMLtext>
+                <LMMLtext type="columnB">Bewusstseinsstrom</LMMLtext>
+                <LMMLtext type="input5" title="2">1. Person Präsens Indikativ</LMMLtext>
+                <LMMLtext type="input2" title="1">Satzzeichen</LMMLtext>
+                <LMMLtext type="input7" title="2">sprunghafte, oftmals unlogische Gedankenverknüpfung</LMMLtext>
+                <LMMLtext type="input1" title="1">1. bzw. 2. Person Präsens Indikativ</LMMLtext>
+                <LMMLtext type="input4"/>
+                <LMMLtext type="input6" title="2">Keine Kennzeichnung von fremder Rede</LMMLtext>
+                <LMMLtext type="input3" title="1">Bindestriche zwischen den einzelnen Gedanken</LMMLtext>
+                <LMMLtext type="input8"/>
+            </task>
+        </exercise>
+    </section>
+</lmml>

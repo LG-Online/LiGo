@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Iteratives Erzählen"
+        author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="03.08.2005"
+        label="iterativeserzaehlen" modifiedTime="27.10.07">
+        <definition title="Iteratives Erzählen" label="iterativeserzaehlendef">
+            <LMMLtext>Beim iterativen Erzählen wird nur einmal erzählt, was sich wiederholt
+                ereignet.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Iteratives Erzählen beruht auf der Tatsache, dass sich Ereignisse - so oder so
+                ähnlich - wiederholen können. Sie werden entweder eher summarisch (und damit
+                zeitraffend) erzählt oder eher exemplarisch.</LMMLtext>
+            <LMMLtext>Iteratives Erzählen kontrastiert für gewöhnlich mit <referencesLink
+                    show="replace" target="singulativeserzaehlen"><referencesLink show="new"
+                        type="defines" target="singulativeserzaehlendef">singulativem
+                    </referencesLink> Erzählen</referencesLink>.<referencesLink type="illustrates"
+                    target="beispielfueriterativeserzaehlenBsp"/><referencesLink type="exercises"
+                    target="uebungzumiterativenerzaehlenUeb"/></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel für iteratives Erzählen"
+            label="beispielfueriterativeserzaehlenBsp">
+            <quotation booktitle="Der arme Spielmann" authorname="Franz" authorfamily="Grillparzer">
+                <LMMLtext>Ich lebte in dem Hause meines Vaters, unbeachtet von den Hausgenossen, in
+                    einem Hinterstübchen, das in den Nachbars-Hof hinausging Anfangs aß ich am
+                    Familientische, wo niemand ein Wort an mich richtete. Als aber meine Brüder
+                    auswärts befördert wurden und mein Vater beinahe täglich zu Gast geladen war die
+                    Mutter lebte seit lange nicht mehr - fand man es unbequem, meinetwegen eine
+                    eigene Küche zu führen. Die Bedienten erhielten Kostgeld; ich auch, das man mir
+                    aber nicht auf die Hand gab, sondern monatweise im Speisehaus bezahlte. Ich war
+                    daher wenig in meiner Stube, die Abendstunden ausgenommen; denn mein Vater
+                    verlangte, daß ich längstens eine halbe Stunde nach dem Schluß der Kanzlei zu
+                    Hause sein sollte. Da saß ich denn, und zwar, meiner schon damals angegriffenen
+                    Augen halber, in der Dämmerung ohne Licht. Ich dachte auf das und jenes und war
+                    nicht traurig und nicht froh.</LMMLtext>
+            </quotation>
+            <illustration label="beispielfueriterativeserzaehlenBspIllu">
+                <LMMLtext>Der Erzähler berichtet hier jeweils einmal summarisch von Ereignissen, die
+                    sich wiederholt ereignet haben: die wiederholten Mahlzeiten am Familientische,
+                    die Bezahlung des Kostgeldes im Speisehaus, seine Gewohnheit tagsüber wenig zu
+                    Hause zu sein, abends aber still im Zimmer zu sitzen.</LMMLtext>
+            </illustration>
+        </section>
+        <exercise label="uebungzumiterativenerzaehlenUeb" title="Übung zum iterativen Erzählen"
+            topics="multiplechoice">
+            <task type="textbeispiel">
+                <quotation
+                    booktitle="Leben des vergnügten Schulmeisterlein Maria Wutz im Auenthal (3. Abschnitt)"
+                    authorname="Jean" authorfamily="Paul">
+                    <LMMLtext>Schon in der Kindheit war er [Wutz] ein wenig kindisch. Denn es gibt
+                        zweierlei Kinderspiele, kindische und ernsthafte - die ernsthaften sind
+                        Nachahmungen der Erwachsenen, das Kaufmann-, Soldaten-, Handwerker-Spielen -
+                        die kindischen sind Nachäffungen der Tiere. Wutz war beim Spielen nie etwas
+                        anderes als ein Hase, eine Turteltaube oder das Junge derselben, ein Bär,
+                        ein Pferd oder gar der Wagen daran. Glaubt mir! ein Seraph findet auch in
+                        unsern Kollegien und Hörsälen keine Geschäfte, sondern nur Spiele und, wenn
+                        ers hoch treibt, jene zweierlei Spiele.</LMMLtext>
+                </quotation>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>In diesem kurzen Textabschnitt aus Jean Pauls <formatted style="buchtitel"
+                        >Leben des vergnügten Schulmeisterlein Maria Wutz im Auenthal</formatted>
+                    wird über die Kinderspiele der Titelfigur berichtet. </LMMLtext>
+                <LMMLtext>Zu fragen wäre allerdings, ob hier</LMMLtext>
+            </task>
+            <task type="alternative" target="uebungzumiterativenerzaehlenL1">
+                <LMMLtext><referencesLink show="new" type="defines" target="iterativeserzaehlendef"
+                        >Iterativ</referencesLink></LMMLtext>
+            </task>
+            <solution label="uebungzumiterativenerzaehlenL1" true="true">
+                <LMMLtext>Hier wird offensichtlich stark iterativ erzählt, da Wutz seine gesamte
+                    Kindheit über spielt - und später auch noch - , aber nur in dieser kurzen
+                    Passage einmalig davon erzählt wird. Von keinem der Kinderspiele Wutzens
+                    erfahren wir Genaueres, eimmalig Geschehens. Im Gegenteil: Der Erzähler selbst
+                    unterscheidet in einer kurzen Reflexion ganz abstrakt zwei Typen von
+                    Kinderspielen und ordnet dann Wutzens Spiele dem einen Typ zu. Dafür gibt er
+                    allerdings einige Beispiele, indem er die Tiere auflistet, in die sich der junge
+                    Wutz in seinen Spielen verwandelt. </LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungzumiterativenerzaehlenL2">
+                <LMMLtext>oder eher <referencesLink show="new" type="defines"
+                        target="singulativeserzaehlendef">singulativ</referencesLink> erzählt
+                    wird?</LMMLtext>
+            </task>
+            <solution label="uebungzumiterativenerzaehlenL2" true="false">
+                <LMMLtext>Es geht nicht um ein bestimmtes Spiel, sondern um zwei abstrakt Typen von
+                    Kinderspielen, denen der Erzähler dann Wutzens Spiele zuordnet. Dafür gibt er
+                    allerdings einige Beispiele, indem er die Tiere auflistet, in die sich der junge
+                    Wutz in seinen Spielen verwandelt. Wie genau diese Spiele - oder eines davon -
+                    aussehen, lässt der Erzähler-Discours aber offen, er stellt keines davon
+                    exemplarisch-konkret dar und gibt nur einen summarischen Überblick.</LMMLtext>
+            </solution>
+        </exercise>
+    </section>
+</lmml>

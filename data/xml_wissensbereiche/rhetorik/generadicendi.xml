@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="genera dicendi" author="Uwe Spörl" creationTime="09.04.2007" label="generadicendi" topics="genera dicendi">
+		<illustration>
+			<LMMLtext>lat.: Arten/Gattungen des Redens</LMMLtext>
+		</illustration>
+		<definition title="genera dicendi" label="generadicendidef">
+			<LMMLtext>Stilniveau-Typologie der traditionellen Rhetorik</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Die <referencesLink show="new" type="defines" target="elocutiodef">
+					<referencesLink target="elocutiomitornatus">elocutio</referencesLink>
+				</referencesLink>  der traditionellen Rhetorik unterscheidet drei Stilebenen, wobei – gemäß der rhetorischen Angemessenheitslehre (<referencesLink show="new" type="defines" target="aptumdef">
+					<referencesLink target="aptum">aptum</referencesLink>
+				</referencesLink>) – jedes Stilniveau mit einer bestimmten Äußerungsabsicht und Kommunikationssituation verbunden ist. D.h. dieses Stilniveau erlaubt eine mehr oder weniger eingeschränkte Verwendung von funktionalen Abweichungen (vgl. <referencesLink target="arsnatura">
+					<referencesLink show="new" type="defines" target="arsnaturadef">ars – natura</referencesLink>
+				</referencesLink>) von der natürlichen Sprache in Figuren und Tropen.</LMMLtext>
+			<LMMLtext>Üblicherweise werden unterschieden:</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>
+						<referencesLink target="genushumile">
+							<referencesLink show="new" type="defines" target="genushumiledef">genus humile</referencesLink>
+						</referencesLink>
+					</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>
+						<referencesLink target="genusmedium">
+							<referencesLink show="new" type="defines" target="genusmediumdef">genus medium</referencesLink>
+						</referencesLink>
+					</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>
+						<referencesLink target="genusgrande">
+							<referencesLink show="new" type="defines" target="genusgrandedef">genus grande</referencesLink>
+						</referencesLink>
+					</LMMLtext>
+				</item>
+			</ulist>
+			<LMMLtext>Ein Text kann hierbei durchaus zwischen den verschiedenen Stilebenen hin- und herwechseln, je nach der Absicht, die in der zugehörigen Textpassage verfolgt wird. Bei bestimmten Redetypen sind die Stilideale jedoch weitgehend festgelegt, wie z.B. die Lobrede oder die Ode mit dem <referencesLink show="new" type="defines" target="genusgrandedef">
+					<referencesLink target="genusgrande">genus grande</referencesLink>
+				</referencesLink>.</LMMLtext>
+			<LMMLtext>Hinzuzufügen sei hier noch, dass vor allem die Poesie im Verlauf der Rezeption klassisch  antiker Rhetorik und Poetik (von der Antike bis ins 18. Jahrhundert) in Analogie zu den drei Stilebenen unterteilt wurde, vgl. <referencesLink target="transformationdergeneradicendi">Transformation der genera dicendi</referencesLink>.</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="exercises" target="uebunggeneradicendiUeb"/>
+			</LMMLtext>
+		</illustration>
+		<exercise topics="multiplechoice" label="uebunggeneradicendiUeb" title="Übung genera dicendi">
+			<task type="textbeispiel">
+				<quotation booktitle="Julius Caesar" authorname="William" authorfamily="Shakespeare">
+					<LMMLtext>Brutus:</LMMLtext>
+					<LMMLtext>Römer! Mitbürger! Freunde! Hört mich meine Sache führen und seid still, damit ihr hören möget! Glaubt mir um meiner Ehre willen, und hegt Achtung vor meiner Ehre, damit ihr glauben mögt! Richtet mich nach eurer Weisheit, und weckt eure Sinne, um desto besser urteilen zu können! Ist jemand in dieser Versammlung, irgend ein herzlicher Freund Cäsars, dem sage ich: des Brutus Liebe zu Cäsar war nicht geringer als seine. Wenn dieser Freund dann fragt, warum Brutus gegen Cäsar aufstand, ist dies meine Antwort: nicht weil ich Cäsarn weniger liebte, sondern weil ich Rom mehr liebte. Wolltet ihr lieber, Cäsar lebte und ihr stürbet alle als Sklaven, als dass Cäsar tot ist, damit ihr alle lebet wie freie Männer? Weil Cäsar mich liebte, wein’ ich um ihn; weil er glücklich war, freue ich mich; weil er tapfer war, ehr’ ich ihn; aber weil er herrschsüchtig war, erschlug ich ihn. Also Tränen für seine Liebe, Freude für sein Glück, Ehre für seine Tapferkeit, und Tod für seine Herrschsucht. Wer ist hier so niedrig gesinnt, dass er ein Knecht sein möchte? Ist es jemand, er rede, denn ich habe ihn beleidigt. Wer ist hier so roh, dass er nicht wünschte, ein Römer zu sein? Ist es jemand, er rede, denn ich habe ihn beleidigt. Ich halte inne, um Antwort zu hören. […]</LMMLtext>
+				</quotation>
+			</task>
+			<task type="fragestellung">
+				<LMMLtext>Ordnen Sie die folgende Rede des Brutus aus Shakespeares <formatted style="buchtitel">Julius Caesar</formatted> einem der drei genera dicendi zu! Brutus will und soll hier Rechenschaft ablegen für seine eben vollzogene Tat, die Tötung Caesars:</LMMLtext>
+			</task>
+			<task type="alternative" target="uebunggeneradicendiL1">
+				<LMMLtext>
+					<referencesLink show="new" type="defines" target="genushumiledef">genus humile</referencesLink>
+				</LMMLtext>
+			</task>
+			<solution label="uebunggeneradicendiL1" true="false">
+				<LMMLtext>Es liegt hier wohl <referencesLink show="new" type="defines" target="genusgrandedef">
+						<formatted style="hervorhebung">genus grande</formatted>
+					</referencesLink> vor, denn dieses genus ist der Situation und der Sache einzig angemessen (äußeres <referencesLink show="new" type="defines" target="aptumdef">aptum</referencesLink>). Der Text zielt vor allem darauf ab, das Publikum emotional zu gewinnen und von der Berechtigung Brutus’ zur Tat zu überzeugen; und er unternimmt dies – übrigens mit Erfolg – durchaus unter Einsatz eines erheblichen sprachlich-rhetorischen Aufwandes, insbesondere mit suggestiven Anreden, rhetorischen Fragen, steigernden Parallelismen usw.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebunggeneradicendiL2">
+				<LMMLtext>
+					<referencesLink show="new" type="defines" target="genusmediumdef">genus medium</referencesLink>
+				</LMMLtext>
+			</task>
+			<solution label="uebunggeneradicendiL2" true="false">
+				<LMMLtext>Es liegt hier wohl <referencesLink show="new" type="defines" target="genusgrandedef">
+						<formatted style="hervorhebung">genus grande</formatted>
+					</referencesLink> vor, denn dieses genus ist der Situation und der Sache einzig angemessen (äußeres <referencesLink show="new" type="defines" target="aptumdef">aptum</referencesLink>). Der Text zielt vor allem darauf ab, das Publikum emotional zu gewinnen und von der Berechtigung Brutus’ zur Tat zu überzeugen; und er unternimmt dies – übrigens mit Erfolg – durchaus unter Einsatz eines erheblichen sprachlich-rhetorischen Aufwandes, insbesondere mit suggestiven Anreden, rhetorischen Fragen, steigernden Parallelismen usw.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebunggeneradicendiL3">
+				<LMMLtext>
+					<referencesLink show="new" type="defines" target="genusgrandedef">genus grande</referencesLink>
+				</LMMLtext>
+			</task>
+			<solution label="uebunggeneradicendiL3" true="true">
+				<LMMLtext>
+					<referencesLink show="new" type="defines" target="genusgrandedef">
+						<formatted style="hervorhebung">Genus grande</formatted>
+					</referencesLink> ist der Situation und der Sache einzig angemessen (äußeres <referencesLink show="new" type="defines" target="aptumdef">aptum</referencesLink>). Der Text zielt vor allem darauf ab, das Publikum emotional zu gewinnen und von der Berechtigung Brutus’ zur Tat zu überzeugen; und er unternimmt dies – übrigens mit Erfolg – durchaus unter Einsatz eines erheblichen sprachlich-rhetorischen Aufwandes, insbesondere mit suggestiven Anreden, rhetorischen Fragen, steigernden Parallelismen usw.</LMMLtext>
+			</solution>
+		</exercise>
+	</section>
+</lmml>

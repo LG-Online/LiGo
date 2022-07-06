@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Heterodiegetisches Erzählen"
+        author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="09.08.05"
+        label="heterodiegetischeserzaehlen">
+        <definition title="Heterodiegetisches Erzählen" label="heterodiegetischeserzaehlendef">
+            <LMMLtext>Der Erzähler ist nicht Teil der von ihm erzählten Welt.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext><referencesLink type="illustrates"
+                    target="beispielzumheterodiegetischenerzaehlenBsp"/>
+                <referencesLink type="exercises" target="uebungzumheterodiegetischenerzaehlenUeb"
+                /></LMMLtext>
+        </illustration>
+        <exercise label="uebungzumheterodiegetischenerzaehlenUeb"
+            title="Übung zum heterodiegetischen Erzählen" topics="dragunddrop">
+            <task type="fragestellung">
+                <LMMLtext>Was kennzeichnet den homodiegtischen, was den heterodiegetischen Erzähler?
+                    Ordnen Sie zu!</LMMLtext>
+            </task>
+            <task type="dnd">
+                <LMMLtext type="columnA">homodiegetischer Erzähler</LMMLtext>
+                <LMMLtext type="columnB">heterodiegetischer Erzähler</LMMLtext>
+                <LMMLtext type="input1" title="1">Es gibt einen Ich-Erzähler</LMMLtext>
+                <LMMLtext type="input6" title="2">Der Erzähler kennt die Gefühle und Gedanken mehrer Figuren,
+                    obwohl sie sie nicht zeigen oder äußern</LMMLtext>
+                <LMMLtext type="input2" title="1">Der Erzähler ist Teil der erzählten Welt</LMMLtext>
+                <LMMLtext type="input7" title="2">Er-Erzählung</LMMLtext>
+                <LMMLtext type="input3" title="1">Man kann zwischen einem erzählenden und einem erlebenden Ich
+                    unterscheiden</LMMLtext>
+                <LMMLtext type="input4"/>
+                <LMMLtext type="input5" title="2">Der Erzähler ist nicht Teil der erzählten Welt</LMMLtext>
+                <LMMLtext type="input8"> </LMMLtext>
+            </task>
+        </exercise>
+        <section type="example" title="Beispiel zum heterodiegetischen Erzählen"
+            label="beispielzumheterodiegetischenerzaehlenBsp">
+            <quotation booktitle="Geschichte des Agathon" authorname="Christoph Martin"
+                authorfamily="Wieland">
+                <LMMLtext>Die Sonne neigte sich bereits zum Untergang, als Agathon, der sich in
+                    einem unwegsamen Walde verirret hatte, von der vergeblichen Bemühung einen
+                    Ausgang zu finden abgemattet, an dem Fuß eines Berges anlangte, welchen er noch
+                    zu ersteigen wünschte, in Hoffnung von dem Gipfel desselben irgend einen
+                    bewohnten Ort zu entdecken, wo er die Nacht zubringen könnte. Er schleppte sich
+                    also mit Mühe durch einen Fußweg hinauf, den er zwischen den Gesträuchen gewahr
+                    ward; allein da er ungefähr die Mitte des Berges erreicht hatte, fühlt er sich
+                    so entkräftet, daß er den Mut verlor den Gipfel erreichen zu können, der sich
+                    immer weiter von ihm zu entfernen schien, je mehr er ihm näher kam. Er warf sich
+                    also ganz Atemlos unter einen Baum hin, der eine kleine Terrasse umschaltete,
+                    auf welcher er die einbrechende Nacht zuzubringen beschloß.</LMMLtext>
+                <LMMLtext>Wenn sich jemals ein Mensch in Umständen befunden hatte, die man
+                    unglücklich nennen kann, so war es dieser Jüngling in denjenigen, worin wir ihn
+                    das erstemal mit unsern Lesern bekannt machen. Vor wenigen Tagen noch ein
+                    Günstling des Glücks, und der Gegenstand des Neides seiner Mitbürger, befand er
+                    sich, durch einen plötzlichen Wechsel seines Vermögens, seiner Freunde, seines
+                    Vaterlands beraubt, allen Zufällen des widrigen Glücks, und selbst der
+                    Ungewißheit ausgesetzt, wie er das nackte Leben, das ihm allein übrig gelassen
+                    war, erhalten möchte. Allein ungeachtet so vieler Widerwärtigkeiten, die sich
+                    vereinigten seinen Mut niederzuschlagen, versichert uns doch die Geschichte, daß
+                    derjenige, der ihn in diesem Augenblick gesehen hätte, weder in seiner Mine noch
+                    in seinen Gebärden einige Spur von Verzweiflung, Ungeduld oder nur von
+                    Mißvergnügen hätte bemerken können.</LMMLtext>
+            </quotation>
+            <illustration label="beispielzumheterodiegetischenerzaehlenBspIllu">
+                <LMMLtext>In der vorliegenden Passage haben wir es mit einem heterodiegetischen
+                    Erzähler zu tun, der nicht Teil der erzählten Welt ist. Man kann das im ersten
+                    Abschnitt daran erkennen, dass nur von Agathon die Rede ist, der sich im Wald
+                    verirrt hat. Die Stimme, die das erzählt, gehört also wahrscheinlich nicht zur
+                    erzählten Welt. In der zweiten Passage wird dann ganz deutlich, dass es hier
+                    einen allwissenden Erzähler gibt, der über und außerhalb des Geschehens steht
+                    und dieses kommentiert.</LMMLtext>
+            </illustration>
+        </section>
+    </section>
+</lmml>

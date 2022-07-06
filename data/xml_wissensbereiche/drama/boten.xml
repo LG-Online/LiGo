@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Boten" author="Martin Huber, Elisabeth Böhm" creationTime="09.09.2007" label="boten" topics="Boten"><definition title="Boten" label="botendef"><LMMLtext>Funktionsfiguren, die Nachrichten von weiter entfernt gedachten Orten zum Bühnengeschehen bringen.</LMMLtext></definition><illustration><LMMLtext>Boten gewinnen als Figuren in der Regel kein eigenes Profil, da sie nur die Funktion erfüllen, eine Nachricht zu überbringen. Sie übermitteln, was an entfernten Orten passiert ist und auf die gezeigte Dramenhandlung unmittelbaren Einfluss hat.</LMMLtext></illustration></section></lmml>

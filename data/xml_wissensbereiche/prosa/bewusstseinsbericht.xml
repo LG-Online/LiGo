@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course"
+		title="Präsentation von Gedanken im narrativen Modus: Bewusstseinsbericht"
+		author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="03.08.2005"
+		label="bewusstseinsbericht" topics="Bewusstseinsbericht">
+		<definition title="Bewusstseinsbericht" label="bewusstseinsberichtdef">
+			<LMMLtext>Bewusstseinsprozesse werden durch den Erzähler vermittelt und dabei
+				zusammengefasst. Der Erzähler weicht erkennbar von den Gedanken oder
+				Bewusstseinsinhalten einer Figur, die diese in der erzählten Welt (vermeintlich)
+				denkt oder hat, ab - indem er sie weglässt, zusammenfasst oder anderweitig
+				verändert.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielfuereinenbewusstseinsberichtBsp"/>
+				<referencesLink type="exercises" target="uebungbewusstseinsberichtUeb"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel für einen Bewusstseinsbericht"
+			label="beispielfuereinenbewusstseinsberichtBsp">
+			<quotation booktitle="Armut, Reichtum, Schuld und Buße der Gräfin Dolores (4. Kapitel)"
+				authorname="Achim" authorfamily="von Arnim">
+				<LMMLtext> Der Graf stand am nächsten Morgen früh auf, und noch voll von den
+					Gefühlen des vorigen Tages, dachte er sich ganz in die Stimmung seiner
+					Frau.</LMMLtext>
+			</quotation>
+			<illustration label="beispielfuereinenbewusstseinsberichtBspIllu">
+				<LMMLtext>Diese Passage aus Achim von Arnims Roman <formatted style="buchtitel"
+						>Armut, Reichtum, Schuld und Buße der Gräfin Dolores</formatted>
+					verdeutlicht, was den <referencesLink show="new" type="defines"
+						target="bewusstseinsberichtdef">Bewusstseinsbericht
+					</referencesLink> ausmacht. Denn er gibt mit keinem Wort wieder, was (oder wie)
+					der Graf tatsächlich fühlt und denkt. Statt dessen fasst er es grob zusammen und
+					verweist dabei auf den Vortag und die Stimmung der Frau des Grafen, also auf
+					bereits anderweitig Erzähltes.</LMMLtext>
+			</illustration>
+		</section>
+		<exercise label="uebungbewusstseinsberichtUeb" title="Übung Bewusstseinsbericht"
+			topics="markieren">
+			<task type="selection">
+				<quotation booktitle="Wilhelm Meisters Lehrjahre (Elftes Kapitel)"
+					authorname="Johann Wolfgang von" authorfamily="Goethe">
+					<LMMLtext>So groß war seine Leidenschaft, so rein seine Überzeugung, er handle
+						vollkommen recht, sich dem Drucke seines bisherigen Lebens zu entziehen und
+						einer neuen, edlern Bahn zu folgen, <formatted style="richtig">daß sein
+							Gewissen sich nicht im mindesten regte</formatted>, keine Sorge in ihm
+						entstand, ja daß er vielmehr diesen Betrug <formatted style="richtig">für
+							heilig hielt</formatted>. <formatted style="richtig">Er war
+							gewiß</formatted>, daß ihn Eltern und Verwandte in der Folge für diesen
+						Schritt preisen und segnen sollten, er erkannte den Wink eines leitenden
+						Schicksals an diesen zusammentreffenden Umständen.</LMMLtext>
+				</quotation>
+			</task>
+			<task type="fragestellung">
+				<LMMLtext> Markieren Sie diejenigen Worte oder Aussagen, die Ihnen anzeigen, dass
+					man es hier mit einem <referencesLink show="new" type="defines"
+						target="bewusstseinsberichtdef">Bewusstseinbericht</referencesLink> zu tun
+					hat.</LMMLtext>
+			</task>
+		</exercise>
+	</section>
+</lmml>

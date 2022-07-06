@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Lesart" author="Hamburg" creationTime="29.12.2005" label="lesart"><definition title="Lesart" label="lesartdef" topics="glossarhide"><LMMLtext>Eine schriftlich festgehaltene Lektüre eines literarischen Textes könnte als Lesart dieses Textes benannt werden - als eine reflektierte Lektüre, die sich zumeist auf einen mehrfachen Lesevorgang stützt. Einer solchen Lesart können andere (durch individuelle Lesevorgänge bestimmte) Lesarten gegenübergestellt werden.</LMMLtext></definition></section></lmml>

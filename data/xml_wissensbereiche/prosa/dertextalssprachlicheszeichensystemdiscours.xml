@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Discours/Erzeugungstechniken" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="09.08.2005" label="dertextalssprachlicheszeichensystemdiscours" topics="Discours/Erzeugungstechniken">
+		<definition title="Discours" label="discours">
+			<LMMLtext>Präsentation der erzählten Geschichte im Gegensatz zur Histoire (Handlung und erzählte Welt).</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Drei Aspekte wurden bislang von der erzähltheoretischen Forschung besonders intensiv untersucht:</LMMLtext>
+			<olist>
+				<item>
+					<LMMLtext>
+						<referencesLink target="erzaehlzeitunderzaehltezeit">Zeit</referencesLink>: Wie verhält sich die dargestellte Zeit des Geschehens zur Art der Darstellung im Discours?</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>
+						<referencesLink target="modus">Modus</referencesLink>: Wie unmittelbar und aus welcher Perspektive wird erzählt?</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>
+						<referencesLink target="stimme">Stimme</referencesLink>: Wer spricht?</LMMLtext>
+				</item>
+			</olist>
+		</illustration>
+		<illustration>
+			<LMMLtext>Die Erzeugungstechniken für Elemente der erzählten Welt werden jeweils in den entsprechenden Kapiteln behandelt: <referencesLink target="figur">Figur</referencesLink>, Raum</LMMLtext>
+		</illustration>
+	</section>
+</lmml>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Der Erzähltext" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="20.10.2005" label="dererzaehltext">
+		<illustration>
+			<LMMLtext>Erzählen ist die Darstellung einer Geschichte in einer erzählten Welt. Die Geschichte ereignet sich einer Welt, die durch den Erzähltext erzeugt wird.</LMMLtext>
+			<LMMLtext> Ein großer Teil der erzähltheoretischen Begriffe beschreibt verschiedene Aspekte des Verhältnisses von Darstellung/Erzeugung und Geschichte/erzählter Welt. So kann eine Geschichte, die nur wenige Sekunden dauert, seitenlang beschrieben werden, es können aber auch umgekehrt Jahrhunderte mit einem Halbsatz übersprungen werden. 
+				</LMMLtext>
+			<LMMLtext>Im Folgenden wird vom ‚Discours’ die Rede sein, wenn die Darstellung im Zusammenhang mit der Geschichte gemeint ist, von ‚Erzeugungstechniken’, wenn die Darstellung im Zusammenhang mit der erzählten Welt gemeint ist.
+</LMMLtext>
+			<LMMLtext>
+				<referencesLink target="dertextalssprachlicheszeichensystemdiscours">Discours / Erzeugungstechniken</referencesLink>: Darstellung der Geschichte und Mittel zur Erzeugung der erzählten Welt.</LMMLtext>
+			<LMMLtext>
+				<referencesLink target="histoire">Histoire / erzählte Welt</referencesLink>: Inhalte der Geschichte und erzählte Welt</LMMLtext>
+		</illustration>
+	</section>
+</lmml>

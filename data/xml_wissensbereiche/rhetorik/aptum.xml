@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="aptum" author="Uwe Spörl" creationTime="08.04.2007" label="aptum"
+        topics="aptum">
+        <definition title="aptum" label="aptumdef">
+            <LMMLtext>Norm der Rhetorik: wirkungsorientierte Abstimmung von Elementen oder Momenten
+                aus unterschiedlichen Bereichen des Textes bzw. der Textproduktion</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Das aptum oder decorum stellt das grundlegende regulative Prinzip der Rhetorik
+                dar. Sie besagt, dass der Autor oder Redner verschiedene Elemente, Aspekte, Teile
+                usw., die für die Rede bzw. den Text und seine Äußerungssituation bedeutsam sind,
+                möglichst so aufeinander abstimmen solle, dass sie ein in sich geschlossenes und
+                (gerade deshalb) wirkungsträchtiges Ganzes ergeben. Verletzungen des aptum sind
+                somit zwar möglich, aber wiederum nur mit Blick auf eine entsprechende Wirkung –
+                also in Übereinstimmung mit einem modifizierten aptum.</LMMLtext>
+            <LMMLtext>Dieses grundlegende Prinzip ist eine Art Norm, die natürlich seitens des
+                Textproduzenten ein entsprechendes Urteilsvermögen (lat.: iudicium) voraussetzt und
+                kaum in feste Textproduktionsregeln zu überführen ist.</LMMLtext>
+            <LMMLtext>Man unterscheidet üblicherweise das <formatted style="hervorhebung"
+                    >äußere</formatted> und das <formatted style="hervorhebung">innere</formatted>
+                aptum, obwohl sie in den meisten Fällen nicht unabhängig voneinander
+                sind:</LMMLtext>
+            <LMMLtext>Das innere aptum betrifft alle direkt mit dem Text und seiner Produktion
+                zusammenhängenden Bestandteile, die aufeinander ‚abgestimmt’ werden bzw. am
+                Redegegenstand ausgerichtet werden sollen. Hier sind vor allem zu nennen:</LMMLtext>
+            <ulist>
+                <item>
+                    <LMMLtext>die <referencesLink target="produktionsstadien"
+                            >Produktionsstadien</referencesLink> bzw. das im jeweiligen Stadium
+                        Produzierte</LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext>die Verbindung von <referencesLink show="new" type="defines"
+                            target="resverbadef"><referencesLink target="resverba">res und
+                                verba</referencesLink></referencesLink></LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext>die einzelnen <referencesLink target="teilederrede">Teile der
+                            Rede</referencesLink> sowie</LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext>der sprachliche <referencesLink target="elocutiomitornatus"
+                            >ornatus</referencesLink> bzw. die einzelnen sprachlichen
+                        Ausdrucksqualitäten untereinander</LMMLtext>
+                </item>
+            </ulist>
+            <LMMLtext>Das äußere aptum betrifft im Unterschied dazu immer das Verhältnis der Rede
+                bzw. des Textes zu den Konstituenten seiner Äußerungssituation bzw. der
+                außersprachlichen Gegebenheit. Es hat darüber hinaus eine ‚konventionelle
+                moralische’ Dimension, d.h. durch Konventionen sind Dinge festgelegt, die man
+                einfach nicht tut, auch nicht mit Texten. Die zu beachtenden Konstituenten sind in
+                erster Linie:</LMMLtext>
+            <ulist>
+                <item>
+                    <LMMLtext>Ort, Zeitpunkt und Anlass der Rede bzw. des veröffentlichten
+                        Textes</LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext>die Person des Redners/Autors</LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext>das Publikum sowie natürlich</LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext>der Gegenstand und das Ziel der Rede/des Textes</LMMLtext>
+                </item>
+            </ulist>
+            <LMMLtext>(Vgl. <referencesLink target="generadicendi"><referencesLink show="new"
+                        type="defines" target="generadicendidef">genera
+                    dicendi</referencesLink></referencesLink> sowie <referencesLink
+                    target="transformationdergeneradicendi">Transformation der genera
+                    dicendi</referencesLink>)</LMMLtext>
+            <LMMLtext><referencesLink type="exercises" target="uebungaptumUeb"/></LMMLtext>
+        </illustration>
+        <exercise topics="alternativen" label="uebungaptumUeb" title="Übung aptum">
+            <task type="fragestellung">
+                <LMMLtext>In welchem der folgenden Szenarien hält sich der jeweilige Redner an das
+                    rhetorische Prinzip des <referencesLink show="new" type="defines"
+                        target="aptumdef">aptum</referencesLink>?</LMMLtext>
+            </task>
+            <task type="alternative" target="uebungaptumL1">
+                <quotation>
+                    <LMMLtext>Schorsch Bücherl aus Rosenheim ist auf die Hochzeit eines alten
+                        Schulkamaraden eingeladen, der seit langer Zeit in Hannover lebt. Als ganz
+                        besonderes Schmankerl hat er beschlossen, auf der Hochzeit eine Rede zu
+                        halten. Weil er schon immer die Nase über die Tatsache, dass in Hannover
+                        angeblich das „beste Deutsch“ gesprochen wird, gerümpft hat, hält er die
+                        launige Hochzeitsrede in seinem Dialekt.</LMMLtext>
+                </quotation>
+            </task>
+            <solution label="uebungaptumL1" true="false">
+                <LMMLtext>(Auch wenn es natürlich sein kann, dass Bücherl vorrangig und nicht
+                    unbedingt angenehm auffallen will.) Hier liegt ein Verstoß gegen das äußere
+                        <referencesLink show="new" type="defines" target="aptumdef"
+                        >aptum</referencesLink> vor, da Bücherl davon ausgehen muss, von weiten
+                    Teilen seines Publikums nicht verstanden zu werden.</LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungaptumL2">
+                <quotation>
+                    <LMMLtext>Professor C. Geertz ist Ethnologe, und seine neueste Feldforschung
+                        beschäftigt sich mit auf der Straße lebenden Jugendlichen. Nach einigen
+                        Tagen muss er feststellen, dass sich die Kommunikation mit ihnen als recht
+                        schwierig herausstellt. Er überlegt hin und her woran das liegen könnte,
+                        schließlich redet er doch die gleiche Sprache wie die Jugendlichen und redet
+                        so, wie mit seinen Studenten auch.</LMMLtext>
+                </quotation>
+            </task>
+            <solution label="uebungaptumL2" true="false">
+                <LMMLtext>(Auch wenn es für dieses ‚Übersetzungsproblem’ der Ethnologie keine
+                    wirkliche Lösung gibt.) Hier liegt ein Verstoß gegen das äußere <referencesLink
+                        show="new" type="defines" target="aptumdef">aptum</referencesLink> vor, denn
+                    wenn man als Akademiker mit einem ‚Publikum’, von dem man annehmen muss, dass es
+                    keine ausreichende Schulbildung hat, kommunizieren möchte, muss man sein
+                    Vokabular und seine Syntax dem ‚Horizont’ dieses Publikums anpassen.</LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungaptumL3">
+                <quotation>
+                    <LMMLtext>Im Jahre 1993 erhielt der US-amerikanische Comic-Autor Carl Barks den
+                        Max-und-Moritz-Preis für sein herausragendes Lebenswerk. Zu seinen Ehren
+                        hielt Cuno Affolter eine Rede, in der er das mittlerweile fast
+                        unüberschaubare Lebenswerk Barks’ lobte und die Großartigkeit und
+                        Beliebtheit seiner Zeichnungen betonte.</LMMLtext>
+                </quotation>
+            </task>
+            <solution label="uebungaptumL3" true="true">
+                <LMMLtext>Wenn man vor einem Publikum eine laudatio zu halten hat, sollte und wird
+                    man die Erwartungen des Publikums, dass diese Person in dieser Rede gelobt wird,
+                    auch erfüllen. Dies entspricht dem äußeren <referencesLink show="new"
+                        type="defines" target="aptumdef">aptum</referencesLink>. Ob Affolters
+                    Lobrede auch dem inneren <referencesLink show="new" type="defines"
+                        target="aptumdef">aptum</referencesLink> entspricht, ist allerdings eine
+                    andere Frage.</LMMLtext>
+            </solution>
+        </exercise>
+    </section>
+</lmml>

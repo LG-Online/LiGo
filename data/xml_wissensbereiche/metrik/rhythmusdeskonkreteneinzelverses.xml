@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Rhythmus des konkreten Einzelverses" author="Sebastian Donat" creationTime="22.10.2007" label="rhythmusdeskonkreteneinzelverses" topics="Rhythmus des konkreten Einzelverses">
+		<definition title="Rhythmus des konkreten Einzelverses" label="rhythmusdeskonkreteneinzelversesdef">
+			<LMMLtext>Rhythmus des konkreten Einzelverses: Jeder einzelne Text in <referencesLink show="new" type="defines" target="gebundenevsungebundeneversedef">
+					<referencesLink target="gebundenevsungebundeneverse">gebundenen Versen</referencesLink>
+				</referencesLink> basiert auf einem <referencesLink target="metrischesschema">
+					<referencesLink show="new" type="defines" target="metrischesschemadef">metrischen Schema</referencesLink>
+				</referencesLink>. Seine konkrete rhythmische Gestalt ist damit jedoch niemals deckungsgleich: Einerseits werden häufig nicht alle im metrischen Schema vorgesehenen Wiederholungsstrukturen durch die sprachliche Realisierung des Einzelverses umgesetzt. Damit wird zunächst Monotonie (‚Klappern') vermieden; vor allem aber kann so eine Spannung zwischen Metrum und Rhythmus aufgebaut werden, mit deren Hilfe bestimmte Textteile hervorgehoben und für den Leser als wichtig markiert werden können. Andererseits können konkrete Verstexte aber auch zusätzliche, d.h. über die Vorgaben des metrischen Schemas hinausgehende Wiederholungsstrukturen aufweisen (z.B. regelmäßige Platzierung von Wortgrenzen, Alliterationen usw.).</LMMLtext>
+			<LMMLtext>Des Weiteren ist im metrischen Schema die Qualität bzw. Intensität der Wiederholungsstrukturen immer nur pauschal geregelt – hier findet im konkreten Einzelvers notwendigerweise eine Individualisierung statt (z.B. in Bezug auf die Hebungsstärke, Pausenlänge, Reimqualität).</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielrhythmusdeskonkreteneinzelversesBsp"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Rhythmus des konkreten Einzelverses" label="beispielrhythmusdeskonkreteneinzelversesBsp">
+			<poem authorname="Theodor" authorfamily="Storm" title="Die Stadt, 1. Strophe">
+				<poemlinegroup>
+					<poemline>Am grauen Strand, am grauen Meer</poemline>
+					<poemline>Und seitab liegt die Stadt;</poemline>
+					<poemline>Der Nebel drückt die Dächer schwer,</poemline>
+					<poemline>Und durch die Stille braust das Meer</poemline>
+					<poemline>Eintönig um die Stadt.</poemline>
+				</poemlinegroup>
+			</poem>
+			<illustration label="beispielrhythmusdeskonkreteneinzelversesBspIllu">
+				<LMMLtext>Das abstrakte metrische Schema dieser Strophe lautet:</LMMLtext>
+				<table style="invisible"><tablerow><tabledata><LMMLtext>v – v – v – v –</LMMLtext></tabledata><tabledata><LMMLtext>A</LMMLtext></tabledata></tablerow><tablerow><tabledata><LMMLtext>v – v – v –</LMMLtext></tabledata><tabledata><LMMLtext>B</LMMLtext></tabledata></tablerow><tablerow><tabledata><LMMLtext>v – v – v – v –</LMMLtext></tabledata><tabledata><LMMLtext>A</LMMLtext></tabledata></tablerow><tablerow><tabledata><LMMLtext>v – v – v – v –</LMMLtext></tabledata><tabledata><LMMLtext>A</LMMLtext></tabledata></tablerow><tablerow><tabledata><LMMLtext>v – v – v –</LMMLtext></tabledata><tabledata><LMMLtext>B</LMMLtext></tabledata></tablerow></table>
+				<LMMLtext type="br">Der Rhythmus der konkreten Einzelverse erfüllt dieses Schema jedoch an drei Stellen nicht (hier durch Fettdruck hervorgehoben):</LMMLtext>
+				<LMMLtext/>
+				<table style="invisible"><tablerow><tabledata><LMMLtext>x X x X x X x X </LMMLtext></tabledata><tabledata><LMMLtext>A</LMMLtext></tabledata></tablerow><tablerow><tabledata><LMMLtext>x <formatted style="hervorhebung">x X</formatted> X x X</LMMLtext></tabledata><tabledata><LMMLtext>B</LMMLtext></tabledata></tablerow><tablerow><tabledata><LMMLtext>x X x X x X x X</LMMLtext></tabledata><tabledata><LMMLtext>A</LMMLtext></tabledata></tablerow><tablerow><tabledata><LMMLtext>x<formatted style="hervorhebung"> x</formatted> x X x X x X</LMMLtext></tabledata><tabledata><LMMLtext>A</LMMLtext></tabledata></tablerow><tablerow><tabledata><LMMLtext><formatted style="hervorhebung">X x </formatted>x X x X</LMMLtext></tabledata><tabledata><LMMLtext>B</LMMLtext></tabledata></tablerow></table>
+				<LMMLtext>Auffällig sind dabei V. 2 und V. 5: In beiden Versen folgen zwei starke Abweichungen des konkreten Rhythmus vom Metrum unmittelbar aufeinander. Die semantische Funktion dieser rhythmischen Markierungen lässt sich relativ leicht bestimmen: Das Wort <formatted style="hervorhebung">seitab</formatted> steht quer zum abstrakten Schema und damit gewissermaßen auch rhythmisch im Abseits. <formatted style="hervorhebung">Eintönig</formatted> in V. 5 bildet durch die ähnliche Akzentstärke der beiden ersten Silben und die daraus folgende Tendenz zur schwebenden Betonung im Vortrag die Eintönigkeit des Meeresrauschens ab.</LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

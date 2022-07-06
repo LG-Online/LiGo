@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Klassifikation von Anachronien" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="05.08.2005" label="klassifikation" modifiedTime="27.10.07">
+		<illustration>
+			<LMMLtext>Sowohl<referencesLink show="new" type="defines" target="analepsedef">Analepsen</referencesLink> als auch <referencesLink show="new" type="defines" target="prolepsedef">Prolepsen</referencesLink> können noch auf weitere Aspekte hin untersucht werden:</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>Zugehörigkeit zum Erzählten</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>Abstand zum Erzählten</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>Umfang der Anachronie</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>Anschluss an das Erzählte</LMMLtext>
+				</item>
+			</ulist>
+		</illustration>
+		<definition title="extern / intern" label="externintern">
+			<LMMLtext>Zugehörigkeit einer Analepse oder Prolepse zur erzählten Geschichte.</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>extern: Handlung liegt vor oder nach der Haupthandlung</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>intern: Handlung (der Rückblende) ereignet sich während der Haupthandlung</LMMLtext>
+				</item>
+			</ulist>
+		</definition>
+		<definition title="Reichweite" label="reichweite">
+			<LMMLtext>Zeitlicher Abstand zwischen Erzählgegenwart und Zeitpunkt der Anachronie.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielreichweiteBsp"/>
+			</LMMLtext>
+		</illustration>
+		<definition title="Umfang" label="umfang">
+			<LMMLtext>Dauer der Handlungssequenz, die als Anachronie eingeschoben wird.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Reicht von einem Moment bis zu sehr langen Zeiträumen (z.B. die ganze Lebensgeschichte einer Figur).</LMMLtext>
+		</illustration>
+		<definition title="komplett / partiell" label="komplettpartiell">
+			<LMMLtext>Anschluss an das Erzählte. Sind Reichweite und Umfang identisch, spricht man von einer kompletten Analepse, ansonsten von einer partiellen. Im <formatted style="buchtitel">Blonden Eckbert</formatted> erzählt Bertha z.B. als Einschub ihre Lebensgeschichte vom Zeitpunkt ihrer Geburt bis zu der Zeit, zu der die Handlung spielt.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielzuanachronienmitreichweiteumfangexterninternkomplettpartiellBsp"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Reichweite" label="beispielreichweiteBsp">
+			<illustration label="beispielreichweiteBspIllu">
+				<LMMLtext>Großer Abstand zwischen Erzählgegenwart und Zeitpunkt des Erzählten:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Der blonde Eckbert" authorname="Ludwig" authorfamily="Tieck">
+				<LMMLtext>„Ihr müßt mich nicht für zudringlich halten“, fing Bertha an, „mein Mann sagt, daß Ihr so edel denkt, daß es unrecht sei, Euch etwas zu verhehlen. Nur haltet meine Erzählung für kein Märchen, so sonderbar sie auch klingen mag. <formatted style="hervorhebung">Ich bin</formatted> in einem Dorfe <formatted style="hervorhebung">geboren</formatted>, mein Vater war ein armer Hirte.“</LMMLtext>
+			</quotation>
+			<illustration>
+				<LMMLtext>Kleiner Abstand zwischen Erzählgegenwart und Zeitpunkt des Erzählten:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Novelle, 3. Abschnitt" authorname="Johann Wolfgang" authorfamily="von Goethe">
+				<LMMLtext>Der Fürst hatte seine Gemahlin gestern durch das Gewimmel der aufgehäuften Waren zu Pferde geführt.</LMMLtext>
+			</quotation>
+		</section>
+		<section type="example" title="Beispiel zu Anachronien mit Reichweite, Umfang, extern / intern, komplett / partiell" label="beispielzuanachronienmitreichweiteumfangexterninternkomplettpartiellBsp">
+			<quotation booktitle="Der blonde Eckbert" authorname="Ludwig" authorfamily="Tieck">
+				<LMMLtext>„Ihr müßt mich nicht für zudringlich halten“, fing Bertha an, „mein Mann sagt, daß Ihr so edel denkt, daß es unrecht sei, Euch etwas zu verhehlen. Nur haltet meine Erzählung für kein Märchen, so sonderbar sie auch klingen mag. <formatted style="hervorhebung">Ich bin</formatted> in einem Dorfe <formatted style="hervorhebung">geboren</formatted>, mein Vater war ein armer Hirte.“</LMMLtext>
+			</quotation>
+			<illustration label="beispielzuanachronienmitreichweiteumfangexterninternkomplettpartiellBspIllu">
+				<ulist>
+					<item>
+						<LMMLtext>Zugehörigkeit zum Erzählten <referencesLink show="new" type="defines" target="externintern">(extern/intern)</referencesLink>:</LMMLtext>
+						<LMMLtext>Hier extern, weil Berthas Lebensgeschichte nicht zur Handlung der Geschichte gehört.</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>
+							<referencesLink show="new" type="defines" target="reichweite">Reichweite:</referencesLink>
+						</LMMLtext>
+						<LMMLtext>Der Abstand zwischen der Erzählgegenwart und dem Beginn der erzählten Geschichte beträgt so viele Jahre, wie Bertha alt ist, denn sie beginnt mir ihrer Geburt.</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>
+							<referencesLink show="new" type="defines" target="umfang">Umfang</referencesLink> der Anachronie:</LMMLtext>
+						<LMMLtext>Der Umfang der Analepse deckt sich mit der Anzahl an Jahren, die Bertha alt ist.</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Anschluss an das Erzählte (<referencesLink show="new" type="defines" target="komplettpartiell">komplett/partiell</referencesLink>):</LMMLtext>
+						<LMMLtext>Berthas Erzählung ihrer Lebensgeschichte reicht bis an die Erzählgegenwart heran und ist damit komplett.</LMMLtext>
+					</item>
+				</ulist>
+				<LMMLtext>Es liegt eine externe, komplette Analepse von großem Abstand und Umfang vor.</LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

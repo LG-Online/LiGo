@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="ars - natura" author="Uwe Spörl" creationTime="08.04.2007" label="arsnatura" topics="ars - natura">
+		<illustration>
+			<LMMLtext>lat.: Kunst(fertigkeit) – Natur(zustand)</LMMLtext>
+		</illustration>
+		<definition title="ars - natura" label="arsnaturadef">
+			<LMMLtext>Ein (quasi) natürlicher (Normal-)Zustand steht einer künstlichen, bewusst gemachten und mit Zwecken behafteten Abweichung von der Norm gegenüber</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Diese strukturelle Grundunterscheidung, die ein Norm-Abweichungssystem hervorbringt, kann innerhalb der Rhetorik auf vielen verschiedenen Ebenen zum Tragen kommen, immer jedoch stehen sich eine natürliche oder als natürlich unterstellte Norm auf der einen Seite und eine wirkungsbezogene und kunstfertig eingesetzte Abweichung von dieser Norm auf der anderen Seite gegenüber.</LMMLtext>
+			<LMMLtext>Ein Beispiel hierfür ist im Bereich der <referencesLink show="new" type="defines" target="dispositiodef">
+					<referencesLink target="dispositio">dispositio</referencesLink>
+				</referencesLink> angesiedelt. Hier kann man  etwa zwischen der ordo naturalis (natürliche Ordnung: sachgemäße Darstellung eines Gegenstandes wie er ‚natürlich’ vorliegt) und der ordo artificialis (künstliche Ordnung: Präsentation innerhalb eines Textes, in dem man manches betonen, manches zurückstellen, einiges herausstellen, anderes weglassen oder in dem man die natürliche zeitliche Reihenfolge vertauschen kann) unterscheiden (vgl. <referencesLink target="ordnung">
+					<referencesLink show="new" type="defines" target="ordnungdef">Ordnung</referencesLink>
+				</referencesLink>).</LMMLtext>
+			<LMMLtext>Der ganze Bereich der <referencesLink show="new" type="defines" target="elocutiodef">
+					<referencesLink target="elocutiomitornatus">elocutio</referencesLink>
+				</referencesLink>  stellt den normalen, gewöhnlichen Ausdruck eines Sachverhaltes dem rhetorisch-künstlerischen oder kunstfertigen (ornatus) gegenüber: <referencesLink show="new" type="defines" target="rhetorischefigurdef">
+					<referencesLink target="figurenlehre">Figuren</referencesLink>
+				</referencesLink>  und <referencesLink show="new" type="defines" target="rhetorischetropedef">
+					<referencesLink target="uneigentlichessprechentropen">Tropen</referencesLink>
+				</referencesLink>  sind in diesem Sinne Abweichungen von der natürlichen bzw. üblichen Ausdrucksweise. Hier weicht z.B. ein Schriftsteller von der Norm ab, um mit Hilfe von rhetorischen Figuren und Tropen eine bestimmte Wirkung zu erzielen.</LMMLtext>
+			<LMMLtext>Wie man – rhetorischer Lehre nach – vom Natürlichen/Normalen/Üblichen abweichen kann, beschreiben die rhetorischen <referencesLink show="new" type="defines" target="aenderungsoperationendef">
+					<referencesLink target="aenderungsoperationen">Änderungsoperationen</referencesLink>
+				</referencesLink>.</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielarsnaturaBsp"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel ars – natura" label="beispielarsnaturaBsp">
+			<illustration label="beispielarsnaturaBspIllu">
+				<LMMLtext>Das folgende stark reduzierte Beispiel verdeutlicht die Begriffe ‚ars’ und ‚natura’ im Sinne von ‚Norm’ und ‚Abweichung’ unter Berücksichtigung der rhetorischen <referencesLink show="new" type="defines" target="aenderungsoperationendef">
+						<referencesLink target="aenderungsoperationen">Änderungsoperationen</referencesLink>
+					</referencesLink>
+				</LMMLtext>
+				<LMMLtext>Es ist bezogen auf eine sprachliche Norm(alform), von der in verschiedenen Arten und Weisen bewusst abgewichen wird. Es ist somit dem Produktionsstadium der <referencesLink show="new" type="defines" target="elocutiodef">
+						<referencesLink target="elocutiomitornatus">elocutio</referencesLink>
+					</referencesLink>  bzw. ihrer spezifischen <formatted style="hervorhebung">ars</formatted>, dem <formatted style="hervorhebung">ornatus</formatted>, zuzuordnen:</LMMLtext>
+				<table>
+					<tablerow>
+						<tabledata>
+							<LMMLtext/>
+						</tabledata>
+						<tabledata>
+							<LMMLtext/>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>Subjekt</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>Prädikat</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>Ojekt</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> </LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>natura</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> </LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>Ich </LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>mag</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> Dich</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> X</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>ars</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> Zusatz</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>Ich </LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>mag</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> Dich</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> sehr</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>ars</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> Wegfall</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>Ich </LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>mag</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> X</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> X</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>ars</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>Umstellung </LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>Dich </LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>mag</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> ich</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> </LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>ars</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> Austausch</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>Ich </LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>mag</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> ihn</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext> </LMMLtext>
+						</tabledata>
+					</tablerow>
+				</table>
+			</illustration>
+		</section>
+	</section>
+</lmml>

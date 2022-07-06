@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Vertrautenrede" author="Martin Huber, Elisabeth Böhm"
+        creationTime="09.09.2007" label="vertrautenrede" topics="Vertrautenrede">
+        <definition title="Vertrautenrede" label="vertrautenrededef">
+            <LMMLtext>Gespräch zwischen Protagonist und einer ihm fest zugeordneten, sein volles
+                Vertrauen genießenden Bühnenperson. Sie dient besonders der Informationsvergabe über
+                Gedanken, Gefühle und Absichten des Protagonisten.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Bei der Vertrautenrede handelt es sich um einen <referencesLink
+                    target="dialog"><referencesLink show="new" type="defines" target="dialogdef"
+                        >Dialog</referencesLink></referencesLink> des <referencesLink show="new"
+                    type="defines" target="protagonistdef"><referencesLink target="protagonist"
+                        >Protagonisten</referencesLink></referencesLink> mit einem Vertrauten, der
+                ihm über die <referencesLink target="figurenkonstellation"><referencesLink
+                        show="new" type="defines" target="figurenkonstellation"
+                        >Personenkonstellation</referencesLink></referencesLink> fest zugeordnet
+                erscheint und der keine eigenen Interessen durchsetzen möchte, sondern eher
+                vernünftig oder exemplarisch auf die ihm präsentierten Verstrickungen und Konflikte
+                reagiert, in die er selbst nicht verstrickt ist. Dem Vertrauten kommt damit eine
+                Funktion zu, die kommentierend, ratend oder reflektierend an die des antiken
+                    <referencesLink show="new" type="defines" target="chordef"><referencesLink
+                        target="chor">Chores</referencesLink></referencesLink> erinnert, dabei aber
+                auch dem Protagonisten Raum gibt, sich zu profilieren, wie es auch im
+                    <referencesLink target="monolog"><referencesLink show="new" type="defines"
+                        target="monologdef">Monolog</referencesLink></referencesLink> der Fall
+                wäre.</LMMLtext>
+            <LMMLtext>Entsprechend kann der Vertraute auch nur als Stichwortgeber auftreten, oder
+                einen Teil (z.B. das Gewissen) des Protagonisten verkörpern. Als Szene kann die
+                Vertrautenrede dazu dienen, die Vergangenheit des Protagonisten zu erläutern,
+                konflikthafte Konstellationen zu zeigen, Gefühle oder Absichten zu formulieren.
+                Insofern dient sie der <referencesLink target="informationsvergabe"><referencesLink
+                        show="new" type="defines" target="informationsvergabedef"
+                        >Informationsvergabe</referencesLink></referencesLink>, da so auch das
+                Publikum dieses Wissen mitgeteilt bekommt.</LMMLtext>
+            <LMMLtext>Während in der Tragödie der Konzeption wegen der Rat des Vertrauten entweder
+                wirkungslos bleiben muss, oder keinen Ausweg aufzuzeigen vermag, können in der
+                Komödie Dienerfiguren durchaus aktiv die Handlung beeinflussen.</LMMLtext>
+            <LMMLtext><referencesLink type="illustrates" target="beispielvertrautenredeBsp"
+                /></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel Vertrautenrede" label="beispielvertrautenredeBsp">
+            <illustration label="beispielvertrautenredeBspIllu">
+                <LMMLtext>Um die vorangegangenen Handlungen zu aktualisieren und das Geschehen, das
+                    sich zwischen den gezeigten Szenen abspielt, kurz zu erläutern, nutzt R.Wagner
+                    das Mittel der Vertrautenrede, so z.B. Wotan zu Brünnhilde</LMMLtext>
+            </illustration>
+            <quotation booktitle="Die Walküre, 2. Akt, 2.Szene" authorname="Richard"
+                authorfamily="Wagner">
+                <LMMLtext type="br">BRÜNNHILDE</LMMLtext>
+                <LMMLtext type="br">Vater! Vater! Sage, was ist dir?</LMMLtext>
+                <LMMLtext type="br">Was erschreckst du mit Sorge dein Kind?</LMMLtext>
+                <LMMLtext type="br">Vertraue mir! Ich bin dir treu:</LMMLtext>
+                <LMMLtext type="br">sieh, Brünnhilde bittet!</LMMLtext>
+                <LMMLtext type="br">WOTAN</LMMLtext>
+                <LMMLtext type="br">Lass ich's verlauten,</LMMLtext>
+                <LMMLtext type="br">lös ich dann nicht meines Willens haltenden Haft?</LMMLtext>
+                <LMMLtext type="br">BRÜNNHILDE</LMMLtext>
+                <LMMLtext type="br">Zu Wotans Willen sprichst du,</LMMLtext>
+                <LMMLtext type="br">sagst du mir, was du willst;</LMMLtext>
+                <LMMLtext type="br">wer bin ich, wär' ich dein Wille nicht?</LMMLtext>
+                <LMMLtext type="br">WOTAN</LMMLtext>
+                <LMMLtext type="br">Was keinem in Worten ich künde,</LMMLtext>
+                <LMMLtext type="br">unausgesprochen bleib es denn ewig:</LMMLtext>
+                <LMMLtext type="br">mit mir nur rat ich, red ich zu dir.</LMMLtext>
+                <LMMLtext type="br">Als junger Liebe Lust mir verblich,</LMMLtext>
+                <LMMLtext type="br">verlangte nach Macht mein Mut:</LMMLtext>
+                <LMMLtext type="br">von jäher Wünsche Wüten gejagt,</LMMLtext>
+                <LMMLtext type="br">gewann ich mir die Welt.</LMMLtext>
+                <LMMLtext type="br">Unwissend trugvoll, Untreue übt' ich,</LMMLtext>
+                <LMMLtext type="br">band durch Verträge, was Unheil barg:</LMMLtext>
+                <LMMLtext type="br">Listig verlockte mich Loge,</LMMLtext>
+                <LMMLtext type="br">der schweifend nun verschwand.</LMMLtext>
+                <LMMLtext type="br">Von der Liebe doch mocht' ich nicht lassen,</LMMLtext>
+                <LMMLtext type="br">in der Macht verlangt' ich nach Minne.</LMMLtext>
+                <LMMLtext type="br">Den Nacht gebar, der bange Nibelung,</LMMLtext>
+                <LMMLtext type="br">Alberich, brach ihren Bund;</LMMLtext>
+                <LMMLtext type="br">er fluchte der Lieb' und gewann durch den Fluch</LMMLtext>
+                <LMMLtext type="br">des Rheines glänzendes Gold</LMMLtext>
+                <LMMLtext type="br">und mit ihm masslose Macht.</LMMLtext>
+                <LMMLtext type="br">Den Ring, den er schuf,</LMMLtext>
+                <LMMLtext type="br">entriss ich ihm listig;</LMMLtext>
+                <LMMLtext type="br">doch nicht dem Rhein gab ich ihn zurück:</LMMLtext>
+                <LMMLtext type="br">mit ihm bezahlt' ich Walhalls Zinnen,</LMMLtext>
+                <LMMLtext type="br">der Burg, die Riesen mir bauten,</LMMLtext>
+                <LMMLtext type="br">aus der ich der Welt nun gebot.</LMMLtext>
+                <LMMLtext type="br">Die alles weiss, was einstens war,</LMMLtext>
+                <LMMLtext type="br">Erda, die weihlich weiseste Wala,</LMMLtext>
+                <LMMLtext type="br">riet mir ab von dem Ring,</LMMLtext>
+                <LMMLtext type="br">warnte vor ewigem Ende.</LMMLtext>
+                <LMMLtext type="br">Von dem Ende wollt' ich mehr noch wissen;</LMMLtext>
+                <LMMLtext type="br">doch schweigend entschwand mir das Weib.</LMMLtext>
+                <LMMLtext type="br">Da verlor ich den leichten Mut,</LMMLtext>
+                <LMMLtext type="br">zu wissen begehrt' es den Gott:</LMMLtext>
+                <LMMLtext type="br">in den Schoss der Welt schwang ich mich hinab,</LMMLtext>
+                <LMMLtext type="br">mit Liebeszauber zwang ich die Wala,</LMMLtext>
+                <LMMLtext type="br">stört' ihres Wissens Stolz, dass sie Rede nun mir
+                    stand.</LMMLtext>
+                <LMMLtext type="br">Kunde empfing ich von ihr;</LMMLtext>
+                <LMMLtext type="br">von mir doch barg sie ein Pfand:</LMMLtext>
+                <LMMLtext type="br">der Welt weisestes Weib</LMMLtext>
+                <LMMLtext type="br">gebar mir, Brünnhilde, dich.</LMMLtext>
+                <LMMLtext type="br">Mit acht Schwestern zog ich dich auf;</LMMLtext>
+                <LMMLtext type="br">durch euch Walküren wollt ich wenden,</LMMLtext>
+                <LMMLtext type="br">was mir die Wala zu fürchten schuf:</LMMLtext>
+                <LMMLtext type="br">ein schmähliches Ende der Ew'gen.</LMMLtext>
+                <LMMLtext type="br">Dass stark zum Streit uns fände der Feind,</LMMLtext>
+                <LMMLtext type="br">hiess ich euch Helden mir schaffen:</LMMLtext>
+                <LMMLtext type="br">die herrisch wir sonst</LMMLtext>
+                <LMMLtext type="br">in Gesetzen hielten,</LMMLtext>
+                <LMMLtext type="br">die Männer, denen den Mut wir gewehrt,</LMMLtext>
+                <LMMLtext type="br">die durch trüber Verträge trügende Bande</LMMLtext>
+                <LMMLtext type="br">zu blindem Gehorsam wir uns gebunden,</LMMLtext>
+                <LMMLtext type="br">die solltet zu Sturm</LMMLtext>
+                <LMMLtext type="br">und Streit ihr nun stacheln,</LMMLtext>
+                <LMMLtext type="br">ihre Kraft reizen zu rauhem Krieg,</LMMLtext>
+                <LMMLtext type="br">dass kühner Kämpfer Scharen</LMMLtext>
+                <LMMLtext type="br">ich sammle in Walhalls Saal!</LMMLtext>
+            </quotation>
+        </section>
+    </section>
+</lmml>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Interne Reflexion" author="Martin Huber, Elisabeth Böhm" creationTime="09.09.2007" label="internereflexion" topics="Interne Reflexion"><illustration><LMMLtext>Dem Drama stehen generell zwei Möglichkeiten offen, um das eigentliche Geschehen auf dramatische Weise zu reflektieren und damit sowohl die dramatische Kommunikation selbst als auch die gezeigte Bühnenhandlung offen zu legen.
+<referencesLink target="theateraufdemtheater2"><referencesLink show="new" type="defines" target="theateraufdemtheater2def">Theater auf dem Theater</referencesLink></referencesLink> und <referencesLink target="fiktionsbrechung2"><referencesLink show="new" type="defines" target="fiktionsbrechung2def">Fiktionsbrechung</referencesLink></referencesLink></LMMLtext></illustration></section></lmml>

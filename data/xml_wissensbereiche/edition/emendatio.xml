@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="emendatio" author="Dr. Ulrich Joost; Sonja Schwänen"
+        creationTime="14.01.2008" label="emendatio">
+        <definition title="Emendatio" label="emendatiodef">
+            <LMMLtext>Übersetzung: lat.:Verbesserung („Heilung“) eines offenbar verderbten Textes
+                (sog. Korruptele).</LMMLtext>
+        </definition>
+        <definition title="Korruptele" label="korrupteledef">
+            <LMMLtext><formatted style="hervorhebung">Korruptele</formatted>: meist durch offenbar
+                fehlerhafte Überlieferung verderbte Textstelle, die der Editor zumindest zu
+                benennen, vielleicht zu emendieren hat.</LMMLtext>
+        </definition>
+        <illustration>
+            <olist>
+                <item>
+                    <LMMLtext>Ein <formatted style="hervorhebung">emendierter Text</formatted> ist
+                        ein Text, der von Schreibfehlern, Druckfehlern und erkennbaren
+                        Fremdeingriffen gereinigt wurde.</LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext>Ein <formatted style="hervorhebung">konstituierter Text</formatted>
+                        ist ein Text, der aus der linearen Darstellung einer nicht ins Reine
+                        geschriebenen Reinschrift abgeleitet wurde.</LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext>Ein <formatted style="hervorhebung">differenzierter Text</formatted>
+                        ist eine typographisch qualifizierte Wiedergabe eines <formatted
+                            style="hervorhebung">redigierten Drucks</formatted>. Abweichungen von
+                        der Vorlage oder einer vergleichbaren Textsorte erscheinen in <formatted
+                            style="hervorhebung">kleiner kursiver Schrift</formatted>, abweichende
+                        Zeichen in [ ]; erschließbare Änderungen Hölderlins sind durch kleine
+                        Antiqua gekennzeichnet.</LMMLtext>
+                </item>
+            </olist>
+        </illustration>
+    </section>
+</lmml>

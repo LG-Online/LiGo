@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Lyrik als Gattung" author="Hamburg" creationTime="28.12.2005" label="lyrikalsgattung">
+		<definition title="Lyrik als Gattung" label="lyrikalsgattungdef" topics="glossarhide">
+			<LMMLtext>Diejenige literarische Gattung, die alle Gedichte umfasst. Jedes Gedicht hat per definitionem die folgenden beiden Eigenschaften:</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>Es ist eine mündliche oder schriftliche Rede in Versen, ist also durch zusätzliche Pausen bzw. Zeilenbrüche von der normalen rhythmischen oder graphischen Erscheinungsform der Alltagssprache abgehoben.</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>Es ist kein Rollenspiel, also nicht auf szenische Aufführung hin angelegt.</LMMLtext>
+				</item>
+			</ulist>
+		</definition>
+		<illustration>
+			<LMMLtext>Diese beiden für ein Gedicht notwendigen Eigenschaften präzisieren das heute vorherrschende Verständnis des Begriffs; sie umfassen den weit überwiegenden Teil der uns aus der abendländischen Tradition überlieferten, heute als Gedichte angesehenen Texte. Zugleich ergeben die beiden Kriterien eine eher dürre „Minimaldefinition“ (Lamping 1989: 79 u. ö.), die der ganzen Fülle der historischen Erscheinungsformen lyrischer Texte kaum gerecht wird.</LMMLtext>
+			<LMMLtext>Es treten also eine ganze Reihe von Eigenschaften hinzu, von denen zwar einige auf viele oder sogar die meisten Gedichte zutreffen, keineswegs aber alle bei jedem Gedicht zu beobachten sind, beispielsweise</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>über die Versform hinausgehende grammatische Abweichungen von der Alltagssprache, vor alle, Reim und Metrum, aber auch weitere klangliche Besonderheiten (Lautmalerei), Verformungen der Wortgestalt, unübliche Wortstellung (Inversion) und viele andere;</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>die relative Kürze des Textes und die Konzisheit des sprachlichen Ausdrucks;</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>die Selbstreflexivität des Textes und der einzelnen in ihm gebrauchten sprachlichen Zeichen, die Thematisierung der Dichtung im Gedicht selbst;</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>die unvermittelte, strukturell einfache Redesituation, die Nähe des im Gedicht Sprechenden zum Autor oder zur Autorin;</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>die unmittelbare Ansprache des Lesenden, Direktheit der literarischen Kommunikation, strukturelle Dominanz der Personalpronomina, besonders derjenigen der ersten und zweiten Person;</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>ein besonders verdichteter, durch Wiederholungen (Leitmotive) und gezielte Variationen gekennzeichneter Wortgebrauch und eine große Bedeutung der Bildlichkeit (Metapher, Allegorie, Symbol);</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>die Sangbarkeit des Textes, der liedartige Charakter, die Nähe zur Musik.</LMMLtext>
+					<LMMLtext>Die Liste dieser (nicht notwendigen, sondern akzidentiellen) Merkmale ließe sich verlängern und weiter ausdifferenzieren. (Burdorf 1995: 20)</LMMLtext>
+				</item>
+			</ulist>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielzumunterschiedzwischenversifizierterundnichtversifizierterredeBsp"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel zum Unterschied zwischen versifizierter und nicht versifizierter Rede" label="beispielzumunterschiedzwischenversifizierterundnichtversifizierterredeBsp">
+			<illustration label="beispielzumunterschiedzwischenversifizierterundnichtversifizierterredeBspIllu">
+				<LMMLtext>Das folgende Beispiel (aus Lamping 1989: 53) ist reduziert auf Voraussetzungen wie Verteilung des Textes auf Verszeilen und Funktionen des Zeilenbruchs – z.B. im Herausstellen von Satzelementen in exponierten Positionen als Ansatzpunkten für Sinnsetzungen.</LMMLtext>
+				<LMMLtext>(a) Prosafassung im <formatted style="regie">Athenäum</formatted>:</LMMLtext>
+			</illustration>
+			<quotation booktitle=" 2. Hymne an die Nacht" authorname=" Friedrich" authorfamily=" von Hardenberg (gen. Novalis)">
+				<LMMLtext>ahnden nicht, daß aus alten Geschichten du himmelöffnend entgegen trittst und den Schlüssel trägst zu den Wohnungen der Seligen, unendlicher Geheimnisse schweigender Bote.</LMMLtext>
+			</quotation>
+			<illustration>
+				<LMMLtext>(b) handschriftliche Versfassung:</LMMLtext>
+			</illustration>
+			<quotation booktitle=" 2. Hymne an die Nacht" authorname=" Friedrich" authorfamily=" von Hardenberg (gen. Novalis)">
+				<LMMLtext>Ahnden nicht</LMMLtext>
+				<LMMLtext type="br">Daß aus alten Geschichten</LMMLtext>
+				<LMMLtext type="br">Du himmelöffnend entgegentrittst</LMMLtext>
+				<LMMLtext type="br">Und den Schlüssel trägst</LMMLtext>
+				<LMMLtext type="br">Zu den Wohnungen der Seligen</LMMLtext>
+				<LMMLtext type="br">Unendlicher Geheimnisse</LMMLtext>
+				<LMMLtext type="br">Schweigender Bote.</LMMLtext>
+			</quotation>
+		</section>
+	</section>
+</lmml>

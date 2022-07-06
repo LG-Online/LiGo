@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Präsentation von Worten" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="27.07.2005" label="worte">
+		<illustration>
+			<LMMLtext>Es gibt drei verschiedene Modi zur Präsentation von Worten.</LMMLtext>
+			<LMMLtext>Je nachdem, ob Worte mit mehr oder weniger
+Distanz präsentiert werden, unterscheidet man
+zwischen</LMMLtext>
+			<LMMLtext>
+				<externalLink show="embed" uri="uebersichtworte.gif"/>
+			</LMMLtext>
+		</illustration>
+		<illustration>
+			<LMMLtext>
+				<referencesLink target="erzaehlterede">Präsentation von Worten im narrativen Modus: erzählte Rede</referencesLink>
+			</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext><referencesLink show="new" type="defines" target="erwaehnungdessprachlichenaktes">
+							<referencesLink target="erwsprachlakt">Erwähnung des sprachlichen Akts</referencesLink>
+						</referencesLink>
+					
+					</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>
+						
+						<referencesLink show="new" type="defines" target="redeberichtdef">
+							<referencesLink target="redebericht">Redebericht</referencesLink>
+						</referencesLink></LMMLtext>
+				</item>
+			</ulist>
+			<LMMLtext>
+				<referencesLink target="transponierterede">Präsentation von Worten im gemischten Modus: transponierte Rede</referencesLink>
+			</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>
+						<referencesLink show="new" type="defines" target="indirekteredeoratioobliqua">
+							<referencesLink target="indirekterede">indirekte Rede</referencesLink>
+						</referencesLink>
+					</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>
+						<referencesLink show="new" type="defines" target="erlebterededef">
+							<referencesLink target="erlebterede">erlebte Rede</referencesLink>
+						</referencesLink>
+					</LMMLtext>
+				</item>
+			</ulist>
+			<LMMLtext>
+				<referencesLink target="zitierterede">Präsentation von Worten im dramatischen Modus: zitierte Rede</referencesLink>
+			</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>
+						<referencesLink show="new" type="defines" target="direkteredeoratiorecta">
+							<referencesLink target="direkterede">direkte Rede</referencesLink>
+						</referencesLink>
+					</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>
+						<referencesLink show="new" type="defines" target="autonomedirekterededef">
+							<referencesLink target="autonomedirekterede">autonome direkte Rede</referencesLink>
+						</referencesLink>
+					</LMMLtext>
+				</item>
+			</ulist>
+		</illustration>
+	</section>
+</lmml>

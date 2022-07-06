@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/left.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd/LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="Erzähltextanalyse" author="Katrin Fischer" creationTime="25.04,05" label="erzaehltextanalyse">
+		<illustration>
+			<LMMLtext>	In diesem Bereich werden die Grundbegriffe der Erzähltextanalyse erläutert,  die zum größten Teil auf der Darstellung von Matías Martínez und Michael Scheffel <referencesLink show="new" type="book" target="Martinez2005">(Martinez/Scheffel 2005)</referencesLink> beruhen, die im Bereich Erzählstimme um Überlegungen von Wolf Schmid <referencesLink show="new" type="book" target="Schmid2005">(Schmid 2005)</referencesLink>, im Bereich der Figurenanalyse um die Terminologie von Fotis Jannidis <referencesLink show="new" type="book" target="Jannidis2004">(Jannidis 2005)</referencesLink> ergänzt wurden. Sie können entweder einen der Begriffe aus dem Inhaltsverzeichnis direkt anwählen, oder sich, ausgehend von der Seite "Erzählen", mit dem Pfeil am rechten unteren Seitenrand durch diesen Bereich führen lassen.</LMMLtext>
+			<LMMLtext uri="prosa" type="inhaltsverzeichnis"/>
+		</illustration>
+	</section>
+</lmml>

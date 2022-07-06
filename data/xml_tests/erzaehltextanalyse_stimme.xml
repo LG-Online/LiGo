@@ -1,0 +1,22 @@
+<exerciselist time="600" title="Erzähltextanalyse (Stimme)">
+    <exercise section="prosa" location="fruehereserzaehlen"
+        locallabel="uebungzumfrueherenerzaehlenUeb" title="bung zum frheren Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="spaetereserzaehlen"
+        locallabel="uebungzumspaeterenerzaehlenUeb" title="bung zum spteren Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="gleichzeitigeserzaehlen"
+        locallabel="uebungzumgleichzeitigenerzaehlenUeb" title="bung zum gleichzeitigen Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="eingeschobeneserzaehlen"
+        locallabel="uebungzumeingeschobenenerzaehlenUeb" title="bung zum eingeschobenen Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="sekundaereserzaehlen"
+        locallabel="uebungzumsekundaerenerzaehlenUeb" title="bung zum sekundren Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="tertiaereserzaehlen"
+        locallabel="uebungzumtertiaerenerzaehlenUeb" title="bung zum tertiren Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="textmontage" locallabel="uebungzurtextmontageUeb"
+        title="bung zur Textmontage" type="multiplechoice"/>
+</exerciselist>

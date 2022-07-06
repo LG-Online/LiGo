@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Prolog" author="Martin Huber, Elisabeth Böhm"
+        creationTime="09.09.2007" label="prolog" topics="Prolog">
+        <definition title="Prolog" label="prologdef">
+            <LMMLtext>Der eigentlichen Dramenhandlung vorgelagerte, deutlich markierte Vorrede, die
+                der Ankündigung, Erläuterung und Ausdeutung dienen kann.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Der Prolog (griech. prologos = Vorrede) geht dem Drama voran, markiert also
+                eine andere Fiktionsebene, insofern er nicht zur Dramenhandlung gehört, wobei er
+                aber durchaus von einer oder mehreren Figuren der dramatis personae gesprochen
+                werden kann. Genauso kann der Prolog aber auch von einem gesonderten Sprecher
+                vorgetragen werden, oder sich in Form eines Vorspiels als eigenes ‚Schauspiel in
+                Reduktion’ präsentieren.</LMMLtext>
+            <LMMLtext>Meist tritt nach der fiktionalen Handlung noch ein <referencesLink
+                    target="epilog"><referencesLink show="new" type="defines" target="epilogdef"
+                        >Epilog</referencesLink></referencesLink> in rahmender Funktion zum Prolog,
+                der gleich oder ähnlich besetzt ist und meist auf diesen indirekt oder direkt Bezug
+                nimmt.</LMMLtext>
+            <LMMLtext>Eine solche Rahmung nimmt eine gesonderte Rolle in der dramatischen
+                Kommunikation ein und kann dabei, je nach Anlage, verfremdend und illusionsbrechend
+                (z.B. im epischen Theater) oder eher identifikatorisch wirken. Als progressiver und
+                ggf. selbstreflexiver Übergang zwischen Realität und Spiel bietet der Prolog auch
+                Raum für auktoriale Reflexion. Er enthält allerdings keine Informationen, die für
+                das direkte Verständnis der Dramenhandlung essentiell notwendig wären, kann jedoch
+                eine weitere Deutungsebene eröffnen.</LMMLtext>
+            <LMMLtext><referencesLink type="illustrates" target="beispielprologBsp"/></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel Prolog" label="beispielprologBsp">
+            <illustration>
+                <LMMLtext>In Shakespeares <formatted style="buchtitel">Ein
+                        Sommernachtstraum</formatted> soll am Hof ein Schauspiel aufgeführt werden.
+                    Man sieht also ein Spiel im Spiel. Zunächst tritt der Prologus auf, der das
+                    Stück ankündigt. Die Zuschauer kommentieren entsprechend:</LMMLtext>
+            </illustration>
+            <quotation booktitle="Ein Sommernachtstraum" authorname="William"
+                authorfamily="Shakespeare">
+                <LMMLtext type="br"><formatted style="hervorhebung"
+                    >Philostrat.</formatted></LMMLtext>
+                <LMMLtext type="br">Beliebt es Eurer Hoheit? Der Prolog</LMMLtext>
+                <LMMLtext>Ist fertig.</LMMLtext>
+                <LMMLtext type="br"><formatted style="hervorhebung">Theseus.</formatted></LMMLtext>
+                <LMMLtext>Laßt ihn kommen.</LMMLtext>
+                <LMMLtext><formatted style="regie">Trompeten. - Der Prolog tritt
+                    auf.</formatted></LMMLtext>
+                <LMMLtext type="br"><formatted style="hervorhebung">Prolog.</formatted></LMMLtext>
+                <LMMLtext type="br">Wenn wir mißfallen tun, so ist's mit gutem Willen;</LMMLtext>
+                <LMMLtext type="br">Der Vorsatz bleibt doch gut, wenn wir ihn nicht
+                    erfüllen.</LMMLtext>
+                <LMMLtext type="br">Zu zeigen unsre Pflicht durch dieses kurze Spiel,</LMMLtext>
+                <LMMLtext type="br">Das ist der wahre Zweck von unserm End und Ziel.</LMMLtext>
+                <LMMLtext type="br">Erwäget also denn: warum wir kommen sein:</LMMLtext>
+                <LMMLtext type="br">Wir kommen nicht, als sollt ihr euch daran ergetzen;</LMMLtext>
+                <LMMLtext type="br">Die wahre Absicht ist - zu eurer Lust allein</LMMLtext>
+                <LMMLtext type="br">Sind wir nicht hier - daß wir in Reu und Leid euch
+                    setzen.</LMMLtext>
+                <LMMLtext type="br">Die Spieler sind bereit; wenn ihr sie werdet sehen,</LMMLtext>
+                <LMMLtext>Versteht ihr alles schon, was ihr nur wollt verstehen.</LMMLtext>
+                <LMMLtext type="br"><formatted style="hervorhebung">Theseus.</formatted></LMMLtext>
+                <LMMLtext>Dieser Bursche nimmt's nicht sehr genau.</LMMLtext>
+                <LMMLtext type="br"><formatted style="hervorhebung">Lysander.</formatted></LMMLtext>
+                <LMMLtext>Er hat seinen Prolog geritten wie ein wildes Füllen; er weiß noch nicht,
+                    wo er halt machen soll. Eine gute Lehre, gnädiger Herr: es ist nicht genug, daß
+                    man rede; man muß auch richtig reden.</LMMLtext>
+                <LMMLtext type="br"><formatted style="hervorhebung"
+                    >Hippolyta.</formatted></LMMLtext>
+                <LMMLtext>In der Tat, er hat auf seinem Prolog gespielt wie ein Kind auf der Flöte.
+                    Er brachte wohl einen Ton heraus, aber keine Note.</LMMLtext>
+                <LMMLtext type="br"><formatted style="hervorhebung">Theseus.</formatted></LMMLtext>
+                <LMMLtext>Seine Rede war wie eine verwickelte Kette: nichts zerrissen, aber alles in
+                    Unordnung. Wer kommt zunächst?</LMMLtext>
+                <LMMLtext><formatted style="regie">Pyramus, Thisbe, Wand, Mondschein und Löwe treten
+                        als stumme Personen auf.</formatted></LMMLtext>
+                <LMMLtext type="br"><formatted style="hervorhebung">Prolog.</formatted></LMMLtext>
+                <LMMLtext type="br">Was dies bedeuten soll, das wird euch wundern müssen,</LMMLtext>
+                <LMMLtext type="br">Bis Wahrheit alle Ding' stellt an das Licht herfür.</LMMLtext>
+                <LMMLtext type="br">Der Mann ist Pyramus, wofern ihr es wollt wissen;</LMMLtext>
+                <LMMLtext type="br">Und dieses Fräulein schön ist Thisbe, glaubt es mir.</LMMLtext>
+                <LMMLtext type="br">Der Mann mit Mörtel hier und Leimen soll bedeuten</LMMLtext>
+                <LMMLtext type="br">Die Wand, die garstge Wand, die ihre Lieb tät
+                    scheiden.</LMMLtext>
+                <LMMLtext type="br">Doch freut es sie, drob auch sich niemand wundern
+                    soll,</LMMLtext>
+                <LMMLtext type="br">Wenn durch die Spalte klein sie konnten flüstern
+                    wohl.</LMMLtext>
+                <LMMLtext type="br">Der Mann da mit Latern und Hund und Busch von Dorn</LMMLtext>
+                <LMMLtext type="br">Den Mondschein präsentiert, denn, wann ihr's wollt
+                    erwägen:</LMMLtext>
+                <LMMLtext type="br">Bei Mondschein hatten die Verliebten sich verschworn,</LMMLtext>
+                <LMMLtext type="br">Zu gehen nach Nini Grab, um dort der Lieb zu pflegen.</LMMLtext>
+                <LMMLtext type="br">Dies gräßlich wilde Tier, mit Namen Löwe groß,</LMMLtext>
+                <LMMLtext type="br">Die treue Thisbe, die des Nachts zuerst gekommen,</LMMLtext>
+                <LMMLtext type="br">Tät scheuchen, ja vielmehr erschrecken, daß sie bloß</LMMLtext>
+                <LMMLtext type="br">Den Mantel fallen ließ und drauf die Flucht genommen.</LMMLtext>
+                <LMMLtext type="br">Drauf dieser schnöde Löw in seinen Rachen nahm</LMMLtext>
+                <LMMLtext type="br">Und ließ mit Blut befleckt den Mantel lobesam.</LMMLtext>
+                <LMMLtext type="br">Sofort kommt Pyramus, ein Jüngling weiß und rot,</LMMLtext>
+                <LMMLtext type="br">Und find't den Mantel da von seiner Thisbe tot;</LMMLtext>
+                <LMMLtext type="br">Worauf er mit dem Deg'n, mit blutig bösem Degen</LMMLtext>
+                <LMMLtext type="br">Die blutge heiße Brust sich tapferlich durchstach;</LMMLtext>
+                <LMMLtext type="br">Und Thisbe, die indes im Maulbeerschatten glegen,</LMMLtext>
+                <LMMLtext type="br">Zog seinen Dolch heraus und sich das Herz zerbrach.</LMMLtext>
+                <LMMLtext type="br">Was noch zu sagen ist, das wird - glaubt mir fürwahr!
+                    -</LMMLtext>
+                <LMMLtext type="br">Euch Mondschein, Wand und Löw und das verliebte Paar</LMMLtext>
+                <LMMLtext type="br">Der Läng und Breite nach, solang sie hier verweilen,</LMMLtext>
+                <LMMLtext>Erzählen, wenn ihr wollt, in wohlgereimten Zeilen.</LMMLtext>
+                <LMMLtext><formatted style="regie">(Prolog, Thisbe, Löwe und Mondschein
+                        ab.)</formatted></LMMLtext>
+                <LMMLtext type="br"/>
+            </quotation>
+        </section>
+        <illustration>
+            <LMMLtext><referencesLink type="exercises" target="uebungrologUeb"/></LMMLtext>
+        </illustration>
+        <exercise topics="luecken" label="uebungrologUeb" title="Übung Prolog">
+            <task type="lueckentext">
+                <quotation type="luecken">
+                    <LMMLtext/>
+                    <LMMLtext>Im Prolog wird <option
+                        label="einrahmenfuerdennachfolgendendramentextgeschaffenSelect">ein
+                        Rahmen für den nachfolgenden Dramentext geschaffen</option>
+                        <option label="informationvergeben"
+                            target="einrahmenfuerdennachfolgendendramentextgeschaffenSelect"
+                            >Information vergeben.</option>
+                        <option label="dietheatralitaetverdeutlicht"
+                            target="einrahmenfuerdennachfolgendendramentextgeschaffenSelect">die
+                            Theatralität verdeutlicht.</option>
+                        <option label="dienachfolgendehandlungkommentiert"
+                            target="einrahmenfuerdennachfolgendendramentextgeschaffenSelect">die
+                            nachfolgende Handlung kommentiert.</option>, in der Exposition dagegen
+                        wird <option label="dietheatralitaetverdeutlichtSelect">die Theatralität
+                            verdeutlicht.</option>
+                        <option label="einrahmenfuerdienachfolgendehandlunggebildet"
+                            target="dietheatralitaetverdeutlichtSelect">ein Rahmen für die
+                            nachfolgende Handlung gebildet.</option>
+                        <option label="diehandlungkommentiert"
+                            target="dietheatralitaetverdeutlichtSelect">die Handlung
+                            kommentiert.</option>
+                    </LMMLtext>
+                </quotation>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>Wie muss der Satz zum Prolog richtig lauten?</LMMLtext>
+            </task>
+            <task type="lueckenerlaeuterung">
+                <LMMLtext>Da der Prolog außerhalb des eigentlichen Dramentextes zu finden ist, hat
+                    er oft rahmende Funktion. Die Exposition dagegen dient der Verdeutlichung der
+                    Theatralität.</LMMLtext>
+            </task>
+        </exercise>
+    </section>
+</lmml>

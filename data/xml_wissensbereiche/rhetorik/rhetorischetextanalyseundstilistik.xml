@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Rhetorische Textanalyse und Stilistik" author="Uwe Spörl" creationTime="08.04.2007" label="rhetorischetextanalyseundstilistik" topics="Rhetorische Textanalyse und Stilistik">
+		<illustration>
+			<LMMLtext>Die Rhetorik als Know How von der (guten und effektiven) Textproduktion stellt – durch einen Wechsel von der Perspektive der Textproduktion zu der der Textrezeption – natürlich auch die Mittel zur Verfügung, Texte und ihre Eigenarten zu beschreiben und zu analysieren.</LMMLtext>
+			<LMMLtext>Dies hat sich insbesondere im Bereich der Textoberflächenanalyse durchgesetzt und bis heute behauptet. Die Metapher von der Oberfläche des Textes bezieht sich dabei auf den von der <referencesLink show="new" type="defines" target="elocutiodef">
+					<referencesLink target="elocutiomitornatus">elocutio</referencesLink>
+				</referencesLink> bezeichneten Bereich der Textproduktion im engeren Sinne, um die Gestaltung von Text also, wie er für den Leser oder Hörer (als Oberfläche) erscheint.</LMMLtext>
+			<LMMLtext>Da Rhetorik entsprechend ihrem Norm-Abweichungsschema (vgl.  <referencesLink show="new" type="defines" target="arsnaturadef">
+					<referencesLink target="arsnatura">ars – natura</referencesLink>
+				</referencesLink>) vor allem von Auffälligkeiten ausgeht, sind für die  <referencesLink target="rhetorischetextanalysefigurenundtropen">rhetorische Textanalyse</referencesLink> vor allem Figuren und Tropen von Bedeutung.</LMMLtext>
+			<LMMLtext>Die Verwendung von solchen Figuren und Tropen kann zudem als ein Faktor unter mehreren für Fragen des Stils angesehen werden, so dass in diesem Abschnitt auch einige Grundbegriffe der <referencesLink target="stilistik">Stilistik</referencesLink>  erläutert werden.</LMMLtext>
+		</illustration>
+	</section>
+</lmml>

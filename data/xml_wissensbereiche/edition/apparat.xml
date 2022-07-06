@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Apparat" author="Ulrich Joost" creationTime="14.01.2008"
+        label="apparat" topics="Apparat">
+        <illustration>
+            <LMMLtext><referencesLink type="exercises" target="uebung1apparatUeb"/><referencesLink
+                    type="exercises" target="uebung2apparatUeb"/></LMMLtext>
+        </illustration>
+        <exercise topics="multiplechoice" label="uebung1apparatUeb" title="Erste Übung Apparat">
+            <task type="textbeispiel">
+                <table>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>H1 An Schwager Kronos</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>H2 An Schwager Kronos</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Spude dich, Kronos!</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Spude dich, Kronos!</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Fort den rasselnden Trott!</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Fort den rasselnden Trott!</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Bergab gleitet der Weg;</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Bergab gleitet der Weg;</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Ekles Schwindeln zögert</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Ekles Schwindeln zögert</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>5 Mir vor die Stirne dein Haudern.</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>5 Mir vor die Stirne dein Zaudern.</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Frisch, den holpernden</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Frisch, holpert es gleich,</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Stock Wurzeln Steine den Trott</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Über Stock und Steine den Trott</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Rasch in’s Leben hinein!</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Rasch in’s Leben hinein!</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                </table>
+                <quotation booktitle="Schwager Kronos" authorname="Johann Wolfgang"
+                    authorfamily="Goethe">
+                    <LMMLtext/>
+                </quotation>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>Wie nennt man die hier gezeigte Darstellungsweise der beiden Versionen der
+                    ersten Strophe von Goethes "An Schwager Kronos"?</LMMLtext>
+            </task>
+            <task type="alternative" target="uebungapparatL1">
+                <LMMLtext>Einblendungsapparat</LMMLtext>
+            </task>
+            <solution label="uebungapparatL1" true="false">
+                <LMMLtext> </LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungapparatL2">
+                <LMMLtext>Treppenapparat</LMMLtext>
+            </task>
+            <solution label="uebungapparatL2" true="false">
+                <LMMLtext> </LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungapparatL3">
+                <LMMLtext>Synoptischer Apparat, Synopse</LMMLtext>
+            </task>
+            <solution label="uebungapparatL3" true="true">
+                <LMMLtext> </LMMLtext>
+            </solution>
+        </exercise>
+        <exercise topics="musterloesung" label="uebung2apparatUeb" title="Zweite Übung Apparat">
+            <task type="textbeispiel">
+                <LMMLtext><poem authorname="Johann Wolfgang" authorfamily="Goethe"
+                        booktitle="Nach: Goethes Werke WA I, Bandnummer, Seitenzahl"
+                        title="An Schwager Kreon">
+                        <poemlinegroup>
+                            <poemline>Seitwärts des Überdachs Schatten</poemline>
+                            <poemline>20 Zieht dich an,</poemline>
+                            <poemline>Und ein Frischung verheißender Blick</poemline>
+                            <poemline>Auf der Schwelle des Mädgens da.</poemline>
+                            <poemline>Labe dich! – Mir auch, Mädgen,</poemline>
+                            <poemline>Diesen schäumenden Trank,</poemline>
+                            <poemline>25 Diesen frischen Gesundheitsblick!</poemline>
+                        </poemlinegroup>
+                        <poemlinegroup>
+                            <poemline>21 ein] der verheißender] verheißende</poemline>
+                            <poemline>23 dich! –] dich – 24 Trank] Trunck 25 Diesen frischen
+                                Gesundheitsblick] Und den freundlichen Gesundheits Blick</poemline>
+                        </poemlinegroup>
+                    </poem></LMMLtext>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>Dies ist die vierte Strophe der späteren Version von Goethes Gedicht „An
+                    Schwager Kronos“. Rekonstruieren Sie anhand des Apparates den
+                    Ursprungstext.</LMMLtext>
+            </task>
+            <task type="userinput">
+                <LMMLtext>
+                    <poem>
+                        <poemlinegroup>
+                            <poemline>Seitwärts des Überdachs Schatten</poemline>
+                            <poemline>20 Zieht dich an,</poemline>
+                            <poemline>Und der Frischung verheißende Blick</poemline>
+                            <poemline>Auf der Schwelle des Mädgens da.</poemline>
+                            <poemline>Labe dich – Mir auch, Mädgen,</poemline>
+                            <poemline>Diesen schäumenden Trunck,</poemline>
+                            <poemline>25 Und den freundlichen Gesundheits Blick!</poemline>
+                        </poemlinegroup>
+                    </poem></LMMLtext>
+            </task>
+        </exercise>
+    </section>
+</lmml>

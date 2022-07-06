@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Anapher" author="Uwe Spörl" creationTime="08.04.2007" label="anapher" topics="Anapher"><illustration><LMMLtext>griech.: ana-phorá = Wieder-Aufnahme</LMMLtext></illustration><definition title="Anapher" label="anapherdef"><LMMLtext>Wortfigur: Wiederholung eines Wortes oder einer Wortgruppe zu Beginn mehrerer aufeinander folgender Sätze, Satzteile oder Verse</LMMLtext></definition><illustration><LMMLtext>Die Anapher ist eine Wortfigur. Sie besteht in der (ggf. leicht variierten) Wiederholung desselben Wortes oder derselben Wortgruppe zu Beginn aufeinander folgender Sätze, Satzteile oder Verse.</LMMLtext><LMMLtext>So dient sie der Strukturierung und Rhythmisierung von Texten. Die wiederholten Einheiten werden ggf. als besonders bedeutsam hervorgehoben.</LMMLtext><LMMLtext>Eng mit der Anapher verwandt und mit dieser kombinierbar ist die <formatted style="hervorhebung">Epipher</formatted>, die vergleichbare Wiederholungen am Ende aufeinander folgender syntaktischer Einheiten vorsieht.</LMMLtext><LMMLtext><referencesLink type="illustrates" target="beispielanapherBsp"></referencesLink></LMMLtext></illustration><section type="example" title="Beispiel Anapher" label="beispielanapherBsp"><illustration><LMMLtext>Beispiele für <referencesLink show="new" type="defines" target="anapherdef">Anaphern</referencesLink> in aufeinander folgenden Versen sind:</LMMLtext></illustration><illustration><LMMLtext><poem authorname="Wilhelm" authorfamily="Busch" booktitle="Max und Moritz">
+							<poemlinegroup>
+								<poemline>Wer soll nun die Kinder lehren und die Wissenschaft vermehren?</poemline>
+								<poemline>Wer soll nun für Lämpel leiten seines Amtes Tätigkeiten?</poemline>
+							</poemlinegroup>
+						</poem></LMMLtext></illustration><illustration><LMMLtext><poem authorname="Bertolt" authorfamily="Brecht" booktitle="Dreigroschenoper">
+							<poemlinegroup>
+								<poemline>Ja, da kann man sich doch nur hinlegen,</poemline>
+								<poemline>Ja, da muß man kalt und herzlos sein.</poemline>
+							<poemline>Ja, da könnte so viel geschehen.</poemline>
+							<poemline>Ach, da gibt’s überhaupt nur: nein!</poemline>
+							</poemlinegroup>
+						</poem></LMMLtext></illustration><illustration><LMMLtext>Ein Beispiel für eine Anapher in aufeinander folgenden Sätzen bzw. Satzteilen ist:</LMMLtext></illustration><quotation booktitle="Die Verschwörung des Fiesco zu Genua" authorname="Friedrich" authorfamily="Schiller"><LMMLtext>Der Mohr hat seine Schuldigkeit getan, der Mohr kann gehen. </LMMLtext></quotation><illustration label="beispielanapherBspIllu"><LMMLtext>Eine Epipher, die zudem einen identischen Reim produziert, liegt in folgendem Textauszug vor:</LMMLtext></illustration><illustration><LMMLtext><poem authorname="Friedrich" authorfamily="Nietzsche" booktitle="Also sprach Zarathustra">
+							<poemlinegroup>
+								<poemline>Doch alle Lust will Ewigkeit –,</poemline>
+								<poemline>– will tiefe, tiefe Ewigkeit!</poemline>
+							</poemlinegroup>
+						</poem></LMMLtext></illustration></section></section></lmml>

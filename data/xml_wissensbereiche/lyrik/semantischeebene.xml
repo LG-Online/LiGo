@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Semantische Ebene" author="Hamburg" creationTime="15.01.2006" label="semantischeebene" topics="Semantik"><illustration><LMMLtext>Die semantischen Struktur eines Lyrik-Textes lässt sich erfassen durch die Analyse von</LMMLtext><ulist><item><LMMLtext>Bedeutungsfeldern des Wortmaterials (lexikalische Bedeutungen, Konnotationen, Assoziationen);</LMMLtext></item><item><LMMLtext>‚Paradigmata‘ (Äquivalenzklassen bzw. Isotopien) und ihrer Projektionen auf die syntagmatische Achse des Textes (im Sinne Roman Jakobsons).</LMMLtext></item><item><LMMLtext>Aspekten der „elocutio“ (rhetorische Tropen).</LMMLtext></item></ulist></illustration></section></lmml>

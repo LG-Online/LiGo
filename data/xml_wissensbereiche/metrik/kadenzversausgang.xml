@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Kadenz/Versausgang" author="Sebastian Donat" creationTime="24.03.2008" label="kadenzversausgang" topics="Kadenz/Versausgang">
+		<definition title="Kadenz/Versausgang" label="kadenzversausgangdef">
+			<LMMLtext>Metrisch-rhythmische Gestaltung des Versendes (<referencesLink target="versgrenzen">
+					<referencesLink show="new" type="defines" target="versgrenzendef">Versgrenzen</referencesLink>
+				</referencesLink>).</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Die Kadenz umschließt den Versausgang ab der letzten <referencesLink target="hebung">
+					<referencesLink show="new" type="defines" target="hebungdef">Hebung</referencesLink>
+				</referencesLink> bzw. prominenten Silbe.
+Unterschieden werden männliche (auch: stumpfe) einsilbige Kadenzen (d.h. der Vers endet auf einer Hebung bzw. prominenten Silbe), weibliche (auch: klingende) zweisilbige Kadenzen (d.h. der Vers endet auf einer Hebung und nachfolgenden <referencesLink target="senkung">
+					<referencesLink show="new" type="defines" target="senkungdef">Senkung</referencesLink>
+				</referencesLink> bzw. einer prominenten und anschließenden nicht-prominenten Silbe) und daktylische Kadenzen (Hebung bzw. prominente Silbe, gefolgt von zwei Senkungen bzw. nicht-prominenten Silben).</LMMLtext>
+			<LMMLtext>In versfußmetrisch gebundenen Texten ist die Realisationsform des letzten <referencesLink target="versfuss">
+					<referencesLink show="new" type="defines" target="versfussdef">Versfußes</referencesLink>
+				</referencesLink> in der Zeile von besonderem Interesse (<referencesLink target="akatalektisch">
+					<referencesLink show="new" type="defines" target="akatalektischdef">akatalektisch</referencesLink>
+				</referencesLink>, <referencesLink target="katalektisch">
+					<referencesLink show="new" type="defines" target="katalektischdef">katalektisch</referencesLink>
+				</referencesLink>, <referencesLink target="hyperkatalektisch">
+					<referencesLink show="new" type="defines" target="hyperkatalektischdef">hyperkatalektisch</referencesLink>
+				</referencesLink>).<referencesLink type="illustrates" target="beispielkadenzversausgangBsp"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Kadenz/Versausgang" label="beispielkadenzversausgangBsp">
+			<quotation booktitle="Da du nun Suleika heißest" authorname="Johann Wolfgang" authorfamily="Goethe">
+				<LMMLtext/>
+			</quotation>
+			<illustration label="beispielkadenzversausgangBspIllu">
+				<table style="invisible">
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Da du nun Suleika heißest,</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x X x X x X x</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>w</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Sollt ich auch benamset seyn.</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x X x X x X</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>m</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Wenn du deinen Geliebten preisest,</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x X x x X x X x</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>w</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Hatem! das soll der Name seyn.</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x X x x X x X</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>m</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Nur daß man mich daran erkennet,</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x x X x X x X x</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>w</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Keine Anmaßung soll es seyn.</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x X x x X x X</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>m</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata/>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Wer sich St. Georgenritter nennet</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x X x X x x x X x</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>w</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Denkt nicht gleich Sanct Georg zu seyn.</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x X x X x x X</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>m</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Nicht Hatem Thai, nicht der Alles Gebende</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x X x x X x X x x</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>d</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Kann ich in meiner Armutt seyn,</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x x X x X x X</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>m</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Hatem Zograi nicht, der reichlichst Lebende</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x x X x x X x X x x</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>d</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Von allen Dichtern, möcht’ ich seyn.</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x X x X x X</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>m</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Aber beyde doch im Auge zu haben</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x X x x x X x x X x</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>w</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Es wird nicht ganz verwerflich seyn:</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x X x X x X</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>m</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Zu nehmen, zu geben des Glückes Gaben</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x x X x x X x X x</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>w</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Wird immer ein groß Vergnügen seyn.</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x x X x X x X</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>m</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Sich liebend an einander zu laben</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x X x X x x X x</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>w</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Wird Paradieses Wonne seyn.</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x x X x X x X</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>m</LMMLtext>
+						</tabledata>
+					</tablerow>
+				</table>
+				<LMMLtext>Dieses ghaselartige (Ghasel) Gedicht aus Goethes <formatted style="buchtitel">West-östlichem Divan</formatted> besteht aus vierhebigen <referencesLink target="versemitfuellungsfreiheit">
+						<referencesLink show="new" type="defines" target="versemitfuellungsfreiheitdef">Versen mit Füllungsfreiheit</referencesLink>
+					</referencesLink>. Die Kadenzen (oben durch Unterstreichung hervorgehoben) der geraden Verse sind durchwegs männlich (m), die der ungeraden weiblich (w) oder daktylisch (d).</LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

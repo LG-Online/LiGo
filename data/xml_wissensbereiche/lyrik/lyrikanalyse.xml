@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="coaching" title="Lyrikanalyse" author="Katrin Fischer" creationTime="05.12.05" label="lyrik"><illustration>
+			<LMMLtext>In diesem Bereich werden die Grundbegriffe der Lyrik erläutert. Sie können entweder einen der Begriffe aus dem Inhaltsverzeichnis direkt anwählen, oder sich, ausgehend von der Seite "Lyrik",  mit dem Pfeil am rechten unteren Seitenrand durch diesen Bereich führen lassen.</LMMLtext>
+			</illustration><illustration><LMMLtext>Quellenhinweis:
+Zusammengestellt von Jörg Schönert in Zusammenarbeit mit Thorsten Ries und im Rückgriff auf ein Arbeitsblatt von Simone Winko (Universität Hamburg 1994/95) sowie den Beitrag von Peter Hühn/Jörg Schönert (Hühn/Schönert 2002).</LMMLtext><LMMLtext> 
+	Das Vorbild für die nachfolgenden Hinweise findet sich bei Alwin Binder und Heinrich Richartz (Binder/Richartz 1984, S. 14-33). Zudem wird hier die Einführung von Dieter Burdorf herangezogen (Burdorf 1995).
+</LMMLtext><LMMLtext type="inhaltsverzeichnis" uri="lyrik"> Inhaltsverzeichnis Lyrikanalyse</LMMLtext>
+		</illustration>
+	</section></lmml>

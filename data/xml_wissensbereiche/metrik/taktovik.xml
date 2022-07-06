@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Taktovik" author="Sebastian Donat" creationTime="23.03.2008"
+        label="taktovik" topics="Taktovik">
+        <definition title="Taktovik" label="taktovikdef">
+            <LMMLtext>Taktovik: Untergruppe der <referencesLink target="versemitfuellungsfreiheit"
+                        ><referencesLink show="new" type="defines"
+                        target="versemitfuellungsfreiheitdef">Verse mit
+                        Füllungsfreiheit</referencesLink></referencesLink>. Die Anzahl der
+                nicht-prominenten zwischen den prominenten Silben variiert zwischen 0 und
+                3.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Die in der russischen Verstheorie entwickelte Kategorie läßt sich problemlos
+                auf andere (so auch deutsche) Textcorpora anwenden. So kann eine präzise rhythmische
+                Differenzierung im Bereich der Verse mit Füllungsfreiheit vorgenommen werden (vgl.
+                    <referencesLink target="dolnik"><referencesLink show="new" type="defines"
+                        target="dolnikdef">Dol’nik</referencesLink></referencesLink>,
+                    <referencesLink target="akcentnyjstich"><referencesLink show="new"
+                        type="defines" target="akcentnyjstichdef">akcentnyj
+                    stich</referencesLink></referencesLink>). Der Taktovik stellt dabei im Hinblick
+                auf die Variabilität des Metrums die mittlere dieser Formen dar (im Deutschen mit
+                seinem trochäisch-daktylischen Prosarhythmus ist eine größere Variationsbreite
+                allerdings kaum möglich).<referencesLink type="illustrates"
+                    target="beispieltaktovikBsp"/></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel Taktovik" label="beispieltaktovikBsp">
+            <quotation booktitle="Die schön geschriebenen…, Beginn" authorname="Johann Wolfgang"
+                authorfamily="Goethe"/>
+            <illustration label="beispieltaktovikBspIllu">
+                <table style="invisible">
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Die schön geschriebenen,</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>x X x X x x</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Herrlich umgüldeten,</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>X x x X x x</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Belächeltest du</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>x X x x X</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Die anmaßlichen Blätter,</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>x X x x x X x</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Verziehst mein Prahlen</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>x X x X x</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Von deiner Lieb’ und meinem</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>x X x X x X x</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Durch dich glücklichen Gelingen,</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>x X X x x x X x</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Verziehst anmuthigem Selbstlob.</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>x X X x x x X x</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                </table>
+                <LMMLtext>Ungereimter, 2- bis 3-hebiger Taktovik. Die Intervalle zwischen den
+                    Hebungen sind 0- bis 3silbig. Da keine sonstigen regelmäßigen horizontalen oder
+                    vertikalen Rekurrenzen vorliegen, handelt es sich bei diesem Gedicht um
+                    ungebundene Verse (<referencesLink show="new" type="defines"
+                        target="gebundenevsungebundeneversedef">gebundene vs. ungebundene
+                        Verse</referencesLink>; Rhythmus ungebundener Verse).</LMMLtext>
+            </illustration>
+        </section>
+    </section>
+</lmml>

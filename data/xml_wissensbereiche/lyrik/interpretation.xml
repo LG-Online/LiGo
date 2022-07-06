@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Interpretation" author="Hamburg" creationTime="29.12.2005" label="interpretation"><definition title="Interpretation" label="interpretationdef" topics="glossarhide"><LMMLtext>Werden unterschiedliche Lesarten zu einem Text in eine besondere Verständigungssituation über Literatur eingebracht (etwa für den Schulunterricht, für literaturwissenschaftlichen Veranstaltungen), so können (oder sollen) sie ‚intersubjektiv‘ begründet und miteinander vermittelt werden – mit dem Ziel, eine besonders bedachte und gegebenenfalls expertenhaft organisierte Lesart zu entwickeln: eine Interpretation.</LMMLtext></definition></section></lmml>

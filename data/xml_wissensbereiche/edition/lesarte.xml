@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Lesart" author="Ulrich Joost" creationTime="14.01.2008"
+        label="lesarte" topics="Lesart">
+        <illustration>
+            <LMMLtext><referencesLink type="exercises" target="uebunglesartUeb"/></LMMLtext>
+        </illustration>
+        <exercise topics="alternativen" label="uebunglesartUeb" title="Übung Lesart">
+            <task type="fragestellung">
+                <LMMLtext>Was bezeichnet „Lesart“ in der editorischen Terminologie?</LMMLtext>
+            </task>
+            <task type="alternative" target="uebunglesartL1">
+                <LMMLtext>Eine bestimmte <formatted style="style3">Textauslegung</formatted>
+                    (Interpretation).</LMMLtext>
+            </task>
+            <solution label="uebunglesartL1" true="false">
+                <LMMLtext> </LMMLtext>
+            </solution>
+            <task type="alternative" target="uebunglesartL2">
+                <LMMLtext>Eine spezielle Vortragsmethode.</LMMLtext>
+            </task>
+            <solution label="uebunglesartL2" true="false">
+                <LMMLtext> </LMMLtext>
+            </solution>
+            <task type="alternative" target="uebunglesartL3">
+                <LMMLtext>Die Abweichung zwischen verschiedenen Versionen eines Textes.</LMMLtext>
+            </task>
+            <solution label="uebunglesartL3" true="true">
+                <LMMLtext> </LMMLtext>
+            </solution>
+        </exercise>
+    </section>
+</lmml>

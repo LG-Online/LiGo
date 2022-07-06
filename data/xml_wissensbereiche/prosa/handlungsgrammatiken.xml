@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Handlungsgrammatiken" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="21.10.2005" label="handlungsgrammatiken">
+		<definition title="Handlungsgrammatiken" label="handlungsgrammatikendef">
+			<LMMLtext>Annahme einer narrativen Tiefenstruktur, die unter der erzählten Oberfläche zu Grunde liegt. Solche Tiefenstrukturen können mythologische Erzählungen sein (Claude Levi-Strauss), aber auch Handlungsträger und Handlungsfunktionen (Propp), Aktanten (Greimas) oder Pole und Plots.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Zu Beginn dieser Forschungsrichtung steht Vladimir Propps Versuch die <referencesLink target="propp">Strukturgesetzmäßigkeiten von Zaubermärchen</referencesLink> zu beschreiben. Er stellt dabei fest, dass die Handlung der Märchen auf eine bestimmte Anzahl von abstrakten Handlungsträgern und Handlungselementen zurückgeführt werden kann.</LMMLtext>
+			<LMMLtext>Algirdas J. Greimas versucht dann 1970 eine universelle Erzählgrammatik zu entwerfen, mit deren Hilfe die Struktur jedes Erzähltextes (und nicht nur von Märchen) erfasst werden sollte (Greimas 1970, 1972b). Er geht von Oppositionen abstrakter Konzepte (z.B. gut/böse, tot/lebendig) aus, die verzeitlicht werden und von Aktanten dargestellt werden: Zum Beispiel: Der gute Held tötet den bösen Gegenspieler. Auf der Oberfläche des Textes kann diese Tiefenstruktur durch verschiede Arten von Helden (einzelner oder Gruppe, männlich oder weiblich, Antihelden wie Frodo im Herrn der Ringe) und verschiedene Handlungen (verschiedene Todesarten, die schnell zu einem Ergebnis führen oder erst nach langer Zeit).</LMMLtext>
+			<LMMLtext>Claude Bremond entwickelt etwa zeitgleich das Konzept der ‚narrativen Rollen’, um die Grundstruktur von Erzähltexten zu beschreiben (Claude Bremond 1973).</LMMLtext>
+			<LMMLtext>Greimas und Bremond untersuchen hauptsächlich stark schematisierte Erzählformen wie Myhten, Märchen und Novellen und für solche Formen scheinen die Handlungsgrammatiken auch das fruchtbarste Feld zu sein. Weitere Untersuchungen wurden z.B. zu Epos, Abentuer- und Agentenroman und zu Detektivgeschichten unternommen.</LMMLtext>
+			<LMMLtext>Viktor Sklovskij z.B. arbeitet die Schemata von Sherlock Holmes-Detektivgeschichten heraus und Umberto Eco hat Aktantenoppositionen und wiederkehrende Handlungslemente in den James Bond-Agentenromane aufgezeigt. (Beide in Vogt 1972 a)<referencesLink type="illustrates" target="beispielhandlungsgrammatikenBsp"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Handlungsgrammatiken" label="beispielhandlungsgrammatikenBsp">
+			<illustration label="beispielhandlungsgrammatikenBspIllu">
+				<LMMLtext>Eco: Narrative Structure in Ian Fleming</LMMLtext>
+				<LMMLtext>Flemings Romane basieren auf einer kurzen Reihe von Gegensätzen, die permutiert werden</LMMLtext>
+				<ulist>
+					<item>
+						<LMMLtext>Bond - M</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Bond - Bösewicht</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Bösewicht - Frau</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Frau - Bond</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Freie Welt - Sowjetunion</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Großbritannien - nicht-angelsächsische Länder</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Pflicht - Opfer</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Liebe - Tod</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Luxus - Unbequemlichkeit</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Perversion - Unschuld</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Loyal - Unloyal</LMMLtext>
+					</item>
+				</ulist>
+				<ulist>
+					<item>
+						<LMMLtext>M zieht und gibt Bond eine Aufgabe</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext> Bösewicht zieht und erscheint Bond</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Bond zieht: bietet Bösewicht erstes Schach oder umgekehrt</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Frau zieht und zeigt sich Bond</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Bond nimmt Frau</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Bösewicht nimmt Bond gefangen</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Bösewicht quält Bond</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Bond tötet Bösewicht</LMMLtext>
+					</item>
+					<item>
+						<LMMLtext>Bond enjoys woman</LMMLtext>
+					</item>
+				</ulist>
+			</illustration>
+		</section>
+	</section>
+</lmml>

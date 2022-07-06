@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Erwähnung des sprachlichen Akts"
+        author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="27.07.2005"
+        label="erwsprachlakt" modifiedTime="27.10.07">
+        <definition title="Erwähnung des sprachlichen Akts" label="erwaehnungdessprachlichenaktes">
+            <LMMLtext>Nur das Stattfinden eines sprachlichen Akts wird vom Erzähler berichtet. Der
+                Inhalt wird dabei nicht genauer spezifiziert.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext><referencesLink type="illustrates"
+                    target="beispielfuerdieerwaehnungdessprachlichenaktesBsp"/><referencesLink
+                    type="exercises" target="uebungzurerwaehnungdessprachlichenaktesUeb"
+                /></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel für die Erwähnung des sprachlichen Akts"
+            label="beispielfuerdieerwaehnungdessprachlichenaktesBsp">
+            <quotation booktitle="Unwiederbringlich (17. Kapitel)" authorname="Theodor"
+                authorfamily="Fontane">
+                <LMMLtext> Die ganze Stadt sprach von dieser Ausstellung, und wie gewöhnlich trat
+                    das Politische daneben zurück, trotzdem es gerade Tage waren, in denen nicht nur
+                    ein Ministerium, sondern fast auch die Monarchie in Frage stand.</LMMLtext>
+            </quotation>
+            <illustration label="beispielfuerdieerwaehnungdessprachlichenaktesBspIllu">
+                <LMMLtext>Diese Passage aus Theodor Fontanes Roman <formatted style="buchtitel"
+                        >Unwiederbringlich</formatted> verdeutlicht auf sehr eindeutige Weise, was
+                    die erzählte Figurenrede ausmacht. Denn zum einen kommentiert der Erzähler das
+                    erzählte Gespräch, indem er es („trotzdem“) für erstaunlich erklärt. Zum anderen
+                    und hauptsächlich gibt er von dem Gespräch nur das Thema (die „Austellung“)
+                    wieder und verzichtet auf alle weiteren Details, insbesondere die Nennung der
+                    einzelnen Sprecher oder die Wiedergabe ihrer eigenen Worte.</LMMLtext>
+            </illustration>
+        </section>
+        <exercise label="uebungzurerwaehnungdessprachlichenaktesUeb"
+            title="Übung zur Erwähnung des sprachlichen Akts" topics="multiplechoice">
+            <task type="textbeispiel">
+                <quotation booktitle="Ahnung und Gegenwart (1. Kapitel)" authorname="Joseph"
+                    authorfamily="Eichendorff">
+                    <LMMLtext>Wieder andere übten ihren Witz an allen, die das Unglück hatten am
+                        Ufer vorüberzugehen, und diese aus der Luft gegriffene Unterhaltung endigte
+                        dann gewöhnlich mit lustigen Schimpfreden, welche wechselseitig so lange
+                        fortgesetzt wurden, bis beide Parteien einander längst nicht mehr
+                        verstanden.</LMMLtext>
+                </quotation>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>Hat man es in der vorliegenden Passage</LMMLtext>
+            </task>
+            <task type="alternative" target="uebungzurerwaehnungdessprachlichenaktesL2">
+                <LMMLtext>mit der <referencesLink show="new" type="defines"
+                        target="erwaehnungdessprachlichenaktes">Erwähnung des sprachlichen
+                        Akts</referencesLink> zu tun?</LMMLtext>
+            </task>
+            <solution label="uebungzurerwaehnungdessprachlichenaktesL2" true="true">
+                <LMMLtext>Man erfährt, dass es eine „aus der Luft gegriffene“ Unterhaltung gab, die
+                    von „lustigen Schimpfreden“ beendet wurde, die Dialoge fehlen aber. Auch die
+                    Inhalte werden nicht weiter spezifiziert, sodass man es ausschließlich mit der
+                        <referencesLink show="new" type="defines"
+                        target="erwaehnungdessprachlichenaktes">Erwähnung des sprachlichen
+                        Akts</referencesLink> und nicht mir einem <referencesLink show="new"
+                        type="defines" target="redeberichtdef"> Redebericht</referencesLink> zu tun
+                    hat.</LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungzurerwaehnungdessprachlichenaktesL3">
+                <LMMLtext>oder mit <referencesLink show="new" type="defines"
+                        target="indirekteredeoratioobliqua">indirekter
+                        Figurenrede</referencesLink> zu tun?</LMMLtext>
+            </task>
+            <solution label="uebungzurerwaehnungdessprachlichenaktesL3" true="false">
+                <LMMLtext>Die Wiedergabe von <referencesLink show="new" type="defines"
+                        target="indirekteredeoratioobliqua">indirekter Rede</referencesLink> lässt
+                    sich an verba dicendi (Verben des Sagens, Meinens, Äußerns, Fragens) erkennen
+                    und gibt gesprochene Passagen wieder. Inhalte werden hier aber nicht
+                    erwähnt.</LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungzurerwaehnungdessprachlichenaktesL1">
+                <LMMLtext>mit einem <referencesLink show="new" type="defines"
+                        target="redeberichtdef"> Redebericht</referencesLink> zu tun?</LMMLtext>
+            </task>
+            <solution label="uebungzurerwaehnungdessprachlichenaktesL1" true="false">
+                <LMMLtext> Auch wenn die Unterhaltung als „aus der Luft gegriffen[e]“ und die
+                    Schimpfreden als „lustig“ bezeichnet werden, erfahren wir über den Charakter der
+                    Gespräche hinaus nichts über deren Gegenstände. Die Inhalte werden nicht
+                    berichtet, es wird lediglich konstatiert, dass ein sprachlicher Akt
+                    stattgefunden hat.</LMMLtext>
+            </solution>
+        </exercise>
+    </section>
+</lmml>

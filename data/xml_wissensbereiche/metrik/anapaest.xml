@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Anapäst" author="Sebastian Donat" creationTime="25.09.2007" label="anapaest" topics="Anapäst">
+		<definition title="Anapäst" label="anapaestdef">
+			<LMMLtext>(Griech. ›Zurückprallender‹.) Dreisilbiger <referencesLink target="versfuss">
+					<referencesLink show="new" type="defines" target="versfussdef">Versfuß</referencesLink>
+				</referencesLink> der Form v v –.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Der Anapäst wird in der in der deutschen Dichtung (wohl nicht zuletzt wegen des trochäisch-daktylischen Sprachrhythmus des Deutschen) relativ selten verwendet.</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielanapaestBsp"/>
+				<referencesLink type="exercises" target="uebunganapaestUeb"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Anapäst" label="beispielanapaestBsp">
+			<poem authorname="Johann Wolfgang" authorfamily="Goethe" title="Pandora, V. 46f.">
+				<poemlinegroup>
+					<poemline>Alle blinken die Sterne mit zitterndem Schein,</poemline>
+					<poemline>Alle laden zu Freuden der Liebe mich ein.</poemline>
+				</poemlinegroup>
+			</poem>
+			<illustration label="beispielanapaestBspIllu">
+				<LMMLtext>Es handelt sich bei diesem Ausschnitt um vierhebige <referencesLink show="new" type="defines" target="anapaestdef">Anapäste</referencesLink> mit männlicher Kadenz, die durch Paarreim miteinander verbunden sind.</LMMLtext>
+			</illustration>
+		</section>
+		<exercise topics="alternativen" label="uebunganapaestUeb" title="Übung Anapäst">
+			<task type="fragestellung">
+				<LMMLtext>Welche der folgenden Verspassagen ist anapästisch?</LMMLtext>
+			</task>
+			<task type="alternative" target="uebunganapaestL1">
+				<LMMLtext>
+					<poem authorname="Wilhelm" authorfamily="Langewiesche">
+						<poemlinegroup>
+							<poemline>Das Gesicht und die Seele betrachtet mir wohl am Gedicht!</poemline>
+							<poemline>Denn ein Spiegel der Seele soll sein auch des Liedes Gesicht.</poemline>
+						</poemlinegroup>
+					</poem>
+				</LMMLtext>
+			</task>
+			<solution label="uebunganapaestL1" true="true">
+				<LMMLtext>Es handelt sich hier um fünfhebige <referencesLink show="new" type="defines" target="anapaestdef">Anapäste</referencesLink>.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebunganapaestL2">
+				<LMMLtext>
+					<poem authorname="Eduard" authorfamily="Mörike" title="Das lustige Wirtshaus">
+						<poemlinegroup>
+							<poemline>Man lebet doch wie im Schlaraffenland hier,</poemline>
+							<poemline>Da schmauset man frühe wie spat;</poemline>
+							<poemline>Schon dreht sich der Boden vor Wonne mit mir,</poemline>
+							<poemline>Kaum daß ich die Schwelle betrat!</poemline>
+						</poemlinegroup>
+					</poem>
+				</LMMLtext>
+			</task>
+			<solution label="uebunganapaestL2" true="false">
+				<LMMLtext>Es handelt sich hier um abwechselnd 4-  und 3hebige <referencesLink show="new" type="defines" target="amphibrachysdef">Amphibrachen</referencesLink>.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebunganapaestL3">
+				<LMMLtext>
+					<poem authorname="Aloys" authorfamily="Blumauer" title="Der Aberglaube">
+						<poemlinegroup>
+							<poemline>Ein Mann, dem eine Maus des Nachts den Schuh zerbiß,</poemline>
+							<poemline>Erzählte einst dem weisen Kato dies,</poemline>
+							<poemline>Als ein Ereigniß, das ihn sehr beängstigt hätte.</poemline>
+							<poemline>Darüber, Freund, legt ruhig euch zu Bette,</poemline>
+							<poemline>Sprach Kato; denn das Wunder wär'</poemline>
+							<poemline>Um zehnmal noch bedenklicher,</poemline>
+							<poemline>Wenn euer Schuh die Maus gebissen hätte.</poemline>
+						</poemlinegroup>
+					</poem>
+				</LMMLtext>
+			</task>
+			<solution label="uebunganapaestL3" true="false">
+				<LMMLtext>Es handelt sich hier um <referencesLink show="new" type="defines" target="jambusdef">jambische</referencesLink> Verse mit unterschiedlicher Hebungszahl (4-6).</LMMLtext>
+			</solution>
+		</exercise>
+	</section>
+</lmml>

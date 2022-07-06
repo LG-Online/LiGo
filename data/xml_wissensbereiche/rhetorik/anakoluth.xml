@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Anakoluth" author="Uwe Spörl" creationTime="08.04.2007" label="anakoluth" topics="Anakoluth">
+		<illustration>
+			<LMMLtext>griech.: nicht folgerichtig</LMMLtext>
+		</illustration>
+		<definition title="Anakoluth" label="anakoluthdef">
+			<LMMLtext>Wortfigur: grammatikalisch unkorrekte Gestaltung einer syntaktischen Einheit („Satzbruch“) </LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Das Anakoluth stellt eine (bewusste) Störung des syntaktisch üblichen bzw. grammatikalisch korrekten Satzbaus dar. Die ursprünglich geplante Satzkonstruktion wird während des Sprechens unerwartet verändert, sodass sich die neu entstehende Äußerung nicht bruchlos in das Satzgefüge integrieren lässt. Es erfolgt jedoch kein vollständiger Abbruch des Satzes.</LMMLtext>
+			<LMMLtext>Diese Wortfigur ist kennzeichnend für die mündliche Alltagssprache, wo sie für gewöhnlich als (lässlicher) stilistischer Fehler auftritt. Rhetorisch und literarisch dient sie zumeist der Repräsentation einer sozial geprägten oder emotional bestimmten Redeweise – etwa um Dramenfiguren entsprechend zu charakterisieren. So verhilft beispielsweise die sprachliche Darstellung eines plötzlich auftretenden Gedankens dem Sprecher zu Lebhaftigkeit und Authentizität.</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielanakoluthBsp"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Anakoluth" label="beispielanakoluthBsp">
+			<illustration>
+				<LMMLtext>In einem mündlichen Bericht, der die Aufgewühltheit der Sprecherin angesichts der schockierenden Ereignisse, die stattgefunden haben, verdeutlicht, greift Meroe in Kleists Penthesilea sicherlich – aus Sicht des Autors – nicht zufällig auch auf die Figur des <referencesLink show="new" type="defines" target="anakoluthdef">Anakoluth</referencesLink>s zurück, wenn sie von dem erzählt, was <formatted style="buchtitel">Penthesilea</formatted> und ihre Hunde Achill, den diese liebt und bekämpft, angetan haben:</LMMLtext>
+			</illustration>
+			<illustration>
+				<LMMLtext>
+					<poem authorname="Heinrich" authorfamily="von Kleist" booktitle="Penthesilea">
+						<poemlinegroup>
+							<poemline>Doch sie – die Löwin hätte ihn gehört,</poemline>
+							<poemline>Die hungrige, die wild nach Raub umher,</poemline>
+							<poemline>Auf öden Schneegefilden heulend treibt;</poemline>
+							<poemline>Sie schlägt, die Rüstung ihm vom Leibe reißend,</poemline>
+							<poemline>Den Zahn schlägt sie in seine weiße Brust,</poemline>
+							<poemline>Sie und die Hunde, die wetteifernden,</poemline>
+							<poemline>Oxus und Sphinx den Zahn in seine rechte,</poemline>
+							<poemline>In seine linke sie; als ich erschien,</poemline>
+							<poemline>Troff Blut von Mund und Händen ihr herab.</poemline>
+						</poemlinegroup>
+					</poem>
+				</LMMLtext>
+			</illustration>
+			<illustration label="beispielanakoluthBspIllu">
+				<LMMLtext>Eher witzig wirkt es hingegen, wenn Morgenstern – um den Reim der Zeilen 2 und 3 bemüht – diesen durch einen Anakoluth realisiert:</LMMLtext>
+			</illustration>
+			<illustration>
+				<LMMLtext>
+					<poem authorname="Christian" authorfamily="Morgenstern" booktitle="Korf erfindet eine Mittagszeitung. Gedicht aus dem Umfeld der Galgenlieder und des Palmström">
+						<poemlinegroup>
+							<poemline>Korf erfindet eine Mittagszeitung,</poemline>
+							<poemline>welche, wenn man sie gelesen hat,</poemline>
+							<poemline>ist man satt.</poemline>
+							<poemline>Ganz ohne Zubereitung</poemline>
+							<poemline>irgendeiner andern Speise.</poemline>
+							<poemline>Jeder auch nur etwas Weise</poemline>
+							<poemline>hält das Blatt.</poemline>
+						</poemlinegroup>
+					</poem>
+				</LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

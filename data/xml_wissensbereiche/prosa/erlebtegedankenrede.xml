@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Erlebte Gedankenrede"
+        author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="30.07.2005"
+        label="erlebtegedankenrede">
+        <definition title="Erlebte Gedankenrede" label="erlebtegedankenrededef">
+            <LMMLtext>Erzählerische Gedankenwiedergabe in der 3. Person Präteritum oder
+                Plusquamperfekt Indikativ, mit Innensicht und der Möglichkeit kommentierender
+                Einmischung, aber ohne ‚verba dicendi et sentiendi’, in vollständiger Syntax
+                (Ausnahme: Interjektionen) und mit unbeschränkter Interpunktion, jedoch ohne
+                Anführungszeichen.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>In erlebter Gedankenrede bleiben zwar der Wortlaut und die Ausdrucksqualität
+                des von der Figur Gedachten weitgehend erhalten, werden aber (mitunter in fließenden
+                Übergängen) in den Erzählerbericht samt dessen Tempus und Syntax eingebettet.
+                Erlebte Gedankenrede ist somit zwar weniger narrativ als <referencesLink show="new"
+                        type="defines" target="indirektegedankenrededef">indirekte
+                        Gedankenrede</referencesLink>, auch sie bleibt aber
+                letztlich formal dem Erzähler zugeordnet.<referencesLink type="illustrates"
+                    target="beispielerlebtegedankenredeBsp"/><referencesLink type="exercises"
+                    target="uebungerlebtegedankenredeUeb"/></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel erlebte Gedankenrede"
+            label="beispielerlebtegedankenredeBsp">
+            <quotation booktitle="Ermordung einer Butterblume" authorname="Alfred"
+                authorfamily="Döblin">
+                <LMMLtext>Im Augenblick, als Herr Fischer stehen bleiben wollte, fuhr es ihm durch
+                    den Kopf, daß es ja lächerlich war, umzukehren, mehr als lächerlich. Was ging
+                    ihn die Butterblume an?</LMMLtext>
+            </quotation>
+            <illustration label="beispielerlebtegedankenredeBspIllu">
+                <LMMLtext>Im diesem Beispieltext aus Alfred Döblins Erzählung von der <formatted
+                        style="buchtitel">Ermordung einer Butterblume</formatted> schließt sich an
+                        <referencesLink show="new" type="defines" target="indirektegedankenrededef"
+                        >indirekte Gedankenrede</referencesLink> ein (Frage-)Satz in erlebter
+                    Gedankenrede an: Das Tempus der Erzählung - hier das Präteritum („ging“) -
+                    bleibt ebenso erhalten wie der heterodiegetische Er-Erzähler („ihn“).
+                    Wiedergegeben wird aber offenkundig der empörte Ausruf oder Gedanke der Figur,
+                    der in direkter Gedankenrede wohl lauten würde: „Was geht mich die Butterblume
+                    an?“ Unklar bleibt im Falle der erlebten Gedankenrede zudem, ob dieser Gedanke
+                    nur gedacht oder ob er (auch) laut ausgesprochen wird, während bei indirekter
+                    Gedankenrede das verbum dicendi oder eben credendi diese Frage
+                    beantwortet.</LMMLtext>
+            </illustration>
+        </section>
+        <exercise label="uebungerlebtegedankenredeUeb" title="Übung erlebte Gedankenrede"
+            topics="multiplechoice">
+            <task type="textbeispiel">
+                <quotation booktitle="Apostel" authorname="Gerhart" authorfamily="Hauptmann">
+                    <LMMLtext> Und nun, aus der mutigen Aufwallung seines Innern, stieg es auf als
+                        ein fester Entschluß. Die Zeit war gekommen. Etwas mußte geschehen. In ihm
+                        war eine Kraft, die Menschheit aufzurütteln. Jawohl! und sie mochten lachen,
+                        spotten und ihn verhöhnen, er würde sie dennoch erlösen, alle,
+                        alle!</LMMLtext>
+                </quotation>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>Hier wird der Entschluss präsentiert, der im <formatted style="buchtitel"
+                        >Apostel</formatted> aus Gerhart Hauptmanns gleichnamiger Novelle
+                    herangereift ist.</LMMLtext>
+            </task>
+            <task type="alternative" target="uebungerlebtegedankenredeL1">
+                <LMMLtext>Ist diese Textpassage ausschließlich in <referencesLink show="new"
+                        type="defines" target="erlebtegedankenrededef">erlebter
+                        Gedankenrede</referencesLink> gehalten?</LMMLtext>
+            </task>
+            <solution label="uebungerlebtegedankenredeL1" true="false">
+                <LMMLtext>Sicherlich, ab „Die Zeit war gekommen“ liegt ziemlich eindeutig
+                        <referencesLink show="new" type="defines" target="erlebtegedankenrededef"
+                        >erlebte Gedankenrede</referencesLink> vor: Die Sätze sind offensichtlich
+                    einfach und direkt in Gedanken der Figur transformierbar („Etwas mußte
+                    geschehen“), die Syntax ist zwar noch weitgehend erhalten, aber deutlich an die
+                    Erregtheit der Figur angepasst (etwa durch das „Jawohl!“), und das Tempus ist
+                    das des Erzählers. Ob „In ihm war eine Kraft, die Menschheit aufzurütteln“
+                    ebenfalls als erlebte Gedankenrede anzusehen ist, wäre wohl zu diskutieren. Aber
+                    der erste Satz dieses Abschnitts ist es mit Sicherheit nicht: Hier berichtet ein
+                    Erzähler vom Aufkommen und Charakter des Entschlusses in der Art des
+                        <referencesLink show="new" type="defines" target="bewusstseinsberichtdef"
+                        >Bewusstseinsberichts</referencesLink>, also im narrativen Modus.</LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungerlebtegedankenredeL2">
+                <LMMLtext>Verbindet sie <referencesLink show="new" type="defines"
+                        target="erlebtegedankenrededef">erlebte Gedankenrede</referencesLink> und
+                    narrative Präsentation von Gedanken?</LMMLtext>
+            </task>
+            <solution label="uebungerlebtegedankenredeL2" true="true">
+                <LMMLtext>Ab „Die Zeit war gekommen“ liegt ziemlich eindeutig <referencesLink
+                        show="new" type="defines" target="erlebtegedankenrededef">erlebte
+                        Gedankenrede</referencesLink> vor: Die Sätze sind offensichtlich einfach und
+                    direkt in Gedanken der Figur transformierbar („Etwas mußte geschehen“), die
+                    Syntax ist zwar noch weitgehend erhalten, aber deutlich an die Erregtheit der
+                    Figur angepasst (etwa durch das „Jawohl!“), und das Tempus ist das des
+                    Erzählers. Ob „In ihm war eine Kraft, die Menschheit aufzurütteln“ ebenfalls als
+                    erlebte Gedankenrede anzusehen ist, wäre wohl zu diskutieren. Aber der erste
+                    Satz dieses Abschnitts ist es mit Sicherheit nicht: Hier berichtet ein Erzähler
+                    vom Aufkommen und Charakter des Entschlusses in der Art des
+                    Bewusstseinsberichts, also im <referencesLink show="new" type="defines"
+                        target="bewusstseinsberichtdef">narrativen
+                    Modus</referencesLink>.</LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungerlebtegedankenredeL3">
+                <LMMLtext>Ist sie ausschließlich im narrativen Modus der Präsentation von Gedanken
+                    gehalten?</LMMLtext>
+            </task>
+            <solution label="uebungerlebtegedankenredeL3" true="false">
+                <LMMLtext>Ab „Die Zeit war gekommen“ liegt ziemlich eindeutig <referencesLink
+                        show="new" type="defines" target="erlebtegedankenrededef">erlebte
+                        Gedankenrede</referencesLink> vor: Die Sätze sind offensichtlich einfach und
+                    direkt in Gedanken der Figur transformierbar („Etwas mußte geschehen“), die
+                    Syntax ist zwar noch weitgehend erhalten, aber deutlich an die Erregtheit der
+                    Figur angepasst (etwa durch das „Jawohl!“), und das Tempus ist das des
+                    Erzählers. Ob „In ihm war eine Kraft, die Menschheit aufzurütteln“ ebenfalls als
+                    erlebte Gedankenrede anzusehen ist, wäre wohl zu diskutieren. Aber der erste
+                    Satz dieses Abschnitts ist es mit Sicherheit nicht: Hier berichtet ein Erzähler
+                    vom Aufkommen und Charakter des Entschlusses in der Art des
+                    Bewusstseinsberichts, also im <referencesLink show="new" type="defines"
+                        target="bewusstseinsberichtdef">narrativen
+                    Modus</referencesLink>.</LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungerlebtegedankenredeL4">
+                <LMMLtext>Oder ausschließlich im dramatischen?</LMMLtext>
+            </task>
+            <solution label="uebungerlebtegedankenredeL4" true="false">
+                <LMMLtext> Ab „Die Zeit war gekommen“ liegt ziemlich eindeutig <referencesLink
+                        show="new" type="defines" target="erlebtegedankenrededef">erlebte
+                        Gedankenrede</referencesLink> vor: Die Sätze sind offensichtlich einfach und
+                    direkt in Gedanken der Figur transformierbar („Etwas mußte geschehen“), die
+                    Syntax ist zwar noch weitgehend erhalten, aber deutlich an die Erregtheit der
+                    Figur angepasst (etwa durch das „Jawohl!“), und das Tempus ist das des
+                    Erzählers. Ob „In ihm war eine Kraft, die Menschheit aufzurütteln“ ebenfalls als
+                    erlebte Gedankenrede anzusehen ist, wäre wohl zu diskutieren. Aber der erste
+                    Satz dieses Abschnitts ist es mit Sicherheit nicht: Hier berichtet ein Erzähler
+                    vom Aufkommen und Charakter des Entschlusses in der Art des <referencesLink
+                        show="new" type="defines" target="bewusstseinsberichtdef"
+                        >Bewusstseinsberichts</referencesLink>, also im narrativen Modus. Diese
+                    Textpassage verbindet also narrativen und gemischten Modus. An keiner Stelle
+                    liegt dramatischer Modus zur Wiedergabe von Gedanken, also <referencesLink
+                        show="new" type="defines" target="innerermonologdef">innerer
+                        Monolog</referencesLink> vor.</LMMLtext>
+            </solution>
+        </exercise>
+    </section>
+</lmml>

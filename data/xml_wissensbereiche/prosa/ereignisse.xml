@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Präsentation von Ereignissen" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="26.07.2005" label="ereignisse"><illustration><LMMLtext>Je nachdem ob Ereignisse mit viel oder wenig Distanz geschildert werden, unterscheidet man zwischen zwei Modi ihrer Präsentation:</LMMLtext><LMMLtext><referencesLink target="ereignissedramatisch">Präsentationen von Ereignissen im dramatischen Modus</referencesLink></LMMLtext><LMMLtext><referencesLink target="ereignissenarrativ">Präsentation von Ereignissen im narrativen Modus</referencesLink></LMMLtext></illustration></section></lmml>

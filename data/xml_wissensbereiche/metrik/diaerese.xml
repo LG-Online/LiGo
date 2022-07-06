@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Diärese" author="Sebastian Donat" creationTime="24.03.2008" label="diaerese" topics="Diärese">
+		<definition title="Diärese" label="diaeresedef">
+			<LMMLtext>
+				<referencesLink target="pause_m">
+					<referencesLink show="new" type="defines" target="pause_mdef">Pause</referencesLink>
+				</referencesLink> im Inneren der Verszeile, bei der Kolon- bzw. Wortgrenze einerseits und Versfußgrenze andererseits (<referencesLink target="versfuss">
+					<referencesLink show="new" type="defines" target="versfussdef">Versfüße</referencesLink>
+				</referencesLink>) zusammenfallen.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Diäresen können auf der Ebene des <referencesLink target="metrischesschema">
+					<referencesLink show="new" type="defines" target="metrischesschemadef">metrischen Schemas</referencesLink>
+				</referencesLink> vorgeschrieben sein, wie z.B. in der deutschen Nachbildung des Alexandriners mit dem obligatorischen Verseinschnitt nach dem dritten <referencesLink target="jambus">
+					<referencesLink show="new" type="defines" target="jambusdef">Jambus</referencesLink>
+				</referencesLink> (zwischen 6. und 7. Silbe):</LMMLtext>
+			<LMMLtext>v – v – v – | v – v – v – (v)</LMMLtext>
+			<LMMLtext>Auf der Ebene des <referencesLink target="rhythmusdeskonkreteneinzelverses">
+					<referencesLink show="new" type="defines" target="rhythmusdeskonkreteneinzelversesdef">Rhythmus’ des konkreten Einzelverses</referencesLink>
+				</referencesLink> betonen häufige Diäresen das metrische Schema und führen leicht zu einem staccatoartigen Duktus (bzw. zum ‚Klappern’) des Verses. Ein einprägsames Beispiel findet sich am Anfang der ersten ‚Männerstrophe’ in Schillers Gedicht <formatted style="buchtitel">Würde der Frauen</formatted> (1795). Hier fallen durchwegs die Versfußgrenzen (hier im Text eingezeichnet) mit Wortgrenzen zusammen:</LMMLtext>
+			<LMMLtext style="br">Ewig | aus der | Wahrheit | Schranken</LMMLtext>
+			<LMMLtext>Schweift des | Mannes | wilde | Kraft</LMMLtext>
+		</illustration>
+
+	</section>
+</lmml>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Präsentation von Gedanken" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="27.07.2005" label="gedanken">
+		<definition title="Präsentation von Gedanken" label="praesentationvongedanken" topics="glossarhide">
+			<LMMLtext>Es gibt drei verschiedene Modi zur Präsentation von Gedanken.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Je nachdem, ob Gedanken in geraffter Form durch den Erzähler, in einer Mischung aus Wortlaut der Gedanken und erzählerischer Vermittlung oder direkt ohne Vermittlung des Erählers wiedergegeben werden, unterscheidet man zwischen:</LMMLtext>
+			<LMMLtext>
+				<referencesLink target="bewusstseinsbericht">Präsentation von Gedanken im narrativen Modus: <referencesLink show="new" type="defines" target="bewusstseinsberichtdef">Bewusstseinsbericht</referencesLink></referencesLink>
+			</LMMLtext>
+			<LMMLtext>
+				<referencesLink target="transponiertegedankenrede">Präsentation von Gedanken im gemischten Modus: transponierte Gedankenrede</referencesLink>
+			</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext><referencesLink target="indirektegedankenrede"><referencesLink show="new" type="defines" target="indirektegedankenrededef">indirekte Gedankenrede</referencesLink></referencesLink></LMMLtext>
+				</item>
+				<item>
+					<LMMLtext><referencesLink target="erlebtegedankenrede"><referencesLink show="new" type="defines" target="erlebtegedankenrededef">erlebte Gedankenrede</referencesLink></referencesLink></LMMLtext>
+				</item>
+			</ulist>
+			<LMMLtext>
+				<referencesLink target="zitiertegedankenrede">Präsentation von Gedanken im dramatischen Modus</referencesLink>
+			</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext><referencesLink target="gedankenzitat"><referencesLink show="new" type="defines" target="gedankenzitatdef">Gedankenzitat</referencesLink></referencesLink></LMMLtext>
+				</item>
+				<item>
+					<LMMLtext><referencesLink target="innerermonolog"><referencesLink show="new" type="defines" target="innerermonologdef">innerer Monolog</referencesLink></referencesLink></LMMLtext>
+				</item>
+				<item>
+					<LMMLtext><referencesLink target="bewusstseinsstrom"><referencesLink show="new" type="defines" target="bewusstseinsstromstreamofconsciousness">Bewusstseinsstrom</referencesLink></referencesLink></LMMLtext>
+				</item>
+			</ulist>
+		</illustration>
+	</section>
+</lmml>

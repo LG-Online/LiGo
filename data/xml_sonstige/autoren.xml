@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="coaching" title="Hinweise für Autoren" author="Katrin Fischer" creationTime="22.06.06" label="hinweisefuerautoren"><illustration><LMMLtext> Überlegen Sie sich eine Gliederung mit möglichst vielen Einzelbegriffen und möglichst wenigen Ebenen.</LMMLtext><LMMLtext>Begriffe, die eine eigene Seite bekommen, sind im Inhaltsverzeichnis und 
+als Karteikarte (bzw. Karteikartenreiter) sichtbar. Das heißt, dass nur 
+diese in der Navigation und im Inhaltsverzeichnis erscheinen. 
+Selbstverständlich können aber auch mehrere Definitionen auf einer Seite 
+platziert werden. Beispiele aus dem Bereich Erzähltextanalyse: <referencesLink target="prolepse">Prolepse</referencesLink>, <referencesLink target="analepse">Analepse</referencesLink> und <referencesLink target="weitereaspekteunterdenenanalepsenundprolepsenuntersuchtwerdenko">Klassifikation von Anachronien</referencesLink> im Bereich Erzähltextanalyse) </LMMLtext><LMMLtext>Jeder Begriff sollte idealerweise in folgender Form präsentiert werden: 
+Kurze Definition, Erläuterungstext, Beispiel, Übung.
+- Ergänzungen um illustrierende Graphiken, Recordings oder Audiodateien sind 
+sehr wünschenswert, weil sie aus LiGo mehr machen als reinen Text.
+</LMMLtext><LMMLtext>Im Moment stehen diejenigen Übungstypen zur Verfügung, die in der <referencesLink target="benutzung">Einführung in die Benutzung von LiGo</referencesLink> aufgelistet sind. Dort können Sie sich auch Beispiele für Recordings ansehen, die mit dem Programm <externalLink show="new" uri="http://www.techsmith.com/camtasia.asp?CMP=KgoogleCStm">Camtasia Studio</externalLink> erstellt wurden. </LMMLtext><LMMLtext>Die Konzeption kann in jedem beliebigen Textverarbeitungsprogramm vorgenommen werden. Erstellen Sie einfach pro Karteikarte/Seite eine eigene Datei. Anleitung und Details zur Eingabe in XML nach Einzelabsprache mit <code type="email" uri="katrin.dennerlein@uni-wuerzburg.de">Katrin Dennerlein</code></LMMLtext><LMMLtext>Für Neueinsteiger: Alle Funktionen von LiGo können Sie innerhalb von 15 
+Minuten kennen lernen, wenn Sie sich diese beiden Recordings ansehen: </LMMLtext></illustration><illustration>
+			<LMMLtext>
+				<externalLink show="embed" uri="images/benbegriffsystematik.swf">
+					<?xm-replace_text {LMMLtext}?>
+				</externalLink>Kurze Einführung in LiGo: Geführte Tour Teil 1 (Bei Modem lange Downloadzeit)
+</LMMLtext>
+		<LMMLtext>
+				<externalLink show="embed" uri="images/benmitligolernen.swf">
+					<?xm-replace_text {LMMLtext}?>
+				</externalLink>Mit LiGo lernen: Geführte Tour Teil 2 (Bei Modem lange Downloadzeit)</LMMLtext></illustration>
+	</section></lmml>

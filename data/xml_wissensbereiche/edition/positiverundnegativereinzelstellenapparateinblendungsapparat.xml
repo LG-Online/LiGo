@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course"
+        title="Positiver und negativer Einzelstellenapparat, Einblendungsapparat"
+        author="Ulrich Joost" creationTime="14.01.2008"
+        label="positiverundnegativereinzelstellenapparateinblendungsapparat"
+        topics="Positiver und negativer Einzelstellenapparat, Einblendungsapparat">
+        <paragraph>
+            <LMMLtext>Aktuell noch im Aufbau.</LMMLtext>
+        </paragraph>
+        <!--<illustration>
+            <LMMLtext>
+                <referencesLink type="exercises" target="uebungpositiverundnegativereinzelstellenapparateinblendungsapparatUeb"/>
+            </LMMLtext>
+        </illustration>
+        <exercise topics="dragunddrop"
+            label="uebungpositiverundnegativereinzelstellenapparateinblendungsapparatUeb"
+            title="Übung Positiver und negativer Einzelstellenapparat, Einblendungsapparat">
+            <task type="textbeispiel">
+                <table>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>H1 An Schwager Kronos</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>H2 An Schwager Kronos</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Spude dich, Kronos!</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Spude dich, Kronos!</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Fort den rasselnden Trott!</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Fort den rasselnden Trott!</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Bergab gleitet der Weg;</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Bergab gleitet der Weg;</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Ekles Schwindeln zögert</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Ekles Schwindeln zögert</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>5 Mir vor die Stirne dein Haudern.</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>5 Mir vor die Stirne dein Zaudern.</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Frisch, den holpernden</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Frisch, holpert es gleich,</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Stock Wurzeln Steine den Trott</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Über Stock und Steine den Trott</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                    <tablerow>
+                        <tabledata>
+                            <LMMLtext>Rasch in’s Leben hinein!</LMMLtext>
+                        </tabledata>
+                        <tabledata>
+                            <LMMLtext>Rasch in’s Leben hinein!</LMMLtext>
+                        </tabledata>
+                    </tablerow>
+                </table>
+                <quotation booktitle="Schwager Kronos" authorname="Johann Wolfgang"
+                    authorfamily="Goethe">
+                    <LMMLtext type="input1">a) Haudern H1</LMMLtext>
+                    <LMMLtext type="input2">b) 5 Zaudern] Haudern H1</LMMLtext>
+                    <LMMLtext type="input3">c) im fortlaufenden Text: Zaudern &lt;:Haudern H1&gt;.</LMMLtext>
+                    <LMMLtext type="input4"/>
+                    <LMMLtext type="input5">1. positiver Einzelstellenapparat </LMMLtext>
+                    <LMMLtext type="input6">2. negativer Einzelstellenapparat </LMMLtext>
+                    <LMMLtext type="input7">3. Einblendungsapparat</LMMLtext>
+                    <LMMLtext/>
+                </quotation>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>Welche Darstellungsweisen der Varianten der Zeile 5 aus Goethes Gedicht
+                    "An Schwager Kronos" gehören zum jeweiligen Apparattypus? Zu Grunde gelegt wird
+                    hier die zweite Textversion. Der k</LMMLtext>
+            </task>
+            <task type="userinput">
+                <LMMLtext type="input8">1b, 2a, 3c.</LMMLtext>
+            </task>
+        </exercise>-->
+    </section>
+</lmml>

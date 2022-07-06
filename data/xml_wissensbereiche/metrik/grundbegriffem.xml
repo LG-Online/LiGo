@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Grundbegriffe" author="Sebastian Donat" creationTime="25.09.2007" label="grundbegriffem" topics="Grundbegriffe"><illustration><LMMLtext><referencesLink target="vers"><referencesLink show="new" type="defines" target="versdef">Vers</referencesLink></referencesLink></LMMLtext><LMMLtext><referencesLink target="metrischenotation"><referencesLink show="new" type="defines" target="metrischenotationdef">Metrische Notation</referencesLink></referencesLink></LMMLtext></illustration></section></lmml>

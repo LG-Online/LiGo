@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Lyrik" author="Hamburg" creationTime="15.01.2006" label="lyrik"><illustration><LMMLtext><referencesLink target="lyrikalsgattung">Lyrik als Gattung</referencesLink></LMMLtext><LMMLtext><referencesLink target="texttheoretischeaspekte">Texttheoretische Aspekte</referencesLink></LMMLtext><LMMLtext><referencesLink target="textanalyseundinterpretation">Textanalyse und Interpretation</referencesLink></LMMLtext></illustration></section></lmml>

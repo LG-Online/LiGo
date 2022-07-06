@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Metrisches Schema" author="Sebastian Donat"
+        creationTime="21.10.2007" label="metrischesschema" topics="Metrisches Schema">
+        <definition title="Metrisches Schema" label="metrischesschemadef">
+            <LMMLtext>Höchste <referencesLink target="stufendermetrischenabstraktion">Stufe der
+                    metrischen Abstraktion</referencesLink>.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Verstexte beruhen auf bestimmten, unterschiedlich komplexen und strengen
+                rhythmischen Ordnungsprinzipien, d.h. auf dem Prinzip der voraussagbaren Wiederkehr
+                bestimmter sprachlicher Konstituenten. Die Vielfalt solcher rhythmischer Ordnungen
+                ist prinzipiell unbegrenzt. Sinnvollerweise kann der Begriff des metrischen Schemas
+                nur im Bereich der <referencesLink target="gebundenevsungebundeneverse"
+                        ><referencesLink show="new" type="defines"
+                        target="gebundenevsungebundeneversedef">gebundenen
+                    Verse</referencesLink></referencesLink> angewendet werden. Hier gibt es in jeder
+                Literatur zu einem gegebenen Zeitpunkt einen bestimmten Vorrat kanonisierter Formen,
+                die sich abstrakt beschreiben lassen. Diese Ordnungsprinzipien laufen unter
+                verschiedenen Bezeichnungen: Metrum, Versmaß, metrisches Schema, metrisches Gerüst.
+                Dabei macht der Begriff „Schema" deutlich, dass es sich um Formen handelt, deren
+                Kenntnis durch das Erlernen von Regeln und/oder durch ihren nicht-reflektierten
+                Gebrauch erworben wird und die beim Leser/Hörer von Gedichten als bekannt
+                vorausgesetzt werden können. Der Begriff „Gerüst" steht eher für die
+                Produzentenperspektive, unter der das metrische Schema als Konstruktionshilfe bzw.
+                Rohstruktur für den eigentlichen Gegenstand, das individuelle Gedicht, dient. </LMMLtext>
+            <LMMLtext>Das metrische Schema wird in manchen Fällen mitgeliefert: implizit z.B. durch
+                die Gattungsangabe im Titel des Einzeltextes oder der Sammlung (z.B. „Sonett"),
+                explizit durch den Abdruck des metrischen Schemas, wie hier bei Klopstocks Ode
+                    <formatted style="buchtitel">An Sie</formatted>:</LMMLtext>
+            <LMMLtext><externalLink show="embed" uri="metrischesschema.gif"/></LMMLtext>
+        </illustration>
+    </section>
+</lmml>

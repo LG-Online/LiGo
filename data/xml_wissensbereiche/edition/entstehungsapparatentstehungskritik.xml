@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Entstehungsapparat/Entstehungskritik" author="Ines Dombek, Ulrich Joost" creationTime="14.01.2008" label="entstehungsapparatentstehungskritik">
+		<definition title="Fassungen" label="fassungendef">
+			<LMMLtext>Ausführungen eines Werkes, die voneinander abweichen (vollendet oder unvollendet). Sie sind durch Textidentität aufeinander beziehbar, durch  Textvarianz  voneinander unterscheidbar.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>In der Entstehungskritik versucht man, den Entstehungsprozess eines Werkes zu dokumentieren, indem die verschiedenen Stufen des Textes, Korrekturen des Autors, und im Idealfall am Ende eine autorisierte Fassung,  der Weg von der  Fassung der ersten Hand  bis zur  Fassung der letzten Hand   nachvollzogen wird.</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielentstehungsapparatentstehungskritikBsp"/>
+			</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="exercises" target="ersteuebungentstehungsapparatentstehungskritikUeb"/>
+			</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="exercises" target="zweiteuebungentstehungsapparatentstehungskritikUeb"/>
+			</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="exercises" target="dritteuebungentstehungsapparatentstehungskritikUeb"/>
+			</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="exercises" target="vierteuebungentstehungsapparatentstehungskritikUeb"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Entstehungsapparat/Entstehungskritik" label="beispielentstehungsapparatentstehungskritikBsp">
+			<quotation booktitle="Gewitter (aus: Georg Trakl: Sämtliche Werke und Briefwechsel. Innsbrucker Ausgabe. Historisch-kritische Ausgabe mit Faksimiles der handschriftlichen Texte Trakls. Hg. v. Eberhard Sauermann u. Hermann Zwerschina. Basel, Frankfurt: 1995-2002.)" authorname="Georg" authorfamily="Trakl">
+				<LMMLtext title="simple"/>
+				<LMMLtext><externalLink show="embed" uri="trakl.gif"/></LMMLtext>
+			</quotation>
+		</section>
+		<exercise topics="multiplechoice" label="ersteuebungentstehungsapparatentstehungskritikUeb" title="Erste Übung Entstehungsapparat/Entstehungskritik">
+			<task type="fragestellung">
+				<LMMLtext>
+					<externalLink show="embed" uri="trakl.gif"/>
+				</LMMLtext>
+			</task>
+			<task type="fragestellung">
+				<LMMLtext>Handelt es sich bei dem im Beispiel gezeigten Text um ein/eine: </LMMLtext>
+			</task>
+			<task type="alternative" target="uebungentstehungsapparatentstehungskritik1L1">
+				<LMMLtext>Mundum</LMMLtext>
+			</task>
+			<solution label="uebungentstehungsapparatentstehungskritik1L1" true="false">
+				<LMMLtext/>
+			</solution>
+			<task type="alternative" target="uebungentstehungsapparatentstehungskritik1L2">
+				<LMMLtext>Autograph</LMMLtext>
+			</task>
+			<solution label="uebungentstehungsapparatentstehungskritik1L2" true="true">
+				<LMMLtext/>
+			</solution>
+			<task type="alternative" target="uebungentstehungsapparatentstehungskritik1L3">
+				<LMMLtext>Faksimile</LMMLtext>
+			</task>
+			<solution label="uebungentstehungsapparatentstehungskritik1L3" true="true">
+				<LMMLtext/>
+			</solution>
+			<task type="alternative" target="uebungentstehungsapparatentstehungskritik1L4">
+				<LMMLtext>Entwurfsfassung</LMMLtext>
+			</task>
+			<solution label="uebungentstehungsapparatentstehungskritik1L4" true="true">
+				<LMMLtext/>
+			</solution>
+		</exercise>
+		<exercise topics="multiplechoice" label="zweiteuebungentstehungsapparatentstehungskritikUeb" title="Zweite Übung Entstehungsapparat/Entstehungskritik">
+			<task type="textbeispiel">
+				<quotation booktitle="f" authorname="f" authorfamily="f">
+					<LMMLtext>
+						<externalLink show="embed" uri="trakl.gif"/>
+					</LMMLtext>
+				</quotation>
+			</task>
+			<task type="fragestellung">
+				<LMMLtext>Der Text ist geschrieben in:</LMMLtext>
+			</task>
+			<task type="alternative" target="zweiteuebungeentstehungsapparatentstehungskritikL1">
+				<LMMLtext>lateinischer Schrift</LMMLtext>
+			</task>
+			<solution label="zweiteuebungeentstehungsapparatentstehungskritikL1" true="false">
+				<LMMLtext/>
+			</solution>
+			<task type="alternative" target="zweiteuebungeentstehungsapparatentstehungskritikL2">
+				<LMMLtext>deutscher Schrift</LMMLtext>
+			</task>
+			<solution label="zweiteuebungeentstehungsapparatentstehungskritikL2" true="true">
+				<LMMLtext/>
+			</solution>
+			<task type="alternative" target="zweiteuebungeentstehungsapparatentstehungskritikL3">
+				<LMMLtext>Sütterlinschrift</LMMLtext>
+			</task>
+			<solution label="zweiteuebungeentstehungsapparatentstehungskritikL3" true="false">
+				<LMMLtext/>
+			</solution>
+		</exercise>
+		<exercise topics="multiplechoice" label="dritteuebungentstehungsapparatentstehungskritikUeb" title="Dritte Übung Entstehungsapparat/Entstehungskritik">
+			
+				
+			
+			<task type="fragestellung">
+				<LMMLtext>Sieht man in diesem Text:</LMMLtext>
+				<LMMLtext>
+					<externalLink show="embed" uri="trakl2.pdf">PDF Link</externalLink>
+				</LMMLtext>
+			</task>
+			<task type="alternative" target="dritteuebungentstehungsapparatentstehungskritikL1">
+				<LMMLtext>Presskorrekturen</LMMLtext>
+			</task>
+			<solution label="dritteuebungentstehungsapparatentstehungskritikL1" true="false">
+				<LMMLtext/>
+			</solution>
+			<task type="alternative" target="dritteuebungentstehungsapparatentstehungskritikL2">
+				<LMMLtext>Kürzel</LMMLtext>
+			</task>
+			<solution label="dritteuebungentstehungsapparatentstehungskritikL2" true="true">
+				<LMMLtext>Die einzigen hier von Trakl verwendeten Kürzel sind die für Doppelkonsonanten verwendeten Nasalstriche. Die Grundschicht des Textes wird durch Korrekturen ergänzt.</LMMLtext>
+			</solution>
+			<task type="alternative" target="dritteuebungentstehungsapparatentstehungskritikL3">
+				<LMMLtext>
+					<referencesLink show="new" type="defines" target="emendatiodef">Emendation</referencesLink>
+				</LMMLtext>
+			</task>
+			<solution label="dritteuebungentstehungsapparatentstehungskritikL3" true="false">
+				<LMMLtext/>
+			</solution>
+			<task type="alternative" target="dritteuebungentstehungsapparatentstehungskritikL4">
+				<LMMLtext>Korrekturen</LMMLtext>
+			</task>
+			<solution label="dritteuebungentstehungsapparatentstehungskritikL4" true="true">
+				<LMMLtext>Die einzigen hier von Trakl verwendeten Kürzel sind die für Doppelkonsonanten verwendeten Nasalstriche. Die Grundschicht des Textes wird durch Korrekturen ergänzt.</LMMLtext>
+			</solution>
+		</exercise>
+		<exercise topics="multiplechoice" label="vierteuebungentstehungsapparatentstehungskritikUeb" title="Vierte Übung Entstehungsapparat/Entstehungskritik">
+			
+				
+				
+			
+			<task type="fragestellung">
+				<LMMLtext>In einer Ausgabe welchen Editionstyps könnte der folgende Text auftauchen?
+					
+				</LMMLtext><LMMLtext>
+					<externalLink show="embed" uri="trakl2.pdf">PDF Link</externalLink>
+				</LMMLtext></task>
+			<task type="alternative" target="vierteuebungzuentstehungsapparatentstehungskritikL1">
+				<LMMLtext>Studienausgabe</LMMLtext>
+			</task>
+			<solution label="vierteuebungzuentstehungsapparatentstehungskritikL1" true="false">
+				<LMMLtext/>
+			</solution>
+			<task type="alternative" target="vierteuebungzuentstehungsapparatentstehungskritikL2">
+				<LMMLtext>Leseausgabe</LMMLtext>
+			</task>
+			<solution label="vierteuebungzuentstehungsapparatentstehungskritikL2" true="false">
+				<LMMLtext/>
+			</solution>
+			<task type="alternative" target="vierteuebungzuentstehungsapparatentstehungskritikL3">
+				<LMMLtext>kritische Ausgabe</LMMLtext>
+			</task>
+			<solution label="vierteuebungzuentstehungsapparatentstehungskritikL3" true="false">
+				<LMMLtext/>
+			</solution>
+			<task type="alternative" target="vierteuebungzuentstehungsapparatentstehungskritikL4">
+				<LMMLtext>historisch-kritische Ausgabe</LMMLtext>
+			</task>
+			<solution label="vierteuebungzuentstehungsapparatentstehungskritikL4" true="true">
+				<LMMLtext>Im Gegensatz zur eingeschränkten Leseausgabe und noch stärker als in der Studienausgabe werden in historisch-kritischen Editionen die verschiedenen Fassungen eines Textes gleichberechtigt dargestellt, und die Textentstehung  wird anhand der Präsentation von Arbeitsmaterialen des Autors nachvollziehbar gemacht.</LMMLtext>
+			</solution>
+		</exercise>
+	</section>
+</lmml>

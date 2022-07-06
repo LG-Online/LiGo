@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Indirekte Rede" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer"
+        creationTime="27.07.2005" label="indirekterede">
+        <definition title="Indirekte Rede (oratio obliqua)" label="indirekteredeoratioobliqua">
+            <LMMLtext>Erzählerische Redewiedergabe in der 3. Person Präsens Konjunktiv (bei
+                Ich-Erzählung: in der 1. Person für das erlebende Ich), ohne Innensicht, mit der
+                Möglichkeit kommentierender Einmischung, in vollständiger Syntax ohne Anführungs-,
+                Ausrufe- und Fragezeichen.</LMMLtext>
+            <LMMLtext>Der Inhalt der Figurenrede bzw. der Gedanken bleibt zwar erhalten, nicht
+                jedoch ihr Wortlaut, da das Gesagte einem anderen Sprecher, dem Erzähler, als Inhalt
+                eines „dass“-Satzes im Konjunktiv zugeordnet wird.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext><referencesLink type="illustrates" target="beispielfuerindirekteredeBsp"
+                    /><referencesLink type="exercises" target="uebungzurindirektenredeUeb"
+                /></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel für indirekte Rede"
+            label="beispielfuerindirekteredeBsp">
+            <quotation booktitle="Der Sandmann" authorname="E. T. A." authorfamily="Hoffmann">
+                <LMMLtext>Recht hatte aber Nathanael doch, als er seinem Freunde Lothar schrieb, daß
+                    des widerwärtigen Wetterglashändlers Coppola Gestalt recht feindlich in sein
+                    Leben getreten sei.</LMMLtext>
+            </quotation>
+            <illustration label="beispielfuerindirekteredeBspIllu">
+                <LMMLtext>In dieser kurzen Passage aus E.T.A. Hoffmanns <formatted style="buchtitel"
+                        >Sandmann</formatted> liegt <referencesLink show="new" type="defines"
+                        target="praesentationvonwortenimgemischtenmodustransponierterede"
+                        >transponierte Rede</referencesLink> in Form von indirekter Rede vor - und
+                    zwar in der Standardform Verb des Sagens + „dass“ + Konjunktiv im Nebensatz. Der
+                    Leser erfährt nicht den genauen Wortlaut dessen, was Nathanael über Coppola
+                    geschrieben hat, aber der Erzähler gibt ihm gleichwohl den gesamten relevanten
+                    Inhalt zur Kenntnis, so dass diese Art der Wort- oder Gedankenwiedergabe
+                    zwischen dramatischem und narrativem Modus anzusiedeln ist.</LMMLtext>
+            </illustration>
+        </section>
+        <exercise label="uebungzurindirektenredeUeb" title="Übung zur indirekten Rede"
+            topics="multiplechoice">
+            <task type="textbeispiel">
+                <quotation booktitle="Wilhelm Meisters Lehrjahre (2. Kapitel)"
+                    authorname="Johann Wolfgang" authorfamily="von Goethe">
+                    <LMMLtext>Als Wilhelm seine Mutter des andern Morgens begrüßte, eröffnete sie
+                        ihm, daß der Vater sehr verdrießlich sei und ihm den täglichen Besuch des
+                        Schauspiels nächstens untersagen werde.</LMMLtext>
+                </quotation>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>Welche Form der Redewiedergabe liegt hier vor?</LMMLtext>
+            </task>
+            <task type="alternative" target="uebungzurindirektenredeL1">
+                <LMMLtext>Erwähnung des sprachlichen Akts</LMMLtext>
+            </task>
+            <solution label="uebungzurindirektenredeL1" true="false">
+                <LMMLtext> Es wird hier nicht nur erwähnt, dass der Vater etwas gesagt hat, sondern
+                    auch was er gesagt hat.</LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungzurindirektenredeL2">
+                <LMMLtext>Indirekte Rede</LMMLtext>
+            </task>
+            <solution label="uebungzurindirektenredeL2" true="true">
+                <LMMLtext>Wilhelms Vater spricht hier nicht selbst, sondern Wilhelms Mutter gibt
+                    seine Worte in indirekter Rede wieder (dass+Konjunktiv!).</LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungzurindirektenredeL3">
+                <LMMLtext>Redebericht</LMMLtext>
+            </task>
+            <solution label="uebungzurindirektenredeL3" true="false">
+                <LMMLtext>Der Inhalt der Rede wird nicht durch einen Erzähler oder eine andere
+                    Person mit dessen oder deren Formulierungen berichtet, sondern in seinem
+                    Originalwortlaut in indirekter Rede präsentiert.</LMMLtext>
+            </solution>
+        </exercise>
+    </section>
+</lmml>

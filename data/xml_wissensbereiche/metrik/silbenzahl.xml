@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Silbenzahl" author="Sebastian Donat" creationTime="24.03.2008" label="silbenzahl" topics="Silbenzahl">
+		<definition title="Silbenzahl" label="silbenzahldef">
+			<LMMLtext>
+				<referencesLink target="horizontaleanordnungsprinzipien">Horizontales Anordnungsprinzip</referencesLink>, bei dem die Regulierung auf der identischen oder sich regelmäßig wiederholenden Anzahl der <referencesLink target="silbe">
+					<referencesLink show="new" type="defines" target="silbedef">Silben</referencesLink>
+				</referencesLink> pro Vers beruht.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>In weitgehend isolierter Form liegt das silbenzählende Prinzip im japanischen Haiku vor. Zumeist existieren allerdings zusätzlich zur Silbenzahl auch Regulierungen von Anzahl und/oder Position in bezug auf <referencesLink target="silbenprominenz">
+					<referencesLink show="new" type="defines" target="silbenprominenzdef">Silbenprominenz</referencesLink>
+				</referencesLink>, <referencesLink target="lautlicheuebereinstimmung">
+					<referencesLink show="new" type="defines" target="lautlicheuebereinstimmungdef">lautliche Übereinstimmungen</referencesLink>
+				</referencesLink> und/oder <referencesLink target="pause_m">
+					<referencesLink show="new" type="defines" target="pause_mdef">Pausen</referencesLink>
+				</referencesLink>. Trotz der Dominanz des silbenzählenden bzw. syllabischen Prinzips gilt dies auch für die romanische Dichtung (<referencesLink target="endecasillabo">
+					<referencesLink show="new" type="defines" target="endecasillabodef">Endecasillabo</referencesLink>
+				</referencesLink>) und Teile der deutschen Lyrik im 16. und Anfang des 17. Jahrhunderts (<referencesLink target="strengerknittelvers">
+					<referencesLink show="new" type="defines" target="strengerknittelversdef">Strenger Knittelvers</referencesLink>
+				</referencesLink>).</LMMLtext>
+		</illustration>
+	</section>
+</lmml>

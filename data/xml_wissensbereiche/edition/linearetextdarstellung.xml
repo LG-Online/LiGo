@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Lineare Textdarstellung" author="Ulrich Joost" creationTime="14.01.2008" label="linearetextdarstellung">
+		<illustration>
+			<LMMLtext>Die in der  linearen Textdarstellung  entwickelten Textstufen  stehen jeweils am Ende einer  <referencesLink target="textphasen">Textphase</referencesLink>. Ergibt sich keine wesentliche Abweichung zu vorhergehenden oder folgenden  Textstufen, wird auf einen Textdruck  verzichtet. Schließt die Entwicklung eines Textkomplexes mit einer Reinschrift oder einem autorisierten Druck  ab, wird diese letzte  Textstufe  in größerer Schriftart gedruckt.</LMMLtext>
+			<LMMLtext>Die zugehörigen Zeichen finden Sie in folgender Tabelle: </LMMLtext>
+			<LMMLtext>
+				<externalLink show="embed" uri="editorZeichen.gif"/>
+			</LMMLtext>
+			<LMMLtext>
+				<formatted style="ueberschrift">Editorische Abkürzungen</formatted>
+			</LMMLtext>
+			<LMMLtext>Jede editorische Technik erfordert ihre Abkürzungen. An dieser Stelle finden Sie ein Beispiel. Welche Abkürzungen wirklich benötigt werden, entscheidet sich von Fall zu Fall. Die Abkürzungen variieren von Autor zu Autor.</LMMLtext>
+			<table>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Hs</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Handschrift</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Hd</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Hand</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>D 10</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Verzeichnis der Drucke mit Hölderlin Texten</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Bl.</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Blatt</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Dbl.</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Doppelblatt</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>210/3</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Kennziffer und Seitenangabe der Handschrift</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>recto</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Vorderseite</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>verso</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Rückseite</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>v.</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Vers (versus)</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>l.</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Linie (linea; Zeile in Prosaentwürfen)</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Z.</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Zeile</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>T</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Titel</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Mglw.</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Möglicherweise</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Vmtl.</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>vermutlich</LMMLtext>
+					</tabledata>
+				</tablerow>
+			</table>
+			<LMMLtext>
+				<formatted style="ueberschrift">Editionsbeispiel und Editionsschritte </formatted>
+			</LMMLtext>
+			<LMMLtext>Als nächstes folgt ein Editionsbeispiel: 
+Der Entwurf des Liedes <formatted style="buchtitel">An Landauer</formatted> ist im <formatted style="buchtitel">Stuttgarter Foliobuch (6/47,46)</formatted> überliefert.</LMMLtext>
+			<LMMLtext>
+				<externalLink show="embed" uri="hoelderlin1.gif"/>
+			</LMMLtext>
+			<LMMLtext>Es handelt sich um die letzte Strophe des Liedes. Sie erfasst zunächst den zu  Entwurfsphase 1 gehörenden Text. Die Rekonstruktion der einzelnen Überarbeitungsvorgänge erfolgt in diesem Beispiel in sechs Schritten. Zunächst werden alle Varianten der Strophen nach vermutlichen im Zeitablauf früherer und späterer Korrekturmaßnahmen von Hölderlin vorgestellt. Aus diesen einzelnen Vorstufen ergibt sich dann ein konstituierender Text.</LMMLtext>
+			<LMMLtext>Für jeden Vers sind Variantenziffern angegeben. Diesen entsprechen eben so viele Formulierungen.</LMMLtext>
+			<LMMLtext>Bei einer weitergehenden Lesearbeit lassen sich jene zusammenhängend gelesenen Versvarianten zu ganzen Strophenvorstufen verbinden. An gesicherten Stellen ist auf solche Beziehungen durch Pfeile und Gegenpfeile hingewiesen.</LMMLtext>
+			<LMMLtext>
+				<formatted style="ueberschrift">Schritt 1</formatted>
+			</LMMLtext>
+			<LMMLtext>Wahrscheinlich erste Notiz zur letzten Strophe:</LMMLtext>
+			<LMMLtext title="simple">
+				<poem>
+					<poemlinegroup>
+						<poemline>Aus Freude [-u-] Herzens</poemline>
+						<poemline>Denn</poemline>
+					</poemlinegroup>
+				</poem>
+			</LMMLtext>
+			<LMMLtext>Daraus ergibt sich folgende erste vollständige Niederschrift der letzten Strophe:</LMMLtext>
+			<LMMLtext>
+				<poem>
+					<poemlinegroup>
+						<poemline>Doch sieh! Aus Freude singen wir von Sorgen,</poemline>
+						<poemline>Wie dunkler Wein, gefallt auch ernster Sang,</poemline>
+						<poemline>Das Fest verhallt und jedes gehet morgen</poemline>
+						<poemline>Auf schmalem Pfade seinen Gang.</poemline>
+					</poemlinegroup>
+				</poem>
+			</LMMLtext>
+		</illustration>
+		<illustration>
+			<LMMLtext>
+				<formatted style="ueberschrift">Schritt 2</formatted>
+			</LMMLtext>
+			<LMMLtext>Bei der nun folgenden Überarbeitung<annotated>
+					<LMMLtext>Möglicherweise störte Hölderlin der Binnenreim gefallt-verhallt.</LMMLtext>
+				</annotated>wird jenes "gefallt" 14,2 durch den neuen Versbeginn "Doch freut" 14,3 ersetzt. Danach muss aber der Anfang der ersten Zeile "Doch sieh!" 13,2 aufgehoben werden. Hölderlin kommt dabei auf die Wortfügung der ersten Notiz zurück.   </LMMLtext>
+			<LMMLtext>
+				<poem>
+					<poemlinegroup>
+						<poemline>Aus Freude Lieber! Singen wir von Sorgen,</poemline>
+					</poemlinegroup>
+				</poem>
+			</LMMLtext>
+			<LMMLtext>
+				<formatted style="ueberschrift">Schritt 3</formatted>
+			</LMMLtext>
+			<LMMLtext>Danach wählt der Dichter zunächst die Alternative einer doppelsinnigen Anrufung:</LMMLtext>
+			<LMMLtext>
+				<poem>
+					<poemlinegroup>
+						<poemline>Aus Freude Vater! Singen wir von Sorgen,</poemline>
+						<poemline>doch freut wie dunkler Wein, auch ernster Sang,</poemline>
+					</poemlinegroup>
+				</poem>
+			</LMMLtext>
+			<LMMLtext>Mit dem Rückgriff auf die ursprüngliche Versstruktur 14,2 wird die zweite Zeile nochmals geändert, wiederum ohne Streichungen (die editorisch durch [ ] gekennzeichnet sind):</LMMLtext>
+			<LMMLtext>
+				<poem>
+					<poemlinegroup>
+						<poemline>Aus Freude Vater! singen wir von Sorgen,</poemline>
+						<poemline>Wie dunkler Wein, erfreut auch ernster Sang.</poemline>
+					</poemlinegroup>
+				</poem>
+			</LMMLtext>
+			<LMMLtext>
+				<formatted style="ueberschrift">Schritt 4</formatted>
+			</LMMLtext>
+			<LMMLtext>Für die Änderungen im letzten Vers lassen sich keine Beziehungen zu den vorigen Korrekturen nachweisen; sie könnten ebensogut unmittelbar nach der ersten Niederschrift entstanden sein. In solchem Fall wird immer die räumliche Anordnung – das heißt der normale Schriftverlauf – mit der anders unbestimmbaren Variantenfolge gleichgesetzt. Der geänderte Schlußvers lautet zunächst:</LMMLtext>
+			<LMMLtext>
+				<poem>
+					<poemlinegroup>
+						<poemline>Auf vestem Pfade seinen Gang.</poemline>
+					</poemlinegroup>
+				</poem>
+			</LMMLtext>
+			<LMMLtext>Dann erst:</LMMLtext>
+			<LMMLtext>
+				<poem>
+					<poemlinegroup>
+						<poemline>Auf schmaler Erde seinen Gang.</poemline>
+					</poemlinegroup>
+				</poem>
+			</LMMLtext>
+			<LMMLtext>Demgemäß lautet der konstituierte Text 1, v. 13-16:</LMMLtext>
+			<LMMLtext>
+				<poem>
+					<poemlinegroup>
+						<poemline>Aus Freude Vater! singen wir von Sorgen.</poemline>
+						<poemline>Wie dunkler Wein, erfreut auch ernster Sang,</poemline>
+						<poemline>Das Fest verhallt, und jedes gehet morgen</poemline>
+						<poemline>Auf schmaler Erde seinen Gang.</poemline>
+					</poemlinegroup>
+				</poem>
+			</LMMLtext>
+			<LMMLtext>
+				<formatted style="ueberschrift">Schritt 5</formatted>
+			</LMMLtext>
+			<LMMLtext>Ihre endgültige Gestalt erhält die Strophe erst bei einer Erweiterung und Überarbeitung des Entwurfs 1.</LMMLtext>
+			<LMMLtext>
+				<poem>
+					<poemlinegroup>
+						<poemline>Aus Freude Vater! singen wir	von Sorgen,</poemline>
+						<poemline>
+							<formatted style="hervorhebung"> Und sieh! aus Freude sagen wir</formatted>
+						</poemline>
+						<poemline> wie 1, v. 14</poemline>
+					</poemlinegroup>
+				</poem>
+			</LMMLtext>
+			<LMMLtext>
+				<formatted style="ueberschrift">Schritt 6</formatted>
+			</LMMLtext>
+			<LMMLtext>Bei Überarbeitungen wird die Basiszeile in der Antiqua der zuvor konstituierenden Textstufe gesetzt. Wegen des Textzuwachses in dieser Entwurfsphase verschiebt sich die Verszählung. Der Schluß des Gedichtes bleibt unverändert und wird deshalb nicht nochmals dargestellt.  </LMMLtext>
+			<LMMLtext>Siehe auch: Sattler D. E.: Friedrich Hölderlin, Sämtliche Werke, Luchterhand Verlag, S 14 – 19.</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="exercises" target="uebung1linearetextdarstellungUeb"/>
+				<referencesLink type="exercises" target="uebung2linearetextdarstellungUeb"/>
+				<referencesLink type="exercises" target="uebung3linearetextdarstellungUeb"/>
+			</LMMLtext>
+		</illustration>
+		<exercise topics="multiplechoice" label="uebung1linearetextdarstellungUeb" title="Erste Übung Lineare Textdarstellung">
+			<task type="fragestellung">
+				<LMMLtext>Was ist ein emendierter Text?</LMMLtext>
+			</task>
+			<task type="alternative" target="uebung1linearetextdarstellungL1">
+				<LMMLtext>Verbesserung („Heilung“) eines offenbar verderbten Textes (sog. →Korruptele). </LMMLtext>
+			</task>
+			<solution label="uebung1linearetextdarstellungL1" true="true">
+				<LMMLtext> </LMMLtext>
+			</solution>
+			<task type="alternative" target="uebung1linearetextdarstellungL2">
+				<LMMLtext>Ein emendierter Text ist die Verbesserung („Heilung“) eines vom Autor mehrfach veränderten Textes </LMMLtext>
+			</task>
+			<solution label="uebung1linearetextdarstellungL2" true="false">
+				<LMMLtext> </LMMLtext>
+			</solution>
+			<task type="alternative" target="uebung1linearetextdarstellungL3">
+				<LMMLtext>Ein emendierter Text ist die nach heutigen Maßstäben richtige grammatische und orthografische Verbesserung eine Textes </LMMLtext>
+			</task>
+			<solution label="uebung1linearetextdarstellungL3" true="false">
+				<LMMLtext> </LMMLtext>
+			</solution>
+		</exercise>
+		<exercise topics="multiplechoice" label="uebung2linearetextdarstellungUeb" title="Zweite Übung Lineare Textdarstellung">
+			<task type="fragestellung">
+				<LMMLtext>Was ist ein Konstituierter Text?</LMMLtext>
+			</task>
+			<task type="alternative" target="uebung2linearetextdarstellungL1">
+				<LMMLtext>Ein konstituierter Text ist ein Text, der aus der linearen Darstellung einer nicht ins Reine geschriebenen Reinschrift abgeleitet wurde. </LMMLtext>
+			</task>
+			<solution label="uebung2linearetextdarstellungL1" true="true">
+				<LMMLtext>  </LMMLtext>
+			</solution>
+			<task type="alternative" target="uebung2linearetextdarstellungL2">
+				<LMMLtext>Ein konstituierter Text ist ein Text, der mehrere Varianten in zeitlich umgekehrter Reihenfolge enthält.</LMMLtext>
+			</task>
+			<solution label="uebung2linearetextdarstellungL2" true="false">
+				<LMMLtext> </LMMLtext>
+			</solution>
+			<task type="alternative" target="uebung2linearetextdarstellungL3">
+				<LMMLtext>Die letzte Textfassung des Autors ist der richtige Text, also auch der konstituierte.</LMMLtext>
+			</task>
+			<solution label="uebung2linearetextdarstellungL3" true="false">
+				<LMMLtext> </LMMLtext>
+			</solution>
+		</exercise>
+		<exercise topics="multiplechoice" label="uebung3linearetextdarstellungUeb" title="Dritte Übung Lineare Textdarstellung">
+			<task type="fragestellung">
+				<LMMLtext>Was ist ein differenzierter Text?</LMMLtext>
+			</task>
+			<task type="alternative" target="uebung3linearetextdarstellungL1">
+				<LMMLtext>Ein differenzierter Text ist eine typographisch qualifizierte Wiedergabe eines redigierten Drucks.</LMMLtext>
+			</task>
+			<solution label="uebung3linearetextdarstellungL1" true="true">
+				<LMMLtext> </LMMLtext>
+			</solution>
+			<task type="alternative" target="uebung3linearetextdarstellungL2">
+				<LMMLtext>Ein differenzierter Text beinhaltet alle im Nachhinein vorgenommenen Änderungen.</LMMLtext>
+			</task>
+			<solution label="uebung3linearetextdarstellungL2" true="false">
+				<LMMLtext> </LMMLtext>
+			</solution>
+			<task type="alternative" target="uebung3linearetextdarstellungL3">
+				<LMMLtext>Ein differenzierter Text ist eine Handschrift, die zensiert wurde.</LMMLtext>
+			</task>
+			<solution label="uebung3linearetextdarstellungL3" true="false">
+				<LMMLtext/>
+			</solution>
+		</exercise>
+	</section>
+</lmml>

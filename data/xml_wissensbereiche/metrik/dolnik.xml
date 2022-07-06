@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Dol'nik" author="Sebastian Donat" creationTime="23.03.2008" label="dolnik" topics="Dol’nik">
+		<definition title="Dol'nik" label="dolnikdef">
+			<LMMLtext>(Von Russ. <formatted style="buchtitel">dolja</formatted> - Teil.) Untergruppe der primär auf regelmäßiger <referencesLink target="hebungszahl">
+					<referencesLink show="new" type="defines" target="hebungszahldef">Hebungszahl</referencesLink>
+				</referencesLink> beruhenden Verse. Die Anzahl der nicht-prominenten zwischen den prominenten Silben variiert zwischen 1 und 2. </LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Die in der russischen Verstheorie entwickelte Kategorie läßt sich problemlos auf andere (auch deutsche) Textcorpora anwenden. So kann eine präzise rhythmische Differenzierung im Bereich der Verse mit Füllungsfreiheit vorgenommen werden (vgl. <referencesLink target="taktovik">
+					<referencesLink show="new" type="defines" target="taktovikdef">Taktovik</referencesLink>
+				</referencesLink>, <referencesLink target="akcentnyjstich">
+					<referencesLink show="new" type="defines" target="akcentnyjstichdef">akcentnyj stich</referencesLink>
+				</referencesLink>). Der Dol’nik stellt dabei die strengste dieser Formen dar.<referencesLink type="illustrates" target="beispieldolnikBsp"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Dol'nik" label="beispieldolnikBsp">
+			<quotation authorname="Johann Wolfgang" authorfamily="Goethe" booktitle="Meine Göttin, 4. Versgruppe"/>
+			<illustration label="beispieldolnikBspIllu">
+				<table style="invisible">
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Oder sie mag</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x x X</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Mit fliegendem Haar</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x x X</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Und düsterm Blicke</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Im Winde sausen</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Um Felsenwände,</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Und tausendfarbig,</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Wie Morgen und Abend,</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Immer wechselnd,</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Wie Mondesblicke,	</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Den Sterblichen scheinen.</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+				</table>
+			</illustration>
+			<illustration>
+				<LMMLtext>Ungereimter, durchgehend 2hebiger Dol’nik. Die Intervalle zwischen den Betonungen sind 1- oder 2silbig.</LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Stellung" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer"
+        creationTime="09.09.2005" label="stellung">
+        <definition title="Stellung" label="stellungdef">
+            <LMMLtext>Mit diesem Begriff ist die Stellung des Erzählers zum Geschehen gemeint: Ist
+                der Erzähler Teil seiner Erzählung oder kommt er in dieser nicht vor und tritt ganz
+                hinter sie zurück?</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>In diesem Verhältnis lassen sich zwei Extreme ausmachen:</LMMLtext>
+            <ulist>
+                <item>
+                    <LMMLtext><referencesLink target="homodiegetischeserzaehlen">Erzähler ist am
+                            Geschehen beteiligt (homodiegetischer Erzähler) 1.
+                            Person</referencesLink></LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext><referencesLink target="heterodiegetischeserzaehlen">Erzähler ist
+                            nicht am Geschehen beteiligt (heterodiegetischer Erzähler) 3.
+                            Person</referencesLink></LMMLtext>
+                </item>
+            </ulist>
+            <LMMLtext>Allerdings ist diese Dichotomie nur analytisch sinnvoll um die äußeren Enden
+                einer Skala zu beschreiben, auf der mindestens 3 weitere Punkte als signifikante
+                Positionsbestimmungen ausgemacht werden können</LMMLtext>
+            <LMMLtext><externalLink show="embed" uri="stellung.gif"/></LMMLtext>
+            <LMMLtext>Eng verknüpft ist dieses Phänomen auch mit der Unterscheidung von
+                    <referencesLink target="ereignissenarrativ">narrativem</referencesLink> und
+                    <referencesLink target="ereignissedramatisch">dramtischem Modus</referencesLink>
+                des Erzählens</LMMLtext>
+        </illustration>
+    </section>
+</lmml>

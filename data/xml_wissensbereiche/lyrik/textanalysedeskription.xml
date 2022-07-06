@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Textanalyse, Deskription" author="Hamburg" creationTime="29.12.2005" label="textanalysedeskription"><definition title="Textanalyse, Deskription" label="textanalysedeskriptiondef" topics="glossarhide"><LMMLtext>Um die Beliebigkeit von Interpretationen zu begrenzen und ihren Anspruch auf Wissenschaftlichkeit zu begründen, werden ihnen Textanalysen vorgeschaltet. Textanalysen stützen sich auf Lesarten; sie reflektierten und ergänzen diese Lesevorgänge durch die intersubjektiv vermittelbaren Schritte der Deskription (des gelesenen Textes) und der Strukturierung des Beschriebenen, des Anlegens von ordnenden Mustern.</LMMLtext></definition></section></lmml>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Szene" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="04.08.2005" label="szene" modifiedTime="27.10.07">
+		<definition title="Szene" label="szenedef">
+			<LMMLtext>Eine typische Ausprägung des zeitdeckenden Erzählens ist die Szene, in der die Dauer der Wiedergabe von Figurenrede weitgehend mit der der Rede selbst übereinstimmt.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Zeitdeckendes Erzählen ist sicherlich nicht der Normalfall des Erzählens. Im Vergleich zu <referencesLink show="new" type="defines" target="dehnungdef">
+					<referencesLink target="dehnung">dehnendem</referencesLink>
+				</referencesLink> oder <referencesLink type="defines" target="raffungdef">
+					<referencesLink target="raffung">raffendem</referencesLink>
+				</referencesLink> Erzählen kann es jedoch als eine Art theoretischer Nullpunkt aufgefasst werden.	</LMMLtext>
+			<LMMLtext>
+				<externalLink show="embed" uri="szene.gif"/>
+			</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielszeneBsp"/>
+				<referencesLink type="exercises" target="uebungszeneUeb"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Szene" label="beispielszeneBsp">
+			<quotation booktitle="Effi Briest (Schluss)" authorname="Theodor" authorfamily="Fontane">
+				<LMMLtext>„Ob wir nicht doch vielleicht schuld sind?“</LMMLtext>
+				<LMMLtext>„Unsinn, Luise. Wie meinst du das?“</LMMLtext>
+				<LMMLtext>„Ob wir sie nicht anders in Zucht hätten nehmen müssen. Gerade wir. Denn Niemeyer ist doch eigentlich eine Null, weil er alles in Zweifel läßt. Und dann, Briest, so Leid es mir tut... Deine beständigen Zweideutigkeiten... und zuletzt, womit ich mich selbst anklage, denn ich will nicht schuldlos ausgehen in dieser Sache, ob sie nicht doch vielleicht zu jung war?“</LMMLtext>
+				<LMMLtext>Rollo, der bei diesen Worten aufwachte, schüttelte den Kopf langsam hin und her, und Briest sagte ruhig</LMMLtext>
+				<LMMLtext>„Ach, Luise, laß... das ist ein zu weites Feld.“</LMMLtext>
+			</quotation>
+			<illustration label="beispielszeneBspIllu">
+				<LMMLtext>Die Dauer der wiedergegebenen Figurenrede, der Gedankenpausen und der Beschreibung der Bewegungen des Hundes stimmt hier mit der Sprech- bzw. Ausführungsdauer nahezu überein, sodass man von <referencesLink show="new" type="defines" target="szenedef">szenischem Erzählen</referencesLink> sprechen kann.</LMMLtext>
+			</illustration>
+		</section>
+		<exercise label="uebungszeneUeb" title="Übung Szene" topics="multiplechoice">
+			<task type="textbeispiel">
+				<quotation booktitle="Die Turnstunde" authorname="Rainer Maria" authorfamily="Rilke">
+					<LMMLtext>„Gruber“, sagt Jerome und neigt sich zu dem Kameraden, der sich immer tiefer in die Nische zurücklehnt, „es war schon wieder an dir, zu klettern, auf dem Strick, geh mal, versuchs, sonst macht dir der Jastersky irgend eine Geschichte, weißt du…“ Gruber nickt. Aber statt aufzustehen, schließt er plötzlich die Augen  und gleitet unter den Worten Jeromes durch, als ob eine Welle ihn trüge, fort, gleitet langsam und lautlos tiefer, tiefer, gleitet vom Sitz, und Jerome weiß erst, was geschieht, als er hört, wie der Kopf Grubers hart an das Holz des Sitzes prallt und dann vornüber fällt.</LMMLtext>
+				</quotation>
+			</task>
+			<task type="fragestellung">
+				<LMMLtext>Hat man es in der folgenden Textpassage mit szenischem Erzählen zu tun?</LMMLtext>
+			</task>
+			<task type="alternative" target="uebungszeneL1">
+				<LMMLtext>Es liegt kein <referencesLink target="szenedef" type="defines" show="new">szenisches</referencesLink>, sondern <referencesLink show="new" type="defines" target="dehnungdef">dehnendes</referencesLink> Erzählen vor.</LMMLtext>
+			</task>
+			<solution label="uebungszeneL1" true="false">
+				<LMMLtext>Auch im beschreibenden Abschnitt nimmt der Discours nicht mehr Zeit ein, als Gruber braucht, um von der Bank zu gleiten.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebungszeneL2">
+				<LMMLtext>Es liegt zumeist <referencesLink show="new" type="defines" target="raffungdef">raffendes</referencesLink> Erzählen vor.</LMMLtext>
+			</task>
+			<solution label="uebungszeneL2" true="false">
+				<LMMLtext> Die Ereignisse werden hier nicht zusammenfassend berichtet, es gibt keinen Hinweis darauf, dass Teile ausgelassen wurden. Das Gespräch und der sich anschließende Vorgang werden im Detail wiedergegeben.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebungszeneL3">
+				<LMMLtext>Es liegt <referencesLink target="szenedef" type="defines" show="new">szenisches</referencesLink> Erzählen vor.</LMMLtext>
+			</task>
+			<solution label="uebungszeneL3" true="true">
+				<LMMLtext>In der Erzählung werden die Worte Jeromes und die Ohnmacht Grubers 1:1 wiedergegeben.</LMMLtext>
+			</solution>
+		</exercise>
+	</section>
+</lmml>

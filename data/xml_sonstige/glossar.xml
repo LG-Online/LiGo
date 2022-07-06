@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="Glossar" author="Katrin Fischer" creationTime="10.10.05" label="glossar">
+		<illustration>
+			<LMMLtext type="glossar" uri="prosa">Erzähltextanalyse</LMMLtext>
+			<LMMLtext type="glossar" uri="lyrik">Lyrik</LMMLtext>
+			<LMMLtext type="glossar" uri="metrik">Metrik</LMMLtext>
+			<LMMLtext type="glossar" uri="drama">Drama</LMMLtext>
+			<LMMLtext type="glossar" uri="rhetorik">Rhetorik und Stilistik</LMMLtext>
+			<LMMLtext type="glossar" uri="edition">Edition</LMMLtext>
+			<LMMLtext type="glossar" uri="literaturtheorie">Literaturtheorie</LMMLtext>
+			<LMMLtext type="glossar" uri="fachgeschichte">Fachgeschichte Germanistik</LMMLtext>
+		</illustration>
+	</section>
+</lmml>

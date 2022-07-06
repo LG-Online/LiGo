@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/left.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd/LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section label="frame" title="" author="Katrin Fischer">
+		<section title="Wissensbereiche" author="Katrin Fischer" label="wissensbereiche" type="oberbegriff">
+			<section label="prosa" title="Erzähltextanalyse" uri="prosa/erzaehltextanalyse.html"></section>
+			<section label="lyrikanalyse" title="Lyrikanalyse" uri="lyrik/lyrikanalyse.html" type="unterbegriff"/>
+			<section label="metrikanalyse" title="Metrik" author="Katrin Fischer" uri="metrik/metrikanalyse.html" type="unterbegriff"/>
+			<section label="dramenanalyse" uri="drama/dramenanalyse.html" title="Dramenanalyse" type="unterbegriff"/>
+			
+			<section label="rhetorikanalyse" uri="rhetorik/rhetorikanalyse.html" title="Rhetorik/Stilistik" type="unterbegriff"/>
+			<section label="editionsphilologie" uri="edition/editionsphilologie.html" title="Edition" type="unterbegriff"/>
+			<section label="literaturtheorie" title="Literaturtheorie" uri="literaturtheorie/literaturtheorie.html" type="unterbegriff"/>
+			
+		<section label="fachgeschichtegermanistik" title="Fachgeschichte Germanistik" uri="fachgeschichtegerm/fachgeschichtegermanistik.html" type="unterbegriff"/>
+			
+		</section>
+		<section label="verzeichnisse" title="Verzeichnisse" author="Katrin Fischer" type="oberbegriff">
+			<section label="glossar" title="Glossar" author="Katrin Fischer" uri="glossar.html" type="unterbegriff"/>
+			<section label="bibliographie" title="Bibliographie" author="Katrin Fischer" uri="bibliographie.html" type="unterbegriff"/>
+			<section label="personen" title="Personen" author="Katrin Fischer" uri="personen.html" type="unterbegriff"/>
+			<section type="unterbegriff" label="contents" title="Inhalt LiGo" uri="contents.html"/>
+			<section type="unterbegriff" label="suchen" title="Suchen" uri="suchen.html"/>
+			<section label="ueberligo" title="Über LiGo" author="Katrin Fischer" type="unterbegriff" uri="ueberligo.html">
+		</section>
+		</section>
+		<section label="mitligolernen" author="Katrin Fischer" title="Mit LiGo lernen" type="oberbegriff">
+			<section label="benutzung" title="Benutzung" author="Katrin Fischer" uri="benutzung.html" type="unterbegriff"/>
+			<section label="forum" author="Katrin Fischer" title="Diskussionsforum" uri="http://www.li-go.de/forum" type="unterbegriff"/>
+			<section label="test" title="Tests" author="Katrin Fischer" uri="test.html" type="unterbegriff"/>
+			<!--section label="pdfForm" title="pdf/Drucken" author="Katrin Fischer" uri="selectForm.html" type="unterbegriff"/-->
+		</section>
+	</section>
+</lmml>

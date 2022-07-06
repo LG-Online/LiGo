@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Emblem" author="Uwe Spörl" creationTime="08.04.2007" label="emblem" topics="Emblem">
+		<illustration>
+			<LMMLtext>griech.: das Eingesetzte</LMMLtext>
+		</illustration>
+		<definition title="Emblem" label="emblemdef">
+			<LMMLtext>Gattung/Textsorte: aus Überschrift, Bild und Text zusammengesetzter bimedialer Komplex, in dem die einzelnen Bestandteile durch Ähnlichkeits- oder andere Verweisungszusammenhänge miteinander verknüpft sind</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Die dreiteilige Gattung Emblem wurde im 16. Jahrhundert (insbes. von Andreas Alciatus und seinem <formatted style="buchtitel">Emblematum liber</formatted>) entwickelt und vor allem im 16. und 17. Jahrhundert in Europa verwendet – und zwar in Form von Emblemsammlungen, in denen also zahlreiche Embleme zusammengefasst publiziert worden sind. Sie sind selten von Originalität geprägt, sondern vor allem dadurch, dass – auch im Sinne der <referencesLink show="new" type="defines" target="imitatioveterumdef">
+					<referencesLink target="imitatioveterum">imitatio veterum</referencesLink>
+				</referencesLink>  und der  <referencesLink target="inventiomittopik">Topik</referencesLink>  – konventionalisierte Bild- und Ähnlichkeitskomplexe verbreitet und variiert werden.</LMMLtext>
+			<LMMLtext>Das Emblem besteht aus einer Überschrift (lat.: <formatted style="hervorhebung">inscriptio</formatted>), die in der Regel einen Titel, ein klassisches Zitat, eine Lebensregel, ein Motto oder Ähnliches formuliert bzw. übernimmt. Diese Überschrift ergibt – für sich genommen – keinen eindeutig erkennbaren bzw. identifizierbaren Sinn.</LMMLtext>
+			<LMMLtext>Es wird allerdings mit einem Bild (lat.:<formatted style="hervorhebung"> pictura</formatted>) kombiniert, und so wird das vom Motto Gemeinte durch dieses illustriert. In den frühneuzeitlichen Emblemen wird das Bild meist als Holzschnitt oder Kupferstich realisiert. Es zeigt mythologische oder historische Sachverhalte, aber auch Gegenstände der Natur oder des täglichen Umgangs.</LMMLtext>
+			<LMMLtext>In einem erläuternden Text am Ende des Emblems (lat.: <formatted style="hervorhebung">subscriptio</formatted>) wird – meist in Gedichtform (etwa als Epigramm) – der Zusammenhang von Überschrift und Bild im Sinne einer <referencesLink show="new" type="defines" target="allegoriedef">
+					<referencesLink target="allegorie">Allegorie</referencesLink>
+				</referencesLink>  oder auf ähnliche Weise ausgedeutet. Der Inhalt ist in der Regel moralischer, religiöser und/oder politischer Natur und relativ stark bestimmt.</LMMLtext>
+			<LMMLtext>Die drei Bestandteile des Emblems stehen also in einem allegorischen oder allegorie-ähnlichen Verweisungszusammenhang zueinander, der allerdings in aller Regel gedeutet ist. Der Bildanteil des Emblems, der das Titelmotto veranschaulicht, ist insofern als dem <referencesLink show="new" type="defines" target="symboldef">
+					<referencesLink target="symbol ">Symbol</referencesLink>
+				</referencesLink>  nahestehend anzusehen. Dies gilt umso mehr, als solche Text-Bild-Komplexe nicht auf die Emblem-Literatur der Frühen Neuzeit beschränkt sind, sondern auch in ganz anderen Zusammenhängen, etwa in zeitgenössischer Werbung, verwendet und – etwa von Semiotikern – analysiert werden können.</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielemblemBsp"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Emblem" label="beispielemblemBsp">
+			<illustration>
+				<LMMLtext>PARTE TAMEN VIGILAT</LMMLtext>
+				<LMMLtext>
+					<externalLink show="embed" uri="emblem.gif"/>
+				</LMMLtext>
+			</illustration>
+			<illustration>
+				<LMMLtext>
+					<poem authorname="Julius Wilhelm" authorfamily="Zincgref" booktitle="Emblematum ethico-politicorum centuria (mit Stichen von Matthäus Merian)">
+						<poemlinegroup>
+							<poemline>Er wacht doch ein wenig</poemline>
+							<poemline>OB ich schon lig vnd ruhe / mein Augen doch halb offenstahn /</poemline>
+							<poemline>Spricht der schlaffende Löw / mein schwantz ohn vnderlaß sich regt /</poemline>
+							<poemline>Ein König / Fürst vnd Herr sorg für die Vnderthanen tregt /</poemline>
+							<poemline>Sein Hertz wacht / ob er schon den natürlichen Schlaff nimbt an. </poemline>
+						</poemlinegroup>
+					</poem>
+				</LMMLtext>
+			</illustration>
+			<illustration label="beispielemblemBspIllu">
+				<LMMLtext>Das oben gezeigte Emblem ist das erste in einem der berühmtesten deutschen Emblembücher aus dem frühen 17. Jahrhundert, der Sammlung von Zincgref. Es verbindet ein Bild, das einen Löwen (im Vordergrund) und eine Stadt/Burg (im Hintergrund) auf für sich nicht verständliche Weise nebeneinanderstellt, mit einer betont knappen und ebenfalls nicht einfach zu deutenden lateinischen <formatted style="hervorhebung">inscriptio</formatted> (ein Zitat aus Ovids <formatted style="buchtitel">Metamorphosen</formatted>) und einer französischen <formatted style="hervorhebung">subscriptio</formatted> (die hier weggelassen ist), der eine (hier wiedergegebene) deutsche Übersetzung beigefügt ist.</LMMLtext>
+				<LMMLtext>Das rätselhafte Bild und das allzu allgemeine Motto werden durch die <formatted style="hervorhebung">subscriptio</formatted> gedeutet, denn diese verbindet – als gemischte  <referencesLink show="new" type="defines" target="allegoriedef">Allegorie</referencesLink>  – den Löwen mit dem Herrscher unter dem Vergleichsaspekt des „parte tamen vigilat“ (lat.: zum Teil ist er dennoch wach), also des Mottos: So wie der ‚König der Tiere’ mit offenen Augen schläft, so sollte auch der aufmerksame Fürst auch im Schlaf Sorge für seine Untertanen tragen. Der Löwe mit den offenen Augen kann so zum <referencesLink show="new" type="defines" target="symboldef">Symbol</referencesLink>  für den guten Herrscher etabliert werden – bzw. ist es bereits.</LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

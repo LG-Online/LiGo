@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Metrische Notation" author="Sebastian Donat" creationTime="22.10.2007" label="metrischenotation" topics="Metrische Notation">
+		<definition title="Metrische Notation" label="metrischenotationdef">
+			<LMMLtext>Konventionalisierte Form der schriftlichen Fixierung von Metrum
+				und Rhythmus
+				 eines Textes.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>In der wissenschaftlichen Literatur zur Versanalyse konkurrieren verschiedene metrische Notationssysteme (vgl. <referencesLink show="new" type="book" target="Breuer1994">Breuer 1994</referencesLink>, S. 26-29, <referencesLink show="new" type="book" target="Kueper1988">Küper 1988</referencesLink>, S. 124-127, <referencesLink show="new" type="book" target="Wagenknecht1993">Wagenknecht 1993</referencesLink>, S. 22-26). – In LiGo gilt die folgende Beschreibungskonvention:</LMMLtext>
+			<LMMLtext>Auf der Ebene des abstrakten <referencesLink target="metrischesschema">
+					<referencesLink show="new" type="defines" target="metrischesschemadef">metrischen Schemas</referencesLink>
+				</referencesLink> steht ‚v’ für eine Senkung und ‚–’ für eine Hebung (Silbenprominenz). Fakultative Silben (z.B. am Versende) werden in Klammern gesetzt; alternative Realisationsmöglichkeiten (z.B. im Hexameter) erscheinen oberhalb der Grundzeile.</LMMLtext>
+			<LMMLtext>Auf der Ebene des <referencesLink target="rhythmusdeskonkreteneinzelverses">
+					<referencesLink show="new" type="defines" target="rhythmusdeskonkreteneinzelversesdef">Rhythmus des konkreten Einzelverses</referencesLink>
+				</referencesLink> steht ‚x’ für eine nicht-prominente und ‚X’ für eine prominente Silbe (<referencesLink target="silbenprominenz">
+					<referencesLink show="new" type="defines" target="silbenprominenzdef">Silbenprominenz</referencesLink>
+				</referencesLink>). </LMMLtext>
+			<LMMLtext>Zäsuren und Diäresen werden durch ' gekennzeichnet.
+Großbuchstaben stehen für einsilbige und Kleinbuchstaben für zweisilbige Reime.</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielmetrischenotationBsp"/>
+				<referencesLink type="exercises" target="uebungzurmetrischennotationUeb"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Metrische Notation" label="beispielmetrischenotationBsp">
+			<poem authorname="Friedrich" authorfamily="Logau" title=" ">
+				<poemlinegroup>
+					<poemline>Ein zartes Mutter-Kind, das nie vom Haus entnommen,</poemline>
+					<poemline>Ist einem Ochsen gleich, der nie vom Stalle kommen.</poemline>
+				</poemlinegroup>
+			</poem>
+
+			<illustration label="beispielmetrischenotationBspIllu">
+				<LMMLtext>abstraktes <referencesLink show="new" type="defines" target="metrischesschemadef">metrisches Schema</referencesLink>
+					: sechshebiger Jambus mit Diärese nach dem dritten 
+						<referencesLink show="new" type="defines" target="versfussdef">Versfuß</referencesLink>
+					 und Paarreim (heroischer Alexandriner)</LMMLtext>
+				<table style="invisible">
+					<tablerow>
+						<tabledata>
+							<LMMLtext>v – v – v – ' v – v – v – (v)</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>A/a</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>v – v – v – ' v – v – v – (v)</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>A/a</LMMLtext>
+						</tabledata>
+					</tablerow>
+				</table>
+				<LMMLtext>konkreter Einzelvers:</LMMLtext>
+				<table style="invisible">
+					<tablerow>
+						<tabledata>
+							<LMMLtext>x X x X x X ' x X x X x X x</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>a</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>x X x X x X ' x X x X x X x</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>a</LMMLtext>
+						</tabledata>
+					</tablerow>
+				</table>
+			</illustration>
+		</section>
+		<exercise topics="musterloesung" label="uebungzurmetrischennotationUeb" title="Übung zur Metrischen Notation">
+			<task type="textbeispiel">
+				<LMMLtext>
+					<poem authorname="Johann Wolfgang" authorfamily="Goethe">
+						<poemlinegroup>
+							<poemline>Weißt du worin der Spaß des Lebens liegt?</poemline>
+							<poemline>Sei lustig! – geht es nicht, so sei vergnügt.</poemline>
+						</poemlinegroup>
+					</poem>
+				</LMMLtext>
+			</task>
+			<task type="fragestellung">
+				<LMMLtext>Bestimmen Sie das abstrakte <referencesLink show="new" type="defines" target="metrischesschemadef">Metrum</referencesLink> und den individuellen <referencesLink show="new" type="defines" target="rhythmusdeskonkreteneinzelversesdef">Rhythmus des Einzelverses</referencesLink> des folgenden Gedichts. Notieren Sie beides entsprechend der hier geltenden Beschreibungskonvention.</LMMLtext>
+			</task>
+			<task type="userinput">
+				<LMMLtext>abstraktes Metrum:</LMMLtext>
+				<LMMLtext type="br">v – v – v – v – v – (v) A/a</LMMLtext>
+				<LMMLtext>v – v – v – v – v – (v) A/a</LMMLtext>
+				<LMMLtext>(fünfhebiger Jambus, Paarreim)</LMMLtext>
+				<LMMLtext>individueller Rhythmus:</LMMLtext>
+				<LMMLtext type="br">X x x X x X x X x X A</LMMLtext>
+				<LMMLtext>x X x ' X x X x X x X A</LMMLtext>
+			</task>
+		</exercise>
+	</section>
+</lmml>

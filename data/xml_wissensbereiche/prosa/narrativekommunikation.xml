@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Narrative Kommunikation" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="22.10.2005" label="narrativekommunikation">
+		<illustration>
+			<LMMLtext>
+				<formatted style="ueberschrift">Rollen in der narrativen Kommunikation</formatted>
+			</LMMLtext>
+			<LMMLtext>
+				<externalLink show="embed" uri="narrativeKomm.jpg"/>
+			</LMMLtext>
+		</illustration>
+		<definition title="Autor, realer" label="realerautor">
+			<LMMLtext>Historische oder gegenwärtige Person, die den Text verfasst hat</LMMLtext>
+		</definition>
+		<definition title="Impliziter Autor" label="impliziterautor">
+			<LMMLtext>Konstrukt, das der Leser aus den Textelementen gewinnt; unterscheidet sich vom realen Autor und vom Erzähler, weil der implizite Autor immer nur eine Vorstellung bleibt, die sich niemals ganz mit dem realen Autor und dessen Absichten deckt. </LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Die Unterscheidung von Erzähler und implizitem Autor ist für die Analyse von unzuverlässigen Erzählern des Typus ‚Kind’, ‚Lügner’, ‚Verrückter’ oder ‚Eingeschränkter’, unverzichtbar.<referencesLink type="illustrates" target="beispielzumimplizitenautorBsp"/>
+			</LMMLtext>
+		</illustration>
+		<definition title="Erzähler" label="erzähler">
+			<LMMLtext>‚Stimme' im Text oder ‚Sprecher' eines Textes. Kann im Gegensatz zur Alltagskommunikation nicht unhinterfragt mit dem realen Autor gleichgesetzt werden. Kann als Figur realisiert werden oder nur als Stimme. </LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Literarische Erzähltexte unterscheiden sich von Alltagskommunikation u.a. dadurch, dass die Erzählstimme und der Autor nicht gleichzusetzen sind. Man kann wohl in den meisten Fällen einen engen Bezug zwischen solchen Textnormen und Autorpositionen annehmen. Nicht das Fehlen einer Autorintention unterscheidet also literarische Texte von nicht-literarischen, sondern der Umstand, dass die Sprecherintention, wie sie aufgrund der Erzählstimme rekonstruierbar ist, deutlich markiert von der Autorintention abweichen kann (wie z.B. beim unzuverlässigen Erzählen).</LMMLtext>
+			<table>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Kriterien</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Typen des Erzählens</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Darstellungsmodus</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>explizit - implizit</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>diegetischer Status</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>diegetisch - nicht-diegetisch</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Hierarchie</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>primär - sekundär - tertiär</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Grad der Markiertheit</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>stark - schwach markiert</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Personalität</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>persönlich - unpersönlich</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Homogenität der Symptome</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>kompakt - diffus</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Wertungshaltung</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>objektiv - subjektiv</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Kompetenz</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>allwissend - im Wissen begrenzt</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>räumliche Bindung</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>allgegenwärtig - an einen bestimmten Ort gebunden</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Introspektion</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>ohne Introspektion</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Zuverlässigkeit</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>unzuverlässig - zuverlässig</LMMLtext>
+					</tabledata>
+				</tablerow>
+			</table>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielerzaehlerBsp"/>
+			</LMMLtext>
+		</illustration>
+		<definition title="Figuren" label="figuren">
+			<LMMLtext>Die Kommunikation der Figuren untereinander bildet eine eigene Ebene. Bei der Analyse ist zu beachten, dass man die Aussagen einer Figur, auch wenn sie im Text sehr privilegiert ist, nicht als Meinung des Autors interpretieren sollte. Man hat es mit vermittelter Kommunikation zu tun: Der Autor lässt einen Erzähler erzählen, was die Figuren sagen. Der Figur ist in dieser Einführung ein <referencesLink target="figur">eigenes Kapitel</referencesLink> gewidmet.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielfigurenkommunikationBsp"/>
+			</LMMLtext>
+		</illustration>
+		<definition title="Zuhörer/Leser" label="zuhörerleser">
+			<LMMLtext>Der Zuhörer oder Leser kann im Text als Figur auftauchen oder nicht. Er ist der vom Erzähler angesprochene Agent, er befindet sich also auf derselben Ebene wie der Erzähler.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielzuhoererleserBsp"/>
+			</LMMLtext>
+		</illustration>
+		<definition title="Modell-Leser" label="modell-leser">
+			<LMMLtext>Textbasiertes, anthropomorphes Konstrukt, das gekennzeichnet ist durch die Kenntnis aller einschlägigen Codes und auch über alle notwendigen Kompetenzen verfügt, um die vom Text erforderten Operationen erfolgreich durchzuführen. Der Modell-Leser hat außerdem ein Gedächtnis, um das textspezifische Wissen aufbauen zu können, sowie die Fähigkeit, Schlussfolgerungen zu ziehen.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielmodellleserBsp"/>
+			</LMMLtext>
+		</illustration>
+		<definition title="Leser, realer" label="realerleser">
+			<LMMLtext>Person oder Personengruppe, die den Text liest oder hört. Entweder historisch oder gegenwärtig.</LMMLtext>
+		</definition>
+		<section type="example" title="Beispiel zum impliziten Autor" label="beispielzumimplizitenautorBsp">
+			<quotation booktitle="Stopfkuchen (Romananfang)" authorname="Wilhelm" authorfamily="Raabe">
+				<LMMLtext>Es liegt mir daran, gleich in den ersten Zeilen dieser Niederschrift zu beweisen oder darzutun, daß ich noch zu den Gebildeten mich zählen darf. Nämlich ich habe es in Südafrika zu einem Vermögen gebracht, und das bringen Leute ohne tote Sprachen, Literatur, Kunstgeschichte und Philosophie eigentlich am leichtesten und besten zustande.</LMMLtext>
+			</quotation>
+			<illustration label="beispielzumimplizitenautorBspIllu">
+				<LMMLtext>Der Erzähler bezeichnet sich hier als „Gebildeten“, erklärt aber im nächsten Satz, dass er in den 'klassischen’ Bildungsdomänen "Literatur", "Kunstgeschichte" und "Philosophie" ausgerechnet keine Kenntnisse aufweisen kann. Eine von beiden Aussagen ist wohl nicht wahr - der Erzähler ist entweder nicht als gebildet zu bezeichnen, oder er hat doch mehr Wissen, als er zugeben will - und der Erzähler muss somit als unzuverlässig bezeichnet werden. Weil man natürlich trotzdem nicht annimmt, dass der Autor des Textes unzuverlässig ist, sondern er bewusst eine solche Erzählerfigur gewählt hat, werden an dieser Stelle die Normen des Textes sichtbar, die auch als ‚impliziter Autor’ bezeichnet werden.</LMMLtext>
+			</illustration>
+		</section>
+		<section type="example" title="Beispiel Erzähler" label="beispielerzaehlerBsp">
+			<quotation booktitle="Eine großmütige Handlung (2. Absatz)" authorname="Friedrich" authorfamily="Schiller">
+				<LMMLtext>Gegenwärtige Anekdote von zween Teutschen – mit stolzer Freude schreib ich das nieder – hat ein unabstreitbares Verdienst – sie ist <formatted style="hervorhebung">wahr</formatted>.</LMMLtext>
+			</quotation>
+			<illustration label="beispielerzaehlerBspIllu">
+				<LMMLtext>In dieser Erzählung hat Schiller eine Erzählerfigur gewählt, die in diesem Text auch als Figur in Erscheinung tritt und ihren Schreibakt thematisiert.</LMMLtext>
+			</illustration>
+		</section>
+		<section type="example" title="Beispiel Figurenkommunikation" label="beispielfigurenkommunikationBsp">
+			<quotation booktitle="Wilhelm Meisters Lehrjahre (Ende des 7. Buches)" authorname="Johann Wolfgang" authorfamily="von Goethe">
+				<LMMLtext>Wilhelm hörte ein Geräusch hinter sich, er kehrte sich um und sah ein Kindergesicht schalkhaft durch die Teppiche des Eingangs hervorgucken, es war Felix. Der Knabe versteckte sich sogleich scherzend, als er gesehen wurde. „Komm hervor!“ rief der Abbé. Er kam gelaufen, sein Vater stürzte ihm entgegen, nahm ihn in die Arme und drückte ihn an sein Herz. „Ja, ich fühl's“, rief er aus, „du bist mein! Welche Gabe des Himmels habe ich meinen Freunden zu verdanken! Wo kommst du her, mein Kind, gerade in diesem Augenblick?“</LMMLtext>
+				<LMMLtext>„Fragen Sie nicht!“ sagte der Abbé. „Heil dir, junger Mann! deine Lehrjahre sind vorüber; die Natur hat dich losgesprochen.“</LMMLtext>
+			</quotation>
+			<illustration label="beispielfigurenkommunikationBspIllu">
+				<LMMLtext>Der Abbé ist in den <formatted style="buchtitel">Lehrjahren</formatted> eine deutlich privilegierte Figur mit großem Überblick, die immer wieder allgemeine Lebensregeln ausspricht und deren Urteil von anderen Figuren sehr geschätzt wird. Dennoch ist anzuzweifeln, ob der Abbé als Sprachrohr des <referencesLink show="new" type="defines" target="erzähler">Erzählers</referencesLink> oder des<referencesLink show="new" type="defines" target="realerautor">Autors</referencesLink> verstanden werden kann - schließlich stellt diese Aussage nicht zugleich das Ende des Romans "Wilhelm Meisters Lehrjahre" dar.  Angesichts der Erfolglosigkeit und Unzufriedenheit von Wilhelm im anschließenden letzten Buch stellt sich auch die Frage, ob Wilhelm überhaupt etwas gelernt hat.</LMMLtext>
+			</illustration>
+		</section>
+		<section type="example" title="Beispiel Zuhörer/Leser" label="beispielzuhoererleserBsp">
+			<quotation booktitle="Geschichte des Agathon (2. Absatz, 1. Buch)" authorname="Christoph Martin" authorfamily="Wieland">
+				<LMMLtext>Wenn sich jemals ein Mensch in Umständen befunden hatte, die man unglücklich nennen kann, so war es dieser Jüngling in denjenigen, worin wir ihn das erstemal mit unsern Lesern bekannt machen.</LMMLtext>
+			</quotation>
+			<illustration label="beispielzuhoererleserBspIllu">
+				<LMMLtext>Der Erzähler der <formatted style="buchtitel">Geschichte des Agathon</formatted> spricht seine Leser hier direkt an. Genauso wie aber der Erzähler sehr zurückgenommen sein kann, ist auch die Leser-/Zuhörerrolle im Text oft nicht eigens modelliert.</LMMLtext>
+			</illustration>
+		</section>
+		<section type="example" title="Beispiel Modell-Leser" label="beispielmodellleserBsp">
+			<quotation booktitle="Geschichte des Agathon (1. Buch, 1. Kapitel)" authorname="Christoph Martin" authorfamily="Wieland">
+				<LMMLtext>er stand auf, und schöpfte mit der hohlen Hand von diesem Wasser, dessen fließenden Cristall, seiner Einbildung nach, eine wohltätige Nymphe seinen Durst zu stillen, aus ihrem Marmorkrug entgegen goß</LMMLtext>
+			</quotation>
+			<illustration label="beispielmodellleserBspIllu">
+				<LMMLtext>In diesem Beispiel kann man die Vorstellung, die Agathon beim Wasserschöpfen hat nur dann verstehen, wenn man weiß was eine ‚Nymphe’ ist. </LMMLtext>
+				<LMMLtext>Ein anderes Beispiel wäre der Modell-Leser den der <formatted style="buchtitel">Ulysses</formatted> von James Joyce voraussetzt. Hier wird der Versuch unternommen, die Geschichte dreier Einwohner Dublins, ihrer Handlungen, Begegnungen und Gedanken an einem einzigen Tag zu erzählen. Dabei verwendet Joyce eine ausgefeilte Motivtechnik und eine Fülle von Wörtern, die erst später ihre Erklärung bzw. ihre direkte oder indirekte Aufhellung erfahren. Der intendierte Modell-Leser soll also ein photographisches Gedächtnis haben und über eine extrem geschulte Lesetechnik verfügen, die wohl bei fast keinem <referencesLink show="new" type="defines" target="realerleser">realen Leser</referencesLink> vorausgesetzt werden kann.</LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

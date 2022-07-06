@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/left.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd/LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="Literaturwissenschaftliche Grundbegriffe online" author="Katrin Fischer" creationTime="25.04,05" label="ligostart">
+		<!--
+		<illustration>
+			<LMMLtext><formatted style="ueberschrift">Achtung Downtime</formatted></LMMLtext>
+			<LMMLtext><formatted style="hervorhebung">
+				Vom 23. bis 25. September wird LiGo wegen dringender Wartungsarbeiten zwischenzeitlich nicht erreichbar sein. Ggf. nutzen Sie bitte die <externalLink show="new" uri="http://web.archive.org/web/20190809091933/http://www.li-go.de/definitionsansicht/ligostart.html">archivierte Version aus dem Internet Archive</externalLink>.
+			</formatted>
+			</LMMLtext>
+		</illustration>
+		-->
+
+
+		<illustration>
+			<LMMLtext>LiGo ist ein Selbstlernkurs zu literaturwissenschaftlichen Grundbegriffen (Wissensbereiche auf der linken Seite). Lassen Sie sich neue Begriffe erklären und an Beispielen demonstrieren und überprüfen Sie Ihr Wissen mit Hilfe unserer interaktiven Übungen. Über den Aufbau und die Benutzung von LiGo können Sie sich unter der Rubrik "Mit LiGo lernen" auf der linken Seite informieren.</LMMLtext>
+			<LMMLtext>LiGo ist ein Gemeinschaftsprojekt von Germanisten verschiedener Universitäten (<referencesLink target="impressum">Impressum</referencesLink>), das an der TU Darmstadt von <externalLink show="new" uri="http://www.germanistik.uni-wuerzburg.de/lehrstuehle/computerphilologie/mitarbeiter/dennerlein/">Katrin Dennerlein (geb. Fischer)</externalLink> entwickelt und von <code uri="veselin@marinov.net" type="email">Veselin Marinov </code>technisch realisiert wurde. Es wurde im Rahmen des <externalLink show="new" uri="http://dualmode.tu-darmstadt.de/de/angebot/tud-online/aktuelles/">TUD-Online Programms</externalLink> des<externalLink show="new" uri="http://www.elc.tu-darmstadt.de/"> E-Learning-Centers</externalLink> der <externalLink show="new" uri="http://www.tu-darmstadt.de">TU Darmstadt</externalLink> gefördert und befindet sich noch im Aufbau.</LMMLtext>
+			 <LMMLtext>Mittlerweile wird es von Thorsten Vitt, Lehrstuhl für Computerphilologie und Neuere deutsche Literaturgeschichte der Universität Würzburg, technisch betreut.</LMMLtext></illustration><illustration><LMMLtext><code type="email" uri="katrin.dennerlein@uni-wuerzburg.de">Kontakt</code> </LMMLtext><LMMLtext>Das Material ist mit <externalLink show="new" uri="http://www.wast2000.de/xml/lmml/index.htm">LMML</externalLink> ausgezeichnet, die Texte und die Transformationsdateien stehen unter einer <referencesLink target="quellcode">Creative Common License</referencesLink>. Über die  Organisation und die Architektur von LiGo können Sie sich in einem <externalLink uri="http://computerphilologie.uni-muenchen.de/jg06/fischer.html" show="new">Aufsatz</externalLink> beim  <externalLink show="new" uri="http://www.computerphilologie.de">Forum Computerphilologie</externalLink> informieren.</LMMLtext>
+		</illustration>
+		<illustration>
+			<table style="invisible">
+				<tablerow>
+				<tabledata>
+						<LMMLtext>
+							<externalLink exturi="http://www.elc.tu-darmstadt.de/de/good-practice-tud/best-e-teaching-award/2007/" show="embed" uri="dualmode_best_et_half.png"/>
+						</LMMLtext>
+						<LMMLtext>1. Preis beim Best E-Teaching Award 2007</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>
+							<externalLink show="embed" uri="images/benbegriffsystematik.swf">
+								<?xm-replace_text {LMMLtext}?>
+							</externalLink>			Kurze Einführung in LiGo: Geführte Tour Teil 1</LMMLtext>
+						<LMMLtext>
+							<externalLink show="embed" uri="images/benmitligolernen.swf">
+								<?xm-replace_text {LMMLtext}?>
+							</externalLink>			Mit LiGo lernen: Geführte Tour Teil 2</LMMLtext>
+						<LMMLtext/>
+					</tabledata>
+					
+				</tablerow>
+			</table>
+		</illustration>
+	</section>
+</lmml>

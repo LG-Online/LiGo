@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Modus" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer"
+        creationTime="09.08.2005" label="modus">
+        <definition title="Modus" label="modusdef">
+            <LMMLtext>Grad an Mittelbarkeit und Perspektivierung des Erzählten. Aspekt des Discours
+                neben Zeit und Stimme.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Der Grad der Mittelbarkeit wird bestimmt durch die Einmischung des Erzählers
+                und die Detailliertheit der Schilderung, aber auch durch die Präsentation von Worten
+                und Gedanken.</LMMLtext>
+            <LMMLtext>Für die Bestimmung des Modus ist es außerdem entscheidend, dass das Erzählte
+                von einer der teilnehmenden Figuren wahrgenommen werden kann. Um zu vermeiden, dass
+                man sich lediglich auf eine optische Perspektivierung beschränkt, hat man für diese
+                Kategorie das Kunstwort <referencesLink show="new" type="defines"
+                    target="fokalisierungdef">'Fokalisierung'</referencesLink> geschaffen.</LMMLtext>
+            <LMMLtext>'Modus' umfasst also:</LMMLtext>
+            <olist>
+                <item>
+                    <LMMLtext><referencesLink target="distanz">Distanz</referencesLink>: Meinen wir
+                        Ereignisse, Worte und Gedanken vor uns zu sehen oder zu hören oder werden
+                        sie mit Distanz präsentiert?</LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext><referencesLink target="fokalisierung">Fokalisierung</referencesLink>:
+                        Wer nimmt wahr?</LMMLtext>
+                </item>
+            </olist>
+        </illustration>
+    </section>
+</lmml>

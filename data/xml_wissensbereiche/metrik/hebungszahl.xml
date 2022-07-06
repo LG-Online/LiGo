@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Hebungszahl" author="Sebastian Donat" creationTime="24.03.2008" label="hebungszahl" topics="Hebungszahl">
+		<definition title="Hebungszahl" label="hebungszahldef">
+			<LMMLtext>
+				<referencesLink target="horizontaleanordnungsprinzipien">Horizontales Anordnungsprinzip</referencesLink>, bei dem die Regulierung auf der identischen oder sich regelmäßig wiederholenden Anzahl der <referencesLink target="hebung">
+					<referencesLink show="new" type="defines" target="hebungdef">Hebungen</referencesLink>
+				</referencesLink> pro Vers beruht.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Die identische oder sich regelmäßig wiederholende Hebungszahl als dominante versifikatorische Rekurrenzform läuft unter verschiedenen Bezeichnungen, z.B. als <referencesLink target="versemitfuellungsfreiheit">
+					<referencesLink show="new" type="defines" target="versemitfuellungsfreiheitdef">Verse mit Füllungsfreiheit</referencesLink>
+				</referencesLink>, ›accentual verse‹ oder ›rein tonischer Vers‹. Häufig ist die Festlegung der Hebungszahl mit regelmäßiger <referencesLink target="silbenzahl">
+					<referencesLink show="new" type="defines" target="silbenzahldef">Silbenzahl</referencesLink>
+				</referencesLink> (sog. syllabotonischer Versbau) sowie Anzahl und/oder Position von <referencesLink target="pause_m">
+					<referencesLink show="new" type="defines" target="pause_mdef">Pausen</referencesLink>
+				</referencesLink> und <referencesLink target="lautlicheuebereinstimmung">
+					<referencesLink show="new" type="defines" target="lautlicheuebereinstimmungdef">lautlichen Übereinstimmungen</referencesLink>
+				</referencesLink> verbunden.</LMMLtext>
+			<LMMLtext>In der deutschen Dichtung liegt die regelmäßige Hebungszahl (in Kombination mit dem <referencesLink target="endreim">
+					<referencesLink show="new" type="defines" target="endreimdef">Endreim</referencesLink>
+				</referencesLink>) insbesondere dem Volkslied und der volksliedhaften Lyrik als dominantes Ordnungsprinzip zugrunde (Vagantenstrophe, Chevy-Chase-Strophe, Hildebrandsstrophe).</LMMLtext>
+		</illustration>
+	</section>
+</lmml>

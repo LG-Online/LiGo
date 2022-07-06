@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Phonologische Ebene" author="Hamburg" creationTime="15.01.2006" label="phonologischeebene" topics="Phonologie"><illustration><LMMLtext>Hierunter fallen die rhythmischen Gliederung und die metrischen Strukturen. Dabei sind Überlagerungen von ‚natürlicher‘ und ‚metrischer Betonung‘ ebenso von Interesse wie Abweichungen von der unterstellten Regularität des Metrums. Hinzu kommt die Analyse der Verteilung von Phonemen im Text (insbesondere in Silben mit Hebungen), Assonanzen, Alliterationen, Reimbindungen, Refrain.</LMMLtext><LMMLtext>Hierbei sind ggf. Vertonungen zu berücksichtigen (mit zusätzlichen Überlagerungen der rhythmischen Gliederung).</LMMLtext></illustration></section></lmml>

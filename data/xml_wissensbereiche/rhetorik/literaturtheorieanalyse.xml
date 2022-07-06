@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="coaching" title="Literaturtheorie" author="Katrin Fischer" creationTime="05.12.05" label="literaturtheorie"><illustration><table style="invisible"><tablerow><tabledata><LMMLtext></LMMLtext><LMMLtext>In diesem Bereich werden Grundbegriffe der Literaturtheorie erläutert.</LMMLtext><LMMLtext>Sie können entweder einen der Begriffe aus dem Inhaltsverzeichnis direkt anwählen, oder sich mit den Pfeil am rechten unteren Seitenrand durch diesen Bereich führen lassen.</LMMLtext><LMMLtext type="inhaltsverzeichnis" uri="literaturtheorie"></LMMLtext></tabledata></tablerow></table></illustration></section></lmml>

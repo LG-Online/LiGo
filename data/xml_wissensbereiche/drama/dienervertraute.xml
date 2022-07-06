@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Diener/Vertraute" author="Martin Huber, Elisabeth Böhm"
+        creationTime="09.09.2007" label="dienervertraute" topics="Diener/Vertraute">
+        <definition title="Diener/Vertraute" label="dienervertrautedef">
+            <LMMLtext>Eine der Hauptfigur ständisch und dramaturgisch untergeordnete Figur, die für
+                jene nicht nur Aufgaben erfüllt, sondern auch als Gesprächspartner fungiert, dem
+                Gedanken, Gefühle und Motivationen anvertraut werden können.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Diener und Vertraute erfüllen als Nebenfiguren vor allem zwei Aufgaben.
+                Einerseits erledigen sie die Arbeiten und Geschäfte, die ihre ständisch höher
+                gestellte Bezugsfigur nicht erledigen kann und stellen so den Kontakt zu anderen
+                Figurengruppen her – wobei es lange üblich war, die niederen Figuren in eine Art
+                lustiger Parallelhandlung zur dramatischen Haupthandlung zu verstricken – und sie
+                fungieren als Gegenüber bei Gesprächen, die vor allem der Vermittlung von Gedanken,
+                Gefühlen und Motivationen der Hauptfigur dienen (<referencesLink
+                    target="vertrautenrede"><referencesLink show="new" type="defines"
+                        target="vertrautenrededef"
+                >Vertrautenrede</referencesLink></referencesLink>).</LMMLtext>
+        </illustration>
+    </section>
+</lmml>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Änderungsoperationen" author="Uwe Spörl" creationTime="08.04.2007"
+        label="aenderungsoperationen" topics="Änderungsoperationen">
+        <definition title="Änderungsoperationen" label="aenderungsoperationendef">
+            <LMMLtext>Arten von Veränderungen, die nach rhetorischer Auffassung an (sprachlichen,
+                kommunikativen) Normalformen vorgenommen werden können</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Die rhetorischen Änderungsoperationen sind allgemein auf das
+                Norm-Abweichungsmodell, wie es die rhetorische Gegenüberstellung von <referencesLink
+                    show="new" type="defines" target="arsnaturadef"><referencesLink
+                        target="arsnatura">ars – natura</referencesLink></referencesLink> vorsieht,
+                bezogen. Sie sind insbesondere zu beziehen auf die Gestaltung der Textoberfläche in
+                der dritten Textproduktionsphase, der <referencesLink show="new" type="defines"
+                    target="elocutiodef"><referencesLink target="elocutiomitornatus"
+                        >elocutio</referencesLink></referencesLink>, wo aus den Änderungsoperationen
+                die rhetorischen Mittel wie Figuren und Tropen (<formatted style="hervorhebung"
+                    >ornatus</formatted>) hervorgehen.</LMMLtext>
+            <LMMLtext>Es gibt vier verschiedene Möglichkeiten, von einer vorgegebenen oder
+                unterstellten Normalform, etwa und insbesondere dem herkömmlichen Sprachgebrauch,
+                abzuweichen, also vier rhetorische Änderungsoperationen:</LMMLtext>
+            <olist>
+                <item>
+                    <LMMLtext>adiectio (Zusatz): Ergänzung eines oder mehrerer Elemente,</LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext>detractio (Wegfall): Entfernung eines oder mehrerer
+                        Elemente,</LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext>transmutatio (Umstellung): Vertauschung eines oder mehrerer
+                        vorhandener Elemente in ihrer Reihenfolge sowie</LMMLtext>
+                </item>
+                <item>
+                    <LMMLtext>immutatio (Austausch, Substitution): Austausch eines oder mehrerer
+                        Elemente durch andere Elemente</LMMLtext>
+                </item>
+            </olist>
+            <LMMLtext>Im Bereich der Textoberflächengestaltung können diese vier
+                Änderungsoperationen unterschiedlichen Aspekten des Textes zugeordnet
+                werden:</LMMLtext>
+            <LMMLtext>Die Operationen 1, 2 und 3 betreffen die syntagmatische oder horizontale Ebene
+                des Textes, da hier ein gegebener Text in Normalform (etwa „a b c“) nur in der
+                Horizontalen modifiziert wird, als „a b c d“ (Zusatz), „a c“ (Wegfall) oder „c b a“
+                (Umstellung). Auf dieser horizontalen Ebene des Textes sind die rhetorischen Figuren
+                    (<referencesLink show="new" type="defines" target="rhetorischefigurdef"
+                        ><referencesLink target="figurenlehre"
+                    >Figurenlehre</referencesLink></referencesLink>) angesiedelt und
+                beschreibbar.</LMMLtext>
+            <LMMLtext>Die vierte Operation betrifft im Gegensatz dazu die paradigmatische oder
+                vertikale Ebene des Textes, da hier ein gegebener Text in Normalform (wieder „a b
+                c“) in der Vertikalen modifiziert wird: „a e c“. Hier wird also die Semantik des
+                ursprünglich Gegebenen verändert, so dass hier zwischen dem eigentlich Gemeinten („a
+                b c“) und dem uneigentlich Gesagten („a e c“) zu unterscheiden ist. Auf dieser
+                vertikalen/semantischen Ebene des Textes sind die rhetorischen Tropen
+                    (<referencesLink show="new" type="defines" target="rhetorischetropedef"
+                        ><referencesLink target="uneigentlichessprechentropen">uneigentliches
+                        Sprechen</referencesLink></referencesLink>) angesiedelt und
+                beschreibbar.</LMMLtext>
+            <!--<LMMLtext><referencesLink type="exercises" target="uebungaenderungsoperationenUeb"/></LMMLtext>-->
+        </illustration>
+        <illustration>
+            <LMMLtext><externalLink show="embed" uri="animationaenderungsoperationen.swf"/>Animation Änderungsoperationen</LMMLtext>
+        </illustration>
+    </section>
+</lmml>

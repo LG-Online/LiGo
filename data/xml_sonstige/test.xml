@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="Online-Tests" author="Katrin Fischer" creationTime="01.06.06" label="onlinetests">
+		<illustration>
+			<LMMLtext>Testen Sie Ihr Wissen! Beantworten Sie so viele Fragen wie möglich in der vorgegebenen Zeit.</LMMLtext>
+			<LMMLtext> Die Tests dienen ausschließlich Ihrer Selbstkontrolle, es werden keine Ergebnisse gespeichert.</LMMLtext>
+			<LMMLtext>Viel Erfolg!</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>
+						<referencesLink type="test" target="erzaehltextanalysezeit">Erzähltextanalyse, Bereich Zeit</referencesLink>
+					</LMMLtext>
+				</item>
+			<item>
+					<LMMLtext>
+						<referencesLink type="test" target="erzaehltextanalysemodus">Erzähltextanalyse, Bereich Modus</referencesLink>
+					</LMMLtext>
+				</item>
+			<item>
+					<LMMLtext>
+						<referencesLink type="test" target="erzaehltextanalysestimme">Erzähltextanalyse, Bereich Stimme</referencesLink>
+					</LMMLtext>
+				</item>
+			<item>
+					<LMMLtext>
+						
+						<referencesLink type="test" target="metrik1">Metrik</referencesLink></LMMLtext>
+				</item>
+			</ulist>
+		</illustration>
+	</section>
+</lmml>

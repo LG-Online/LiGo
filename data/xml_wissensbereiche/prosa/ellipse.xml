@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Ellipse" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer"
+        creationTime="03.08.2005" label="ellipse" modifiedTime="27.10.07">
+        <definition title="Ellipse" label="ellipsedef">
+            <LMMLtext>Wenn eine bestimmte Zeitspanne der Geschichte im Discours gänzlich ausgespart
+                wird, so kann man von einer Ellipse oder einem Zeitsprung sprechen. Ein solcher
+                Zeitsprung kann in der Erzählung markiert und explizit oder unmarkiert und implizit
+                vorliegen.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext><externalLink show="embed" uri="ellipse.gif"/></LMMLtext>
+            <LMMLtext><referencesLink type="illustrates" target="beispielellipseBsp"/><referencesLink type="exercises" target="uebungellipseUeb"/></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel Ellipse" label="beispielellipseBsp">
+            <quotation booktitle="Die Marquise von O..." authorname="Heinrich"
+                authorfamily="von Kleist">
+                <LMMLtext>[...] als, von dem Zetergeschrei der Dame herbeigerufen, ein russischer
+                    Offizier erschien, und die Hunde, die nach solchem Raub lüstern waren, mit
+                    wütenden Hieben zerstreute. Der Marquise schien er ein Engel des Himmels zu
+                    sein. Er stieß noch dem letzten viehischen Mordknecht, der ihren schlanken Leib
+                    umfaßt hielt, mit dem Griff des Degens ins Gesicht, daß er, mit aus dem Mund
+                    vorquellendem Blut, zurücktaumelte; bot dann der Dame, unter einer
+                    verbindlichen, französischen Anrede den Arm, und führte sie, die von allen
+                    solchen Auftritten sprachlos war, in den anderen, von der Flamme noch nicht
+                    ergriffenen, Flügel des Palastes, wo sie auch völlig bewußtlos niedersank. Hier
+                    - traf er, da bald darauf ihre erschrockenen Frauen erschienen, Anstalten, einen
+                    Arzt zu rufen; versicherte, indem er sich den Hut aufsetzte, daß sie sich bald
+                    erholen würde; und kehrte in den Kampf zurück.</LMMLtext>
+            </quotation>
+            <illustration label="beispielellipseBspIllu">
+                <LMMLtext>Zwischen dem Wörtchen „hier“ und der Fortführung des Satzes „traf er, da
+                    bald darauf ihre erschrockenen Frauen erschienen…“ finden wir im Discours nur
+                    einen Bindestrich. Später in der Novelle erfahren wir jedoch, dass sich zwischen
+                    der Ohnmacht und dem Eintreffen der Frauen eine Vergewaltigung ereignet hat.
+                    Dies ist ein Teil der Geschichte, der nicht erzählt wird. Der Discours macht
+                    gegenüber der Histoire einen Zeitsprung, eine Verkürzung.</LMMLtext>
+            </illustration>
+        </section>
+        <exercise topics="dragunddrop" label="uebungellipseUeb" title="Übung Ellipse">
+            <task type="textbeispiel">
+                <quotation booktitle="Das Leben der schwedischen Gräfin von G*"
+                    authorname="Christian Fürchtegott" authorfamily="Gellert">
+                    <LMMLtext type="br">a) In der Tat gefiel er mir im Herzen sehr wohl; allein so
+                        sehr ich mir ihn heimlich wünschen mochte, so hielt ich's doch für
+                        unmöglich, ihn zu besitzen.</LMMLtext>
+                    <LMMLtext>Nach einem Jahre schrieb er an mich, und der ganze Inhalt seines
+                        Briefes bestund darinnen, ob ich mich entschließen könnte, seine Gemahlin zu
+                        werden und ihm nach Schweden zu folgen.</LMMLtext>
+                    <LMMLtext>b) Itzt wundre ich mich, daß ich meinen Gemahl noch nicht beschrieben
+                        habe. Er sah bräunlich im Gesichte aus und hatte ein Paar so feurige und
+                        blitzende Augen, daß sie einem eine kleine Furcht einjagten, wenn man sie
+                        allein betrachtete. [...] Mein Graf war in meinen Augen der schönste Mann. </LMMLtext>
+                    <LMMLtext>c) Wir hatten nichts als trocknes Brot, und auch damit waren wir
+                        zufrieden. Die Kälte quälte uns am meisten. Niemand empfand sie mehr als der
+                        arme Steeley an seinem mißhandelten Körper. Nach ungefähr sechs oder sieben
+                        Wochen kamen wir in Tobolskoy an, wohin wir verwiesen waren. </LMMLtext>
+                    <LMMLtext type="br">d) Er überreichte mir den Brief aus Siberien, den ich schon
+                        eingerückt habe [...] Sein Herz war wirklich seiner ehrlichen und
+                        einfältigen Miene gleich, und seine Sitten gefielen durch sein Herz. Er war
+                        schon bei Jahren, und sein grauer Bart und sein langer polnischer Pelz gaben
+                        ihm ein recht ehrwürdiges Ansehen. </LMMLtext>
+                </quotation>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>In welcher der Passagen liegt eine <referencesLink show="new"
+                        type="defines" target="pausedef">Pause</referencesLink>, in welchen eine
+                        <referencesLink show="new" type="defines" target="ellipsedef"
+                        >Ellipse</referencesLink> vor? Ordnen Sie zu!</LMMLtext>
+            </task>
+            <task type="dnd">
+                <LMMLtext type="columnA">Ellipse</LMMLtext>
+                <LMMLtext type="columnB">Pause</LMMLtext>
+                <LMMLtext type="input1" title="2">b)</LMMLtext>
+                <LMMLtext type="input2" title="1">c)</LMMLtext>
+                <LMMLtext type="input3"/>
+                <LMMLtext type="input4"/>
+                <LMMLtext type="input5" title="1">a)</LMMLtext>
+                <LMMLtext type="input6" title="2">d)</LMMLtext>
+                <LMMLtext type="input7"/>
+                <LMMLtext type="input8"/>
+            </task>
+        </exercise>
+    </section>
+</lmml>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Kollation" author="Eva Scheuermann, Christine Pohl, Ulrich Joost"
+        creationTime="14.01.2008" label="kollation">
+        <illustration>
+            <LMMLtext><referencesLink type="exercises" target="uebungkollationUeb"/></LMMLtext>
+            <LMMLtext><referencesLink type="exercises" target="zweiteuebungzurkollationUeb"
+                /></LMMLtext>
+        </illustration>
+        <exercise topics="alternativen" label="uebungkollationUeb" title="Erste Übung Kollation">
+            <task type="fragestellung">
+                <LMMLtext>Wie heißt der Bearbeitungsschritt des Editors, der der Erstellung des
+                    Variantenapparates unmittelbar vorangeht?</LMMLtext>
+            </task>
+            <task type="alternative" target="uebungkollationL1">
+                <LMMLtext>Konjektur</LMMLtext>
+            </task>
+            <solution label="uebungkollationL1" true="false">
+                <LMMLtext> </LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungkollationL2">
+                <LMMLtext>Kollation</LMMLtext>
+            </task>
+            <solution label="uebungkollationL2" true="true">
+                <LMMLtext> </LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungkollationL3">
+                <LMMLtext>Emendation</LMMLtext>
+            </task>
+            <solution label="uebungkollationL3" true="false">
+                <LMMLtext> </LMMLtext>
+            </solution>
+        </exercise>
+        <exercise topics="markieren" label="zweiteuebungzurkollationUeb"
+            title="Zweite Übung Kollation">
+            <task type="selection">
+                <quotation booktitle="Die Leiden des jungen Werther"
+                    authorname="Johann Wolfgang von" authorfamily="Goethe">
+                    <LMMLtext>Fassung 1774:</LMMLtext>
+                    <LMMLtext type="br"> Erster Theil</LMMLtext>
+                    <LMMLtext type="br">Was ich von der Geschichte des armen Werthers nur habe
+                        auffinden können, habe ich mit Fleiß gesammelt, und leg es euch hier vor,
+                        und weis, daß ihr mir´s danken werdet. Ihr könnt seinem Geist und seinem
+                        Charakter eure Bewunderung und Liebe, und seinem Schicksaale eure Thränen
+                        nicht versagen.</LMMLtext>
+                    <LMMLtext type="br">Fassung 1787:</LMMLtext>
+                    <LMMLtext type="br"> Erste<formatted style="richtig">s
+                        Buch</formatted></LMMLtext>
+                    <LMMLtext type="br">Was ich von der Geschichte des armen Werthers nur habe
+                        auffinden können, habe ich mit Fleiß gesammelt, und lege es euch hier vor,
+                        und <formatted style="richtig">weiß</formatted>, daß ihr mir´s danken
+                        werdet. Ihr könnt seinem <formatted style="richtig">Geiste</formatted> und
+                        seinem <formatted style="richtig">Character</formatted> eure Bewunderung und
+                        Liebe, <formatted style="richtig">seinem Schicksale</formatted> eure Thränen
+                        nicht versagen.</LMMLtext>
+                </quotation>
+                <LMMLtext type="answerText"/>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>Markieren Sie die abweichenden Textstellen in der Fassung von
+                    1787</LMMLtext>
+            </task>
+        </exercise>
+    </section>
+</lmml>

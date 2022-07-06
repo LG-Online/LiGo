@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Autonome direkte Rede" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="03.08.2005" label="autonomedirekterede">
+		<definition title="Autonome direkte Rede" label="autonomedirekterededef">
+			<LMMLtext>Wie direkte Rede, aber ohne verba dicendi, evtl. sogar ohne Anführungszeichen.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielzurautonomendirektenredeBsp"/>
+				<referencesLink type="exercises" target="uebungzurautonomendirektenredeUeb"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel zur autonomen direkten Rede" label="beispielzurautonomendirektenredeBsp">
+			<quotation booktitle="Effi Briest (1. Kapitel)" authorname="Theodor " authorfamily="Fontane">
+				<LMMLtext>[...] als die von ihrer Stickerei gerade wieder aufblickende Mama ihr zurief: „Effi, eigentlich hättest du doch wohl Kunstreiterin werden müssen. Immer am Trapez, immer Tochter der Luft. Ich glaube beinah, daß du so was möchtest.“ „Vielleicht, Mama. Aber wenn es so wäre, wer wäre schuld? […] Du bist schuld. Warum kriege ich keine Staatskleider? Warum machst du keine Dame aus mir?“ „Möchtest du's?“ „Nein.“ Und dabei lief sie auf die Mama zu und umarmte sie stürmisch und küßte sie.</LMMLtext>
+			</quotation>
+			<illustration label="beispielzurautonomendirektenredeBspIllu">
+				<LMMLtext>Hier haben wir ein gutes Beispiel für den Unterschied zwischen direkter und autonomer direkter Rede. Im ersten Satz findet sich ein verbum dicendi, nämlich „zurief“ und die erste Bemerkung von Frau von Briest wäre damit noch <referencesLink show="new" type="defines" target="direkteredeoratiorecta">direkte Rede</referencesLink>. Die folgende Wechselrede Effi-Frau von Bries-Effi folgt dann allerdings ohne einleitenden Verba dicendi und ist damit autonom. Der Erzähler ist vollständig in den Hintergrund getreten, das Geschehen präsentiert sich als Szenerie und Wortwechsel gleichsam selbst.</LMMLtext>
+			</illustration>
+		</section>
+		<exercise label="uebungzurautonomendirektenredeUeb" title="Übung zur autonomen direkten Rede" topics="multiplechoice">
+			<task type="textbeispiel">
+				<quotation booktitle="Jahrestage" authorname="Uwe" authorfamily="Johnson">
+					<LMMLtext> - 785 West End Avenue, wo ist das Marie?</LMMLtext>
+					<LMMLtext>- Die letzte Ziffer vergessen, den Rest durch zwei, plus sechzig: es ist um die Ecke, Mrs., madam, Gesine.</LMMLtext>
+					<LMMLtext>- Wußtest du, daß es an der 99. Straße war? - Mir hat es Esmeralda erzählt, die hat es von Jason, und Jason hat es gesehen. Dazu brauch ich nicht die New York Times, anders als eine Dame, die ich kenne, madam, Mrs. Cresspahl.</LMMLtext>
+				</quotation>
+			</task>
+			<task type="fragestellung">
+				<LMMLtext>Offensichtlich unterhalten sich in dieser kurzen Passage aus den Jahrestagen von Uwe Johnson Marie und Gesine Cresspahl - eine etwas neunmalkluge Tochter und ihre Mutter - miteinander. Wie aber wird dieser Figurendialog präsentiert:</LMMLtext>
+			</task>
+			<task type="alternative" target="uebungzurautonomendirektenredeL1">
+				<LMMLtext>im dramatischen Modus, genauer: als direkte Figurenrede?</LMMLtext>
+			</task>
+			<solution label="uebungzurautonomendirektenredeL1">
+				<LMMLtext>Diese Antwort ist falsch. Sicherlich wird der Dialog hier im <referencesLink show="new" type="defines" target="praesentationvonwortenimdramatischenmoduszitierterede">dramatischen Modus</referencesLink> präsentiert, denn ein Erzähler tritt hier in keiner Weise in Erscheinung. Er ist nicht einmal mehr durch verba dicendi oder Zitatmarkierungen (etwa Anführungszeichen) präsent, sodass hier eindeutig autonome direkte Figurenrede vorliegt.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebungzurautonomendirektenredeL2">
+				<LMMLtext>im dramatischen Modus, genauer: als autonome direkte Figurenrede?</LMMLtext>
+			</task>
+			<solution label="uebungzurautonomendirektenredeL2" true="true">
+				<LMMLtext>Dieser Dialog wird erkennbar im <referencesLink show="new" type="defines" target="praesentationvonwortenimdramatischenmoduszitierterede">dramatischen Modus</referencesLink> präsentiert, denn ein Erzähler tritt hier in keiner Weise in Erscheinung. Er ist nicht einmal mehr durch verba dicendi oder Zitatmarkierungen (etwa Anführungszeichen) präsent, sodass hier eindeutig autonome direkte Figurenrede vorliegt.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebungzurautonomendirektenredeL3">
+				<LMMLtext>im narrativen Modus, genauer: als erzählte Figurenrede?</LMMLtext>
+			</task>
+			<solution label="uebungzurautonomendirektenredeL3" true="false">
+				<LMMLtext> Dieser Dialog wird eindeutig nicht im narrativen, sondern deutlich erkennbar im <referencesLink show="new" type="defines" target="praesentationvonwortenimdramatischenmoduszitierterede">dramatischen Modus</referencesLink> präsentiert, denn ein Erzähler tritt hier ja in keiner Weise in Erscheinung. Er ist nicht einmal mehr durch verba dicendi oder Zitatmarkierungen (etwa Anführungszeichen) präsent, sodass hier eindeutig autonome direkte Figurenrede vorliegt.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebungzurautonomendirektenredeL4">
+				<LMMLtext>im gemischten Modus, genauer: als indirekte Figurenrede?</LMMLtext>
+			</task>
+			<solution label="uebungzurautonomendirektenredeL4" true="false">
+				<LMMLtext>Dieser Dialog wird eindeutig nicht im gemischten, sondern deutlich erkennbar im <referencesLink show="new" type="defines" target="praesentationvonwortenimdramatischenmoduszitierterede">dramatischen Modus</referencesLink> präsentiert, denn ein Erzähler tritt hier ja in keiner Weise in Erscheinung. Er ist nicht einmal mehr durch verba dicendi oder Zitatmarkierungen (etwa Anführungszeichen) präsent, sodass hier eindeutig autonome direkte Figurenrede vorliegt.</LMMLtext>
+			</solution>
+		</exercise>
+	</section>
+</lmml>

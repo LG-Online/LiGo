@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Rahmung" author="Martin Huber, Elisabeth Böhm" creationTime="09.09.2007" label="rahmung" topics="Rahmung"><illustration><LMMLtext>Der Aufbau eines Dramas in Akte, bzw. das Handlungsschema kann noch gerahmt werden. Dem Einsatz wird dann ein <referencesLink target="prolog"><referencesLink show="new" type="defines" target="prologdef">Prolog</referencesLink></referencesLink> vorangestellt und/oder dem Ende folgt noch ein <referencesLink target="epilog"><referencesLink show="new" type="defines" target="epilogdef">Epilog</referencesLink></referencesLink>.</LMMLtext></illustration></section></lmml>

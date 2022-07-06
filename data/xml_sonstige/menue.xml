@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?cocoon-process type="xslt"?>
+<?xml-stylesheet href="../stylesheets/toc.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd/LMML-CS.dtd">
+<!-- DOC: menue.xml: section attribut DISCIPLINE must eingegeben wenn dieses section bedeutet auch folder. attribut ist gleich folder name -->
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section label="ligostart" title="Literaturwissenschaftliche Grundbegriffe online" uri="ligostart.html" author="Fotis Jannidis, Katrin Fischer">
+		<section type="course" uri="prosa.html" label="prosa" title="Erzählen" discipline="prosa">
+			<section type="course" uri="narrativekommunikation.html" label="narrativekommunikation" title="Narrative Kommunikation"/>
+			<section type="course" uri="dererzaehltext.html" label="dererzaehltext" title="Der Erzähltext">
+				<section type="course" uri="dertextalssprachlicheszeichensystemdiscours.html" label="dertextalssprachlicheszeichensystemdiscours" title="Discours/Erzeugungstechniken">
+					<section type="course" uri="erzaehlzeitunderzaehltezeit.html" label="erzaehlzeitunderzaehltezeit" title="Erzählzeit und Erzählte Zeit">
+						<section type="course" uri="ordnung.html" label="ordnung" title="Ordnung">
+							<section type="course" uri="prolepse.html" label="prolepse" title="Prolepse"/>
+							<section type="course" uri="analepse.html" label="analepse" title="Analepse"/>
+							<section type="course" uri="klassifikation.html" label="klassifikation" title="Klassifikation von Anachronien"/>
+						</section>
+						<section type="course" uri="erzaehltempo.html" label="erzaehltempo" title="Erzähltempo">
+							<section type="course" uri="szene.html" label="szene" title="Szene"/>
+							<section type="course" uri="pause.html" label="pause" title="Pause"/>
+							<section type="course" uri="dehnung.html" label="dehnung" title="Dehnung"/>
+							<section type="course" uri="raffung.html" label="raffung" title="Raffung"/>
+							<section type="course" uri="ellipse.html" label="ellipse" title="Ellipse"/>
+						</section>
+						<section type="course" uri="frequenz.html" label="frequenz" title="Frequenz">
+							<section type="course" uri="singulativeserzaehlen.html" label="singulativeserzaehlen" title="Singulatives Erzählen"/>
+							<section type="course" uri="iterativeserzaehlen.html" label="iterativeserzaehlen" title="Iteratives Erzählen"/>
+							<section type="course" uri="repetitiveserzaehlen.html" label="repetitiveserzaehlen" title="Repetitives Erzählen"/>
+						</section>
+					</section>
+					<section type="course" uri="modus.html" label="modus" title="Modus">
+						<section type="course" uri="distanz.html" label="distanz" title="Distanz">
+							<section type="course" uri="ereignisse.html" label="ereignisse" title="Ereignisse">
+								<section type="course" uri="ereignissenarrativ.html" label="ereignissenarrativ" title="Präsentation von Ereignissen im narrativen Modus"/>
+								<section type="course" uri="ereignissedramatisch.html" label="ereignissedramatisch" title="Präsentation von Ereignissen im dramatischen Modus"/>
+							</section>
+							<section type="course" uri="worte.html" label="worte" title="Worte">
+								<section type="course" uri="erzaehlterede.html" label="erzaehlterede" title="Erzählte Rede">
+									<section type="course" uri="erwsprachlakt.html" label="erwsprachlakt" title="Erwähnung des sprachlichen Akts"/>
+									<section type="course" uri="redebericht.html" label="redebericht" title="Redebericht"/>
+								</section>
+								<section type="course" uri="transponierterede.html" label="transponierterede" title="Transponierte Rede">
+									<section type="course" uri="indirekterede.html" label="indirekterede" title="Indirekte Rede"/>
+									<section type="course" uri="erlebterede.html" label="erlebterede" title="Erlebte Rede"/>
+								</section>
+								<section type="course" uri="zitierterede.html" label="zitierterede" title="Zitierte Rede">
+									<section type="course" uri="direkterede.html" label="direkterede" title="Direkte Rede"/>
+									<section type="course" uri="autonomedirekterede.html" label="autonomedirekterede" title="Autonome direkte Rede"/>
+								</section>
+							</section>
+							<section type="course" uri="gedanken.html" label="gedanken" title="Gedanken">
+								<section type="course" uri="bewusstseinsbericht.html" label="bewusstseinsbericht" title="Bewusstseinsbericht"/>
+								<section type="course" uri="transponiertegedankenrede.html" label="transponiertegedankenrede" title="Transponierte Gedankenrede">
+									<section type="course" uri="indirektegedankenrede.html" label="indirektegedankenrede" title="Indirekte Gedankenrede"/>
+									<section type="course" uri="erlebtegedankenrede.html" label="erlebtegedankenrede" title="Erlebte Gedankenrede"/>
+								</section>
+								<section type="course" uri="zitiertegedankenrede.html" label="zitiertegedankenrede" title="Zitierte Gedankenrede">
+									<section type="course" uri="gedankenzitat.html" label="gedankenzitat" title="Gedankenzitat"/>
+									<section type="course" uri="innerermonolog.html" label="innerermonolog" title="Innerer Monolog"/>
+									<section type="course" uri="bewusstseinsstrom.html" label="bewusstseinsstrom" title="Bewusstseinsstrom"/>
+								</section>
+							</section>
+						</section>
+						<section type="course" uri="fokalisierung.html" label="fokalisierung" title="Fokalisierung">
+							<section type="course" uri="nullfokalisierung.html" label="nullfokalisierung" title="Nullfokalisierung"/>
+							<section type="course" uri="internefokalisierung.html" label="internefokalisierung" title="Interne Fokalisierung"/>
+							<section type="course" uri="externefokalisierung.html" label="externefokalisierung" title="Externe Fokalisierung"/>
+						</section>
+					</section>
+					<section type="course" uri="stimme.html" label="stimme" title="Erzählstimme">
+						<section type="course" uri="zeitpunktdeserzaehlens.html" label="zeitpunktdeserzaehlens" title="Zeitpunkt">
+							<section type="course" uri="fruehereserzaehlen.html" label="fruehereserzaehlen" title="Früheres Erzählen"/>
+							<section type="course" uri="spaetereserzaehlen.html" label="spaetereserzaehlen" title="Späteres Erzählen"/>
+							<section type="course" uri="gleichzeitigeserzaehlen.html" label="gleichzeitigeserzaehlen" title="Gleichzeitiges Erzählen"/>
+							<section type="course" uri="eingeschobeneserzaehlen.html" label="eingeschobeneserzaehlen" title="Eingeschobenes Erzählen"/>
+						</section>
+						<section type="course" uri="ebenendeserzaehlens.html" label="ebenendeserzaehlens" title="Ebenen des Erzählens">
+							<section type="course" uri="primaereserzaehlen.html" label="primaereserzaehlen" title="Primäres Erzählen"/>
+							<section type="course" uri="sekundaereserzaehlen.html" label="sekundaereserzaehlen" title="Sekundäres Erzählen"/>
+							<section type="course" uri="tertiaereserzaehlen.html" label="tertiaereserzaehlen" title="Tertiäres Erzählen"/>
+							<section type="course" uri="textmontage.html" label="textmontage" title="Textmontage"/>
+							<section type="course" uri="metalepse.html" label="metalepse" title="Metalepse"/>
+						</section>
+						<section type="course" uri="stellung.html" label="stellung" title="Stellung des Erzählers">
+							<section type="course" uri="homodiegetischeserzaehlen.html" label="homodiegetischeserzaehlen" title="Homodiegetisches Erzählen"/>
+							<section type="course" uri="heterodiegetischeserzaehlen.html" label="heterodiegetischeserzaehlen" title="Heterodiegetisches Erzählen"/>
+						</section>
+					</section>
+				</section>
+				<section type="course" uri="histoire.html" label="histoire" title="Histoire/erzählte Welt">
+					<section type="course" uri="handlung.html" label="handlung" title="Handlung">
+						<section type="course" uri="handlungsgrammatiken.html" label="handlungsgrammatiken" title="Handlungsgrammatiken">
+							<section type="course" uri="propp.html" label="propp" title="Vladimir Propp"/>
+						</section>
+						<section type="course" uri="masterplots.html" label="masterplots" title="Masterplots"/>
+						<section type="course" uri="closure.html" label="closure" title="Closure"/>
+						<section type="course" uri="motivierung.html" label="motivierung" title="Motivierung">
+							<section type="course" uri="kausalemotivierung.html" label="kausalemotivierung" title="Kausale Motivierung"/>
+							<section type="course" uri="finalemotivierung.html" label="finalemotivierung" title="Finale Motivierung"/>
+						</section>
+						<section type="course" uri="contextualframes.html" label="contextualframes" title="Contextual Frames"/>
+					</section>
+					<section type="course" uri="figur.html" label="figur" title="Figur">
+						<section type="course" uri="figureninformationenimdiscours.html" label="figureninformationenimdiscours" title="Figureninformationen im discours "/>
+						<section type="course" uri="entstehungvonfigurenbezogenentatsachenindererzaehltenwelt.html" label="entstehungvonfigurenbezogenentatsachenindererzaehltenwelt" title="Entstehung von figurenbezogenen Tatsachen in der erzählten Welt">
+							<section type="course" uri="zuverlaessigkeitderbindungeinerfigurenbezogenentatsache.html" label="zuverlaessigkeitderbindungeinerfigurenbezogenentatsache" title="Zuverlässigkeit der Bindung einer figurenbezogenen Tatsache"/>
+							<section type="course" uri="moduseinerfigurenbezogenentatsache.html" label="moduseinerfigurenbezogenentatsache" title="Modus einer figurenbezogenen Tatsache"/>
+						</section>
+						<section type="course" uri="tatsachendiezurcharakterisierungeinerfigurindererzaehltenweltbeitragen.html" label="tatsachendiezurcharakterisierungeinerfigurindererzaehltenweltbeitragen" title="Tatsachen, die zur Charakterisierung einer Figur in der erzählten Welt beitragen">
+							<section type="course" uri="figurenmodelle.html" label="figurenmodelle" title="Figurenmodelle"/>
+							<section type="course" uri="figuraleschemata.html" label="figuraleschemata" title="Figurale Schemata"/>
+							<section type="course" uri="situativeschemata.html" label="situativeschemata" title="Situative Schemata"/>
+						</section>
+					</section>
+				</section>
+			</section>
+		</section>
+		<section type="course" uri="drama.html" label="drama" title="Drama" discipline="drama">
+			<section type="course" uri="dramenformenundgliederungseinheiten.html" label="dramenformenundgliederungseinheiten" title="Dramenformen und Gliederungseinheiten">
+				<section type="course" uri="gliederungseinheiten.html" label="gliederungseinheiten" title="Gliederungseinheiten">
+					<section type="course" uri="akt.html" label="akt" title="Akt"/>
+					<section type="course" uri="szened.html" label="szened" title="Szene"/>
+					<section type="course" uri="auftritt.html" label="auftritt" title="Auftritt"/>
+				</section>
+				<section type="course" uri="typisiertedramenformen.html" label="typisiertedramenformen" title="Typisierte Dramenformen">
+					<section type="course" uri="offeneform.html" label="offeneform" title="Offene Form"/>
+					<section type="course" uri="geschlosseneform.html" label="geschlosseneform" title="Geschlossene Form"/>
+				</section>
+				<section type="course" uri="konzeptionelleanforderungen.html" label="konzeptionelleanforderungen" title="Konzeptionelle Anforderungen">
+					<section type="course" uri="dreieinheiten.html" label="dreieinheiten" title="Drei Einheiten"/>
+					<section type="course" uri="authentizitaetspostulat.html" label="authentizitaetspostulat" title="Authentizitätspostulat"/>
+				</section>
+				<section type="course" uri="idealtypischeraufbau.html" label="idealtypischeraufbau" title="Idealtypischer Aufbau">
+					<section type="course" uri="exposition.html" label="exposition" title="Exposition"/>
+					<section type="course" uri="steigerung.html" label="steigerung" title="Steigerung"/>
+					<section type="course" uri="hoehewendepunktperipetie.html" label="hoehewendepunktperipetie" title="Höhe-/Wendepunkt, Peripetie"/>
+					<section type="course" uri="retardierendesmoment.html" label="retardierendesmoment" title="Retardierendes Moment"/>
+					<section type="course" uri="katastrophe.html" label="katastrophe" title="Katastrophe"/>
+				</section>
+				<section type="course" uri="rahmung.html" label="rahmung" title="Rahmung">
+					<section type="course" uri="prolog.html" label="prolog" title="Prolog"/>
+					<section type="course" uri="epilog.html" label="epilog" title="Epilog"/>
+				</section>
+				<section type="course" uri="internegliederung.html" label="internegliederung" title="Interne Gliederung">
+					<section type="course" uri="chor.html" label="chor" title="Chor"/>
+					<section type="course" uri="theateraufdemtheater1.html" label="theateraufdemtheater1" title="Theater auf dem Theater"/>
+				</section>
+			</section>
+			<section type="course" uri="textlichestrukturen.html" label="textlichestrukturen" title="Textliche Strukturen">
+				<section type="course" uri="information.html" label="information" title="Information">
+					<section type="course" uri="informationsvergabe.html" label="informationsvergabe" title="Informationsvergabe"> </section>
+					<section type="course" uri="dramatischetragischeironie.html" label="dramatischetragischeironie" title="Dramatische/tragische Ironie"/>
+				</section>
+				<section type="course" uri="textarten.html" label="textarten" title="Textarten">
+					<section type="course" uri="haupttext.html" label="haupttext" title="Haupttext"> </section>
+					<section type="course" uri="nebentext.html" label="nebentext" title="Nebentext"> </section>
+					<section type="course" uri="paratext.html" label="paratext" title="Paratext"/>
+				</section>
+				<section type="course" uri="rederichtungen.html" label="rederichtungen" title="Rederichtungen">
+					<section type="course" uri="figurenrede.html" label="figurenrede" title="Figurenrede">
+						<section type="course" uri="dialog.html" label="dialog" title="Dialog"/>
+						<section type="course" uri="monolog.html" label="monolog" title="Monolog"> </section>
+					</section>
+					<section type="course" uri="parabase.html" label="parabase" title="Parabase"> </section>
+				</section>
+				<section type="course" uri="besonderegespraechsformen.html" label="besonderegespraechsformen" title="Besondere Gesprächsformen">
+					<section type="course" uri="botenbericht.html" label="botenbericht" title="Botenbericht"> </section>
+					<section type="course" uri="teichoskopie.html" label="teichoskopie" title="Teichoskopie"> </section>
+					<section type="course" uri="vertrautenrede.html" label="vertrautenrede" title="Vertrautenrede"> </section>
+				</section>
+				<section type="course" uri="besonderegespraechsgestaltung.html" label="besonderegespraechsgestaltung" title="Besondere Gesprächsgestaltung">
+					<section type="course" uri="stichomythie.html" label="stichomythie" title="Stichomythie"> </section>
+					<section type="course" uri="lyrischeeinlage.html" label="lyrischeeinlage" title="Lyrische Einlage"/>
+					<section type="course" uri="couplet.html" label="couplet" title="Couplet"> </section>
+					<section type="course" uri="song.html" label="song" title="Song"> </section>
+				</section>
+				<section type="course" uri="fiktionsbrechung1.html" label="fiktionsbrechung1" title="Fiktionsbrechung">
+					<section type="course" uri="veffekt.html" label="veffekt" title="V-Effekt"/>
+				</section>
+			</section>
+			<section type="course" uri="personalundhandlung.html" label="personalundhandlung" title="Personal und Handlung">
+				<section type="course" uri="figurenkonstellation.html" label="figurenkonstellation" title="Figurenkonstellation"> </section>
+				<section type="course" uri="figurengruppen.html" label="figurengruppen" title="Figurengruppen">
+					<section type="course" uri="hauptfiguren.html" label="hauptfiguren" title="Hauptfiguren">
+						<section type="course" uri="protagonist.html" label="protagonist" title="Protagonist"> </section>
+						<section type="course" uri="antagonist.html" label="antagonist" title="Antagonist"> </section>
+					</section>
+					<section type="course" uri="nebenfiguren.html" label="nebenfiguren" title="Nebenfiguren">
+						<section type="course" uri="deusexmachina.html" label="deusexmachina" title="Deus ex machina"> </section>
+						<section type="course" uri="dienervertraute.html" label="dienervertraute" title="Diener/Vertraute"/>
+						<section type="course" uri="boten.html" label="boten" title="Boten"/>
+						<section type="course" uri="hanswurst.html" label="hanswurst" title="Hanswurst"> </section>
+					</section>
+				</section>
+				<section type="course" uri="historischeanforderungen.html" label="historischeanforderungen" title="Historische Anforderungen">
+					<section type="course" uri="staendeklausel.html" label="staendeklausel" title="Ständeklausel"> </section>
+					<section type="course" uri="fallhoehe.html" label="fallhoehe" title="Fallhöhe">
+						<section type="course" uri="hamartia.html" label="hamartia" title="Hamartia"/>
+						<section type="course" uri="intrige.html" label="intrige" title="Intrige"> </section>
+						<section type="course" uri="pathos.html" label="pathos" title="Pathos"> </section>
+					</section>
+				</section>
+				<section type="course" uri="psychologischeanforderungen.html" label="psychologischeanforderungen" title="Psychologische Anforderungen">
+					<section type="course" uri="motivierungd.html" label="motivierungd" title="Motivierung"> </section>
+					<section type="course" uri="kausalitaet.html" label="kausalitaet" title="Kausalität"> </section>
+				</section>
+				<section type="course" uri="internereflexion.html" label="internereflexion" title="Interne Reflexion">
+					<section type="course" uri="theateraufdemtheater2.html" label="theateraufdemtheater2" title="Theater auf dem Theater"/>
+					<section type="course" uri="fiktionsbrechung2.html" label="fiktionsbrechung2" title="Fiktionsbrechung"/>
+				</section>
+			</section>
+		</section>
+		<section type="course" uri="lyrik.html" label="lyrik" title="Lyrik" discipline="lyrik">
+			<section type="course" uri="lyrikalsgattung.html" label="lyrikalsgattung" title="Lyrik als Gattung"/>
+			<section type="course" uri="texttheoretischeaspekte.html" label="texttheoretischeaspekte" title="Texttheoretische Aspekte"/>
+			<section type="course" uri="textanalyseundinterpretation.html" label="textanalyseundinterpretation" title="Textanalyse und Interpretation">
+				<section type="course" uri="verstehenlyrischertexte.html" label="verstehenlyrischertexte" title="Verstehen lyrischer Texte">
+					<section type="course" uri="lektuere.html" label="lektuere" title="Lektüre"/>
+					<section type="course" uri="lesart.html" label="lesart" title="Lesart"/>
+					<section type="course" uri="textanalysedeskription.html" label="textanalysedeskription" title="Textanalyse, Deskription"/>
+					<section type="course" uri="interpretation.html" label="interpretation" title="Interpretation"/>
+				</section>
+				<section type="course" uri="zuanalyseundinterpretationvonlyrik.html" label="zuanalyseundinterpretationvonlyrik" title="Zu Analyse und Interpretation von Lyrik"/>
+				<section type="course" uri="textbezogenebeschreibungsebenen.html" label="textbezogenebeschreibungsebenen" title="Textbezogene Beschreibungsebenen">
+					<section type="course" uri="waswirdausgesagt.html" label="waswirdausgesagt" title="Was wird ausgesagt?"/>
+					<section type="course" uri="wiewirdausgesagt.html" label="wiewirdausgesagt" title="Wie wird ausgesagt?"/>
+				</section>
+				<section type="course" uri="beschreibungenundzuordnungen.html" label="beschreibungenundzuordnungen" title="Beschreibungen und Zuordnungen">
+					<section type="course" uri="graphischformaleebene.html" label="graphischformaleebene" title="Graphisch-formale Ebene"/>
+					<section type="course" uri="phonologischeebene.html" label="phonologischeebene" title="Phonologische Ebene"/>
+					<section type="course" uri="ebenederkonventionellenlyrischenbauformen.html" label="ebenederkonventionellenlyrischenbauformen" title="Ebene der konventionellen lyrischen Bauformen"/>
+					<section type="course" uri="grammatischsyntaktischeebene.html" label="grammatischsyntaktischeebene" title="Grammatisch-syntaktische Ebene"/>
+					<section type="course" uri="semantischeebene.html" label="semantischeebene" title="Semantische Ebene"/>
+					<section type="course" uri="topikundentfaltungvonsachverhaltundthema.html" label="topikundentfaltungvonsachverhaltundthema" title="Topik und Entfaltung von Sachverhalt und Thema"/>
+					<section type="course" uri="organisationsmusterdervermittlung.html" label="organisationsmusterdervermittlung" title="Organisationsmuster der Vermittlung"/>
+					<section type="course" uri="narrativestrukturen.html" label="narrativestrukturen" title="Narrative Strukturen"/>
+					<section type="course" uri="medialerort.html" label="medialerort" title="&#x201A;Medialer Ort&#x2018;"/>
+					<section type="course" uri="expliziteundimpliziteintertextualitaet.html" label="expliziteundimpliziteintertextualitaet" title="Explizite und implizite Intertextualität"/>
+				</section>
+				<section type="course" uri="verfahrendieueberdietextbezogeneanalysehinausgehen.html" label="verfahrendieueberdietextbezogeneanalysehinausgehen" title="Verfahren, die über die textbezogene Analyse hinausgehen">
+					<section type="course" uri="historischrekonstruierendeverfahren.html" label="historischrekonstruierendeverfahren" title="Historisch-rekonstruierende Verfahren"/>
+					<section type="course" uri="rezeptionsundwirkungsgeschichtedestextes.html" label="rezeptionsundwirkungsgeschichtedestextes" title="Rezeptions- und Wirkungsgeschichte des Textes"/>
+					<section type="course" uri="interessenderinterpretierendenundanwendungsbereichederinterpretationdieaufdiekontextbildungeinwirkenunddamitdieinterpretationbeeinflussen.html" label="interessenderinterpretierendenundanwendungsbereichederinterpretationdieaufdiekontextbildungeinwirkenunddamitdieinterpretationbeeinflussen" title="Interessen der Interpretierenden und Anwendungsbereiche der Interpretation, die auf die Kontextbildung einwirken und damit die Interpretation beeinflussen"/>
+				</section>
+			</section>
+		</section>
+		<section type="course" uri="metrik.html" label="metrik" title="Metrik" discipline="metrik">
+			<section type="course" uri="grundbegriffem.html" label="grundbegriffem" title="Grundbegriffe">
+				<section type="course" uri="metrischenotation.html" label="metrischenotation" title="Metrische Notation"/>
+				<section type="course" uri="vers.html" label="vers" title="Vers"/>
+				<section type="course" uri="rhythmischeprosa.html" label="rhythmischeprosa" title="Rhythmische Prosa"/>
+				<section type="course" uri="prosodie.html" label="prosodie" title="Prosodie"/>
+				<section type="course" uri="versifikation.html" label="versifikation" title="Versifikation"/>
+				<section type="course" uri="metrischetypologie.html" label="metrischetypologie" title="metrische Typologie"/>
+				<section type="course" uri="stufendermetrischenabstraktion.html" label="stufendermetrischenabstraktion" title="Stufen der metrischen Abstraktion">
+					<section type="course" uri="metrischesschema.html" label="metrischesschema" title="metrisches Schema"/>
+					<section type="course" uri="metrischertyp.html" label="metrischertyp" title="metrischer Typ"/>
+					<section type="course" uri="rhythmusdeskonkreteneinzelverses.html" label="rhythmusdeskonkreteneinzelverses" title="Rhythmus des konkreten Einzelverses"/>
+					<section type="course" uri="vortragstyp.html" label="vortragstyp" title="Vortragstyp"/>
+					<section type="course" uri="einzelvortrag.html" title="Einzelvortrag" label="einzelvortrag"/>
+				</section>
+				<section type="course" uri="gebundenevsungebundeneverse.html" label="gebundenevsungebundeneverse" title="Gebundene vs. ungebundene Verse"/>
+			</section>
+			<section type="course" uri="verskonstituenten.html" label="verskonstituenten" title="Verskonstituenten">
+				<section type="course" uri="silbe.html" label="silbe" title="Silbe"/>
+				<section type="course" uri="silbenprominenz.html" label="silbenprominenz" title="Silbenprominenz">
+					<section type="course" uri="hebung.html" title="Hebung" label="hebung"/>
+					<section type="course" uri="senkung.html" title="Senkung" label="senkung"/>
+				</section>
+				<section type="course" uri="pause_m.html" label="pause_m" title="Pause">
+					<section type="course" uri="zaesur.html" title="Zäsur" label="zaesur"/>
+					<section type="course" uri="diaerese.html" title="Diärese" label="diaerese"/>
+				</section>
+				<section type="course" uri="lautlicheuebereinstimmung.html" label="lautlicheuebereinstimmung" title="lautliche Übereinstimmung">
+					<section type="course" uri="endreim.html" title="Endreim" label="endreim"/>
+					<section type="course" uri="assonanz.html" title="Assonanz" label="assonanz"/>
+					<section type="course" uri="alliterationstabreim.html" title="Alliteration/Stabreim" label="alliterationstabreim"/>
+				</section>
+			</section>
+			<section type="course" uri="horizontaleanordnungsprinzipien.html" title="horizontale Anordnungsprinzipien" label="horizontaleanordnungsprinzipien">
+				<section type="course" uri="silbenzahl.html" title="Silbenzahl" label="silbenzahl"/>
+				<section type="course" uri="hebungszahl.html" title="Hebungszahl" label="hebungszahl"/>
+				<section type="course" uri="versfuss.html" label="versfuss" title="Versfuß">
+					<section type="course" uri="jambus.html" label="jambus" title="Jambus"/>
+					<section type="course" uri="trochaeus.html" label="trochaeus" title="Trochäus"/>
+					<section type="course" uri="spondeus.html" label="spondeus" title="Spondeus"/>
+					<section type="course" uri="daktylus.html" label="daktylus" title="Daktylus"/>
+					<section type="course" uri="amphibrachys.html" label="amphibrachys" title="Amphibrachys"/>
+					<section type="course" uri="anapaest.html" label="anapaest" title="Anapäst"/>
+					<section type="course" uri="choriambus.html" title="Choriambus" label="choriambus"/>
+					<section type="course" uri="katalektisch.html" title="Katalektisch" label="katalektisch"/>
+					<section type="course" uri="akatalektisch.html" title="Akatalektisch" label="akatalektisch"/>
+					<section type="course" uri="hyperkatalektisch.html" title="Hyperkatalektisch" label="hyperkatalektisch"/>
+				</section>
+				<section type="course" uri="versgrenzen.html" title="Versgrenzen" label="versgrenzen">
+					<section type="course" uri="auftaktanakrusis.html" title="Auftakt/Anakrusis" label="auftaktanakrusis"/>
+					<section type="course" uri="kadenzversausgang.html" title="Kadenz/Versausgang" label="kadenzversausgang"/>
+				</section>
+				<section type="course" uri="versmasse.html" title="Versmaße" label="versmasse">
+					<section type="course" uri="endecasillabo.html" title="Endecasillabo" label="endecasillabo"/>
+					<section type="course" uri="strengerknittelvers.html" title="strenger Knittelvers" label="strengerknittelvers"/>
+					<section type="course" uri="versemitfuellungsfreiheit.html" title="Verse mit Füllungsfreiheit" label="versemitfuellungsfreiheit">
+						<section type="course" uri="dolnik.html" title="Dol`nik" label="dolnik"/>
+						<section type="course" uri="taktovik.html" title="Taktovik" label="taktovik"/>
+						<section type="course" uri="akcentnyjstich.html" title="akcentnyj stich" label="akcentnyjstich"/>
+					</section>
+				</section>
+			</section>
+		</section>
+		<section type="course" label="rhetorikrhetorischetextanalyse" uri="rhetorikrhetorischetextanalyse.html" title="Rhetorik / Rhetorische Textanalyse" discipline="rhetorik">
+			<section type="course" label="rhetorik" title="Rhetorik" uri="rhetorik.html">
+				<section type="course" label="grundbegriffe" title="Grundbegriffe" uri="grundbegriffe.html">
+					<section label="persuasio" title="persuasio" type="course" uri="persuasio.html">
+						<section label="movere" type="course" title="movere" uri="movere.html"/>
+						<section label="docere" type="course" title="docere" uri="docere.html"/>
+						<section label="delectare" type="course" title="delectare" uri="delectare.html"/>
+					</section>
+					<section type="course" label="aptum" title="aptum" uri="aptum.html"/>
+					<section label="resverba" type="course" uri="resverba.html" title="res - verba"/>
+					<section label="arsnatura" type="course" uri="arsnatura.html" title="ars - natura"/>
+				</section>
+				<section type="course" label="produktionsstadien" title="Produktionsstadien" uri="produktionsstadien.html">
+					<section label="inventiomittopik" type="course" uri="inventiomittopik.html" title="inventio (mit Topik)"/>
+					<section label="dispositio" type="course" title="dispositio" uri="dispositio.html">
+						<section label="teilederrede" type="course" title="Teile der Rede" uri="teilederrede.html"/>
+					</section>
+					<section type="course" label="elocutiomitornatus" uri="elocutiomitornatus.html" title="elocutio (mit ornatus)"/>
+				</section>
+			</section>
+			<section type="course" uri="rhetorischetextanalyseundstilistik.html" label="rhetorischetextanalyseundstilistik" title="Rhetorische Textanalyse und Stilistik">
+				<section type="course" uri="rhetorischetextanalysefigurenundtropen.html" label="rhetorischetextanalysefigurenundtropen" title="Rhetorische Textanalyse (Figuren und Tropen)">
+					<section type="course" uri="aenderungsoperationen.html" label="aenderungsoperationen" title="Änderungsoperationen"/>
+					<section type="course" uri="figurenlehre.html" label="figurenlehre" title="Figurenlehre">
+						<section type="course" uri="alliteration.html" label="alliteration" title="Alliteration"/>
+						<section type="course" uri="anakoluth.html" label="anakoluth" title="Anakoluth"/>
+						<section type="course" uri="anapher.html" label="anapher" title="Anapher"/>
+						<section type="course" uri="apostrophe.html" label="apostrophe" title="Apostrophe"/>
+						<section type="course" uri="asyndeton.html" label="asyndeton" title="Asyndeton"/>
+						<section type="course" uri="chiasmus.html" label="chiasmus" title="Chiasmus"/>
+						<section type="course" uri="inversion.html" label="inversion" title="Inversion"/>
+						<section type="course" uri="klimax.html" label="klimax" title="Klimax"/>
+						<section type="course" uri="parallelismus.html" label="parallelismus" title="Parallelismus"/>
+						<section type="course" uri="pleonasmus.html" label="pleonasmus" title="Pleonasmus"/>
+						<section type="course" uri="praeteritio.html" label="praeteritio" title="praeteritio"/>
+						<section type="course" uri="vergleich.html" label="vergleich" title="Vergleich"/>
+						<section type="course" uri="antithesemitoxymoronundparadoxon.html" label="antithesemitoxymoronundparadoxon" title="Antithese (mit Oxymoron und Paradoxon)"/>
+					</section>
+					<section label="uneigentlichessprechentropen" type="course" uri="uneigentlichessprechentropen.html" title="uneigentliches Sprechen (Tropen)">
+						<section type="course" label="hyperbel" title="Hyperbel" uri="hyperbel.html"/>
+						<section type="course" label="ironie" title="Ironie" uri="ironie.html"/>
+						<section label="litotes" type="course" title="Litotes" uri="litotes.html"/>
+						<section type="course" label="metonymiemitantonomasie" uri="metonymiemitantonomasie.html" title="Metonymie (mit Antonomasie)"/>
+						<section type="course" label="synekdoche" title="Synekdoche" uri="synekdoche.html"/>
+						<section label="metapher" type="course" title="Metapher" uri="metapher.html"/>
+						<section type="course" label="bildlicheredeweisen" title="bildliche Redeweisen" uri="bildlicheredeweisen.html">
+							<section label="allegorie" type="course" title="Allegorie" uri="allegorie.html"/>
+							<section label="emblem" type="course" title="Emblem" uri="emblem.html"/>
+							<section label="personifikation" type="course" title="Personifikation" uri="personifikation.html"/>
+							<section label="symbol" type="course" title="Symbol" uri="symbol.html"/>
+						</section>
+						<section label="katachrese" type="course" title="Katachrese" uri="katachrese.html"/>
+						<section label="archaismusneologismus" type="course" uri="archaismusneologismus.html" title="Archaismus / Neologismus"/>
+					</section>
+				</section>
+				<section label="stilistik" title="Stilistik" type="course" uri="stilistik.html">
+					<section label="generadicendi" type="course" title="genera dicendi" uri="generadicendi.html">
+						<section label="genushumile" type="course" title="genus humile" uri="genushumile.html"/>
+						<section label="genusmedium" title="genus medium" type="course" uri="genusmedium.html"/>
+						<section label="genusgrande" type="course" title="genus grande" uri="genusgrande.html"/>
+					</section>
+					<section label="asianismusattizismus" type="course" uri="asianismusattizismus.html" title="Asianismus / Attizismus"/>
+					<section label="hypotaxeparataxe" type="course" uri="hypotaxeparataxe.html" title="Hypotaxe - Parataxe"/>
+					<section label="optinginoptingout" type="course" uri="optinginoptingout.html" title="opting in / opting out"/>
+				</section>
+			</section>
+			<section type="course" label="rhetorikalspoetik" title="Rhetorik als Poetik" uri="rhetorikalspoetik.html">
+				<section label="imitatioveterum" type="course" uri="imitatioveterum.html" title="imitatio veterum"/>
+				<section label="transformationdergeneradicendi" type="course" title="Transformation der genera dicendi" uri="transformationdergeneradicendi.html"/>
+				<section label="prodessedelectare" type="course" title="prodesse - delectare" uri="prodessedelectare.html"/>
+				<section label="arsingenium" type="course" title="ars - ingenium" uri="arsingenium.html"/>
+				<section label="poetischegattungenundformenderfruehenneuzeit" type="course" uri="poetischegattungenundformenderfruehenneuzeit.html" title="Poetische Gattungen und Formen der Frühen Neuzeit"/>
+			</section>
+		</section>
+		<section label="editionsphilologie" type="course" uri="editionsphilologie.html" title="Edition" related2practice="true" discipline="edition">
+			<section label="apparat" type="course" uri="apparat.html" title="Apparat" related2practice="true"/>
+			<section label="emendatio" type="course" uri="emendatio.html" title="Emendatio" related2practice="true"/>
+			<section label="entstehungsapparatentstehungskritik" type="course" uri="entstehungsapparatentstehungskritik.html" title="Entstehungsapparat/Entstehungskritik" related2practice="true"/>
+			<section label="kollation" type="course" uri="kollation.html" title="Kollation" related2practice="true"/>
+			<section label="konjektur" type="course" uri="konjektur.html" title="Konjektur" related2practice="true"/>
+			<section label="lesarte" type="course" uri="lesarte.html" title="Lesart" related2practice="true"/>
+			<section label="linearetextdarstellung" type="course" uri="linearetextdarstellung.html" title="Lineare Textdarstellung" related2practice="true"/>
+			<section label="positiverundnegativereinzelstellenapparateinblendungsapparat" type="course" uri="positiverundnegativereinzelstellenapparateinblendungsapparat.html" title="Positiver und negativer Einzelstellenapparat, Einblendungsapparat " related2practice="true"/>
+			<section label="siglen" type="course" uri="siglen.html" title="Siglen" related2practice="true"/>
+			<section label="textphasen" type="course" uri="textphasen.html" title="Textphasen" related2practice="true"/>
+		</section>
+		<section label="geschichtederliteraturwissenschaft" type="course" uri="geschichtederliteraturwissenschaft.html" title="Geschichte der Literaturwissenschaft" discipline="fachgeschichtegerm">
+			<section label="einewissenschaftformiertsichvarianten18101870" type="course" uri="einewissenschaftformiertsichvarianten18101870.html" title="Eine Wissenschaft formiert sich. Varianten 1810-1870">
+				<section label="universitaereliteraturforschungundihrealternativen" type="course" uri="universitaereliteraturforschungundihrealternativen.html" title="Universitäre Literaturforschung und ihre Alternativen">
+					<section label="philologie" type="course" uri="philologie.html" title="Philologie"/>
+					<section label="literaturgeschichte" type="course" uri="literaturgeschichte.html" title="Literaturgeschichte"/>
+				</section>
+			</section>
+			<section label="moderneliteraturgeschichteamseminarfuerdeutschephilologie" type="course" uri="moderneliteraturgeschichteamseminarfuerdeutschephilologie.html" title="_Moderne Literaturgeschichte_ am Seminar für deutsche Philologie">
+				<section label="diebegruendungderliteraturwissenschaft" type="course" uri="diebegruendungderliteraturwissenschaft.html" title="Die Begründung der &#x201E;Literatur-Wissenschaft&#x201C;"/>
+			</section>
+			<section label="geistundverfahrensynthesenundformbeobachtungen19001933" type="course" uri="geistundverfahrensynthesenundformbeobachtungen19001933.html" title="&#x201E;Geist&#x201C; und &#x201E;Verfahren&#x201C;. Synthesen und Formbeobachtungen, 1900&#x2013;1933"/>
+			<section label="diegeistesgeschichtlichewendeundihrefolgendifferenzierungen" type="course" uri="diegeistesgeschichtlichewendeundihrefolgendifferenzierungen.html" title="Die &#x201E;geistesgeschichtliche Wende&#x201C; und ihre Folgen. Differenzierungen">
+				<section label="problemundideengeschichtegestaltbiographikundformanalyse" type="course" uri="problemundideengeschichtegestaltbiographikundformanalyse.html" title="Problem- und Ideengeschichte, &#x201E;Gestalt&#x201C;-Biographik und Formanalyse"/>
+				<section label="stammesethnographischeliteraturgeschichte" type="course" uri="stammesethnographischeliteraturgeschichte.html" title="Stammesethnographische Literaturgeschichte"/>
+				<section label="soziologischeundsozialgeschichtlicheansaetze" type="course" uri="soziologischeundsozialgeschichtlicheansaetze.html" title="Soziologische und sozialgeschichtliche Ansätze"/>
+			</section>
+			<section label="beobachtungundbeschreibungformalismusundstrukturalismus" type="course" uri="beobachtungundbeschreibungformalismusundstrukturalismus.html" title="Beobachtung und Beschreibung. Formalismus und Strukturalismus"/>
+			<section label="imspannungsfeldpolitischerlenkungsansprueche19331945" type="course" uri="imspannungsfeldpolitischerlenkungsansprueche19331945.html" title="Im Spannungsfeld politischer Lenkungsansprüche. 1933-1945" density="high">
+				<section label="institutionellerahmenbedingungen" type="course" uri="institutionellerahmenbedingungen.html" title="Institutionelle Rahmenbedingungen"/>
+				<section label="arbeitsfelderunddarstellungsformen" type="course" uri="arbeitsfelderunddarstellungsformen.html" title="Arbeitsfelder und Darstellungsformen"/>
+				<section label="kontinuitaetslinienbruecheinnovationen" type="course" uri="kontinuitaetslinienbruecheinnovationen.html" title="Kontinuitätslinien, Brüche, Innovationen"/>
+			</section>
+			<section label="getrenntewegegemeinsameprobleme19451966" type="course" uri="getrenntewegegemeinsameprobleme19451966.html" title="Getrennte Wege, gemeinsame Probleme. 1945 &#x2013; 1966">
+				<section label="restaurationundmodernisierungliteraturwissenschaftinderbrdundinwesteuropa" type="course" uri="restaurationundmodernisierungliteraturwissenschaftinderbrdundinwesteuropa.html" title="Restauration und Modernisierung. Literaturwissenschaft in der BRD und in Westeuropa">
+					<section label="institutionelleundpersonalerahmenbedingungen" type="course" uri="institutionelleundpersonalerahmenbedingungen.html" title="Institutionelle und personale Rahmenbedingungen"/>
+					<section label="konzepteundmethoden" type="course" uri="konzepteundmethoden.html" title="Konzepte und Methoden"/>
+					<section label="internationalisierungundneuorientierung" type="course" uri="internationalisierungundneuorientierung.html" title="Internationalisierung und Neuorientierung"/>
+				</section>
+			</section>
+			<section label="monoparadigmatischerrahmenheterogenezuegeddrundosteuropa" type="course" uri="monoparadigmatischerrahmenheterogenezuegeddrundosteuropa.html" title="Monoparadigmatischer Rahmen, heterogene Züge. DDR und Osteuropa">
+				<section label="institutionelleundpersonalebedingungen" type="course" uri="institutionelleundpersonalebedingungen.html" title="Institutionelle und personale Bedingungen"/>
+				<section label="konzepteundmethoden2" type="course" uri="konzepteundmethoden2.html" title="Konzepte und Methoden"/>
+			</section>
+			<section label="endpunkteundneuanfaengedasjahr1966" type="course" uri="endpunkteundneuanfaengedasjahr1966.html" title="Endpunkte und Neuanfänge. Das Jahr 1966" related2practice="true"/>
+		</section>
+	</section>
+</lmml>

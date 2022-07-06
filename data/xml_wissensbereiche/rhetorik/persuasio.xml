@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="persuasio" author="Uwe Spörl" creationTime="08.04.2007" label="persuasio" topics="persuasio">
+		<illustration>
+			<LMMLtext>lat.: Überreden, Überzeugen</LMMLtext>
+		</illustration>
+		<definition title="persuasio" label="persuasiodef">
+			<LMMLtext>Die Annahme einer bestimmten Überzeugung (persuasio) durch den Adressaten des Textes ist die Zielvorgabe der (antiken) Rhetorik. Sie kann durch verschiedene Methoden oder Prinzipien erreicht werden: movere, docere oder delectare.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Wird ein rhetorischer Text produziert, so ist davon auszugehen, dass der Urheber bzw. Autor des Textes mit dessen Produktion und gegebenenfalls auch Vortrag bestimmte Ziele verfolgt. Die rhetorische Lehre sieht dieses Hauptziel eines Autors darin, dass die Rezipienten eine bestimmte, vom Autor intendierte Meinung annehmen, in der Regel seine eigene.</LMMLtext>
+			<LMMLtext>Hier wird kein Unterschied zwischen den unterschiedlichen Anwendungsbereichen Recht, Politik, Fest oder eben: Literatur/Poesie gemacht. In den Kriterien bzw. Wirkungsprinzipien</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>
+						<referencesLink target="movere">
+							<referencesLink show="new" type="defines" target="moveredef">movere</referencesLink>
+						</referencesLink>,</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>
+						<referencesLink target="docere">
+							<referencesLink show="new" type="defines" target="doceredef">docere</referencesLink>
+						</referencesLink> und</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>
+						<referencesLink target="delectare">
+							<referencesLink show="new" type="defines" target="delectaredef">delectare</referencesLink>
+						</referencesLink>
+					</LMMLtext>
+				</item>
+			</ulist>
+			<LMMLtext>nach denen an der Textoberfläche und inhaltlich gestaltet wird, unterscheiden sich die Texte der jeweiligen Anwendungsbereiche jedoch voneinander.</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielpersuasioBsp"/>
+				<referencesLink type="exercises" target="uebungpersuasioUeb"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel persuasio" label="beispielpersuasioBsp">
+			<illustration>
+				<LMMLtext>Als Beispiel für die unterschiedlichen Wirkungsprinzipien und -intentionen der persuasio soll im Folgenden ein Text eingesetzt werden, dem man – als politische Grundsatz- und Festrede – sicherlich die Absicht unterstellen darf, entsprechend wirken zu wollen, und der zudem, vor noch nicht allzu langer Zeit, an die meisten von uns gerichtet worden ist: die Neujahrsansprache auf das Jahr 2007 der Bundeskanzlerin Angela Merkel nämlich:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Neujahrsansprache 31.12.2006" authorname="Angela" authorfamily="Merkel">
+				<LMMLtext>Liebe Mitbürgerinnen und Mitbürger,</LMMLtext>
+				<LMMLtext>vor einem Jahr habe ich in meiner ersten Neujahrsansprache gesagt: Überraschen wir uns damit, was möglich ist! Das Jahr 2006 hat gezeigt, dass das keine bloße Rede-Wendung sein muss.</LMMLtext>
+				<LMMLtext>[1] <formatted style="hervorhebung">Überraschen wir uns damit, was möglich ist! Sie wie ich denken dabei sicher zuerst an die sportlichen Höhepunkte, besonders an die Leistung von Jürgen Klinsmanns Fußballnationalmannschaft. Die hatte allen Pessimisten zum Trotz eine großartige WM gespielt. Sie und  viele andere haben 2006 gezeigt, was mit Fleiß, mit Zielstrebigkeit und dem Glauben an die eigenen Stärken möglich ist. </formatted>
+				</LMMLtext>
+				<LMMLtext>Und die Welt war in diesem Sommer wahrlich zu Gast bei Freunden. [2] <formatted style="hervorhebung">Wir Deutschen haben das Mitreißende von schwarz-rot-gold gespürt. Wir haben damit ein neues, ein schönes Bild von Deutschland in die Welt getragen.</formatted> Und das trägt weiter – auch über die Wochen des Sommermärchens hinaus.</LMMLtext>
+				<LMMLtext>[3] <formatted style="hervorhebung">Denn ein klares Bekenntnis zu unseren Werten und Wurzeln und ein friedliches und tolerantes Zusammenleben – das sind keine  Gegensätze, das geht zusammen. Auf dieser Grundlage hat die Bundesregierung sich vorgenommen, einen Integrationsplan für die bei uns lebenden ausländischen Mitbürgerinnen und Mitbürger zu erarbeiten. Sie hat auch zum ersten Mal einen ernsthaften Dialog mit Vertretern der Muslime begonnen. Nur wer zu sich selbst steht, kann Respekt von anderen erwarten.</formatted>
+				</LMMLtext>
+			</quotation>
+			<illustration label="beispielpersuasioBspIllu">
+				<LMMLtext>Im Folgenden nun Erläuterungen zu den durch Nummern und Hervorhebung markierten Abschnitten dieses Textauszugs:</LMMLtext>
+				<LMMLtext>[1] <referencesLink show="new" type="defines" target="delectaredef">
+						<formatted style="hervorhebung">Delectare</formatted>
+					</referencesLink>: Frau Merkel beginnt Ihre Rede, indem sie auf die vergangene Weltmeisterschaft verweist. So gelingt ihr ein unterhaltsamer Einstieg und sie kann ihre Rede mit einem unverfänglichen Thema beginnen, zu dem in der Bevölkerung eine einhellig positive und unproblematische Meinung besteht.</LMMLtext>
+				<LMMLtext>[2] <referencesLink show="new" type="defines" target="moveredef">
+						<formatted style="hervorhebung">Movere</formatted>
+					</referencesLink>: Sie versucht offenkundig durch diese Formulierung das ‚neue Wirgefühl’, das seit der WM den Deutschen attestiert wird, zu nutzen und zu stärken, um die Zuhörer zu bewegen, für die Zukunft zu motivieren und um sie selbst als eine ‚von ihnen’ anzuerkennen. Sie versucht so, die Distanz zwischen sich und den Zuhörern zu verringern.</LMMLtext>
+				<LMMLtext>[3] <referencesLink show="new" type="defines" target="doceredef">
+						<formatted style="hervorhebung">Docere</formatted>
+					</referencesLink>: Sie stellt Thesen auf, die zwar letztlich unbegründet und phrasenhaft bleiben, aber in eine argumentierende Rahmenstruktur eingebettet werden und offenkundig sachlich überzeugen sollen – überzeugen auch im Sinne einer Rechtfertigung gegen vorher öffentlich gemachte Vorwürfe an die Adresse der Regierung und ihre ‚verfehlte’ Integrationspolitik.</LMMLtext>
+				<LMMLtext>Zusätzlich ist es auch denkbar, dem gesamten Komplex der Neujahrsansprache der Bundeskanzlerin die Wirkungsregel „prodesse et delectare“ (vgl. <referencesLink target="prodessedelectare">prodesse – delectare</referencesLink>) zu unterstellen. Begründen lässt sich dies mit der Wahl des Sendeplatzes (Silvester zur besten Sendezeit 20:15 Uhr), mit dem einfachen und vertraulichen sprachlichen Gestus der Rede und dem offensichtlich verfolgten Zweck der anlass- und zukunftsbezogenen Information und Motivation der deutschen Bevölkerung.</LMMLtext>
+			</illustration>
+		</section>
+		<exercise topics="musterloesung" label="uebungpersuasioUeb" title="Übung persuasio">
+			<task type="textbeispiel">
+				<quotation booktitle="Neujahrsansprache 31.12.2006" authorname="Angela" authorfamily="Merkel">
+					<LMMLtext>Liebe Mitbürgerinnen und Mitbürger,</LMMLtext>
+					<LMMLtext>vor einem Jahr habe ich in meiner ersten Neujahrsansprache gesagt: Überraschen wir uns damit, was möglich ist! Das Jahr 2006 hat gezeigt, dass das keine bloße Rede-Wendung sein muss.</LMMLtext>
+					<LMMLtext>Überraschen wir uns damit, was möglich ist! Sie wie ich denken dabei sicher zuerst an die sportlichen Höhepunkte, besonders an die Leistung von Jürgen Klinsmanns Fußballnationalmannschaft. Die hatte allen Pessimisten zum Trotz eine großartige WM gespielt. Sie und viele andere haben 2006 gezeigt, was mit Fleiß, mit Zielstrebigkeit und dem Glauben an die eigenen Stärken möglich ist.</LMMLtext>
+					<LMMLtext>Und die Welt war in diesem Sommer wahrlich zu Gast bei Freunden. Wir Deutschen haben das Mitreißende von schwarz-rot-gold gespürt. Wir haben damit ein neues, ein schönes Bild von Deutschland in die Welt getragen. Und das trägt weiter – auch über die Wochen des Sommermärchens hinaus.</LMMLtext>
+					<LMMLtext>Denn ein klares Bekenntnis zu unseren Werten und Wurzeln und ein friedliches und tolerantes Zusammenleben – das sind keine Gegensätze, das geht zusammen. Auf dieser Grundlage hat die Bundesregierung sich vorgenommen, einen Integrationsplan für die bei uns lebenden ausländischen Mitbürgerinnen und Mitbürger zu erarbeiten. Sie hat auch zum ersten Mal einen ernsthaften Dialog mit Vertretern der Muslime begonnen. Nur wer zu sich selbst steht, kann Respekt von anderen erwarten. [...]</LMMLtext>
+					<LMMLtext>Überraschen wir uns damit, was möglich ist! Auch politisch. [1] <formatted style="hervorhebung">Die Arbeitslosigkeit ist in diesem Jahr um fast eine halbe Million Menschen zurückgegangen. Die Zahl der offenen Stellen steigt. Das Wirtschaftswachstum ist doppelt so hoch wie 2005. Immer weniger Unternehmen gehen pleite, und 2007 werden wir die geringste Neuverschuldung seit der Wiedervereinigung haben. </formatted>[...]</LMMLtext>
+					<LMMLtext>Verantwortung zu übernehmen – zu Hause, in Europa und der Welt – das ist am Ende immer sehr konkret. [2] <formatted style="hervorhebung">Ich danke deshalb allen Helferinnen und Helfern, ich danke den Polizistinnen und Polizisten, den Sanitätskräften, und ich danke unseren Soldatinnen und Soldaten, die im Augenblick auch unter Einsatz ihres eigenen Lebens fern der Heimat helfen, Frieden und Stabilität zu sichern.</formatted> [...]</LMMLtext>
+					<LMMLtext>Wir wollen mehr Chancen am Arbeitsmarkt insbesondere auch für die eröffnen, die es schwerer als andere haben: die Älteren, die geringer Qualifizierten, die Langzeitarbeitslosen. Wir wollen die Erziehungskraft der Familien stärken. Dabei dürfen wir unsere Augen nicht davor verschließen, dass eine immer größer werdende Zahl von Familien heute nicht mehr allein ihre Erziehungsverantwortung wahrnehmen kann. [3] <formatted style="hervorhebung">Schicksale wie das des kleinen Kevin in Bremen zeigen das. Fassungslos haben wir sie in diesem Jahr verfolgt. Jeder einzelne von uns, aber auch der Staat –- wir dürfen nicht zur Tagesordnung übergehen oder wegschauen! Wir müssen uns einmischen!</formatted>
+					</LMMLtext>
+					<LMMLtext>Liebe Mitbürgerinnen und Mitbürger, wir sollten uns für das kommende Jahr wie für das zurückliegende Jahr wieder vornehmen: Überraschen wir uns damit, was möglich ist!</LMMLtext>
+					<LMMLtext>[4] <formatted style="hervorhebung">Das beginnt übrigens bei jedem von uns ganz persönlich: zum Beispiel mit einem Gespräch, einem ausgedehnten Spaziergang, einem Besuch oder indem wir mal das Handy ganz bewusst ausschalten, auch wenn dies manchem, wie zum Beispiel auch mir, zunächst einmal ungewohnt erscheinen mag. Sie werden sehen, wie gut all das für das Miteinander ist.</formatted>
+					</LMMLtext>
+					<LMMLtext>Und so wünsche ich Ihnen allen ein gutes, ein erfülltes und ein gesegnetes neues Jahr 2007.</LMMLtext>
+				</quotation>
+			</task>
+			<task type="fragestellung">
+				<LMMLtext>Ordnen sie die (durch Nummern und Hervorhebung) markierten Stellen des nun folgenden Textes, den Sie schon als Beispiel kennengelernt haben, dem jeweiligen rhetorischen Wirkungsprinzip zu! (Dies ist eine interpretative Aufgabe. Deshalb kann die angegebene Musterlösung nur als Orientierung dienen.)</LMMLtext>
+			</task>
+			<task type="userinput">
+				<LMMLtext>[1] <referencesLink show="new" type="defines" target="doceredef">Docere</referencesLink>: Merkel stellt Thesen zur wirtschaftlichen Lage auf, die für sich selbst sprechen sollen und ein positive Zukunft erwarten lassen.</LMMLtext>
+				<LMMLtext>[2] <referencesLink show="new" type="defines" target="moveredef">Movere</referencesLink> / <referencesLink show="new" type="defines" target="delectaredef">Delectare</referencesLink>: Das Lob der Staatsdiener und der Bevölkerung insgesamt erfreut diese, kann sie ggf. sogar berühren und wirft auch ein gutes Licht auf die Sprecherin, die sich artig bedankt.</LMMLtext>
+				<LMMLtext>[3] <referencesLink show="new" type="defines" target="moveredef">Movere</referencesLink>: Der Verweis auf das Schicksal Kevins alleine richtet sich vor allem an die Emotionen der Adressaten und mündet in einen dringenden Appell zur Einmischung.</LMMLtext>
+				<LMMLtext>[4] <referencesLink show="new" type="defines" target="delectaredef">Delectare</referencesLink> / <referencesLink show="new" type="defines" target="moveredef">Movere</referencesLink>: Merkel spricht auch über sich persönlich, verringert so die Distanz zu den Adressaten und erzeugt den Anschein einer Vertraulichkeit. Zudem appelliert sie wieder, das eigene Verhalten (im Kleinen) zu ändern.</LMMLtext>
+			</task>
+		</exercise>
+	</section>
+</lmml>

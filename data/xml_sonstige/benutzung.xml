@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/left.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd/LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="Benutzung von LiGo" author="Katrin Fischer" creationTime="08.03.06" label="benutzungvonligo">
+		<illustration><LMMLtext><externalLink show="embed" uri="images/benbegriffsystematik.swf">
+					<?xm-replace_text {LMMLtext}?>
+				</externalLink>Kurze Einführung in LiGo: Geführte Tour Teil 1
+</LMMLtext><LMMLtext>
+				<externalLink show="embed" uri="images/benmitligolernen.swf">
+					<?xm-replace_text {LMMLtext}?>
+				</externalLink>Mit LiGo lernen: Geführte TourTeil 2 </LMMLtext></illustration><illustration>
+			<LMMLtext>
+				<formatted style="ueberschrift">Technische Voraussetzungen</formatted>
+			</LMMLtext>
+			<LMMLtext>
+				<formatted style="hervorhebung">Browser</formatted>
+			</LMMLtext>
+			<LMMLtext>Li-Go ist am einfachsten mit dem Browser Mozilla Firefox zu benutzen. <externalLink show="new" uri="http://www.firefox-downloaden.de/">Kostenloser Download</externalLink>
+			Jeder andere Browser (Internet Explorer, Opera, Netscape Navigator etc.) kann aber auch verwendet werden. Bei Opera ist lediglich zu beachten, dass die Beispiel- und Übungsfenster sich nicht auf der Oberfläche öffnen, sondern nur über einen Karteikartenreiter kurz unterhalb der  Browser-Eingabe-Zeile zu sehen sind.</LMMLtext>
+			<LMMLtext>
+				<formatted style="hervorhebung">JavaScript aktivieren</formatted>
+			</LMMLtext>
+			<LMMLtext>
+				Um die Beispiele, Übungen und Tests sehen zu können, muss Javascript aktiviert sein. 
+			</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>Mozilla Firefox:</LMMLtext>
+					<LMMLtext>Im Menü "Extras" den Punkt "Einstellungen" wählen, dort "Inhalt" und dort dann das Kästchen "JavaScript aktivieren" ankreuzen</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>Internet Explorer</LMMLtext>
+					<LMMLtext>Im Menü "Extras" und den Punkt "Internetoptionen" anklicken. Dort die Karteikarte "Sicherheit" auswählen und auf dieser dann zuerst das Icon "Vertrauenswürdige Sites" anklicken und dann auf der gleichen Karteikarte auf "Sites" klicken. http://www.li-go.de hinzufügen, das Kästchen "Für diese Sites ist eine Serverüberprüfung...." nicht anklicken.</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>Opera</LMMLtext>
+					<LMMLtext>Hier werden die Beispiele und Übungen in Tabs (Karteikartenreiter, die oberhalb der Browserzeile zu sehen sind) geöffnet und erscheinen nicht von selbst auf dem Bildschirm.</LMMLtext>
+				</item>
+				</ulist>
+			<LMMLtext>
+				<formatted style="ueberschrift">Verwendete Icons und ihre Bedeutung</formatted>
+			</LMMLtext>
+		</illustration>
+		<illustration>
+			<LMMLtext>
+				<externalLink show="embed" uri="print.gif"/>Drucken der aktuellen Seite ohne linken Frame und Logos</LMMLtext>
+			<LMMLtext>
+				<externalLink show="embed" uri="illustration.gif"/>   Beispiel</LMMLtext>
+			<LMMLtext>
+				<externalLink show="embed" uri="exercise.gif"/>       Übung</LMMLtext>
+			<LMMLtext>
+				<externalLink show="embed" uri="movie.gif"/>Recording: Kleine Filme mit kommentierten Beispieltexten, in denen unterschiedliche Formen der graphischen Veranschaulichung genutzt werden.
+ Beispiele auf den Seiten <referencesLink target="analepse">Analepse</referencesLink>,<referencesLink target="fokalisierung"> Fokalisierung
+</referencesLink>
+			und <referencesLink target="gedankenzitat">Gedankenzitat</referencesLink>
+			</LMMLtext>
+			<LMMLtext>
+				<externalLink show="embed" uri="discuss.gif"/> Link auf einen Beitrag im<externalLink show="new" uri="https://forum.tu-darmstadt.de/ligo/"> Diskussionsforum</externalLink>
+			</LMMLtext>
+			<LMMLtext>
+				<formatted style="ueberschrift">Beispiele für die verschiedenen Übungstypen in LiGo</formatted>
+			</LMMLtext>
+			<table>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Multiple Choice</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>
+							<referencesLink target="internefokalisierung">Interne Fokalisierung</referencesLink>
+						</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Texteingabe</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>
+							<referencesLink target="redebericht">Redebericht</referencesLink>
+						</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Drag&amp;Drop</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>
+							<referencesLink target="offeneundgeschlosseneform">Offene und geschlossene Form im Drama</referencesLink>
+						</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Markieren</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>
+							<referencesLink target="analepse">Analepse</referencesLink>
+						</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Alternative Textbeispiele</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>
+							<referencesLink target="dehnung">Dehnendes Erzählen</referencesLink>
+						</LMMLtext>
+					</tabledata>
+				</tablerow>
+			<tablerow>
+					<tabledata>
+						<LMMLtext>Lückentext</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>
+							<referencesLink target="prologundepilog">Prolog und Epilog</referencesLink>
+						</LMMLtext>
+					</tabledata>
+				</tablerow>
+			</table>
+			<LMMLtext>
+				<formatted style="ueberschrift">Suchen innerhalb von LiGo</formatted>
+			</LMMLtext>
+			<LMMLtext>
+				<code type="googlesearch"/>
+			</LMMLtext>
+		</illustration>
+	</section>
+</lmml>

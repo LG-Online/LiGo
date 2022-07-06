@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Drama" author="Martin Huber, Elisabeth Böhm" creationTime="09.09.2007" label="drama" topics="Drama"><illustration><LMMLtext>Dramatische Kommunikation</LMMLtext><LMMLtext>Dramentypen</LMMLtext><LMMLtext><referencesLink target="dramenformenundgliederungseinheiten">Dramenformen und Gliederungseinheiten</referencesLink></LMMLtext><LMMLtext><referencesLink target="personalundhandlung">Personal und Handlung</referencesLink></LMMLtext><LMMLtext><referencesLink target="textlichestrukturen">Textliche Strukturen</referencesLink></LMMLtext><LMMLtext>Komponenten der Aufführung</LMMLtext><LMMLtext>Historische Dramenformen</LMMLtext><LMMLtext>Analysemethoden</LMMLtext></illustration></section></lmml>

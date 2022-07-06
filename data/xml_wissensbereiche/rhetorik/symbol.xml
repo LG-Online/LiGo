@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Symbol" author="Uwe Spörl" creationTime="08.04.2007"
+        label="symbol" topics="Symbol">
+        <illustration>
+            <LMMLtext>griech.: Erkennungszeichen</LMMLtext>
+        </illustration>
+        <definition title="Symbol" label="symboldef">
+            <LMMLtext>nicht konventionelles Zeichen – also ein Gegenstand, der auf Grundlage einer
+                nicht konventionellen Bedeutungszuweisung etwas repräsentiert und somit als Zeichen
+                anzusehen ist</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Innerhalb der Geistes- und Kulturwissenschaften gibt es keine einheitliche
+                Definition des Symbolbegriffs. Sicher ist allerdings, dass sich der
+                literaturwissenschaftliche Symbolbegriff von anderen, insbes.
+                sprachwissenschaftlichen durch seinen gerade <formatted style="hervorhebung">nicht
+                </formatted>vom konventionellen Bedeutungsgehalt ausgehenden Standpunkt
+                unterscheidet.</LMMLtext>
+            <LMMLtext>Das Symbol im literaturwissenschaftlichen Verständnis bedarf also noch der
+                Deutung, da seine Bedeutung im Sprachgebrauch (noch) nicht fixiert ist. Da jedoch
+                auch außerhalb der Literatur, ja außerhalb von Texten überhaupt ebenfalls
+                nicht-konventionelle Zeichen vorkommen, bietet es sich an, den Symbolbegriff nicht
+                textwissenschaftlich zu fassen bzw. auf der Ebene des Textes zu verorten.</LMMLtext>
+            <LMMLtext>Der Grund, einen solchen allgemeinen Symbolbegriff an dieser Stelle zu
+                erläutern, liegt demnach in der engen Verwandtschaft zu <referencesLink show="new"
+                    type="defines" target="metapherdef"><referencesLink target="metapher"
+                        >Metapher</referencesLink></referencesLink> und anderen <referencesLink
+                    show="new" type="defines" target="rhetorischetropedef"><referencesLink
+                        target="uneigentlichessprechentropen"
+                    >Tropen</referencesLink></referencesLink> bzw. zur <referencesLink show="new"
+                    type="defines" target="allegoriedef"><referencesLink target="allegorie"
+                        >Allegorie</referencesLink></referencesLink> und anderen bildlichen
+                Redeweisen. Denn die nicht konventionelle Relation zwischen dem bezeichenden
+                Gegenstand (dem Symbol) und dem bezeichneten Gegenstand ist in aller Regel eine, die
+                als Trope oder bildliche Redeweise zum Ausdruck gebracht werden kann oder in einer
+                entsprechenden Formulierung ihren Ausgang genommen hat.</LMMLtext>
+            <LMMLtext>Das Symbol ist – im theoretischen Rahmen der rhetorischen Tropenlehre – also
+                der tropisch ersetzende Ausdruck, die pictura des <referencesLink show="new"
+                    type="defines" target="emblemdef"><referencesLink target="emblem"
+                        >Emblems</referencesLink></referencesLink>, aber nicht als Ausdruck, sondern
+                als Gegenstand. Dazu bedarf es freilich eines Kontextes bzw. eines Rahmens, in dem
+                bestimmte Gegenstände als symbolische Zeichen, die etwas anderes repräsentieren,
+                angesehen werden.</LMMLtext>
+            <LMMLtext>Wenn also in einer entsprechenden Metapher Caesar als „Löwe“ bezeichnet wird,
+                kann jeder Löwe, insbesondere jeder bewusst abgebildete Löwe (etwa in einer Statue)
+                Caesar symbolisieren. Wenn in einem allegorischen Text die Göttin der Gerechtigkeit,
+                Iustitia, als „blind“, nämlich vorurteilslos, bezeichnet wird, können Blindheit oder
+                eine Augenbinde (diesen Aspekt der) Gerechtigkeit symbolisieren. Aber natürlich kann
+                der Löwe auch einfach nur ein Löwe, und die Augenbinde eine Augenbinde sein, die gar
+                nichts bedeuten.</LMMLtext>
+            <LMMLtext>Andere Symbole sind auf ähnliche, aber nicht im engeren Sinne tropische Weise
+                zustande gekommen: etwa Symbole aus Anagrammen, wie das berühmte Erkennungszeichen
+                der Christen, der Fisch, das auf das griechische Wort für Fisch „ichthys“
+                zurückgeht, das annagrammatisch steht für „<formatted style="hervorhebung"
+                    >I</formatted>esous <formatted style="hervorhebung">Ch</formatted>ristos
+                    <formatted style="hervorhebung">th</formatted>eou (h)<formatted
+                    style="hervorhebung">y</formatted>ios <formatted style="hervorhebung"
+                    >s</formatted>oter“ (Jesus Christus, Gottes Sohn, Heiland).</LMMLtext>
+            <LMMLtext>Einmal – z. B. durch Verwendung in einem bestimmten Text oder anderen
+                Äußerungszusammenhängen – etablierte Symbole können dann aber natürlich (fast) wie
+                konventionelle Zeichen verwendet werden.</LMMLtext>
+            <LMMLtext><referencesLink type="illustrates" target="beispielsymbolBsp"/></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel Symbol" label="beispielsymbolBsp">
+            <illustration>
+                <LMMLtext>Der Löwe kann Caesar symbolisieren – oder überhaupt jeden Herrscher. Der
+                    Löwe aus dem <referencesLink target="emblem">Beispiel
+                        Emblem</referencesLink> kann als Symbol für den guten, weil wachsamen
+                    Herrscher angesehen oder verwendet werden, denn der Löwe und diese Tugend sind
+                    (in diesem Fall) allegorisch aufeinander bezogen. Und so symbolisieren viele
+                    Tiere bestimmte Eigenschaften oder Charakterzüge, die wir ihnen (tropisch oder
+                    schon konventionell oder wie auch immer) zuordnen: der Adler den Mut, die Taube
+                    die Friedfertigkeit, der Fuchs die Listigkeit, die Schlange die Verführung, der
+                    Fisch den christlichen Glauben usw.</LMMLtext>
+                <LMMLtext>Man kann sicherlich soweit gehen, zu behaupten, dass im Grunde alles
+                    symbolisieren kann – wenn nur die Umstände und/oder Kontexte entsprechend sind.
+                    Schauen Sie sich einfach mal um, zum Beispiel in Ihrem Bad: Die Form des
+                    Parfum-Flacons symbolisiert (wohl metaphorisch) möglicherweise Eleganz, die
+                    Fliesen in Ihrem Bad symbolisieren (wohl metonymisch) den schlechten Geschmack
+                    Ihres Vermieters, die Farben auf der Waschmittelpackung symbolisieren
+                    (metaphorisch-konventionell) Frische und Sauberkeit, und das Poster an der Tür
+                    symbolisiert das, was es zeigt (und wohl noch mehr).</LMMLtext>
+            </illustration>
+        </section>
+    </section>
+</lmml>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Prolepse" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="04.08.2005" label="prolepse" modifiedTime="15.12.07">
+		<definition title="Prolepse" label="prolepsedef">
+			<LMMLtext>Ein Ereignis, das sich in der Geschichte erst noch ereignen wird, wird im Discours an früherer Stelle erzählt (A C B).</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Bei der Prolepse ist es zuweilen schwierig, zwischen unbestimmten Verweisen auf allgemeine Folgen und echten Prolepsen, d.h. dem früheren Erzählen von etwas, was später tatsächlich geschieht, zu unterscheiden. Zum Beispiel leiten Formeln wie „zuweilen geschieht es“ oder „auf solche Phasen im Leben folgt gewöhnlich“ keine Prolepsen ein, sondern sind Annahmen oder Schlüsse Auch Wünsche, Ängste und Träume von Figuren sind keine Prolepsen, weil sie nicht in der Zukunft erzählen, sondern ein Annahme in der Erzählgegenwart. </LMMLtext><LMMLtext>Eine Ausnahme hiervon stellt die sogenannte ‚zukunftsgewisse Vorausdeutung’ dar, bei der Figuren, die durch die Regeln des Genres oder der erzählten Welt als Wissende gelten wie z.B. Hexen, Zauberer oder Wahrsager.<referencesLink type="exercises" target="uebungprolepseUeb"/>
+			</LMMLtext>
+		</illustration>
+		<exercise label="uebungprolepseUeb" title="Übung Prolepse" topics="multiplechoice">
+			<task type="textbeispiel">
+				<quotation booktitle="Wilhelm Meisters Lehrjahre (1, 11)" authorname="Johann Wolfgang" authorfamily="von Goethe">
+					<LMMLtext>So groß war seine Leidenschaft, so rein seine Überzeugung, er handle vollkommen recht, sich dem Drucke seines bisherigen Lebens zu entziehen und einer neuen, edlern Bahn zu folgen, daß sein Gewissen sich nicht im mindesten regte, keine Sorge in ihm entstand, ja daß er vielmehr diesen Betrug für heilig hielt. Er war gewiß, daß ihn Eltern und Verwandte in der Folge für diesen Schritt preisen und segnen sollten, er erkannte den Wink eines leitenden Schicksals an diesen zusammentreffenden Umständen.</LMMLtext>
+				</quotation>
+			</task>
+			<task type="fragestellung">
+				<LMMLtext>Hat man es in diesem Bewusstseinsbericht Wilhelms mit einer <referencesLink show="new" type="defines" target="anachronie">Anachronie</referencesLink> zu tun und wenn ja mit welcher Form?</LMMLtext>
+			</task>
+			<task type="alternative" target="uebungprolepseL1">
+				<LMMLtext>Es handelt sich um eine <referencesLink show="new" type="defines" target="analepsedef">Analepse</referencesLink>.</LMMLtext>
+			</task>
+			<solution label="uebungprolepseL1" true="false">
+				<LMMLtext>Eine <referencesLink show="new" type="defines" target="analepsedef">Analepse</referencesLink> liegt nur dann vor, wenn zum Zeitpunkt der Erzählgegenwart bereits Vergangenes berichtet wird.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebungprolepseL2">
+				<LMMLtext>Es handelt sich um eine <referencesLink show="new" type="defines" target="prolepsedef">Prolepse</referencesLink>, weil Wilhelm hier Dinge vorwegnimmt, die einmal geschehen werden.</LMMLtext>
+			</task>
+			<solution label="uebungprolepseL2" true="false">
+				<LMMLtext>Hier wird lediglich berichtet, was Wilhelm sich für die Zukunft ausmalt. An der konjunktivischen Verbform „sollten“ kann man erkennen, dass es sich um Wunschvorstellungen handelt.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebungprolepseL3">
+				<LMMLtext>Es handelt sich weder um eine <referencesLink show="new" type="defines" target="prolepsedef">Prolepse</referencesLink> noch um eine <referencesLink show="new" type="defines" target="analepsedef">Analepse</referencesLink></LMMLtext>
+			</task>
+			<solution label="uebungprolepseL3" true="true">
+				<LMMLtext>Hier werden keine bereits vergangenen oder zum Zeitpunkt der Erzählgegenwart noch zukünftigen Ereignisse erzählt, sondern nur die Reflexionen aus der Perspektive einer Figur wieder gegeben. Daran dass hier nicht „werden“ steht kann man erkennen, dass es sich nicht um eine Prolepse handelt, auch wenn man die weitere Handlung nicht kennt.</LMMLtext>
+			</solution>
+		</exercise>
+	</section>
+</lmml>

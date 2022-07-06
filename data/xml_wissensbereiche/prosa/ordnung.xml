@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Ordnung" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="15.12.2007" label="ordnung">
+		<definition title="Ordnung" label="ordnungdef" topics="glossarhide">
+			<LMMLtext> 	 		 	Ausgehend von unserer Lebenswelt erwarten wir, dass auch das Geschehen in fiktionalen Welten zeitlich geordnet ist. Der Discours kann sich an diese Ordnung halten, oder sie auch verändern. Da wir uns Zeit als linear vorstellen, gibt es drei Formen der Ordnung:</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>Der Discours kann die Ordnung der Ereignisse einhalten. (A B C)</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>Der Discours kann von der Ordnung abweichen, indem ein Ereignis, das sich in der Geschichte erst noch ereignen wird, îm Discours an früherer Stelle erzählt wird: <referencesLink target="prolepse">
+							<referencesLink show="new" type="defines" target="prolepsedef">Prolepse</referencesLink>
+						</referencesLink> (A C B)</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>Der Discours kann von der Ordnung abweichen, indem ein Ereignis, das sich in der Geschichte früher ereignet hat, im Discours an späterer Stelle dargestellt wird: <referencesLink target="analepse">
+							<referencesLink show="new" type="defines" target="analepsedef">Analepse</referencesLink>
+						</referencesLink>. (B A C)</LMMLtext>
+				</item>
+			</ulist>
+		</definition>
+		<definition title="Anachronie" label="anachronie">
+			<LMMLtext>Umstellungen in der chronologischen Ordnung im Discours gegenüber der Histoire. Entweder <referencesLink show="new" type="defines" target="prolepsedef">Prolepsen (Vorgriffe)</referencesLink> oder <referencesLink show="new" type="defines" target="analepsedef">Analepsen (Rückblenden)</referencesLink>
+			</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Prolepse und Analepse bezeichnen wir als Anachronien. Wir erkennen sie durch Signalwörter im Text, die wir mit unserem Wissen über die Figur und unserem Weltwissen verknüpfen.
+			<referencesLink type="illustrates" target="beispielfuerdaserkennenvonanachronienBsp"/>
+			</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>
+						<referencesLink target="prolepse">Prolepse</referencesLink>
+					</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>
+						<referencesLink target="analepse">Analepse</referencesLink>
+					</LMMLtext>
+				</item>
+			</ulist>
+		</illustration>
+		<section type="example" title="Beispiel für das Erkennen von Anachronien" label="beispielfuerdaserkennenvonanachronienBsp">
+			<quotation booktitle="Der blonde Eckbert" authorname="Ludwig" authorfamily="Tieck">
+				<LMMLtext>„Ihr müßt mich nicht für zudringlich halten“, fing Bertha an, „mein Mann sagt, daß Ihr so edel denkt, daß es unrecht sei, Euch etwas zu verhehlen. Nur haltet meine Erzählung für kein Märchen, so sonderbar sie auch klingen mag. <formatted style="hervorhebung">Ich bin</formatted> in einem Dorfe <formatted style="hervorhebung">geboren</formatted>, mein Vater war ein armer Hirte.“</LMMLtext>
+			</quotation>
+			<illustration label="beispielfuerdaserkennenvonanachronienBspIllu">
+				<LMMLtext>In diesem Text lernen wir die Figur Bertha als erwachsene Frau kennen, die offensichtlich verheiratet ist („mein Mann“) und schließen dann aufgrund der Signalwörter und unseres Wissens (die Geburt steht am Anfang des Lebens steht und muss also vor dem Erwachsensein Berthas liegen muss,), dass nun von einem früheren Zeitabschnitt in ihrem Leben die Rede ist.</LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

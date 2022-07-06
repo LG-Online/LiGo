@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Erzähltempo" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="05.08.2005" label="erzaehltempo">
+		<definition title="Erzähltempo" label="erzaehltempodef">
+			<LMMLtext>Verhältnis der Dauer von Ereignissen der Geschichte und ihrer Darstellung im Discours.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Hier gibt es drei Möglichkeiten:</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>zeitdeckendes Erzählen: das Verhältnis von Discours und Histoire ist ausgewogen. Paradefall: <referencesLink target="szene">Szene</referencesLink>
+					</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>zeitdehnendes Erzählen: die Ausdehnung des Discours überwiegt (langsames Erzähltempo)</LMMLtext>
+					<ulist>
+						<item>
+							<LMMLtext>
+								<referencesLink target="pause">Pause</referencesLink>
+							</LMMLtext>
+						</item>
+						<item>
+							<LMMLtext>
+								<referencesLink target="dehnung">Dehnung</referencesLink>
+							</LMMLtext>
+						</item>
+					</ulist>
+				</item>
+				<item>
+					<LMMLtext>zeitraffendes Erzählen: die Ausdehnung der Geschichte überwiegt (schnelles Erzähltempo)</LMMLtext>
+					<ulist>
+						<item>
+							<LMMLtext>
+								<referencesLink target="raffung">Raffung / summary</referencesLink>
+							</LMMLtext>
+						</item>
+						<item>
+							<LMMLtext>
+								<referencesLink target="ellipse">Ellipse</referencesLink>
+							</LMMLtext>
+						</item>
+					</ulist>
+				</item>
+			</ulist>
+			<table>
+				<tablerow>
+					<tabledata/>
+					<tabledata>
+						<LMMLtext>Erzählzeit</LMMLtext>
+					</tabledata>
+					<tabledata/>
+					<tabledata>
+						<LMMLtext>erzählte Zeit</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Szene</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Discours</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>gleich</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Geschehen</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>(deskriptive) Pause</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Discours geht weiter</LMMLtext>
+					</tabledata>
+					<tabledata/>
+					<tabledata>
+						<LMMLtext>Geschehen steht still</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Dehnung</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Discours</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>länger als</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Geschehen</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Raffung / summary</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Discours</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>kürzer als</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Geschehen</LMMLtext>
+					</tabledata>
+				</tablerow>
+				<tablerow>
+					<tabledata>
+						<LMMLtext>Ellipse</LMMLtext>
+					</tabledata>
+					<tabledata>
+						<LMMLtext>Discours steht still</LMMLtext>
+					</tabledata>
+					<tabledata/>
+					<tabledata>
+						<LMMLtext>Geschehen geht weiter</LMMLtext>
+					</tabledata>
+				</tablerow>
+			</table>
+		</illustration>
+		<section type="example" title="Beispiel Szene" label="beispielszeneBsp">
+			<quotation booktitle="Effi Briest" authorname="Theodor" authorfamily="Fontane">
+				<LMMLtext>„Ob wir nicht doch vielleicht schuld sind?“</LMMLtext>
+				<LMMLtext>„Unsinn, Luise. Wie meinst du das?“</LMMLtext>
+				<LMMLtext>„Ob wir sie nicht anders in Zucht hätten nehmen müssen. Gerade wir. Denn Niemeyer ist doch eigentlich eine Null, weil er alles in Zweifel läßt. Und dann, Briest, so Leid es mir tut... Deine beständigen Zweideutigkeiten... und zuletzt, womit ich mich selbst anklage, denn ich will nicht schuldlos ausgehen in dieser Sache, ob sie nicht doch vielleicht zu jung war?“</LMMLtext>
+				<LMMLtext>Rollo, der bei diesen Worten aufwachte, schüttelte den Kopf langsam hin und her, und Briest sagte ruhig</LMMLtext>
+				<LMMLtext>„Ach, Luise, laß... das ist ein zu weites Feld.“</LMMLtext>
+			</quotation>
+			<illustration label="beispielszeneBspIllu">
+				<LMMLtext>Die Dauer der wiedergegebenen Figurenrede, der Gedankenpausen und der Beschreibung der Bewegungen des Hundes stimmt hier mit der Sprech- bzw. Ausführungsdauer nahezu überein, sodass man von <referencesLink show="new" type="defines" target="szenedef">szenischem Erzählen</referencesLink> sprechen kann.</LMMLtext>
+			</illustration>
+		</section>
+		<section type="example" title="Beispiel deskriptive Pause" label="beispieldeskriptivepauseBsp">
+			<quotation booktitle="Effi Briest" authorname="Theodor" authorfamily="Fontane">
+				<LMMLtext>Rasch und sicher ging die Wollnadel der Damen hin und her, aber während die Mutter kein Auge von der Arbeit ließ, legte die Tochter, die den Rufnamen Effi führte, von Zeit zu Zeit die Nadel nieder und erhob sich, um unter allerlei kunstgerechten Beugungen und Streckungen den ganzen Kursus der Heil- und Zimmergymnastik durchzumachen. Es war ersichtlich, daß sie sich diesen absichtlich ein wenig ins Komische gezogenen Übungen mit ganz besonderer Liebe hingab, und wenn sie dann so dastand und, langsam die Arme hebend, die Handflächen hoch über dem Kopf zusammenlegte, so sah auch wohl die Mama von ihrer Handarbeit auf, aber immer nur flüchtig und verstohlen, weil sie nicht zeigen wollte, wie entzückend sie ihr eigenes Kind finde, zu welcher Regung mütterlichen Stolzes sie voll berechtigt war. <formatted style="hervorhebung">Effi trug ein blau und weiß gestreiftes, halb kittelartiges Leinwandkleid, dem erst ein fest zusammengezogener, bronzefarbener Ledergürtel die Taille gab; der Hals war frei, und über Schulter und Nacken fiel ein breiter Matrosenkragen. In allem, was sie tat, paarte sich Übermut und Grazie, während ihre lachenden braunen Augen eine große, natürliche Klugheit und viel Lebenslust und Herzensgüte verrieten. Man nannte sie die „Kleine“, was sie sich nur gefallen lassen mußte, weil die schöne, schlanke Mama noch um eine Handbreit höher war.</formatted>
+				</LMMLtext>
+			</quotation>
+			<illustration label="beispieldeskriptivepauseBspIllu">
+				<LMMLtext>Die markierte Textpassage stellt eine <referencesLink show="new" type="defines" target="pausedef">deskriptive Pause</referencesLink>  dar, weil das Geschehen still steht, während Effis Äußeres beschrieben wird.</LMMLtext>
+			</illustration>
+		</section>
+		<section type="example" title="Beispiel Dehnung" label="beispieldehnungBsp">
+			<quotation booktitle="Blumfeld, ein älterer Junggeselle" authorname="Franz" authorfamily="Kafka">
+				<LMMLtext>Auf diesen Anblick war er nicht vorbereitet. Das ist ja Zauberei, zwei kleine, weiße blaugestreifte Zelluloidbälle springen auf dem Parkett nebeneinander auf und ab; schlägt der eine auf den Boden, ist der andere in der Höhe, und unermüdlich führen sie ihr Spiel aus. […] Er will einen fassen, aber sie weichen vor ihm zurück und locken ihn im Zimmer hinter sich her. Es ist doch zu dumm, denkt er, so hinter den Bällen herzulaufen, bleibt stehen und sieht ihnen nach, wie sie, da die Verfolgung aufgegeben scheint, auch auf der gleichen Stelle bleiben. Ich werde sie aber doch zu fangen suchen, denkt er dann wieder und eilt zu ihnen. Sofort flüchten sie sich, aber Blumfeld drängt sie mit auseinandergestellten Beinen in eine Zimmerecke, und vor dem Koffer, der dort steht, gelingt es ihm, einen Ball zu fangen. Es ist ein kühler, kleiner Ball und dreht sich in seiner Hand, offenbar begierig zu entschlüpfen. Und auch der andere Ball, als sehe er die Not seines Kameraden, springt höher als früher und dehnt die Sprünge, bis er Blumfelds Hand berührt.</LMMLtext>
+			</quotation>
+			<illustration label="beispieldehnungBspIllu">
+				<LMMLtext>Wenn die Bewegungen der Gummibälle beschrieben werden, haben wir es mit einem zeitdehnenden Erzählen zu tun, weil die Erzählung ihrer Bewegungen im Discours immer länger dauert, als ihre tatsächliche Bewegung.</LMMLtext>
+			</illustration>
+		</section>
+		<section type="example" title="Beispiel Raffung / summary" label="beispielraffungsummaryBsp">
+			<quotation booktitle="Die Jungfrau" authorname="Alfred" authorfamily="Lichtenstein">
+				<LMMLtext>Maria Mondmilch war in der großen Stadt Schülerin eines Mädchengymnasiums. Sie gehörte nicht zu den Besten. Zeitweise arbeitete sie fleißig. Man beschuldigte sie, allerhand Schweinereien - die vorkamen - angestiftet zu haben. Als bekannt wurde, daß der Leiter der Anstalt ihr abends in einer argen Straße begegnet war, erwartete man ihre Relegierung. In der Verhandlung gegen einen Literaturprofessor des Gymnasiums, der, trotzdem er dringend verdächtigt war, etliche Sittlichkeitsverbrechen begangen zu haben, freigesprochen werden mußte, war sie die wichtigste Zeugin.</LMMLtext>
+			</quotation>
+			<illustration>
+				<LMMLtext>Charakteristika aus der Schulzeit von Maria Mondmilch werden hier nicht im Detail erzählt, sondern zusammenfassen: sie gehörte nicht zu den Besten, manchmal arbeitete sie fleißig, sie wurde immer wieder beschuldigt. Auch vom Prozess wird nicht direkt berichtet, sondern es wird nur dessen Ergebnis berichtet.</LMMLtext>
+				<LMMLtext/>
+			</illustration>
+		</section>
+		<section type="example" title="Beispiel Ellipse" label="beispielellipseBsp">
+			<quotation booktitle="Die Marquise von O..." authorname="Heinrich" authorfamily="von Kleist">
+				<LMMLtext>[...] als, von dem Zetergeschrei der Dame herbeigerufen, ein russischer Offizier erschien, und die Hunde, die nach solchem Raub lüstern waren, mit wütenden Hieben zerstreute. Der Marquise schien er ein Engel des Himmels zu sein. Er stieß noch dem letzten viehischen Mordknecht, der ihren schlanken Leib umfaßt hielt, mit dem Griff des Degens ins Gesicht, daß er, mit aus dem Mund vorquellendem Blut, zurücktaumelte; bot dann der Dame, unter einer verbindlichen, französischen Anrede den Arm, und führte sie, die von allen solchen Auftritten sprachlos war, in den anderen, von der Flamme noch nicht ergriffenen, Flügel des Palastes, wo sie auch völlig bewußtlos niedersank. Hier - traf er, da bald darauf ihre erschrockenen Frauen erschienen, Anstalten, einen Arzt zu rufen; versicherte, indem er sich den Hut aufsetzte, daß sie sich bald erholen würde; und kehrte in den Kampf zurück.</LMMLtext>
+			</quotation>
+			<illustration label="beispielellipseBspIllu">
+				<LMMLtext>Zwischen dem Wörtchen „hier“ und der Fortführung des Satzes „traf er, da bald darauf ihre erschrockenen Frauen erschienen…“ finden wir im Discours nur einen Bindestrich. Später in der Novelle erfahren wir jedoch, dass sich zwischen der Ohnmacht und dem Eintreffen der Frauen eine Vergewaltigung ereignet hat. Dies ist ein Teil der Geschichte, der nicht erzählt wird. Der Discours macht gegenüber der Histoire einen Zeitsprung, eine Verkürzung.</LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

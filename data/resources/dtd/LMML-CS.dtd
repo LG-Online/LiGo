@@ -1,0 +1,561 @@
+<!ELEMENT LMMLcode (listing?)>
+<!ATTLIST LMMLcode
+	type CDATA #IMPLIED
+	title CDATA #IMPLIED
+	label ID #IMPLIED
+	uri CDATA #IMPLIED
+	style CDATA #IMPLIED
+>
+<!ELEMENT LMMLtext (#PCDATA | emphasized | option | poem | quoted | annotated | defined | formatted | math | code | LMMLcode | referencesLink | citesLink | externalLink)*>
+<!ATTLIST LMMLtext
+	type CDATA #IMPLIED
+	title CDATA #IMPLIED
+	label ID #IMPLIED
+	uri CDATA #IMPLIED
+	style CDATA #IMPLIED
+>
+<!ELEMENT algorithm ((text | image | animation | sound | LMMLtext | table | olist | ulist | math | code | LMMLcode)*)*>
+<!ATTLIST algorithm
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT animation EMPTY>
+<!ATTLIST animation
+	type CDATA #IMPLIED
+	title CDATA #IMPLIED
+	label ID #IMPLIED
+	uri CDATA #IMPLIED
+	style CDATA #IMPLIED
+>
+<!ELEMENT annotated (#PCDATA | LMMLtext)*>
+<!ATTLIST annotated
+	label ID #IMPLIED
+>
+<!ELEMENT bibItem (LMMLtext)>
+<!ATTLIST bibItem
+	bibKey ID #REQUIRED
+>
+<!ELEMENT bibliography (bibItem)*>
+<!ATTLIST bibliography
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	authorFirstName CDATA #IMPLIED
+	bookYear CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT block (block | line)*>
+<!ATTLIST block
+	label ID #IMPLIED
+>
+<!ELEMENT citesLink EMPTY>
+<!ATTLIST citesLink
+	bibKey NMTOKEN #REQUIRED
+	bib-module NMTOKEN #IMPLIED
+	show (new | replace | embed) "replace"
+>
+<!ELEMENT code (#PCDATA)>
+<!ATTLIST code
+	type CDATA #IMPLIED
+	title CDATA #IMPLIED
+	label ID #IMPLIED
+	uri CDATA #IMPLIED
+	style CDATA #IMPLIED
+>
+<!ELEMENT collection ((section | collection | glossary | bibliography | motivation | conclusion | definition | paragraph | remark | example | exercise | illustration | proposition | theorem | proof | algorithm | formula)*)*>
+<!ATTLIST collection
+	strategy (beh | con) #IMPLIED
+	type (course | exercise | coaching | example) #IMPLIED
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT conclusion ((text | image | animation | sound | LMMLtext | table | olist | ulist | math | code | LMMLcode)*)*>
+<!ATTLIST conclusion
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT defined (#PCDATA)>
+<!ATTLIST defined
+	label ID #IMPLIED
+>
+<!ELEMENT definition ((text | image | animation | sound | LMMLtext | table | olist | ulist | math | code | LMMLcode)*)*>
+<!ATTLIST definition
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT dummycmodel (#PCDATA)>
+<!ELEMENT dummylist EMPTY>
+<!ELEMENT dummytable EMPTY>
+<!ELEMENT emphasized (#PCDATA)>
+<!ATTLIST emphasized
+	label ID #IMPLIED
+>
+<!ELEMENT example ((text | image | animation | sound | LMMLtext | table | olist | ulist | quotation | math | code | LMMLcode)*)*>
+<!ATTLIST example
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT exercise (text | image | animation | sound | LMMLtext | table | olist | ulist | quotation | math | code | LMMLcode | (task, solution?))*>
+<!ATTLIST exercise
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	type CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT externalLink (#PCDATA | emphasized | quoted | annotated | defined | formatted | math | code | LMMLcode)*>
+<!ATTLIST externalLink
+	uri CDATA #REQUIRED
+	exturi CDATA #IMPLIED
+	type (illustrates | exercises | defines | remark) #IMPLIED
+	show (new | replace | embed) "replace"
+>
+<!ELEMENT formatted (#PCDATA | formatted)*>
+<!ATTLIST formatted
+	label ID #IMPLIED
+	style CDATA #REQUIRED
+	title CDATA #IMPLIED
+>
+<!ELEMENT formula ((text | image | animation | sound | LMMLtext | table | olist | ulist | math | code | LMMLcode)*)*>
+<!ATTLIST formula
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT glossary (definition)*>
+<!ATTLIST glossary
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT illustration ((text | image | poem | animation | sound | LMMLtext | table | olist | ulist | math | code | quotation | LMMLcode)*)*>
+<!ATTLIST illustration
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT image EMPTY>
+<!ATTLIST image
+	type CDATA #IMPLIED
+	title CDATA #IMPLIED
+	label ID #IMPLIED
+	uri CDATA #IMPLIED
+	style CDATA #IMPLIED
+>
+<!ELEMENT item (text | image | animation | sound | LMMLtext | table | olist | ulist)*>
+<!ATTLIST item
+	label ID #IMPLIED
+>
+<!ELEMENT line (#PCDATA | line)*>
+<!ATTLIST line
+	label ID #IMPLIED
+>
+<!ELEMENT listing (#PCDATA | block)*>
+<!ATTLIST listing
+	label ID #IMPLIED
+>
+<!ELEMENT lmml (section | collection | glossary | bibliography | motivation | conclusion | definition | paragraph | remark | example | exercise | illustration | proposition | theorem | proof | algorithm | formula)>
+<!ATTLIST lmml
+	version CDATA #FIXED "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"
+>
+<!ELEMENT math (#PCDATA)>
+<!ATTLIST math
+	type CDATA #IMPLIED
+	title CDATA #IMPLIED
+	label ID #IMPLIED
+	uri CDATA #IMPLIED
+	style CDATA #IMPLIED
+>
+<!ELEMENT motivation ((text | image | animation | sound | LMMLtext | table | olist | ulist | math | code | LMMLcode)*)*>
+<!ATTLIST motivation
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT olist (item)+>
+<!ATTLIST olist
+	title CDATA #IMPLIED
+	label ID #IMPLIED
+	style CDATA #IMPLIED
+>
+<!ELEMENT option (#PCDATA)*>
+<!ATTLIST option
+	label ID #IMPLIED
+	target CDATA #IMPLIED
+>
+<!ELEMENT paragraph ((text | image | animation | sound | LMMLtext | table | olist | ulist | math | code | LMMLcode)*)*>
+<!ATTLIST paragraph
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT poem (poemlinegroup)*>
+<!ATTLIST poem
+	label ID #IMPLIED
+	title CDATA #IMPLIED
+	authorname CDATA #IMPLIED
+	authorfamily CDATA #IMPLIED
+	booktitle CDATA #IMPLIED
+>
+<!ELEMENT poemlinegroup (poemline)*>
+<!ATTLIST poemlinegroup
+	label ID #IMPLIED
+>
+<!ELEMENT poemline (#PCDATA | formatted)*>
+<!ATTLIST poemline
+	label ID #IMPLIED
+>
+<!ELEMENT proof ((text | image | animation | sound | LMMLtext | table | olist | ulist | math | code | LMMLcode)*)*>
+<!ATTLIST proof
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT proposition ((text | image | animation | sound | LMMLtext | table | olist | ulist | math | code | LMMLcode)*)*>
+<!ATTLIST proposition
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT quotation ((LMMLtext)*)*>
+<!ATTLIST quotation
+	label ID #IMPLIED
+	title CDATA #IMPLIED
+	authorname CDATA #IMPLIED
+	authorfamily CDATA #IMPLIED
+	booktitle CDATA #IMPLIED
+	type (example | exercise | luecken) #IMPLIED
+>
+<!ELEMENT quoted (#PCDATA)>
+<!ATTLIST quoted
+	label ID #IMPLIED
+	bib-module CDATA #IMPLIED
+	bibKey NMTOKEN #IMPLIED
+>
+<!ELEMENT referencesLink (#PCDATA | emphasized | quoted | annotated | defined | formatted | math | code | LMMLcode | referencesLink)*>
+<!ATTLIST referencesLink
+	target NMTOKEN #REQUIRED
+	target-module NMTOKEN #IMPLIED
+	type (illustrates | exercises | defines | person | book | test ) #IMPLIED
+	show (new | replace | embed) "replace"
+>
+<!ELEMENT remark ((text | image | animation | sound | LMMLtext | table | olist | ulist | math | code | LMMLcode)*)*>
+<!ATTLIST remark
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+	audience (students | teachers) #IMPLIED
+>
+<!ELEMENT section ((section | poem | collection | glossary | bibliography | motivation | animation | conclusion | definition | paragraph | remark | example | exercise | illustration | proposition | theorem | proof | algorithm | quotation | formula)*)*>
+<!ATTLIST section
+	strategy (beh | con) #IMPLIED
+	type (course | exercise | coaching | example | oberbegriff| unterbegriff) #IMPLIED
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT solution ((text | image | animation | sound | LMMLtext | table | olist | ulist | math | code | LMMLcode)*)*>
+<!ATTLIST solution
+	label ID #IMPLIED
+	true (true | false) #IMPLIED
+>
+<!ELEMENT sound EMPTY>
+<!ATTLIST sound
+	type CDATA #IMPLIED
+	title CDATA #IMPLIED
+	label ID #IMPLIED
+	uri CDATA #IMPLIED
+	style CDATA #IMPLIED
+>
+<!ELEMENT table (tableheading?, tablerow+)>
+<!ATTLIST table
+	title CDATA #IMPLIED
+	label ID #IMPLIED
+	style CDATA #IMPLIED
+>
+<!ELEMENT tabledata (text | image | animation | sound | LMMLtext | table | olist | ulist)*>
+<!ELEMENT tableheading (tabledata+)>
+<!ELEMENT tablerow (tabledata+)>
+<!ELEMENT task ((text | image | animation | sound | externalLink | LMMLtext | table | olist | ulist | math | code | quotation | LMMLcode)*)*>
+<!ATTLIST task
+	type CDATA #IMPLIED
+	target CDATA #IMPLIED
+>
+<!ELEMENT text EMPTY>
+<!ATTLIST text
+	type CDATA #IMPLIED
+	title CDATA #IMPLIED
+	label ID #IMPLIED
+	uri CDATA #IMPLIED
+	style CDATA #IMPLIED
+>
+<!ELEMENT theorem ((text | image | animation | sound | LMMLtext | table | olist | ulist | math | code | LMMLcode)*)*>
+<!ATTLIST theorem
+	label ID #IMPLIED
+	author CDATA #IMPLIED
+	title CDATA #IMPLIED
+	creationTime CDATA #IMPLIED
+	modifiedTime CDATA #IMPLIED
+	releaseTime CDATA #IMPLIED
+	expirationTime CDATA #IMPLIED
+	language NMTOKEN #IMPLIED
+	topics CDATA #IMPLIED
+	discipline CDATA #IMPLIED
+	difficulty (low | medium | high) #IMPLIED
+	theoretical (true | false) #IMPLIED
+	related2practice (true | false) #IMPLIED
+	formality (low | medium | high) #IMPLIED
+	abstraction (low | medium | high) #IMPLIED
+	density (low | medium | high) #IMPLIED
+	uri CDATA #IMPLIED
+	viewspec CDATA #IMPLIED
+>
+<!ELEMENT ulist (item)+>
+<!ATTLIST ulist
+	title CDATA #IMPLIED
+	label ID #IMPLIED
+	style CDATA #IMPLIED
+>

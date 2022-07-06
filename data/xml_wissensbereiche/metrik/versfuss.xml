@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Versfuß" author="Sebastian Donat" creationTime="25.09.2007" label="versfuss" topics="Versfuß">
+		<definition title="Versfuß" label="versfussdef">
+			<LMMLtext>Aus der antiken Metrik stammende interne Gliederungseinheit des <referencesLink target="vers">
+					<referencesLink show="new" type="defines" target="versdef">Verses</referencesLink>
+				</referencesLink>, bestehend aus einer geregelten Abfolge von Hebungenund Senkungen</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>In der deutschen Versifikation werden meist nur zwei  und dreisilbige Verfüße verwendet. Im einzelnen sind dies:</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>zweisilbig: <referencesLink target="jambus">
+							<referencesLink show="new" type="defines" target="jambusdef">Jambus</referencesLink>
+						</referencesLink>, <referencesLink target="trochaeus">
+							<referencesLink show="new" type="defines" target="trochaeusdef">Trochäus</referencesLink>
+						</referencesLink>; beim ebenfalls zweisilbigen <referencesLink target="spondeus">
+							<referencesLink show="new" type="defines" target="spondeusdef">Spondeus</referencesLink>
+						</referencesLink> handelt es sich eher um eine rhythmische Variante ‚echter’ Versfüße</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>dreisilbig: <referencesLink target="daktylus">
+							<referencesLink show="new" type="defines" target="daktylusdef">Daktylus</referencesLink>
+						</referencesLink>, <referencesLink target="amphibrachys">
+							<referencesLink show="new" type="defines" target="amphibrachysdef">Amphibrachys</referencesLink>
+						</referencesLink> und <referencesLink target="anapaest">
+							<referencesLink show="new" type="defines" target="anapaestdef">Anapäst</referencesLink>
+						</referencesLink>.</LMMLtext>
+				</item>
+			</ulist>
+			<LMMLtext>Es gibt zahlreiche Versuche, den einzelnen Versfüßen aufgrund ihrer jeweiligen rhythmischen Struktur eine Semantik bzw. einen spezifischen Ausdruckscharakter zuzuweisen. Hier ist jedoch Vorsicht geboten, da eine solche interne bzw. ikonische Relation zwischen Metrum und Semantik, sofern sie überhaupt sinnvoll bestimmbar ist, immer nur potentieller Natur sein kann und sich ggf. erst im Bezug zum konkreten Gedichtgegenstand entfaltet.</LMMLtext>
+		</illustration>
+	</section>
+</lmml>

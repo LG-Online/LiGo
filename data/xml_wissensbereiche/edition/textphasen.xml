@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Textphasen" author="Ulrich Joost" creationTime="14.01.2008"
+        label="textphasen" topics="Textphasen">
+        <definition title="Textphasen" label="textphasendef">
+            <LMMLtext>Zeitlich aufeinanderfolgende Phasen der Textentstehung. Man unterscheidet
+                Konzept, Entwurf, Reinschrift und Überarbeitung.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Die Kategorien der Textentstehung (Textphasen) bei der Entwicklung der
+                chronologischen Textfolge werden mit römischen Ziffern gekennzeichnet:</LMMLtext>
+            <LMMLtext>I. Konzept</LMMLtext>
+            <LMMLtext>II. Entwurf</LMMLtext>
+            <LMMLtext>III. Reinschrift</LMMLtext>
+            <LMMLtext>IV. Überarbeitung</LMMLtext>
+            <LMMLtext>Innerhalb dieser, zuweilen nochmals unterteilten, Textphasen werden die
+                Varianten eines Textsegmentes – Vers oder Linie – durch kleinere Variantenziffern
+                gezählt und so angeordnet, dass sie sowohl in ihrem chronologischen, als auch im
+                textlogischen Zusammenhang lesbar werden. Anordnung und Zählung sind grundsätzlich
+                hypothetisch. Aus den jeweils in Fettdruck hervorgehobenen Varianten ergibt sich die
+                Textkonstitution einer Phase.</LMMLtext>
+            <LMMLtext><externalLink show="embed" uri="textphasen1.gif"/></LMMLtext>
+            <LMMLtext/>
+        </illustration>
+    </section>
+</lmml>

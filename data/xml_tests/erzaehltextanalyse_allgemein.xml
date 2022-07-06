@@ -1,0 +1,45 @@
+<exerciselist time="720" title="Erzähltextanalyse (Allgemein)">
+    <exercise section="prosa" location="prolepse" locallabel="uebungprolepseUeb"
+        title="bung Prolepse" type="multiplechoice"/>
+    <exercise section="prosa" location="singulativeserzaehlen"
+        locallabel="uebungzumsingulativenerzaehlenUeb" title="bung zum singulativen Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="repetitiveserzaehlen"
+        locallabel="uebungzumrepetitivenerzaehlenUeb" title="bung zum repetitiven Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="ereignissedramatisch"
+        locallabel="uebungzurpraesentationvonereignissenimdramatischenmodusUeb"
+        title="bung zur Prsentation von Ereignissen im dramatischen Modus" type="multiplechoice"/>
+    <exercise section="prosa" location="indirekterede" locallabel="uebungzurindirektenredeUeb"
+        title="bung zur indirekten Rede" type="multiplechoice"/>
+    <exercise section="prosa" location="indirektegedankenrede"
+        locallabel="uebungzurindirektengedankenredeUeb" title="bung zur indirekten Gedankenrede"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="internefokalisierung"
+        locallabel="uebungzurinternenfokalisierungUeb" title="bung zur internen Fokalisierung"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="fruehereserzaehlen"
+        locallabel="uebungzumfrueherenerzaehlenUeb" title="bung zum frheren Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="spaetereserzaehlen"
+        locallabel="uebungzumspaeterenerzaehlenUeb" title="bung zum spteren Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="gleichzeitigeserzaehlen"
+        locallabel="uebungzumgleichzeitigenerzaehlenUeb" title="bung zum gleichzeitigen Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="eingeschobeneserzaehlen"
+        locallabel="uebungzumeingeschobenenerzaehlenUeb" title="bung zum eingeschobenen Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="intradiegetischeserzaehlenerzaehlteserzaehlen"
+        locallabel="uebungzumextradiegetischenerzaehlenbzwzumintradiegetischenerzaehltenUeb"
+        title="bung zum extradiegetischen Erzhlen bzw. zum intradiegetischen Erzhlten"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="metadiegetischeserzaehlen"
+        locallabel="uebungzummetadiegetischenerzaehlenUeb" title="bung zum metadiegetischen Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="textmontage" locallabel="uebungzurtextmontageUeb"
+        title="bung zur Textmontage" type="multiplechoice"/>
+    <exercise section="prosa" location="moduseinerfigurenbezogenentatsache"
+        locallabel="uebungzummoduseinerfigurenbezogenentatsacheUeb"
+        title="bung zum  Modus einer figurenbezogenen Tatsache" type="multiplechoice"/>
+</exerciselist>

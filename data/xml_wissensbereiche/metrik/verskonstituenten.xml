@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Verskonstituenten" author="Sebastian Donat" creationTime="24.03.2008" label="verskonstituenten" topics="Verskonstituenten">
+		<definition title="Verskonstituenten" label="verskonstituentendef">
+			<LMMLtext>Sprachliche Einheiten bzw. Größen, die für den Bau von Versen relevant sind.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>In der Dichtung der Welt, insbesondere aber auch in der deutschen Lyrik, lassen sich vier grundsätzliche Verskonstituenten unterscheiden: <referencesLink target="silbe">
+					<referencesLink show="new" type="defines" target="silbedef">Silbe</referencesLink>
+				</referencesLink>, <referencesLink target="silbenprominenz">
+					<referencesLink show="new" type="defines" target="silbenprominenzdef">Silbenprominenz</referencesLink>
+				</referencesLink>, <referencesLink target="lautlicheuebereinstimmung">
+					<referencesLink show="new" type="defines" target="lautlicheuebereinstimmungdef">lautliche Übereinstimmungen</referencesLink>
+				</referencesLink> zwischen Silben oder Silbengruppen (insbesondere <referencesLink target="endreim">
+					<referencesLink show="new" type="defines" target="endreimdef">Endreim</referencesLink>
+				</referencesLink>) und <referencesLink target="pause">
+					<referencesLink show="new" type="defines" target="pausedef">Pausen</referencesLink>
+				</referencesLink>. Von welchen dieser Konstituenten jeweils Gebrauch gemacht wird, differiert nach Einzelsprache und Zeitraum. – Darüber hinaus können noch weitere sprachliche Phänomene versifikatorische Relevanz erlangen, z.B. verschiedene Formen des grammatischen Parallelismus (<referencesLink show="new" type="book" target="Jakobson2007b">Jakobson 2007b</referencesLink>) oder Isochronie beim Versvortrag (sog. Taktprinzip, <referencesLink show="new" type="book" target="Albertsen1997">Albertsen 1997</referencesLink>, S. 43-69).</LMMLtext>
+		</illustration>
+	</section>
+</lmml>

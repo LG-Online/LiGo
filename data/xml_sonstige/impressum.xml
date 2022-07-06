@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="Impressum" author="Katrin Fischer" creationTime="15.05.05" label="impressum">
+		<illustration>
+			<LMMLtext>Die technische Umgebung von LiGo wird an der TU Darmstadt von <code type="email" uri="kfischer@linglit.tu-darmstadt.de">Katrin Dennerlein</code> und <code uri="veselin@marinov.net" type="email">Veselin Marinov</code> entwickelt. </LMMLtext>
+			<LMMLtext>Für die Inhalte der einzelnen Bereiche sind verantwortlich: </LMMLtext>
+			<LMMLtext>
+				<formatted style="ueberschrift">Erzähltextanalyse</formatted>
+			</LMMLtext>
+			<LMMLtext>Prof. Dr. Fotis Jannidis (Darmstadt)</LMMLtext>
+			<LMMLtext>Dr. Uwe Spörl (Bremen)</LMMLtext>
+			<LMMLtext>Dr. Katrin Dennerlein (geb. Fischer) (Darmstadt)</LMMLtext>
+			<LMMLtext>Kontakt: <code type="email">kdennerlein@uni-wuerzburg.de</code> </LMMLtext>
+			<LMMLtext>
+				<formatted style="ueberschrift">Lyrikanalyse</formatted>
+			</LMMLtext>
+			<LMMLtext>Prof. Dr. Schönert (Hamburg)</LMMLtext>
+			<LMMLtext>Thorsten Ries (Hamburg)</LMMLtext>
+			<LMMLtext>Kontakt: <code type="email">thorsten_ries@gmx.de</code></LMMLtext>
+			<LMMLtext>
+				<formatted style="ueberschrift">Metrik</formatted>
+			</LMMLtext>
+			<LMMLtext>Prof. Dr. Sebastian Donat (Innsbruck)</LMMLtext>
+			<LMMLtext>Kontakt: <code type="email">Sebastian.Donat@uibk.ac.at</code></LMMLtext>
+			<LMMLtext>
+				<formatted style="ueberschrift">Dramenanalyse</formatted>
+			</LMMLtext>
+			<LMMLtext>Prof. Dr. Martin Huber (Bayreuth)</LMMLtext>
+			<LMMLtext>Elisabeth Böhm (Hagen)</LMMLtext>
+			<LMMLtext>Kontakt: <code type="email">elisabeth.boehm@uni-bayreuth.de</code></LMMLtext>
+		<LMMLtext>
+				<formatted style="ueberschrift">Rhetorik/Stilistik</formatted>
+			</LMMLtext>
+			<LMMLtext>Dr. Uwe Spörl (Bremen)</LMMLtext>
+			<LMMLtext>Kontakt: <code type="email">uwe.spoerl@uni-bremen.de</code></LMMLtext><LMMLtext>
+				<formatted style="ueberschrift">Edition</formatted>
+			</LMMLtext>
+			<LMMLtext>Prof. Dr. Ulrich Joost (Darmstadt)</LMMLtext>
+			<LMMLtext>Kontakt: <code type="email">joost@linglit.tu-darmstadt.de</code></LMMLtext><LMMLtext>
+				<formatted style="ueberschrift">Fachgeschichte Germanistik</formatted>
+			</LMMLtext>
+			<LMMLtext>PD Dr. Ralf Klausnitzer (HU Berlin)</LMMLtext>
+			<LMMLtext>Kontakt: <code type="email">ralf.klausnitzer@rz.hu-berlin.de</code></LMMLtext><LMMLtext>
+				<formatted style="ueberschrift">Literaturtheorie</formatted>
+			</LMMLtext>
+			<LMMLtext>Prof. Dr. Simone Winko (Göttingen)</LMMLtext>
+			<LMMLtext>Dr. Tillman Köppe (Göttingen)</LMMLtext>
+			<LMMLtext>Kontakt: <code type="email">tilmann.koeppe@frias.uni-freiburg.de</code></LMMLtext></illustration>
+	</section>
+</lmml>

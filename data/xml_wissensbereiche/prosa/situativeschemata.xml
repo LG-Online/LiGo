@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Situative Schemata" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="22.10.2005" label="situativeschemata"><definition title="Situative Schemata" label="situativeschematadef"><LMMLtext>Wissen über typisierte situative bzw. handlungsbezogene Konstellationen (z.B. Dreiecksbeziehungen)</LMMLtext></definition></section></lmml>

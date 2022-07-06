@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/left.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd/LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="Erzähltextanalyse" author="Katrin Fischer" creationTime="25.04,05" label="erzaehltextanalyse">
+		<illustration>
+			<LMMLtext> diesem Bereich werden die Grundbegriffe der Rhetorik Texte erläutert. Sie können entweder einen der Begriffe aus dem Inhaltsverzeichnis direkt anwählen, oder sich mit den Pfeil am rechten unteren Seitenrand durch diesen Bereich führen lassen.</LMMLtext>
+			<LMMLtext type="inhaltsverzeichnis" uri="rhetorik"></LMMLtext></illustration>
+	</section>
+</lmml>

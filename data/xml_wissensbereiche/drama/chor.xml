@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Chor" author="Martin Huber, Elisabeth Böhm"
+		creationTime="09.09.2007" label="chor" topics="Chor">
+		<definition title="Chor" label="chordef">
+			<LMMLtext>Eine Gruppe von Sprechern im Drama, die nur als Kollektiv spricht</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Im 6. Jh. v. Chr. entwickelte sich die antike Tragödie aus dem sog.
+				Dithyrambus des Dionysoskultes, der aus Tanz, Musikbegleitung und Gruppengesang
+				bestand. Aus dem letzteren entstand durch den Einschub von Sprechszenen eines
+				einzelnen Schauspielers ein dramatischer <referencesLink target="dialog"
+						><referencesLink show="new" type="defines" target="dialogdef"
+						>Dialog</referencesLink></referencesLink>, aus dem sich mit der Einführung
+				von <referencesLink target="protagonist"><referencesLink show="new" type="defines"
+						target="protagonistdef">Protagonist</referencesLink></referencesLink> und
+					<referencesLink target="antagonist"><referencesLink show="new" type="defines"
+						target="antagonistdef">Antagonist</referencesLink></referencesLink> langsam
+				die antike Tragödie entwickelte.</LMMLtext>
+			<LMMLtext>Zunächst spricht der Chor noch deutlich mit den Kennzeichen seiner kultischen
+				Herkunft, also in lyrischen Versmaßen. Auf der Orchestra, einer Art Vorbühne, bleibt
+				der Chor ständig präsent und reagiert situationsbezogen auf die Bühnenhandlung,
+				wobei der an sich gleichbleibende Chor innerhalb einer Tragödie verschiedene Rollen
+				repräsentieren und damit perspektivierende Funktion übernehmen kann.</LMMLtext>
+			<LMMLtext>Mit zunehmender Zahl an Solisten auf der Bühne nimmt die Bedeutung des Chores
+				für die Handlung ab, so dass er in der römischen Tragödie bei Seneca nur noch
+				begleitende Funktion hat, im Mittelalter gibt es dann keinen ‚Chor’ mehr, nur noch
+				Massenszenen mit einem nicht näher charakterisierten Kollektiv an
+				Sprechern.</LMMLtext>
+			<LMMLtext>Im Renaissance-Drama gewinnt der Chor wieder an Bedeutung und tritt oft an
+					<referencesLink target="akt"><referencesLink show="new" type="defines"
+						target="aktdef">Akt</referencesLink></referencesLink>enden auf, woraus sich
+				sein Einsatz zwischen den Akten im Barock-Theater entwickelt, wo er weniger als
+				Kommentator der eigentlichen Handlung erscheint, sondern eher Zwischenspiele bietet.
+				Mit der Aufklärung werden diese eliminiert und der Chor wird zu einem bewusst
+				eingesetzten dramatischen Element, z. B. in Schillers <formatted style="buchtitel"
+					>Braut von Messina</formatted> oder Goethes <formatted style="buchtitel">Faust
+					II</formatted>. Für Massen- und Volksszenen bleibt er relevant und gewinnt
+				Anfang des 20. Jhs. Relevanz entweder in kommentierender, illusionsbrechender oder
+				agitatorischer Funktion.</LMMLtext>
+			<LMMLtext><referencesLink type="illustrates" target="erstesbeispielfuereinenchorBsp"
+					/><referencesLink type="illustrates" target="zweitesbeispielfuereinenchorBsp"
+					/><referencesLink type="illustrates" target="drittesbeispielfuereinenchorBsp"
+					/><referencesLink type="exercises" target="uebungzumchorUeb"/></LMMLtext>
+		</illustration>
+		<section type="example" title="Erstes Beispiel für einen Chor"
+			label="erstesbeispielfuereinenchorBsp">
+			<illustration>
+				<LMMLtext>Chorszene im antiken Drama, Sophokles, <formatted style="buchtitel">König
+						Ödipus</formatted>: nachdem Ödipus seine Herkunft und Taten aufgedeckt hat,
+					geht er von der Bühne, um sich selbst zu blenden, der Chor bleibt auf der
+					Bühne:</LMMLtext>
+			</illustration>
+			<quotation booktitle="König Ödipus" authorfamily="Sophokles">
+				<LMMLtext type="br">CHOR:</LMMLtext>
+				<LMMLtext type="br">Ihr Menschengeschlechter, ach,</LMMLtext>
+				<LMMLtext type="br">euer Leben, wie muß ich es</LMMLtext>
+				<LMMLtext type="br">gleich dem Nichts doch erachten!</LMMLtext>
+				<LMMLtext type="br">Denn wer, welcher Mann wohl trägt</LMMLtext>
+				<LMMLtext type="br">Mehr Glückseligkeit je davon,</LMMLtext>
+				<LMMLtext type="br">als soviel er zu haben wähnt,</LMMLtext>
+				<LMMLtext type="br">eh’ dem Wahn er entfallen?</LMMLtext>
+				<LMMLtext type="br">Beispiel ist mir der deinige,</LMMLtext>
+				<LMMLtext type="br">dein Daimon: denk’ ich deinem nach,</LMMLtext>
+				<LMMLtext>armer Oidipus, keinen preis’ ich selig auf Erden.</LMMLtext>
+				<LMMLtext type="br">Du, der über alles Maß</LMMLtext>
+				<LMMLtext type="br">Zielend traf und bemächtigt sich</LMMLtext>
+				<LMMLtext type="br">ganz des seligsten Glückes,</LMMLtext>
+				<LMMLtext type="br">bei Zeus! Da du tilgtes die</LMMLtext>
+				<LMMLtext type="br">Jungfrau mit den gekrümmten Klaun,</LMMLtext>
+				<LMMLtext type="br">Sprüchesängerin, meinem Land</LMMLtext>
+				<LMMLtext type="br">Halfst, ein Turm im Verderben:</LMMLtext>
+				<LMMLtext type="br">Mein König heißest du seither,</LMMLtext>
+				<LMMLtext type="br">höchste Ehren empfingst du,</LMMLtext>
+				<LMMLtext>in des mächtigen Thebens Stadt als Herrscher gebietend.</LMMLtext>
+				<LMMLtext type="br">Und nun – von wem hört man größeren Elends Not?</LMMLtext>
+				<LMMLtext type="br">Wer ward mit Qual, mit grausem Frevelsinn</LMMLtext>
+				<LMMLtext type="br">In jähem Wechsel eng vertraut?</LMMLtext>
+				<LMMLtext type="br">O Leid! […]</LMMLtext>
+			</quotation>
+		</section>
+		<section type="example" title="Zweites Beispiel für einen Chor"
+			label="zweitesbeispielfuereinenchorBsp">
+			<illustration label="beispielchorBspIllu">
+				<LMMLtext>Friedrich Schiller verwendet den Chor nur in einem seiner Dramen, der
+						<formatted style="buchtitel">Braut von Messina</formatted>. Was er mit ihm
+					bezweckt, legt er in der Vorrede „Über den Gebrauch des Chores“ dar. Dort heißt
+					es unter anderem: „So wie der Chor in die Sprache <formatted style="regie"
+						>Leben</formatted> bringt, so bringt er Ruhe in die Handlung – aber die
+					schöne und hohe <formatted style="regie">Ruhe</formatted>, die der Charakter
+					eines edeln Kunstwerkes sein muß. […] Chöre kennt man zwar auch schon in der
+					modernen Tragödie, aber der Chor des antiken Trauerspiels, so wie ich ihn hier
+					gebraucht habe, der Chor als eine einzige ideale Person, die die ganze Handlung
+					trägt und begleitet, […]. Ich habe den Chor zwar in zwei Teile getrennt und im
+					Streit mit sich selbst dargestellt; aber dies ist nur dann der Fall, wo er als
+					wirkliche Person und als blinde Menge mithandelt. Als <formatted style="regie"
+						>Chor</formatted> und als ideale Person ist er immer eins mit sich
+					selbst.“</LMMLtext>
+				<LMMLtext>Nachdem Don Caesar den Entschluss zu Selbstmord als Sühne für seinen
+					Brudermord gefällt hat, spricht er mit dem Chor:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Braut von Messina" authorname="Friedrich" authorfamily="Schiller">
+				<LMMLtext type="br">CHOR: Beschließe nichts gewaltsam Blutige, o Herr,</LMMLtext>
+				<LMMLtext type="br">Wider dich selber wütend mit Verzweiflungstat:</LMMLtext>
+				<LMMLtext type="br">Denn auf der Welt lebt niemand, der dich strafen
+					kann,</LMMLtext>
+				<LMMLtext type="br">Und fromme Büßung kauft den Zorn des Himmels ab.</LMMLtext>
+				<LMMLtext type="br">DON CAESAR: Nicht auf der Welt lebt, wer mich richtend strafen
+					kann,</LMMLtext>
+				<LMMLtext type="br">Drum muß ich selber an mir selber es vollziehn.</LMMLtext>
+				<LMMLtext type="br">Bußfertige Sühne, weiß ich, nimmt der Himmel an,</LMMLtext>
+				<LMMLtext type="br">Doch nur mit Blute büßt sich ab der blutge Mord.</LMMLtext>
+				<LMMLtext type="br">CHOR: Des Jammers Fluten, die auf dieses Haus
+					gestürmt,</LMMLtext>
+				<LMMLtext type="br">Ziemt dir zu brechen, nicht zu häufen Leid auf Leid.</LMMLtext>
+				<LMMLtext type="br">DON CAESAR: Den alten Fluch des Hauses lös ich sterbend
+					auf,</LMMLtext>
+				<LMMLtext type="br">Der freie Tod nur bricht die Kette des Geschicks.</LMMLtext>
+				<LMMLtext type="br">CHOR: Zum Herrn bist du dich schuldig dem verwaisten
+					Land,</LMMLtext>
+				<LMMLtext type="br">Weil du des andern Herrscherhauptes uns beraubt.</LMMLtext>
+				<LMMLtext type="br">DON CAESAR: Zuerst den Todesgöttern zahl ich meine
+					Schuld,</LMMLtext>
+				<LMMLtext type="br">Ein andrer Gott mag sorgen für die Lebenden.</LMMLtext>
+				<LMMLtext type="br">CHOR: Soweit die Sonne leuchtet, ist die Hoffnung
+					auch,</LMMLtext>
+				<LMMLtext type="br">Nur von dem Tod gewinnt sich nichts! Bedenk es wohl.</LMMLtext>
+				<LMMLtext type="br">Don CAESAR: Du selbst bedenke schweigend deine
+					Dienerpflicht,</LMMLtext>
+				<LMMLtext type="br">Mich laß dem Geist gehorchen, der mich furchtbar
+					treibt,</LMMLtext>
+				<LMMLtext type="br">Denn in das Innre kann kein Glücklicher mir schaun.
+					[…]</LMMLtext>
+			</quotation>
+		</section>
+		<section type="example" title="Drittes Beispiel für einen Chor"
+			label="drittesbeispielfuereinenchorBsp">
+			<illustration>
+				<LMMLtext>Bertold Brecht nutzt den Chor in seinem epischen Theater, so z.B. in
+						<formatted style="buchtitel">Aufstieg und Fall der Stadt
+						Mahagonny</formatted>:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Aufstieg und Fall der Stadt Mahagonny" authorname="Bertolt"
+				authorfamily="Brecht">
+				<LMMLtext type="br"><formatted style="regie">Lautsprecher: Der Hurrikan hat um die
+						Stadt Mahagonny einen Bogen gemacht und setzt seinen Weg
+					fort.</formatted></LMMLtext>
+				<LMMLtext type="br">CHOR: (Mädchen, Männer)</LMMLtext>
+				<LMMLtext type="br">O wunderbare Lösung</LMMLtext>
+				<LMMLtext type="br">Die Stadt der Freude ward verschont.</LMMLtext>
+				<LMMLtext type="br">Die Hurrikane gingen vorüber in großer Höhe</LMMLtext>
+				<LMMLtext type="br">Und der Tod tritt in die Wasser zurück.</LMMLtext>
+				<LMMLtext type="br">O wunderbare Lösung!</LMMLtext>
+				<LMMLtext>VON NUN AN WAR DER LEITSPRUCH DER MAHAGONNY-LEUTE DAS WORT: „DU DARFST“,
+					WIE SIE ES IN DER NACHT DES GRAUENS GELERNT HATTEN.</LMMLtext>
+				<LMMLtext type="br">13</LMMLtext>
+				<LMMLtext type="br">HOCHBETRIEB IN MAHAGONNY, UNGEFÄHR EIN JAHR NACH DEM GROßEN
+					HURRIKAN.</LMMLtext>
+				<LMMLtext><formatted style="regie">Die Männer treten an die Rampe und
+						singen.</formatted></LMMLtext>
+				<LMMLtext type="br">CHOR:</LMMLtext>
+				<LMMLtext type="br">Erstens vergeßt nicht, kommt das Fressen</LMMLtext>
+				<LMMLtext type="br">Zweitens kommt der Liebesakt</LMMLtext>
+				<LMMLtext type="br">Drittens das Boxen nicht vergessen</LMMLtext>
+				<LMMLtext type="br">Viertens Saufen, das steht im Kontrakt.</LMMLtext>
+				<LMMLtext type="br">Vor allem aber achtet scharf</LMMLtext>
+				<LMMLtext type="br">Daß man hier alles dürfen darf.</LMMLtext>
+			</quotation>
+		</section>
+		<exercise topics="musterloesung" label="uebungzumchorUeb" title="Übung zum Chor">
+			<task type="fragestellung">
+				<LMMLtext>Überlegen Sie, in welchem Maße der Chor in den obigen Beispielen jeweils
+					in die Handlung involviert ist, und ordnen Sie den drei Szenen jeweils das
+					Adjektiv zu, das sie am treffendsten beschreibt: kommentierend, beratend oder
+					zeigend.</LMMLtext>
+			</task>
+			<task type="userinput">
+				<LMMLtext>Sophokles, <formatted style="buchtitel">König Ödipus</formatted>:
+					kommentierend</LMMLtext>
+				<LMMLtext>Schiller, <formatted style="buchtitel">Braut von Messina</formatted>:
+					beratend.</LMMLtext>
+				<LMMLtext>Brecht, <formatted style="buchtitel">Mahagonny</formatted>:
+					zeigend</LMMLtext>
+			</task>
+		</exercise>
+	</section>
+</lmml>

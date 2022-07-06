@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Antithese (mit Oxymoron und Paradoxon)" author="Uwe Spörl"
+		creationTime="08.04.2007" label="antithesemitoxymoronundparadoxon" topics="Antithese">
+		<illustration>
+			<LMMLtext>griech.: <formatted style="hervorhebung">antithesis</formatted>: Gegensatz –
+				griech.: <formatted style="hervorhebung">oxymoron</formatted>: scharfer Unsinn –
+				griech.: <formatted style="hervorhebung">paradoxon</formatted>: wider den
+				Anschein</LMMLtext>
+		</illustration>
+		<definition title="Antithese"
+			label="antithesemitoxymoronundparadoxondef">
+			<LMMLtext>Gedankenfigur: Gegenüberstellung zweier sich (semantisch)
+				widersprechender Ausdrücke</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>In der Antithese wird ein Gegensatz durch entsprechende Ausdrücke (Wörter,
+				Wortgruppen, Teilsätze, Sätze) besonders deutlich herausgearbeitet. Dies geschieht
+				entweder alleine durch die jeweiligen Ausdrücke bzw. die von diesen bezeichneten
+				Gegenstände, Sachverhalte oder Gedanken, häufig werden diese aber so angeordnet,
+				dass der Gegensatz besonders deutlich wird, etwa durch zusätzliche Verwendung der
+				Wortfiguren <referencesLink target="parallelismus"><referencesLink show="new"
+						type="defines" target="parallelismusdef"
+					>Parallelismus</referencesLink></referencesLink> oder <referencesLink
+					target="chiasmus"><referencesLink show="new" type="defines" target="chiasmusdef"
+						>Chiasmus</referencesLink></referencesLink>.</LMMLtext>
+			<LMMLtext>Das Oxymoron kann als besondere Form der Antithese gelten, in der die
+				antithetischen Ausdrücke einander weniger gegenübergestellt werden als vielmehr
+				direkt miteinander verknüpft werden: Es werden also zwei Ausdrücke, die sich
+				(inhaltlich) ausschließen, zu einem komplexen Ausdruck zusammengeführt, der dem
+				Adressaten der Äußerung zu denken gibt, weil dieser natürlich versucht, dem
+				(scheinbar) sinnlosen Oxymoron doch einen Sinn abzugewinnen. Das Oxymoron kann also
+				als Unsinn abgetan werden, zum Nachdenken anregen oder aber auch zum Lachen bringen.
+				In jedem Fall aber wirkt es paradox, weil es so deutlich von dem abweicht, was man
+				für gewöhnlich zu hören und zu lesen bekommt.</LMMLtext>
+			<LMMLtext>Dieser Effekt der Paradoxie kann freilich nicht nur von Oxymora ausgelöst
+				werden; er tritt vielmehr immer dann auf, wenn etwas bewusst gegen den Anschein oder
+				die übliche Auffassung gerichtet ist, man aber (warum auch immer) geneigt ist, es
+				gerade nicht als Unsinn abzutun.</LMMLtext>
+			<LMMLtext><referencesLink type="illustrates"
+					target="beispielantithesemitoxymoronundparadoxonBsp"/></LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Antithese (mit Oxymoron und Paradoxon)"
+			label="beispielantithesemitoxymoronundparadoxonBsp">
+			<illustration label="beispielantithesemitoxymoronundparadoxonBspIllu">
+				<LMMLtext>Antithesen werden häufig durch die rhetorischen Wortfiguren des
+						<referencesLink show="new" type="defines" target="parallelismusdef"
+						>Parallelismus</referencesLink> oder <referencesLink show="new"
+						type="defines" target="chiasmusdef">Chiasmus</referencesLink> unterstützt.</LMMLtext>
+				<LMMLtext>Oxymora, die offensichtlich (schon wegen ihrer Autoren etwa) darauf
+					abzielen, einen besonderen, tieferen Sinn, der sich hinter der nur scheinbar
+					unsinnigen Textoberfläche verbirgt, zu vermitteln, sind etwa die
+					folgenden:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Romeo and Juliet" authorname="William" authorfamily="Shakespeare">
+				<LMMLtext>O loving hate!</LMMLtext>
+			</quotation>
+			<illustration>
+				<LMMLtext>Hier liegt eine <formatted style="hervorhebung">contradictio in
+						adiecto</formatted> vor, weil ein Substantiv mit einem diesem (scheinbar)
+					widersprechenden Attribut verknüpft wird. Im folgenden Beispiel werden die
+					beiden einander widersprechenden Worte sogar zu einem einzigen
+					verbunden:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Heidelberg" authorname="Friedrich" authorfamily="Hölderlin">
+				<LMMLtext>[...] traurigfroh [...]</LMMLtext>
+			</quotation>
+			<illustration>
+				<LMMLtext>Aber natürlich können Oxymora auch offensichtlicher – und durchaus so
+					gemeinter, weil komischer – Unsinn sein, wie das folgende Liedchen belegt, das
+					in verschiedenen Varianten mindestens seit dem 19. Jahrhundert nachweisbar ist:
+				</LMMLtext>
+			</illustration>
+			<illustration>
+				<LMMLtext><poem>
+						<poemlinegroup>
+							<poemline>Finster war’s, der Mond schien helle</poemline>
+							<poemline>Auf die grünbeschneite Flur,</poemline>
+							<poemline>Als ein Wagen blitzesschnelle</poemline>
+							<poemline>Langsam um die Ecke fuhr.</poemline>
+							<poemline>Drinnen saßen stehend Leute</poemline>
+							<poemline>Schweigend ins Gespräch vertieft,</poemline>
+							<poemline>Als ein totgeschossner Hase</poemline>
+							<poemline>Auf dem Wasser Schlittschuh lief</poemline>
+							<poemline>Und ein blondgelockter Knabe</poemline>
+							<poemline>Mit kohlrabenschwarzem Haar</poemline>
+							<poemline>Auf die grüne Bank sich setzte,</poemline>
+							<poemline>Die gelb angestrichen war.</poemline>
+						</poemlinegroup>
+					</poem></LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

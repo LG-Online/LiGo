@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Pause" author="Sebastian Donat" creationTime="24.03.2008" label="pause_m" topics="Pause">
+		<definition title="Pause" label="pause_mdef">
+			<LMMLtext>Eine der vier 
+				<referencesLink target="verskonstituenten">
+					<referencesLink show="new" type="defines" target="verskonstituentendef">
+						Verskonstituenten
+					</referencesLink>
+				</referencesLink>
+				. Position im Vers, an welcher der Artikulationsvorgang unterbrochen wird.
+			</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Die Plazierung von Pausen ist unmittelbar mit dem Wesensprinzip des Verses, der Segmentierung des Textes in abgeschlossene, aufeinander beziehbare Zeilen verbunden: Die versfinale Pause stellt die einzige notwendige Konstituente sämtlicher 
+
+
+
+				
+			
+			Verse dar (<referencesLink show="new" type="defines" target="gebundenevsungebundeneversedef">
+					<referencesLink target="gebundenevsungebundeneverse">gebundene vs. ungebundene Verse</referencesLink>
+				</referencesLink>).</LMMLtext>
+			<LMMLtext>Eine große versifikatorische Bedeutung auch im Versinneren besitzt nicht nur die Pause, sondern generell die Art der Silbenübergänge. Dabei ist zu unterscheiden zwischen pausenheischenden Übergängen an Kolon- und Satzgrenzen, pausenfähigen Übergängen an Wortgrenzen und nicht-pausenfähigen Übergängen im Wortinneren. Das <referencesLink target="metrischesschema">
+					<referencesLink show="new" type="defines" target="metrischesschemadef">metrische Schema</referencesLink>
+				</referencesLink> kann Vorschriften für alle drei Ausprägungsformen enthalten. Hier jeweils ein Beispiel:</LMMLtext>
+			<ulist>
+				<item>
+					<LMMLtext>pausenheischender Silbenübergang im deutschen Alexandriner nach der 6. Silbe</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>pausenfähiger Silbenübergang, d.h. Wortgrenze am Zeilenende als Minimalbedingung des Verses</LMMLtext>
+				</item>
+				<item>
+					<LMMLtext>nicht-pausenfähiger Silbenübergang zwischen den beiden Kürzen im vierten 
+							<referencesLink target="daktylus">
+							<referencesLink show="new" type="defines" target="daktylusdef">
+								Daktylus
+							</referencesLink>
+						</referencesLink> 
+						des Hexameters (sog. Hermannsche Brücke)
+					</LMMLtext>
+				</item>
+			</ulist>
+			<LMMLtext>In versfußmetrisch gebundenen
+			
+	 
+			Texten (<referencesLink target="versfuss">
+					<referencesLink show="new" type="defines" target="versfussdef">Versfüße</referencesLink>
+				</referencesLink>) wird bei der Position von Pausen 
+				
+				unterschieden zwischen <referencesLink target="zaesur">
+					<referencesLink show="new" type="defines" target="zaesurdef">Zäsur</referencesLink>
+				</referencesLink> und <referencesLink target="diaerese">Diärese</referencesLink>.
+			</LMMLtext>
+		</illustration>
+	</section>
+</lmml>

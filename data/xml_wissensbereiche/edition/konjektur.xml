@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Konjektur" author="Christine Pohl, Ulrich Joost"
+        creationTime="21.01.2008" label="konjektur" topics="Konjektur">
+        <definition title="Konjektur" label="konjekturdef">
+            <LMMLtext>lat.: Vermutung </LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext><referencesLink type="exercises" target="uebungkonjekturUeb"/></LMMLtext>
+        </illustration>
+        <exercise topics="markieren" label="uebungkonjekturUeb" title="Übung Konjektur">
+            <task type="selection">
+                <quotation booktitle="Die Leiden des jungen Werther"
+                    authorname="Johann Wolfgang von" authorfamily="Goethe">
+                    <LMMLtext>„Und der Vergangenheit Sonnenstrahl blickt herein, wie einem
+                        Gefangenen ein Traum von Herden, Wiesen und <formatted style="richtig"
+                            >Ehrenämtern</formatted>!“</LMMLtext>
+                </quotation>
+                <LMMLtext type="answerText">Diese Textstelle in „Die Leiden des jungen Werthers“ ist
+                    nur in der Fassung von 1787 zu finden. Ganz offensichtlich muss der Editor den
+                    Text verändert oder falsch erfasst haben, da das Wort „Ehrenämter“ in dem
+                    Satzzusammenhang keinen Sinn ergibt.</LMMLtext>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>Markieren Sie diejenige Stelle, die vermutlich falsch überliefert
+                    wurde.</LMMLtext>
+            </task>
+        </exercise>
+    </section>
+</lmml>

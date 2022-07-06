@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Rhetorische Textanalyse (Figuren und Tropen)" author="Uwe Spörl" creationTime="08.04.2007" label="rhetorischetextanalysefigurenundtropen" topics="Rhetorische Textanalyse (Figuren und Tropen)">
+		<illustration>
+			<LMMLtext>Da Rhetorik entsprechend ihrem Norm-Abweichungsschema (vgl. <referencesLink show="new" type="defines" target="arsnaturadef">
+					<referencesLink target="arsnatura">ars – natura</referencesLink>
+				</referencesLink>) vor allem von Auffälligkeiten ausgeht, sind für die rhetorische Textanalyse vor allem Figuren und Tropen von Bedeutung.</LMMLtext>
+			<LMMLtext>Diese sind – der rhetorischen Theorie nach – auf vier grundlegende <referencesLink target="aenderungsoperationen">
+					<referencesLink show="new" type="defines" target="aenderungsoperationendef">Änderungsoperationen</referencesLink>
+				</referencesLink> zurückzuführen. Dieser Theorie zufolge können zudem Figuren und Tropen unterschieden werden:</LMMLtext>
+			<LMMLtext>Die <referencesLink target="figurenlehre">
+					<referencesLink show="new" type="defines" target="rhetorischefigurdef">Figurenlehre</referencesLink>
+				</referencesLink> bezieht sich auf Änderungen auf der syntagmatischen Ebene, während sich Tropen auf Änderungen auf der paradigmatischen/semantischen Ebene beziehen lassen und somit auch als <referencesLink target="uneigentlichessprechentropen">
+					<referencesLink show="new" type="defines" target="rhetorischetropedef">uneigentliches Sprechen</referencesLink>
+				</referencesLink> aufgefasst werden.</LMMLtext>
+			
+		</illustration>
+		</section>
+</lmml>

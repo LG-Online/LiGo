@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="Über LiGo" author="Katrin Fischer" creationTime="29.06.06" label="ueberligo">
+		<illustration>
+			<LMMLtext>LiGo ist ein Gemeinschaftsprojekt von GermanistInnen verschiedener Universitäten. Die Verantwortlichen für die verschiedenen Wissensbereiche finden Sie im  <referencesLink target="impressum">Impressum</referencesLink>.</LMMLtext>
+			<LMMLtext> Die eingegebenen Texte und die Transformationsdateien stehen unter einer <referencesLink target="quellcode">Creative Common License</referencesLink>. Über die  Organisation und die Architektur von LiGo können Sie sich in einem <externalLink uri="http://computerphilologie.uni-muenchen.de/jg06/fischer.html" show="new">Aufsatz</externalLink> beim  <externalLink show="new" uri="http://www.computerphilologie.de">Forum Computerphilologie</externalLink> informieren.</LMMLtext>
+			<LMMLtext>Eine Anleitung für Autoren der Wissensbereiche finden Sie <referencesLink target="autoren">hier</referencesLink>
+			</LMMLtext>
+			<LMMLtext>Seit Mai 2007 gibt es auch eine Webstatistik: <externalLink show="new" uri="http://www.li-go.de/awstats">Mai 2006 bis Juni 2010</externalLink>, <externalLink uri="http://piwik.digital-humanities.de/?idSite=2" show="new">seit Juli 2010</externalLink>. </LMMLtext>
+		<LMMLtext><formatted style="ueberschrift">Weitere E-Learning-Angebote zur Literaturwissenschaft im Internet </formatted></LMMLtext><LMMLtext><externalLink show="new" uri="http://www.fernuni-hagen.de/EUROL/termini/welcome.html">Basislexikon Literaturwissenschaft</externalLink></LMMLtext><LMMLtext><externalLink show="new" uri="http://www.e-port.uni-hamburg.de/Gst.Litwiss/">Gst.Litwiss</externalLink></LMMLtext><LMMLtext><externalLink show="new" uri="http://www.literaturwissenschaft-online.uni-kiel.de/start.asp">Literaturwissenschaft online</externalLink></LMMLtext><LMMLtext><externalLink show="new" uri="http://www.uni-greifswald.de/%7Edt_phil/litwiss/Gratz/Kartei/b-kartei.html">Grundbegriffe der Literaturtheorie/Poetik </externalLink></LMMLtext><LMMLtext><externalLink show="new" uri="http://www.uni-essen.de/literaturwissenschaft-aktiv/einladung.htm">Einladung zur Literaturwissenschaft</externalLink></LMMLtext></illustration>
+	</section>
+</lmml>

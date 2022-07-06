@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/left.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd/LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="Fachgeschichte Germanistik" author="Katrin Fischer" creationTime="02.05.2006" label="fachgeschichtegermanistik">
+		<illustration>
+			<table style="invisible">
+				<tablerow>
+					<tabledata>
+						<LMMLtext/>
+						<LMMLtext>In diesem Bereich werden die Grundzüge der Fachegschichte der Germanistik erläutert. [Im Aufbau]</LMMLtext>
+						<LMMLtext type="inhaltsverzeichnis" uri="geschichtederliteraturwissenschaft"/>
+					</tabledata>
+				</tablerow>
+			</table>
+		</illustration>
+	</section>
+</lmml>

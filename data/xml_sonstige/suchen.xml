@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/left.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../resources/dtd/LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="In LiGo Suchen" author="Veselin Marinov" creationTime="15.06.06" label="ligosuchen">
+		<illustration>
+			<code type="googlesearch"/>
+		</illustration>
+	</section>
+</lmml>

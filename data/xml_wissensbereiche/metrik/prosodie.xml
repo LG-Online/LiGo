@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Prosodie" author="Sebastian Donat" creationTime="22.10.2007" label="prosodie" topics="Prosodie"><definition title="Prosodie" label="prosodiedef"><LMMLtext>(Griech: ‚Dazugesungenes') Lautübergreifende sprachliche Phänomene, wie Akzent, Intonation, Pause. Unter der Perspektive der Metrik enthält die Prosodie die Regeln für das Material bzw. die Konstituenten des Versbaus (Verskonstituenten), insbesondere für die Bestimmung der <referencesLink target="silbenprominenz"><referencesLink show="new" type="defines" target="silbenprominenzdef">Silbenprominenz</referencesLink></referencesLink> und des Endreims.</LMMLtext></definition></section></lmml>

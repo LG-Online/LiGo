@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Interne Fokalisierung" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="06.08.2005" label="internefokalisierung">
+		<definition title="Interne Fokalisierung" label="internefokalisierungdef">
+			<LMMLtext>Die Wahrnehmung ist an eine Figur
+gebunden. Informationen über das „Innenleben“ der Figur werden gegeben. Der
+Erzähler weiß also ebenso viel / nimmt ebenso viel wahr wie die
+Figur.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Das im Text Geschilderte
+lässt Rückschlüsse zu auf denjenigen, der es wahrnimmt. Insbesondere gilt dies,
+wenn nicht nur Sachverhalte der äußeren Welt, sondern auch der Innenwelt einer
+Figur erzählt werden.<referencesLink type="illustrates" target="beispielfuerinternefokalisierungBsp"/>
+			</LMMLtext>
+			<LMMLtext>Im
+Fall der der dominant internen Fokalisierung lassen sich noch zwei<annotated>Abweichend von Martinez / Scheffel wird hier die multiple interne Fokalisierung nicht als dritte Kategorie neben der fixierten interne Fokalisierung und der variablen interne Fokalisierung behandelt, sondern als Sonderfall der variablen internen Fokalisierung behandelt. Das Differenzkriterium zwischen fixierter interner Fokalisierung und variabler interner Fokalisierung ist die Bindung an eine Figur – unabhängig vom Geschehen. Das Geschehen wird als Differenzkriterium erst im Fall der multiplen internen Fokalisierung herangezogen. Man kann dazu auch einfach eine Gegenprobe machen: Was für eine Kategorie liegt vor, wenn das gleiche Geschehen wiederholt aus der Sicht der gleichen Figur wiedergegeben wird? Folgt man dem Kategoriensystem von Martinez / Scheffel, dann müßte man dafür eine neue Kategorie hinzufügen. Unseres Erachtens handelt es sich jedoch um einen Sonderfall der fixierten internen Fokalisierung Textbeispiel: Agathe Christie: The murder of Roger Ackroyd. Die genaue Analyse der Fokalisierung ist sicherlich oft ein besonderes Problem; häufig zeigen sich dabei auch die Grenzen der hier beschriebenen Kategorien.</annotated> Formen
+unterscheiden:</LMMLtext>
+		</illustration>
+		<definition title="Fixierte interne Fokalisierung" label="fixierteinternefokalisierung:">
+			<LMMLtext>Die Wahrnehmung bleibt während
+des ganzen Textes an eine Figur
+gebunden.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Diese Form findet sich
+seit dem 19. Jahrhundert häufig. Ein Beispiel ist <formatted style="buchtitel">Der grüne Heinrich</formatted> von Gottfried
+Keller.</LMMLtext>
+		</illustration>
+		<definition title="Variable interne Fokalisierung" label="variableinternefokalisierung">
+			<LMMLtext>Die Fokalisierung wechselt
+chronologisch fortschreitend zwischen
+Figuren.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Die variable interne
+Fokalisierung ist insbesondere vor dem 19. Jahrhundert sehr häufig. Beispiele
+sind Johann Gottfried Schnabels <formatted style="buchtitel">Die wunderliche
+Fata einiger Seefahrer</formatted>, Johann Wolfgang von Goethes
+<formatted style="buchtitel">Unterhaltungen deutscher
+Ausgewanderten</formatted>, aber auch Fontanes <formatted style="buchtitel">Effi
+Briest</formatted>.</LMMLtext>
+			<LMMLtext>Einen Sonderfall der variablen internen
+Fokalisierung stellt die ‚multiple interne Fokalisierung’
+dar.</LMMLtext>
+		</illustration>
+		<definition title="Multiple interne Fokalisierung" label="multipleinternefokalisierung">
+			<LMMLtext>Fokalisierungsform bei der das
+gleiche Geschehen wiederholt dargestellt wird und zwar jeweils aus der
+Perspektive einer anderen
+Figur.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Beispiele: Christoph
+Hein: <formatted style="buchtitel">Horns Ende</formatted>, Jonathan Safran Foer
+<formatted style="buchtitel">Everything is illuminated</formatted> (teilweise),
+Alexa Hennig von Lange: <formatted style="buchtitel">Relax</formatted>
+			</LMMLtext>
+		</illustration>
+		<illustration>
+			<LMMLtext>
+				<referencesLink type="illustrates" target="beispielfuerinternefokalisierungBsp"/>
+				<referencesLink type="exercises" target="uebungzurinternenfokalisierungUeb"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel für interne Fokalisierung" label="beispielfuerinternefokalisierungBsp">
+			<illustration>
+				<LMMLtext>Besonders
+deutlich und einfach ist die Zuordnung in den Fällen, in denen Verben des
+Wahrnehmens und Fühlens auftauchen und eindeutig an eine Figur gebunden
+sind:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Der Sandmann" authorname="E. T. A." authorfamily="Hoffmann">
+				<LMMLtext>Wie erstaunte
+Nathanael, als er in seine Wohnung wollte und sah, daß das ganze Haus
+niedergebrannt war, so daß aus dem Schutthaufen nur die nackten Feuermauern
+hervorragten.</LMMLtext>
+			</quotation>
+			<illustration label="beispielfuerinternefokalisierungBspIllu">
+				<LMMLtext>Solange keine
+Anzeichen im Text vorliegen, dass sich die Fokalisierung geändert hat, ist
+davon auszugehen, dass sie konstant bleibt. So könnte der folgende Satz ein
+Beispiel für
+<referencesLink type="defines" target="nullfokalisierungdef">Nullfokalisierung</referencesLink>
+sein:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Der Sandmann" authorname="E. T. A." authorfamily="Hoffmann">
+				<LMMLtext>Die Türen standen
+offen, man trug allerlei Geräte hinein, die Fenster des ersten Stocks waren
+ausgehoben, geschäftige Mägde kehrten und stäubten, mit großen Haarbesen hin
+und her führend, inwendig klopften und hämmerten Tischler und
+Tapezierer.</LMMLtext>
+			</quotation>
+			<illustration>
+				<LMMLtext>Aber aus dem Kontext,
+dem vorangehenden und dem folgenden Satz, wird klar, dass es sich um interne
+Fokalisierung handelt:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Der Sandmann" authorname="E. T. A." authorfamily="Hoffmann">
+				<LMMLtext>Als er zurückkehren wollte in seine Wohnung,
+wurde er in Spalanzanis Hause ein geräuschvolles Treiben gewahr. Die Türen
+standen offen, man trug allerlei Geräte hinein, die Fenster des ersten Stocks
+waren ausgehoben, geschäftige Mägde kehrten und stäubten, mit großen Haarbesen
+hin und her fahrend, inwendig klopften und hämmerten Tischler und Tapezierer.
+Nathanael blieb in vollem Erstaunen auf der Straße
+stehen;</LMMLtext>
+			</quotation>
+		</section>
+		<exercise label="uebungzurinternenfokalisierungUeb" title="Übung zur internen Fokalisierung" topics="multiplechoice">
+			<task type="textbeispiel">
+				<quotation booktitle="Der Sandmann" authorname="E. T. A." authorfamily="Hoffmann">
+					<LMMLtext>Nathanael fand eine Einladungskarte und ging
+mit hochklopfendem Herzen zur bestimmten Stunde, als schon die Wagen rollten
+und die Lichter in den geschmückten Sälen schimmerten, zum
+Professor.</LMMLtext>
+				</quotation>
+			</task>
+			<task type="fragestellung">
+				<LMMLtext>Handelt es sich bei dieser Passage um eine
+<referencesLink show="new" type="defines" target="internefokalisierungdef">interne Fokalisierung</referencesLink>? Machen Sie sich auch klar, auf welche Indizien im Text
+Sie Ihre Position stützen.</LMMLtext>
+			</task>
+			<task type="alternative" target="uebungzurinternenfokalisierungL1">
+				<LMMLtext>Ja. Hier liegt eine<referencesLink show="new" type="defines" target="internefokalisierungdef"> interne
+Fokalisierung</referencesLink> vor.</LMMLtext>
+			</task>
+			<solution label="uebungzurinternenfokalisierungL1" true="true">
+				<LMMLtext>Zwei Indizien
+sprechen für eine interne Fokalisierung: a) „mit hochklopfendem Herzen“ ist
+eine Innensicht; b) „fand eine Einladungskarte“ beschreibt einen Umstand (dass
+eine Einladungskarte für Nathanael in seiner Post liegt) aus der Sichtweise von
+Nathanael.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebungzurinternenfokalisierungL2">
+				<LMMLtext>Nein. Hier liegt keine
+<referencesLink show="new" type="defines" target="internefokalisierungdef">interne Fokalisierung</referencesLink> vor.</LMMLtext>
+			</task>
+			<solution label="uebungzurinternenfokalisierungL2" true="false">
+				<LMMLtext>Es liegt <referencesLink show="new" type="defines" target="internefokalisierungdef">interne Fokalisierung</referencesLink> vor. Zwei Indizien sprechen dafür: a) „mit hochklopfendem
+Herzen“ ist eine Innensicht; b) „fand eine Einladungskarte“ beschreibt einen
+Umstand (dass eine Einladungskarte für Nathanael in seiner Post liegt) aus der
+Sichtweise von Nathanael.</LMMLtext>
+			</solution>
+			<task type="alternative" target="uebungzurinternenfokalisierungL3">
+				<LMMLtext>Im Text wechselt die
+Fokalisierung; <referencesLink show="new" type="defines" target="internefokalisierungdef">interne Fokalisierung</referencesLink> liegt zum Teil
+vor.</LMMLtext>
+			</task>
+			<solution label="uebungzurinternenfokalisierungL3" true="false">
+				<LMMLtext> Es liegt kein Indiz für einen Wechsel der Fokalisierung
+vor.</LMMLtext>
+			</solution>
+		</exercise>
+	</section>
+</lmml>

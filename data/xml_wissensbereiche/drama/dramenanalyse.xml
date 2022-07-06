@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/left.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd/LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="coaching" title="Dramenanalyse" author="Katrin Fischer" creationTime="25.04,05" label="dramenanalyse">
+		<illustration>
+			<table style="invisible">
+				<tablerow>
+					<tabledata>
+						<LMMLtext/>
+						<LMMLtext>In diesem Bereich werden die Grundbegriffe dramatischer Texte erläutert. [Im Aufbau] Sie können entweder einen der Begriffe aus dem Inhaltsverzeichnis direkt anwählen, oder sich, ausgehend von der Seite "Drama",  mit den Pfeil am rechten unteren Seitenrand durch diesen Bereich führen lassen.</LMMLtext>
+						<LMMLtext type="inhaltsverzeichnis" uri="drama"/>
+					</tabledata>
+				</tablerow>
+			</table>
+		</illustration>
+	</section>
+</lmml>

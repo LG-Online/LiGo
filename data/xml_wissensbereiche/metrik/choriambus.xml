@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Choriambus" author="Sebastian Donat" creationTime="24.03.2008" label="choriambus" topics="Choriambus">
+		<definition title="Choriambus" label="choriambusdef">
+			<LMMLtext>Viersilbiger Versfuß der Form - v v -.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Der Choriambus läßt sich deuten als Kombination eines <referencesLink target="trochaeus">
+					<referencesLink show="new" type="defines" target="trochaeusdef">Trochäus</referencesLink>
+				</referencesLink> und eines <referencesLink target="jambus">
+					<referencesLink show="new" type="defines" target="jambusdef">Jambus</referencesLink>
+				</referencesLink>. Er ist ein wichtiger Bestandteil bestimmter zusammengesetzter antiker bzw. antikisierender Versmaße, kommt aber nur selten eigenständig vor.<referencesLink type="illustrates" target="beispielchoriambusBsp"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Choriambus" label="beispielchoriambusBsp">
+			<poem authorname="Stefan" authorfamily="George" title="An Apollonia">
+				<poemlinegroup>
+					<poemline>Traue dem glück! lacht es auch heut · Apollonia · nicht.</poemline>
+					<poemline>Nötiger schmerz blich dein gesicht · doch es zeigt dass du bald</poemline>
+					<poemline>Schmiegsam und stark über ihn siegst · nie mehr lohe dann glut</poemline>
+					<poemline>Rüttle dann sturm an deinem haus · nie mehr walte das spiel</poemline>
+					<poemline>Wo unser fuss wange und hand gar zu nah sich gefühlt.</poemline>
+					<poemline>Göttin und welt · gattin des Tros der mich brüderlich liebt</poemline>
+					<poemline>Den du erhobst als er zu sehr Pirras halber geklagt!</poemline>
+					<poemline>Fern will ich sein: richtest du neu glänzend blühend dich auf</poemline>
+					<poemline>Gemmen dein aug · kirschen dein mund · reife halme dein haar.</poemline>
+				</poemlinegroup>
+			</poem>
+			<illustration label="beispielchoriambusBspIllu">
+				<LMMLtext>In diesem Gedicht dient der Choriambus als Grundbaustein, der in jeder Zeile dreimal verwendet wird. Dabei sind besonders die ersten beiden Choriamben durch die durchgehenden <referencesLink target="diaerese">
+						<referencesLink show="new" type="defines" target="diaeresedef">Diäresen</referencesLink>
+					</referencesLink> nach der vierten und achten Silbe als metrische Einheiten hervorgehoben (<referencesLink show="new" type="book" target="Breuer1994">Breuer 1994</referencesLink>, S. 263f.). Das zeilenweise identisch wiederholte <referencesLink show="new" type="defines" target="metrischesschemadef">metrische Schema</referencesLink> lautet: - v v - | - v v - | - v - v v -.</LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

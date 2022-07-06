@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Analepse" author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="15.12.2007" label="analepse">
+		<definition title="Analepse" label="analepsedef">
+			<LMMLtext>Ein Ereignis, das sich in der Geschichte früher ereignet hat, wird im Discours an späterer Stelle dargestellt. (B A C) Im Gegensatz zu <referencesLink target="prolepse">
+					<referencesLink show="new" type="defines" target="prolepsedef">Prolepsen</referencesLink>
+				</referencesLink> sind Analepsen ein häufig angewendetes Erzählverfahren.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Kleinere oder größere Rückblenden werden häufig in Texte eingebunden um handlungsrelevante Informationen nachzulieferen. Dieses Verfahren kann aber auch für den Text insgesamt angwendet werden, wie es zum Beispiel in Ilse Aichingers <formatted style="buchtitel">Spiegelgeschichte</formatted> (1952) der Fall ist, die mit dem Sterben einer jungen Frau beginnt und dann in einer einzigen großen rückwärts erzählten Analepse ihre Lebensgeschichte erzählt. Am Ende fallen Geburt und Sterben zusammen.</LMMLtext>
+		</illustration>
+		<definition title="Aufbauende Rückwendung" label="aufbauenderückwendung">
+			<LMMLtext>Auch als der Einstieg ‚in medias res’ bezeichnet. Komplexe Form des Erzählens wie wir sie schon seit Homer kennen. Typisch ist sie z.B. für die Kriminalgeschichte, die mit einem rätselhaften Ereignis beginnt und deren Handlung in der Rekonstruktion der Vorgeschichte besteht.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>
+				<externalLink show="embed" uri="analepse.swf">
+					<?xm-replace_text {LMMLtext}?>
+				</externalLink>
+			Beispiel Analepse</LMMLtext>
+			<LMMLtext>
+				<referencesLink type="exercises" target="uebungzuranalepseUeb"/>
+			</LMMLtext>
+		</illustration>
+		<exercise label="uebungzuranalepseUeb" title="Übung zur Analepse" topics="markieren">
+			<task type="selection">
+				<quotation booktitle="Der Zweikampf (Beginn)" authorname="Heinrich" authorfamily="von Kleist">
+					<LMMLtext>Herzog Wilhelm von Breysach, der, seit seiner heimlichen Verbindung mit einer Gräfin, namens Katharina von Heersbruck, aus dem Hause Alt-Hüningen, die unter seinem Range zu sein schien, mit seinem Halbbruder, dem Grafen Jakob dem Rotbart, in Feindschaft lebte, kam gegen das Ende des vierzehnten Jahrhunderts, da die Nacht des heiligen Remigius zu dämmern begann, von einer in Worms mit dem deutschen Kaiser abgehaltenen Zusammenkunft zurück, worin er sich von diesem Herrn, in Ermangelung ehelicher Kinder, die ihm gestorben waren, die Legitimation eines, mit seiner Gemahlin vor der Ehe erzeugten, natürlichen Sohnes, des Grafen Philipp von Hüningen, <formatted style="style1">ausgewirkt hatte</formatted>. Freudiger, als während des ganzen Laufs seiner Regierung in die Zukunft blickend, hatte er schon den Park, der hinter seinemSchlosse lag, erreicht: als plötzlich ein Pfeilschuß aus dem Dunkel der Gebüsche hervorbrach, und ihm, dicht unter dem Brustknochen, den Leib durchbohrte.</LMMLtext>
+				</quotation>
+				<LMMLtext type="answerText">Das Plusquamperfekt zeigt hier an, dass die Unterredung zwischen dem Herzog und dem Kaiser von der Erzählgegenwart aus gesehen in der Vergangenheit statt gefunden hat: Das Spätere (die Heimkehr des Herzogs) wird also vor dem Früheren erzählt.</LMMLtext>
+			</task>
+			<task type="fragestellung">
+				<LMMLtext>Wo finden sich im folgenden Text Signale für eine <referencesLink show="new" type="defines" target="analepsedef">Analepse</referencesLink>? Markieren Sie sie gelb.</LMMLtext>
+				<LMMLtext>
+					<referencesLink type="exercises" target="wwUeb"/>
+				</LMMLtext>
+			</task>
+		</exercise>
+		
+	</section>
+</lmml>

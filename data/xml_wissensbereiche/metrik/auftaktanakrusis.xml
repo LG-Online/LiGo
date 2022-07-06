@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Auftakt/Anakrusis" author="Sebastian Donat" creationTime="23.03.2008" label="auftaktanakrusis" topics="Auftakt/Anakrusis">
+		<definition title="Auftakt/Anakrusis" label="auftaktanakrusisdef">
+			<LMMLtext>Metrisch-rhythmische Gestaltung des Versanfangs <referencesLink target="versgrenzen">
+					<referencesLink show="new" type="defines" target="versgrenzendef">(Versgrenzen</referencesLink>
+				</referencesLink>).</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Der Auftakt bezeichnet entweder pauschal den Bereich am Versanfang vor der ersten <referencesLink target="hebung">
+					<referencesLink show="new" type="defines" target="hebungdef">Hebung</referencesLink>
+				</referencesLink> oder spezieller die Senkungen, die dem eigentlichen Metrum vorausgehen.</LMMLtext>
+			<LMMLtext>Problematisch an der ersten Verwendungsweise ist, daß damit die interne Differenzierung der zwei- und dreisilbigen <referencesLink target="versfuss">
+					<referencesLink show="new" type="defines" target="versfussdef">Versfüße</referencesLink>
+				</referencesLink> aufgehoben wird: Ein <referencesLink target="jambus">
+					<referencesLink show="new" type="defines" target="jambusdef">Jambus</referencesLink>
+				</referencesLink> wird so zum <referencesLink target="trochaeus">
+					<referencesLink show="new" type="defines" target="trochaeusdef">Trochäus</referencesLink>
+				</referencesLink> mit einsilbigem Auftakt; <referencesLink target="anapaest">
+					<referencesLink show="new" type="defines" target="anapaestdef">Anapäst</referencesLink>
+				</referencesLink> und <referencesLink target="amphibrachys">
+					<referencesLink show="new" type="defines" target="amphibrachysdef">Amphibrachys</referencesLink>
+				</referencesLink> werden auf den <referencesLink target="daktylus">
+					<referencesLink show="new" type="defines" target="daktylusdef">Daktylus</referencesLink>
+				</referencesLink> zurückgeführt (mit zwei- bzw. einsilbigem Auftakt).</LMMLtext>
+			<LMMLtext>Die zweite, sinnvollere Verwendungsweise bezeichnet dagegen echte rhythmische Varianten bestimmter <referencesLink target="versmasse">Versmaße</referencesLink>.<referencesLink type="illustrates" target="beispielauftaktanakrusisBsp"/>
+			</LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Auftakt/Anakrusis" label="beispielauftaktanakrusisBsp">
+			<quotation booktitle="Kinderglaube, Beginn" authorname="Christian" authorfamily="Morgenstern"/>
+			<illustration label="beispielauftaktanakrusisBspIllu">
+				<table style="invisible">
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Heut ritt ich im Traum</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>auf schneeweißem Pferde</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>ohne Zügel und Zaum</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x x X x x X</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>rings um die Erde.</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Und wo ein Dach,</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x X</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>war ein Treiben</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>hinter den Scheiben:</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Alles war wach!</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x x X</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata/>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>Großäugig, tieflockig,</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x x X x x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>schmalfüßig, kurzrockig,</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x x X x x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>lugten die Kindlein</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>X x x X x</LMMLtext>
+						</tabledata>
+					</tablerow>
+					<tablerow>
+						<tabledata>
+							<LMMLtext>der Menschen mir nach.</LMMLtext>
+						</tabledata>
+						<tabledata>
+							<LMMLtext>x X x x X</LMMLtext>
+						</tabledata>
+					</tablerow>
+				</table>
+				<LMMLtext>Es handelt sich hier um einen gereimten, durchgehend zweihebigen Vers mit 1-2silbigen nicht-prominenten Intervallen (<referencesLink target="versemitfuellungsfreiheit">
+						<referencesLink show="new" type="defines" target="versemitfuellungsfreiheitdef">Verse mit Füllungsfreiheit</referencesLink>
+					</referencesLink>, <referencesLink target="dolnik">
+						<referencesLink show="new" type="defines" target="dolnikdef">Dol’nik</referencesLink>
+					</referencesLink>). Die rhythmische Grundfigur bzw. der dominierende metrische Baustein ist der <referencesLink target="choriambus">
+						<referencesLink show="new" type="defines" target="choriambusdef">Choriambus</referencesLink>
+					</referencesLink> (- v v -), mit dem der Vers unmittelbar einsetzt oder dem ein 1-2silbiger Auftakt vorgeschaltet ist (oben durch Unterstreichung hervorgehoben).</LMMLtext>
+				<LMMLtext>Allerdings ist die hier vorgelegte metrisch-rhythmische Rekonstruktion (zumal im Kontext von Morgensterns Gedichtsammlung <formatted style="buchtitel">Auf vielen Wegen</formatted>) zwar naheliegend, aber keineswegs alternativlos. So könnte V. 3 durchaus auch dreihebig gelesen werden (X x X x x X). </LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

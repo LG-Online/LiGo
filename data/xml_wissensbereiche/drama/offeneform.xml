@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Offene Form" author="Martin Huber, Elisabeth Böhm"
+		creationTime="09.09.2007" label="offeneform" topics="Offene Form">
+		<definition title="Offene Form" label="offeneformdef">
+			<LMMLtext>Gegenmodell zur <referencesLink target="geschlosseneform"><referencesLink
+						show="new" type="defines" target="geschlosseneformdef">geschlossenen
+						Form</referencesLink></referencesLink> und daher „ex negativo“ bestimmt bzw.
+				in bewusster Differenz zu dieser gestaltet. Die Forderung nach einem
+				voraussetzungslosen Anfang und einem endgültigen Ende wird somit negiert. Das Drama
+				bildet nicht mehr ein geschlossenes, hierarchisch organisiertes Ganzes, sondern
+				stellt ein Ensemble von Einzelsequenzen dar.</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Die offene Form des Dramas stellt als Gegenmodell zur geschlossenen Form
+				genauso einen Idealtyp dar, der die <referencesLink target="dreieinheiten"
+						><referencesLink show="new" type="defines" target="dreieinheitendef">drei
+						Einheiten</referencesLink></referencesLink> weitgehend suspendiert, über
+				großes <referencesLink target="figurengruppen">Personal</referencesLink> verfügt,
+				verschiedene Sprachniveaus enthält und nicht unbedingt den üblichen Regeln der
+				Gliederung folgt. Realiter wird er repräsentiert durch ein Konglomerat von vielen
+				diversen Dramentypen aus unterschiedlichen Epochen, die sich nicht den
+				klassizistischen Regeln beugen und sich z.B. auf Shakespeare als Vorbild berufen. So
+				können mit diesem Überbegriff zum Beispiel Dramen aus dem Sturm und Drang ebenso
+				benannt werden wie Büchners Dramen oder Werke aus dem Naturalismus. Die intentionale
+				Handlung wird oft ersetzt durch ein Geschehen, welches den Figuren widerfährt. Das
+				Drama zeigt einen Abschnitt im Leben der handelnden Figuren und erhebt somit keinen
+				Anspruch auf Vollständigkeit der Fabel (Bsp.: Dokumentartheater).</LMMLtext>
+			<LMMLtext>Die Einheit der Fabel, welche in der <referencesLink target="geschlosseneform"
+						><referencesLink show="new" type="defines" target="geschlosseneformdef"
+						>geschlossenen Form</referencesLink></referencesLink> gefordert wird, wird
+				in der offenen Form durch die Gleichsetzung der einzelnen Sequenzen gebrochen. Die
+				Grenzen zwischen Haupt- und Nebenhandlung verschwimmen bis zur Verschmelzung.
+				Dadurch fehlt auch die klare hierarchische Abstufung des Personals in
+					<referencesLink target="hauptfiguren"><referencesLink show="new" type="defines"
+						target="hauptfigurendef">Haupt-</referencesLink></referencesLink> und
+					<referencesLink target="nebenfiguren"><referencesLink show="new" type="defines"
+						target="nebenfigurendef"
+				>Nebenfiguren</referencesLink></referencesLink>.</LMMLtext>
+			<LMMLtext>Im Gegensatz zur geschlossenen Form dominiert hier die individuelle Erfahrung.
+				So sind nicht nur die Figuren dominant individualistisch gezeichnet, sondern das
+				ganze Drama verkehrt sich in seinem Aufbau: Die einzelnen Geschehnisse werden nicht
+				mehr durch ihren Bezug auf das Ganze definiert, sondern die einzelnen Teile bilden
+				den Schwerpunkt und ergeben am Ende die Darstellung eines Ganzen. Ebenso stellt die
+				Fabel kein ideelles Problem mehr dar, vielmehr dominiert das konkret-individuelle
+				Erlebnis. Erschließt sich das geschlossene Drama also deduktiv, ist die offene Form
+				auf induktive Weise zu verstehen.</LMMLtext>
+			<LMMLtext>Ordnungsprinzipien wie zyklische, repetitive oder kontrastierende Anordnungen
+				ersetzen das Fehlen der linearen Finalität des geschlossenen Dramas. Durch das
+				Aufbrechen dieser starken Zielspannung besitzen die Gliederungseinheiten wie
+					<referencesLink target="akt"><referencesLink show="new" type="defines"
+						target="aktdef">Akt</referencesLink></referencesLink> und <referencesLink
+					target="szened"><referencesLink show="new" type="defines" target="szeneddef"
+						>Szene</referencesLink></referencesLink> eine andere Funktion, oder können
+				irrelevant werden. Die Auflösung einer handlungspragmatischen Verknüpfung kann
+				kompensiert werden durch die Beiordnung komplementärer Sequenzen, durch
+				metaphorische Verklammerung oder auch durch die Möglichkeit eines zentralen
+				Ichs.</LMMLtext>
+			<LMMLtext>Ideelle Probleme werden kaum mehr thematisiert, dagegen treten häufig
+				verschiedene Problembereiche auf, die sich in der Disparität der Anlage genauso
+				manifestieren wie in der häufig gestörten Kommunikation zwischen den
+				Figuren.</LMMLtext>
+			<LMMLtext><referencesLink type="illustrates" target="beispielzurunterscheidungvongeschlossenerundoffenerformBsp"/></LMMLtext>
+		</illustration>
+		<section type="example"
+			title="Beispiel zur Unterscheidung von geschlossener und offener Form"
+			label="beispielzurunterscheidungvongeschlossenerundoffenerformBsp">
+			<illustration>
+				<LMMLtext>An zwei Dramen von Johann Wolfgang Goethe lassen sich die Unterschiede
+					zwischen offener und geschlossener Form deutlich zeigen. <formatted
+						style="buchtitel">Götz von Berlichingen</formatted> und <formatted
+						style="buchtitel">Iphigenie auf Tauris</formatted> unterscheiden sich
+					diametral was Personal, Schauplätze, Zeit, Sprache, Einteilung etc. angeht.
+					Schon an der Angabe der dramatis personae wird dieser Unterschied
+					offenkundig:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Götz von Berlichingen" authorname="Johann Wolfgang"
+				authorfamily="von Goethe">
+				<LMMLtext type="br">Personen:</LMMLtext>
+				<LMMLtext type="br">Kaiser Maximilian</LMMLtext>
+				<LMMLtext type="br">Götz von Berlichingen</LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Elisabeth</formatted>, seine
+					Frau</LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Maria</formatted>, seine
+					Schwester</LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Karl</formatted>, sein
+					Söhnchen</LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Georg</formatted>, sein
+					Bube</LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Bischof von
+					Bamberg</formatted></LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Weislingen, Adelheid von
+						Walldorf, Liebetraut</formatted> an des Bischofs Hofe</LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Abt von
+					Fulda</formatted></LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Olearius</formatted>, beider
+					Rechte Doktor</LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Bruder
+					Martin</formatted></LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Hans von
+					Selbitz</formatted></LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Franz von
+					Sickingen</formatted></LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Lerse</formatted></LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Franz</formatted>, Weislingens
+					Bube</LMMLtext>
+				<LMMLtext type="br">Kammerfräulein der Adelheid</LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Metzler, Sievers, Link, Kohl,
+						Wild</formatted>, Anführer der rebellischen Bauern</LMMLtext>
+				<LMMLtext type="br">Hoffrauen, Hofleute, am Bambergschen Hofe</LMMLtext>
+				<LMMLtext type="br">Kaiserliche Räte</LMMLtext>
+				<LMMLtext type="br">Ratsherrn von Heilbronn</LMMLtext>
+				<LMMLtext type="br">Richter des heimlichen Gerichts</LMMLtext>
+				<LMMLtext type="br">Zwei Nürnberger Kaufleute</LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Max Stumpf</formatted>,
+					Pfalzgräflicher Diener</LMMLtext>
+				<LMMLtext type="br">Ein Unbekannter</LMMLtext>
+				<LMMLtext type="br">Brautvater und Bräutigam, Bauern</LMMLtext>
+				<LMMLtext type="br">Berlichingsche, Weislingsche, Bambergsche Reiter</LMMLtext>
+				<LMMLtext type="br">Hauptleute, Offiziere, Knechte von der Reichsarmee</LMMLtext>
+				<LMMLtext type="br">Schenkwirt</LMMLtext>
+				<LMMLtext type="br">Gerichtsdiener</LMMLtext>
+				<LMMLtext type="br">Heilbronner Bürger</LMMLtext>
+				<LMMLtext type="br">Stadtwache</LMMLtext>
+				<LMMLtext type="br">Gefängniswärter</LMMLtext>
+				<LMMLtext type="br">Bauern</LMMLtext>
+				<LMMLtext type="br">Zigeunerhauptmann</LMMLtext>
+				<LMMLtext type="br">Zigeuner, Zigeunerinnen</LMMLtext>
+			</quotation>
+			<quotation booktitle="Iphigenie auf Tauris" authorname="Johann Wolfgang"
+				authorfamily="von Goethe">
+				<LMMLtext type="br">Personen:</LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Iphigenie</formatted></LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Thoas</formatted>, König der
+					Taurier</LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Orest</formatted></LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Pylades</formatted></LMMLtext>
+				<LMMLtext type="br"><formatted style="hervorhebung">Arkas</formatted></LMMLtext>
+				<LMMLtext type="br">Schauplatz</LMMLtext>
+				<LMMLtext type="br">Hain vor Dianens Tempel</LMMLtext>
+			</quotation>
+			<illustration label="beispielzurunterscheidungvongeschlossenerundoffenerformBspIllu">
+				<LMMLtext>Während die große Anzahl auftretender Figuren beim <formatted
+						style="buchtitel">Götz</formatted> schon nahe legt, dass die Handlung an
+					mehr als nur einem Schauplatz stattfinden wird und sich über einen längeren
+					Zeitraum erstrecken wird, ist das Personal in der <formatted style="buchtitel"
+						>Iphigenie</formatted> so reduziert, dass ein einziger Schauplatz ausreicht,
+					um den Konflikt zu entwickeln und zu lösen.</LMMLtext>
+			</illustration>
+		</section>
+	</section>
+</lmml>

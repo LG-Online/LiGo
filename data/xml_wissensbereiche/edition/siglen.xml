@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Siglen" author="Ulrich Joost" creationTime="14.01.2008"
+        label="siglen" topics="Siglen">
+        <illustration>
+            <LMMLtext><referencesLink type="exercises" target="uebungsiglenUeb"/></LMMLtext>
+        </illustration>
+        <exercise topics="alternativen" label="uebungsiglenUeb" title="Übung Siglen">
+            <task type="fragestellung">
+                <LMMLtext>Wie nennt man im Apparat verwendete Abkürzungen wie H1 für eine bestimmte
+                    Handschrift?</LMMLtext>
+            </task>
+            <task type="alternative" target="uebungsiglenL1">
+                <LMMLtext>Regesten</LMMLtext>
+            </task>
+            <solution label="uebungsiglenL1" true="false">
+                <LMMLtext> </LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungsiglenL2">
+                <LMMLtext>Zeugen</LMMLtext>
+            </task>
+            <solution label="uebungsiglenL2" true="false">
+                <LMMLtext> </LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungsiglenL3">
+                <LMMLtext>Siglen</LMMLtext>
+            </task>
+            <solution label="uebungsiglenL3" true="true">
+                <LMMLtext> </LMMLtext>
+            </solution>
+        </exercise>
+    </section>
+</lmml>

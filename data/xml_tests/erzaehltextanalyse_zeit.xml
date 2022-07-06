@@ -1,0 +1,14 @@
+<exerciselist time="420" title="Erzähltextanalyse (Zeit)">
+    <exercise section="prosa" location="prolepse" locallabel="uebungprolepseUeb"
+        title="bung Prolepse" type="multiplechoice"/>
+    <exercise section="prosa" location="szene" locallabel="uebungszeneUeb" title="bung Szene"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="raffung" locallabel="uebungzumraffendenerzaehlenUeb"
+        title="bung zum raffenden Erzhlen" type="multiplechoice"/>
+    <exercise section="prosa" location="singulativeserzaehlen"
+        locallabel="uebungzumsingulativenerzaehlenUeb" title="bung zum singulativen Erzhlen"
+        type="multiplechoice"/>
+    <exercise section="prosa" location="iterativeserzaehlen"
+        locallabel="uebungzumiterativenerzaehlenUeb" title="bung zum iterativen Erzhlen"
+        type="multiplechoice"/>
+</exerciselist>

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Organisationsmuster der Vermittlung" author="Hamburg" creationTime="15.01.2006" label="organisationsmusterdervermittlung" topics="Vermittlung"><illustration><LMMLtext>Das Organisationsmuster der Vermittlung lässt sich erfassen durch die Analyse der</LMMLtext><ulist><item><LMMLtext>textinternen Sprechsituation (ggf. auch des textexternen Rede-Anlasses); Vermittlungsinstanzen (Stimmen) und Perspektivierungen sowie ihrer Zuordnungen; Aussageweisen (z. B. Ironie, Paradox, Emphase, Sarkasmus);</LMMLtext></item><item><LMMLtext>Aspekten der Verrätselung (Zahlensymbolik, Akrostichon etc.).</LMMLtext></item></ulist></illustration></section></lmml>

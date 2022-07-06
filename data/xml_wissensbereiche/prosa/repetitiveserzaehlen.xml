@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
+<!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Repetitives Erzählen"
+        author="Fotis Jannidis, Uwe Spörl, Katrin Fischer" creationTime="03.08.2005"
+        label="repetitiveserzaehlen" modifiedTime="27.10.07">
+        <definition title="Repetitives Erzählen" label="repetitiveserzaehlendef">
+            <LMMLtext>Beim repetitiven Erzählen wird ein Ereignis wiederholt erzählt, das einmal
+                geschehen ist (n-mal erzählen, was einmal geschehen ist).</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Das recht seltene repetitive Erzählen widmet also einem bestimmten Ereignis
+                der Geschichte die wiederholte Aufmerksamkeit des Discours, womit diesem Ereignis
+                natürlich auch die besondere Aufmerksamkeit des Lesers zukommt.<referencesLink
+                    type="illustrates" target="beispielrepetitiveserzaehlenBsp"/><referencesLink
+                    type="exercises" target="uebungzumrepetitivenerzaehlenUeb"/></LMMLtext>
+        </illustration>
+        <exercise label="uebungzumrepetitivenerzaehlenUeb" title="Übung zum repetitiven Erzählen"
+            topics="multiplechoice">
+            <task type="textbeispiel">
+                <quotation booktitle="Mutmassungen über Jakob (Beginn)" authorname="Uwe"
+                    authorfamily="Johnson">
+                    <LMMLtext>Aber Jakob ist immer quer über die Gleise gegangen.</LMMLtext>
+                    <LMMLtext>- Aber er ist doch immer quer über die Rangiergleise und die Ausfahrt
+                        gegangen, warum, aussen auf der anderen Seite um den Bahnhof bis zum
+                        Strassenübergang hätt er eine halbe Stunde länger gebraucht bis zur
+                        Strassenbahn. Und er war sieben Jahre bei der Eisenbahn.</LMMLtext>
+                    <LMMLtext>- Nun sieh dir mal das Wetter an, so ein November, kannst keine zehn
+                        Schritt weit sehen vor Nebel, besonders am Morgen, und alles so glatt. Da
+                        kann einer leicht ausrutschen. So ein Krümel Rangierlok ist dann beinah gar
+                        nicht zu hören, sehen kannst sie noch weniger.</LMMLtext>
+                    <LMMLtext>- Jakob war sieben Jahre bei der Eisenbahn will ich dir sagen, und
+                        wenn irgend wo sich was gerührt hat was auf Schienen fahren konnte, dann hat
+                        er das wohl genau gehört.</LMMLtext>
+                </quotation>
+            </task>
+            <task type="fragestellung">
+                <LMMLtext>So beginnt Uwe Johnsons erster veröffentlichter Roman <formatted
+                        style="buchtitel">Mutmassungen über Jakob</formatted>. Ganz offensichtlich
+                    beschäftigen sich hier gleich mehrere ‚Stimmen’ mit ein und demselben
+                    Ereignis.</LMMLtext>
+            </task>
+            <task type="alternative" target="uebungzumrepetitivenerzaehlenL1">
+                <LMMLtext>Liegt hier also <referencesLink show="new" type="defines"
+                        target="repetitiveserzaehlendef">repetitives Erzählen
+                    </referencesLink> vor?</LMMLtext>
+            </task>
+            <solution label="uebungzumrepetitivenerzaehlenL1" true="false">
+                <LMMLtext> Obgleich es in einem bestimmten Sinne auch zutreffend ist. Das Ereignis,
+                    um das es dem Erzähler (in der ersten Textzeile) und den drei ‚Zeugen-Stimmen’ -
+                    und dem Roman insgesamt - offensichtlich geht, ist, so können wir schließen, der
+                    schwer begreifliche Tod des Bahnarbeiters Jakob, der nachts im Nebel von einer
+                    Rangierlok überfahren worden ist. <formatted style="hervorhebung"
+                        >Erzählt</formatted> wird dieses zentrale Ereignis aber gerade nicht. -
+                    Zurecht kann man aber behaupten, dass repetitiv von Jakobs Gewohnheiten erzählt
+                    wird, insbesondere der, zur Abkürzung quer über die Gleise zu gehen.</LMMLtext>
+            </solution>
+            <task type="alternative" target="uebungzumrepetitivenerzaehlenL2">
+                <LMMLtext>Oder doch nicht?</LMMLtext>
+            </task>
+            <solution label="uebungzumrepetitivenerzaehlenL2" true="true">
+                <LMMLtext>Zumindest gibt es gute Gründe, das anzunehmen. Denn das Ereignis, um das
+                    es dem Erzähler (in der ersten Textzeile) und den drei ‚Zeugen-Stimmen’ - und
+                    dem Roman insgesamt - offensichtlich geht, ist, so können wir schließen, der
+                    schwer begreifliche Tod des Bahnarbeiters Jakob, der nachts im Nebel von einer
+                    Rangierlok überfahren worden ist. Erzählt wird dieses zentrale Ereignis aber
+                    gerade nicht. - Zurecht kann man aber behaupten, dass repetitiv von Jakobs
+                    Gewohnheiten erzählt wird, insbesondere der, zur Abkürzung quer über die Gleise
+                    zu gehen.</LMMLtext>
+            </solution>
+        </exercise>
+        <section type="example" title="Beispiel repetitives Erzählen"
+            label="beispielrepetitiveserzaehlenBsp">
+            <quotation booktitle="Thinks" authorname="David" authorfamily="Lodge">
+                <LMMLtext>„Musst du heute nachmittag nicht mehr arbeiten?“, sagte sie ebenso
+                    leichthin.</LMMLtext>
+                <LMMLtext>„Es gibt nur noch eine langweilige Ausschußsitzung, auf die ich gut und
+                    gerne verzichten kann“, sagte er. „Wir könnten in dein gemütliches kleines
+                    Schlafzimmer hinaufgehen und ein wenig abliegen.“</LMMLtext>
+                <LMMLtext>Helen lässt den Wein langsam in ihrem Glas kreisen. „Ich habe dir gesagt,
+                    ich will keine Affäre mit dir, Ralph.“</LMMLtext>
+                <LMMLtext>„Warum nicht?“</LMMLtext>
+                <LMMLtext>„Ich kann Ehebruch nicht billigen.“</LMMLtext>
+                <LMMLtext>„Naja, solange es nicht deswegen ist, weil du mich unattraktiv findest“,
+                    sagte er.</LMMLtext>
+            </quotation>
+            <illustration label="beispielrepetitiveserzaehlenBspIllu">
+                <LMMLtext>So berichtet der Erzähler aus David Lodges Campus-Novel <formatted
+                        style="buchtitel">Thinks</formatted> (dt. Denkt) von der hier noch
+                    verhinderten ‚Liebe am Nachmittag’ zwischen dem verheirateten
+                    Kognitionswissenschaftler Ralph und der verwitweten Schriftstellerin Helen. Doch
+                    sie führt Tagebuch, und er diktiert tagebuchähnliche Memos, die im Roman
+                    ebenfalls präsentiert werden:</LMMLtext>
+            </illustration>
+            <quotation booktitle="Thinks" authorname="David" authorfamily="Lodge">
+                <LMMLtext>[Helens Tagebuch] Freitag, 21. März. Ralph ist gerade gegangen, nachdem er
+                    versucht hat, mich ins Bett zu bekommen - was ihm nicht gelungen ist. Es war
+                    knapp, viel knapper, als er sich vorstellen konnte, vermute ich.</LMMLtext>
+            </quotation>
+            <illustration>
+                <LMMLtext>Und etwas später:</LMMLtext>
+            </illustration>
+            <quotation booktitle="Thinks" authorname="David" authorfamily="Lodge">
+                <LMMLtext>[Ralphs Tonband] [...] Kein Zweifel, sie wollte mich sehen, aber
+                    unglücklicherweise hat sie Skrupel, mit mir zu ficken...Schade, ich bin wirklich
+                    scharf auf sie ...</LMMLtext>
+                <LMMLtext>Also gab es für mich statt Liebe am Nachmittag drei tödlich langweilige
+                    Stunden mit der Arbeitsgruppe des Senats zur interfakultären, modularen
+                    Kompatibilität.</LMMLtext>
+            </quotation>
+            <illustration>
+                <LMMLtext>Ein und dasselbe Ereignis (bzw. seine Verhinderung) wird hier in drei
+                    Versionen erzählt, sodass nicht nur das Ereignis selbst, sondern auch seine
+                    Handlungsträger, das außereheliche Paar, und ihr Verhältnis zu dem Ereignis
+                    dargestellt werden können - ein durchaus übliches Ziel <referencesLink
+                        show="new" type="defines" target="repetitiveserzaehlendef">repetitiven
+                        Erzählens,</referencesLink> wie es hier offenkundig vorliegt.</LMMLtext>
+            </illustration>
+        </section>
+    </section>
+</lmml>
