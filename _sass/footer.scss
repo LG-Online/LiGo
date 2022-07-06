@@ -11,8 +11,10 @@
     color: #003aad;
 }
 
-.footer_link:hover {
-    color: #9c0707;
+@media (hover: hover) {
+    .footer_link:hover {
+        color: #9c0707;
+    }
 }
 
 .uni_logo_small, .footer_link {
@@ -30,7 +32,7 @@
     display: none;
 }
 
-@media screen and (max-width : 625px) {
+@media screen and (max-width: 625px) {
     .uni_link {
         display: inline;
     }

@@ -1,20 +1,4 @@
-/* Suche-Button für Bootstrap-Navigationsleiste */
-
-.btn-primary {
-    color: white !important;
-    background-color: #003aad !important;
-    border-color: #003aad !important;
-    border-radius: 0px !important;
-}
-
-.btn-primary:hover {
-    color: #003aad !important;
-    background-color: white !important;
-    border-color: #003aad !important;
-}
-
-
-/* Auswahl-Button Medium für Übungen und Kursseiten */
+/* Buttons für die Startseite */
 
 .button-m {
     color: white;
@@ -30,13 +14,15 @@
     cursor: pointer;
 }
 
-.button-m:hover {
-    color: #003aad;
-    background-color: white;
+@media (hover: hover) {
+    .button-m:hover {
+        color: #003aad;
+        background-color: white;
+    }
 }
 
 
-/* Auswahl-Button Large für Startseite und Auswahlseiten */
+/* Buttons für die Auswahlseiten */
 
 .button-l {
     color: #003aad;
@@ -52,27 +38,11 @@
     cursor: pointer;
 }
 
-.button-l:hover {
-    color: white;
-    background-color: #003aad;
-}
-
-
-/* Alle Ausklappen/Einklappen-Button für Drop-Down-Listen & Kursseiten */
-
-.expand-collapse-button {
-    color: #003aad;
-    background-color: white;
-    border: 2px solid #003aad;
-    border-radius: 3px;
-    text-decoration: none;
-    margin: 1vh 0;
-    cursor: pointer;
-}
-
-.expand-collapse-button:hover {
-    color: white;
-    background-color: #003aad;
+@media (hover: hover) {
+    .button-l:hover {
+        color: white;
+        background-color: #003aad;
+    }
 }
 
 
@@ -89,8 +59,30 @@
     cursor: pointer;
 }
 
-.exercise_buttons >*:hover {
+@media (hover: hover) {
+    .exercise_buttons >*:hover {
+        color: #003aad;
+        background-color: white;
+        border: 2px solid #003aad;
+    }
+}
+
+
+/* Alle Ausklappen/Einklappen-Button für Drop-Down-Listen und Kursseiten */
+
+.expand-collapse-button {
     color: #003aad;
     background-color: white;
     border: 2px solid #003aad;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 1vh 0;
+    cursor: pointer;
+}
+
+@media (hover: hover) {
+    .expand-collapse-button:hover {
+        color: white;
+        background-color: #003aad;
+    }
 }

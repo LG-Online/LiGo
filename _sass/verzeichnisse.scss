@@ -17,8 +17,10 @@
     white-space: nowrap;
 }
 
-.toc_link:hover, .gloss_link:hover, .top_link:hover {
-    color: #9c0707;
+@media (hover: hover) {
+    .toc_link:hover, .gloss_link:hover, .top_link:hover {
+        color: #9c0707;
+    }
 }
 
 .gloss_term, .bib_author, .pers_name {

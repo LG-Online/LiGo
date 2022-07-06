@@ -62,25 +62,25 @@ details[open] > .pop_over_link {
 }
 
 
-@media screen and (max-width : 599px) {
+@media screen and (max-width: 599px) {
     details > summary + * {
         width: 200px;
     }
 }
 
-@media screen and (min-width : 600px) and (max-width : 999px) {
+@media screen and (min-width: 600px) and (max-width: 999px) {
     details > summary + * {
         width: 250px;
     }
 }
 
-@media screen and (min-width : 1000px) and (max-width : 1299px) {
+@media screen and (min-width: 1000px) and (max-width: 1299px) {
     details > summary + * {
         width: 300px;
     }
 }
 
-@media screen and (min-width : 1300px) {
+@media screen and (min-width: 1300px) {
     details > summary + * {
         width: 350px;
     }

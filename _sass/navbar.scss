@@ -1,12 +1,39 @@
-.brand_short {
+.brand_medium, .brand_long {
     display: none;
 }
 
-@media screen and (max-width : 557px) {
-    .brand_long {
+@media screen and (max-width: 357px) {
+    .brand_short {
+        display: inline;
+    }
+   .brand_medium {
+       display: none;
+   }
+   .brand_large {
+        display: none;
+   }
+}
+
+@media screen and (min-width: 358px) and (max-width: 557px) {
+    .brand_short {
         display: none;
     }
-   .brand_short {
+   .brand_medium {
+       display: inline;
+   }
+   .brand_long {
+       display: none;
+   }
+}
+
+@media screen and (min-width: 558px)  {
+    .brand_short {
+        display: none;
+    }
+   .brand_medium {
+       display: none;
+   }
+   .brand_long {
        display: inline;
    }
 }
@@ -26,8 +53,10 @@
     padding: 0 !important;
 }
 
-.navbar-brand:hover, .nav-link:hover {
-    color: #003aad !important;
+@media (hover: hover) {
+    .navbar-brand:hover, .nav-link:hover {
+        color: #003aad !important;
+    }
 }
 
 .dropdown-item:active {
@@ -44,22 +73,24 @@
     display: none !important;
 }
 
-.dropdown-toggle:hover ~ .dropdown-menu,
-.dropdown-menu:hover {
-    display: block !important;
-    margin: 0 !important;
+@media (hover: hover) {
+    .dropdown-toggle:hover ~ .dropdown-menu,
+    .dropdown-menu:hover {
+        display: block !important;
+        margin: 0 !important;
+    }
 }
 
-@media screen and (max-width : 1199px) {
+@media screen and (max-width: 1199px) {
     .nav-item {
         padding: 3px 0;
     }
     .navbar-nav {
-        padding: 9px 0 6px 0;
+        margin: 7px 0;
     }
 }
 
-@media screen and (min-width : 1200px) {
+@media screen and (min-width: 1200px) {
     .dropdown-menu {
       left: 50% !important;
       transform: translateX(-50%) !important;
@@ -67,13 +98,13 @@
     }
 }
 
-@media screen and (min-width : 1200px) and (max-width : 1499px) {
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
     .navbar-nav > li {
         padding: 0 2vw;
     }
 }
 
-@media screen and (min-width : 1500px) {
+@media screen and (min-width: 1500px) {
     .navbar-nav > li {
         padding: 0 3.5vw;
     }

@@ -47,7 +47,7 @@
     margin: 2vh auto;
 }
 
-@media screen and (max-width : 1200px) {
+@media screen and (max-width: 1200px) {
     .vertical_separator {
         display: none;
     }
@@ -71,7 +71,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: calc(2*(500px + 20px));
+    max-width: calc(2*(500px + 30px));
     column-gap: 30px;
 }
 
@@ -79,7 +79,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: calc(2*(250px + 40px));
+    max-width: calc(2*(250px + 60px));
     gap: 18px;
 }
 

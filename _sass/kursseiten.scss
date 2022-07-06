@@ -23,8 +23,10 @@
     color: #003aad;
 }
 
-.breadcrumb_link:hover, .course_link:hover, .previous_link:hover, .next_link:hover {
-    color: #9c0707;
+@media (hover: hover) {
+    .breadcrumb_link:hover, .course_link:hover, .previous_link:hover, .next_link:hover {
+        color: #9c0707;
+    }
 }
 
 .previous_link, .next_link {
@@ -105,6 +107,8 @@
     color: #003aad;
 }
 
-.footnote_link:hover, .back_link:hover {
-    color: #9c0707;
+@media (hover: hover) {
+    .footnote_link:hover, .back_link:hover {
+        color: #9c0707;
+    }
 }

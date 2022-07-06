@@ -58,8 +58,10 @@ h5 {
     white-space: nowrap;
 }
 
-.internal_link:hover, .external_link:hover, .mail_link:hover {
-    color: #9c0707;
+@media (hover: hover) {
+    .internal_link:hover, .external_link:hover, .mail_link:hover {
+        color: #9c0707;
+    }
 }
 
 .warning {
