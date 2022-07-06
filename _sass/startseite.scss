@@ -1,5 +1,64 @@
 /* Startseite */
 
+@font-face {
+  font-family: "metropolis-semibold";
+  src: url("../fonts/Metropolis-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "metropolis-light";
+  src: url("../fonts/Metropolis-light.otf");
+}
+
+.logo_left {
+    text-align: center;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.main_text {
+    font-family: "metropolis-semibold";
+    color: #003aad;
+    font-size: 64px;
+    margin: 0;
+    height: 80px;
+}
+
+.sub_text {
+    font-family: "metropolis-light";
+    font-size: 24px;
+    margin: 0;
+    height: 30px;
+}
+
+.vertical_separator {
+    border-right: 1.5px solid #003aad;
+    height: 100%;
+    width: 1.5px;
+}
+
+.horizontal_separator {
+    display: none;
+    border-bottom: 1.5px solid #003aad;
+    width: 50%;
+    margin: 2vh auto;
+}
+
+@media screen and (max-width : 1200px) {
+    .vertical_separator {
+        display: none;
+    }
+    .horizontal_separator {
+        display: block;
+    }
+    .separator_mid {
+        width: 100%;
+    }
+}
+
 .start_flex {
     height: 100%;
     width: 100%;
@@ -13,7 +72,7 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: calc(2*(500px + 20px));
-    gap: 17px;
+    column-gap: 30px;
 }
 
 .inner_flex {
@@ -21,10 +80,10 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: calc(2*(250px + 40px));
-    gap: 17px;
+    gap: 18px;
 }
 
 .start_text {
-    margin-bottom: 17px;
+    margin-bottom: 18px;
     text-align: center;
 }

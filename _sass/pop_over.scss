@@ -20,14 +20,22 @@ details > summary + * {
     position: absolute;
     display: block;
     z-index: 1;
-    width: 250%;
     max-width: 40vw;
     max-height: 20vh;
     overflow-y: auto;
-    border: solid 1px #9c0707;
+    border: solid 1.5px #9c0707;
     padding: 0.5rem;
     background: white;
     scrollbar-width: thin;
+    scrollbar-color: #9c0707 transparent;
+}
+
+details > summary + *::-webkit-scrollbar {
+  width: 7px;
+}
+
+details > summary + *::-webkit-scrollbar-thumb {
+  background-color: #9c0707;
 }
 
 details > * + * {
@@ -52,6 +60,32 @@ details[open] > .pop_over_link {
     display: block;
     text-align: right;
 }
+
+
+@media screen and (max-width : 599px) {
+    details > summary + * {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width : 600px) and (max-width : 999px) {
+    details > summary + * {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width : 1000px) and (max-width : 1299px) {
+    details > summary + * {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width : 1300px) {
+    details > summary + * {
+        width: 350px;
+    }
+}
+
 
 .rotate-up {
     -webkit-transition-duration: 0.1s;

@@ -3,6 +3,13 @@
     color: #003aad;
 }
 
+/* Lupe als Such-Symbol in der Navbar */
+.bi-search {
+    color: #003aad;
+    padding: 0 0.5rem;
+    -webkit-text-stroke: 0.7px;
+}
+
 /* Chevron-Marker für interne Links */
 .bi-chevron-right {
     font-size: 0.8rem;

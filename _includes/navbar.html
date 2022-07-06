@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-xl navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{'index.html' | relative_url}}">
-            <img src="{{'/assets/images/favicon/favicon_gross.png' | relative_url}}" width="32" height="32" class="d-inline-block align-top" alt="LiGo Mini Icon">
+            <img src="{{'assets/images/logo/ligo_logo.png' | relative_url}}" height="30" class="d-inline-block align-top" alt="Kleines LiGo-Logo">
             <span class="brand_long">Literaturwissenschaftliche Grundbegriffe online</span>
             <span class="brand_short">Lit. Grundbegriffe online</span>
         </a>
@@ -9,7 +9,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mx-auto mb-2 mb-xl-0">
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="{{'_pages/hauptauswahl/wissensbereiche.html' | relative_url}}">
                         Wissensbereiche
@@ -78,12 +78,11 @@
                     </ul>
                 </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Suchbegriff eingeben" aria-label="Search">
-                <button class="btn btn-primary" type="submit">
-                    <i class="bi bi-search"></i>
-                </button>
-            </form>
+            <div class="nav-search">
+                <a class="nav-link" href="{{'_pages/ueber_ligo/suche.html' | relative_url}}">
+                    Suche <i class="bi bi-search"></i>
+                </a>
+            </div>    
         </div>
     </div>
 </nav>
