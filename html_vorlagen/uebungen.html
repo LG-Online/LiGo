@@ -1,0 +1,216 @@
+---
+title: "[Titel]"
+layout: default
+type: lerneinheit
+---
+<!-- HINWEIS: Einträge in [eckigen Klammern] sind durch eigene Angaben/Inhalte zu ersetzen -->
+
+<!-- MULTIPLE CHOICE und ALTERNATIVE TEXTBEISPIELE (-> Gleicher Code für beide Übungstypen) -->
+<div class="exercise mc">
+    <div class="task">
+        <div class="pretext">Fragestellung:</div>
+        <div class="text">[Text]</div>
+    </div>
+    <!-- Optionales Textbeispiel zur Frage -->
+    <div class="quotation">
+        <div class="pretext">Textbeispiel:</div>
+        <div class="text">[Text]</div>
+        <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
+    </div>
+    <!-- Set an auswählbaren Optionen -->
+    <fieldset id="option_pool_[Übung-Nr.]">
+        <div class="option">
+            <input type="radio" name="set_[Übung-Nr.]" id="option_[Übung-Nr.]-1" value="true">
+            <label for="option_[Übung-Nr.]-1">
+                <span class="text">[Text]</span>
+                <!-- Optionale Angabe zu Autor und Titel, falls es sich bei der Option um ein Textbeispiel aus einem Werk handelt -->
+                <span class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</span>
+            </label>
+        </div>
+        <div class="option">
+            <input type="radio" name="set_[Übung-Nr.]" id="option_[Übung-Nr.]-2" value="false">
+            <label for="option_[Übung-Nr.]-2">
+                <span class="text">[Text]</span>
+                <span class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</span>
+            </label>
+        </div>
+        <div class="option">
+            <input type="radio" name="set_[Übung-Nr.]" id="option_[Übung-Nr.]-3" value="false">
+            <label for="option_[Übung-Nr.]-3">
+                <span class="text">[Text]</span>
+                <span class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</span>
+            </label>
+        </div>
+        <!-- An dieser Stelle beliebig viele weitere MC-Optionen nach dem obigen Schema hinzufügen und durchnummerieren -->
+    </fieldset>
+    <div class="exercise_buttons">
+        <button id="reset_button_[Übung-Nr.]">Übung zurücksetzen</button>
+        <button id="solution_button_[Übung-Nr.]">Lösung anzeigen</button>
+    </div>
+    <div id="solution_[Übung-Nr.]" class="solution">
+        <!-- Beide Elemente hier leer lassen -> Werden später mittels einer JavaScript-Funktion befüllt, basierend auf der Auswahl des Benutzers -->
+        <div id="feedback_[Übung-Nr.]" class="feedback"></div>
+        <div id="answer_[Übung-Nr.]" class="answer"></div>
+    </div>
+    <!-- Individuelle Antworten/Lösungen zu den einzelnen MC-Optionen -->
+    <div id="answer_pool_[Übung-Nr.]" class="answer_pool">
+        <div class="option_[Übung-Nr.]-1">[Text]</div>
+        <div class="option_[Übung-Nr.]-2">[Text]</div>
+        <div class="option_[Übung-Nr.]-3">[Text]</div>
+    </div>
+</div>
+
+<!-- TEXTEINGABE -->
+<div class="exercise text">
+    <div class="task">
+        <div class="pretext">Fragestellung:</div>
+        <div class="text">[Text]</div>
+    </div>
+    <!-- Optionales Textbeispiel zur Frage -->
+    <div class="quotation">
+        <div class="pretext">Textbeispiel:</div>
+        <div class="text">[Text]</div>
+        <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
+    </div>
+    <div class="input">
+        <div class="pretext">Ihre Formulierung:</div>
+        <textarea id="input_field_[Übung-Nr.]" class="input_field"></textarea>
+    </div>
+    <div class="exercise_buttons">
+        <button id="reset_button_[Übung-Nr.]">Übung zurücksetzen</button>
+        <button id="solution_button_[Übung-Nr.]">Lösung anzeigen</button>
+    </div>
+    <div id="solution_[Übung-Nr.]" class="solution">
+        <div id="feedback_[Übung-Nr.]" class="feedback">Musterlösung:</div>
+        <div id="answer_[Übung-Nr.]" class="answer">[Musterlösung-Text]</div>
+    </div>
+</div>
+
+<!-- MARKIEREN -->
+<div class="exercise marker">
+    <div class="task">
+        <div class="pretext">Fragestellung:</div>
+        <div class="text">[Text]</div>
+    </div>
+    <div class="quotation" id="markable_text_[Übung-Nr.]">
+        <div class="pretext">Textbeispiel:</div>
+        <div class="text">
+            <!-- ACHTUNG: Keine anderen Tags in den Text einfügen außer <span> für korrekte Stellen (oder Figuren/Regieanweisungen im Drama) und <br/> für Zeilenumbrüche, sonst funktioniert das Markieren nicht mehr korrekt -->
+            <!-- Optional im Drama: --> <span class="person">[Figur]</span>: [Text] <span class="stage_dir">[Regieanweisung]</span><br/>
+            <!-- Alle korrekten/gesuchten Textstellen mit jeweils einem <span class="correct_marker">-Tag versehen -->
+            [Text] <span class="correct_marker">[Text]</span> [Text]<br/>
+            <span class="correct_marker">[Text]</span> [Text]
+        </div>
+        <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
+    </div>
+    <div class="exercise_buttons">
+        <button id="mark_button_[Übung-Nr.]">Markierung setzen</button>
+        <button id="reset_button_[Übung-Nr.]">Übung zurücksetzen</button>
+        <button id="solution_button_[Übung-Nr.]">Lösung anzeigen</button>
+    </div>
+    <div id="solution_[Übung-Nr.]" class="solution">
+        <div id="feedback_[Übung-Nr.]" class="feedback">Erläuterung:</div>
+        <div id="answer_[Übung-Nr.]" class="answer">[Erläuterung-Text]</div>
+    </div>
+</div>
+
+<!-- LÜCKENTEXT -->
+<div class="exercise gaps">
+    <div class="task">
+        <div class="pretext">Fragestellung:</div>
+        <div class="text">[Text]</div>
+    </div>   
+    <div class="gap_text" id="gap_text_[Übung-Nr.]">
+        [Text]
+        <select name="dropdown" class="gap">
+            <option value="standard">--- bitte auswählen ---</option>
+            <option value="true">[Option]</option>
+            <option value="false">[Option]</option>
+        </select>
+        [Text]
+        <select name="dropdown" class="gap">
+            <option value="standard">--- bitte auswählen ---</option>
+            <option value="false">[Option]</option>
+            <option value="true">[Option]</option>
+        </select>
+        <!-- An dieser Stelle beliebig viele weitere Textabschnitte und Lücken nach dem obigen Schema hinzufügen -->
+    </div>
+    <div class="exercise_buttons">
+        <button id="reset_button_[Übung-Nr.]">Übung zurücksetzen</button>
+        <button id="solution_button_[Übung-Nr.]">Lösung anzeigen</button>
+    </div>
+    <div id="solution_[Übung-Nr.]" class="solution">
+        <!-- Element hier leer lassen -> Wird später mittels einer JavaScript-Funktion befüllt, basierend auf der Anzahl der korrekt ausgefüllten Lücken -->
+        <div id="feedback_[Übung-Nr.]" class="feedback"></div>
+        <div id="answer_[Übung-Nr.]" class="answer">[Antwort-Text]</div>
+    </div>
+</div>
+
+<!-- DRAG AND DROP -->
+<div class="exercise dnd">
+    <div class="dnd_info">
+        <div class="pretext">Hinweis:</div>
+        <div class="text">
+            Drag and Drop wird bislang nur auf PCs/Laptops beziehungsweise auf Geräten unterstützt, die eine Maus oder ein Trackpad nutzen.
+            Auf Touchscreen-Geräten wie Smartphones und Tablets können Sie diese Übung daher momentan noch nicht durchführen.
+        </div>
+    </div>
+    <div class="task">
+        <div class="pretext">Fragestellung:</div>
+        <div class="text">[Text]</div>
+    </div>
+    <!-- Optionales Textbeispiel zur Frage -->
+    <div class="quotation">
+        <div class="pretext">Textbeispiel:</div>
+        <div class="text">[Text]</div>
+        <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
+    </div>
+    <div id="drop_areas_[Übung-Nr.]" class="drop_areas">
+        <div class="drop_wrapper">
+            <div class="drop_head">[Drop-Area-Überschrift]</div>
+            <hr class="drop_separation"/>
+            <div class="drop_area" id="drop_area_[Übung-Nr.]-1" ondrop="drop(event, this)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="drop_wrapper">
+            <div class="drop_head">[Drop-Area-Überschrift]</div>
+            <hr class="drop_separation">
+            <div class="drop_area" id="drop_area_[Übung-Nr.]-2" ondrop="drop(event, this)" ondragover="allowDrop(event)"></div>
+        </div>
+        <!-- An dieser Stelle beliebig viele weitere Drop-Areas nach dem obigen Schema hinzufügen und durchnummerieren -->
+    </div>
+    <div id="dnd_items_[Übung-Nr.]" class="dnd_items">
+        <!-- Im class-Attribut des DND-Items wird die ID derjenigen Drop-Area angegeben, zu der das Item korrekterweise zugeordnet werden soll -->
+        <div id="dnd_item_[Übung-Nr.]-1" class="drop_area_[Übung-Nr.]-[DA-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
+        <div id="dnd_item_[Übung-Nr.]-2" class="drop_area_[Übung-Nr.]-[DA-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
+        <div id="dnd_item_[Übung-Nr.]-3" class="drop_area_[Übung-Nr.]-[DA-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
+        <div id="dnd_item_[Übung-Nr.]-4" class="drop_area_[Übung-Nr.]-[DA-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
+        <!-- An dieser Stelle beliebig viele weitere Drop-Items nach dem obigen Schema hinzufügen und durchnummerieren -->
+    </div>
+    <div class="exercise_buttons">
+        <button id="reset_button_[Übung-Nr.]">Übung zurücksetzen</button>
+        <button id="solution_button_[Übung-Nr.]">Lösung anzeigen</button>
+    </div>
+    <div id="solution_[Übung-Nr.]" class="solution">
+        <!-- Element hier leer lassen -> Wird später mittels einer JavaScript-Funktion befüllt, basierend auf der Anzahl der korrekt zugeordneten Items -->
+        <div id="feedback_[Übung-Nr.]" class="feedback"></div>
+        <!-- Korrekt ausgefüllte Drop-Areas als Musterlösung -->
+        <div id="answer_[Übung-Nr.]" class="drop_areas">
+            <div class="drop_wrapper">
+                <div class="drop_head">[Drop-Area-Überschrift]</div>
+                <hr class="drop_separation">
+                <div class="drop_area">
+                    <div>[DND-Item]</div>
+                    <div>[DND-Item]</div>
+                </div>
+            </div>
+            <div class="drop_wrapper">
+                <div class="drop_head">[Drop-Area-Überschrift]</div>
+                <hr class="drop_separation">
+                <div class="drop_area">
+                    <div>[DND-Item]</div>
+                    <div>[DND-Item]</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

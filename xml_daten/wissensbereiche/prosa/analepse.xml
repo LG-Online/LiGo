@@ -33,9 +33,6 @@
 			</task>
 			<task type="fragestellung">
 				<LMMLtext>Wo finden sich im folgenden Text Signale für eine <referencesLink show="new" type="defines" target="analepsedef">Analepse</referencesLink>? Markieren Sie sie gelb.</LMMLtext>
-				<LMMLtext>
-					<referencesLink type="exercises" target="wwUeb"/>
-				</LMMLtext>
 			</task>
 		</exercise>
 		

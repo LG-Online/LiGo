@@ -3,7 +3,9 @@
         resource="drama"
         id="uebungzumauthentizitaetspostulatUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Formulieren Sie, welche Ansprüche das Authentizitätspostulat an den Dichter stellt hinsichtlich der Kategorien <span class="highlight">Raum</span>, <span class="highlight">Zeit</span> und <span class="highlight">Figuren</span>. Beachten Sie dabei sowohl die Seite der Handlung als auch die der Aufführung.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Formulieren Sie, welche Ansprüche das Authentizitätspostulat an den Dichter stellt hinsichtlich der Kategorien <span class="highlight">Raum</span>, <span class="highlight">Zeit</span> und <span class="highlight">Figuren</span>. Beachten Sie dabei sowohl die Seite der Handlung als auch die der Aufführung.</div>
+      </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>
          <textarea class="input_field" id="input_field_1"/>
@@ -23,47 +25,43 @@
         resource="drama"
         id="ersteuebungzubesonderengespraechsformenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Haben wir es im folgenden Auftritt mit</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Haben wir es im folgenden Auftritt mit</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
-         <div class="text">ANTILOCHUS. Wann trug, wo, das Entsetzliche sich zu?</div>
-         <div class="text">DER HAUPTMANN. Ein neuer Anfall, heiß, wie Wetterstrahl,</div>
-         <div class="text">Schmolz, dieser wutherfüllten Mavorstöchter,</div>
-         <div class="text">Rings der Ätolier wackre Reihen hin,</div>
-         <div class="text">Auf uns, wie Wassersturz, hernieder sie,</div>
-         <div class="text">Die unbesiegten Myrmidonier, gießend.</div>
-         <div class="text">Vergebens drängen wir dem Fluchtgewog</div>
-         <div class="text">Entgegen uns: in wilder Überschwemmung</div>
-         <div class="text">Reißt's uns vom Kampfplatz strudelnd mit sich fort:</div>
-         <div class="text">Und eher nicht vermögen wir den Fuß,</div>
-         <div class="text">Als fern von dem Peliden fest zu setzen.</div>
-         <div class="text">Erst jetzo wickelt er, umstarrt von Spießen,</div>
-         <div class="text">Sich aus der Nacht des Kampfes los, er rollt</div>
-         <div class="text">Von eines Hügels Spitze scheu herab,</div>
-         <div class="text">Auf uns kehrt glücklich sich sein Lauf, wir senden</div>
-         <div class="text">Aufjauchzend ihm den Rettungsgruß schon zu:</div>
-         <div class="text">Doch es erstirbt der Laut im Busen uns,</div>
-         <div class="text">Da plötzlich jetzt sein Viergespann zurück</div>
-         <div class="text">Vor einem Abgrund stutzt, und hoch aus Wolken</div>
-         <div class="text">In grause Tiefe bäumend niederschaut.</div>
-         <div class="text">Vergebens jetzt, in der er Meister ist,</div>
-         <div class="text">Des Isthmus ganze vielgeübte Kunst:</div>
-         <div class="text">Das Roßgeschwader wendet, das erschrockne,</div>
-         <div class="text">Die Häupter rückwärts in die Geißelhiebe,</div>
-         <div class="text">Und im verworrenen Geschirre fallend,</div>
-         <div class="text">Zum Chaos, Pferd' und Wagen, eingestürzt,</div>
-         <div class="text">Liegt unser Göttersohn, mit seinem Fuhrwerk,</div>
-         <div class="text">Wie in der Schlinge eingefangen da.</div>
-         <div class="text"/>
-         <div class="text"/>
-         <div class="text"/>
-         <div class="text"/>
-         <div class="text"/>
-         <div class="text"/>
-         <span class="author_title">
-            <span class="author">Heinrich von Kleist: </span>
-            <span class="title">Penthesilea, 2. Auftritt (Ausschnitt)</span>
-         </span>
+         <div class="drama_line">ANTILOCHUS. Wann trug, wo, das Entsetzliche sich zu?</div>
+         <div class="drama_line">DER HAUPTMANN. Ein neuer Anfall, heiß, wie Wetterstrahl,</div>
+         <div class="drama_line">Schmolz, dieser wutherfüllten Mavorstöchter,</div>
+         <div class="drama_line">Rings der Ätolier wackre Reihen hin,</div>
+         <div class="drama_line">Auf uns, wie Wassersturz, hernieder sie,</div>
+         <div class="drama_line">Die unbesiegten Myrmidonier, gießend.</div>
+         <div class="drama_line">Vergebens drängen wir dem Fluchtgewog</div>
+         <div class="drama_line">Entgegen uns: in wilder Überschwemmung</div>
+         <div class="drama_line">Reißt's uns vom Kampfplatz strudelnd mit sich fort:</div>
+         <div class="drama_line">Und eher nicht vermögen wir den Fuß,</div>
+         <div class="drama_line">Als fern von dem Peliden fest zu setzen.</div>
+         <div class="drama_line">Erst jetzo wickelt er, umstarrt von Spießen,</div>
+         <div class="drama_line">Sich aus der Nacht des Kampfes los, er rollt</div>
+         <div class="drama_line">Von eines Hügels Spitze scheu herab,</div>
+         <div class="drama_line">Auf uns kehrt glücklich sich sein Lauf, wir senden</div>
+         <div class="drama_line">Aufjauchzend ihm den Rettungsgruß schon zu:</div>
+         <div class="drama_line">Doch es erstirbt der Laut im Busen uns,</div>
+         <div class="drama_line">Da plötzlich jetzt sein Viergespann zurück</div>
+         <div class="drama_line">Vor einem Abgrund stutzt, und hoch aus Wolken</div>
+         <div class="drama_line">In grause Tiefe bäumend niederschaut.</div>
+         <div class="drama_line">Vergebens jetzt, in der er Meister ist,</div>
+         <div class="drama_line">Des Isthmus ganze vielgeübte Kunst:</div>
+         <div class="drama_line">Das Roßgeschwader wendet, das erschrockne,</div>
+         <div class="drama_line">Die Häupter rückwärts in die Geißelhiebe,</div>
+         <div class="drama_line">Und im verworrenen Geschirre fallend,</div>
+         <div class="drama_line">Zum Chaos, Pferd' und Wagen, eingestürzt,</div>
+         <div class="drama_line">Liegt unser Göttersohn, mit seinem Fuhrwerk,</div>
+         <div class="drama_line">Wie in der Schlinge eingefangen da.</div>
+         <div class="author_title">
+            <span class="author">Heinrich von Kleist:</span>
+            <span class="title"> Penthesilea, 2. Auftritt (Ausschnitt)</span>
+         </div>
       </div>
       <fieldset id="option_pool_2">
          <div class="option">
@@ -102,48 +100,20 @@
         resource="drama"
         id="zweiteuebungzubesonderengespraechsformenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Liegt im folgenden Auftritt ein Botenbericht und/oder eine Teichoskopie und/oder eine Vertrautenrede vor? Markieren Sie diejenigen Stellen, auf die sie ihre Entscheidung stützen.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Liegt im folgenden Auftritt ein Botenbericht und/oder eine Teichoskopie und/oder eine Vertrautenrede vor? Markieren Sie diejenigen Stellen, auf die sie ihre Entscheidung stützen.</div>
+      </div>
       <div class="quotation" id="markable_text_2">
-         <div class="pretext">Textbeispiel:</div>
-         <div class="text">DIE ERSTE PRIESTERINN. Ihr Kinder! <span class="correct_marker">Seht ihr</span> noch die Königinn nicht?</div>
-         <div class="text">DAS ERSTE MÄDCHEN. <span class="stage_dir">(auf dem Hügel)</span> Wohl, wohl! Das ganze Feld erglänzt – <span class="correct_marker">da ist sie</span>!</div>
-         <div class="text">DIE ERSTE PRIESTERINN. Wo zeigt sie sich?</div>
-         <div class="text">DAS MÄDCHEN.                               An aller Jungfrau'n Spitze!</div>
-         <div class="text">
-            <span class="correct_marker">Seht</span>, wie sie in dem goldnen Kriegsschmuck funkelnd,</div>
-         <div class="text">Voll Kampflust ihm entgegen <span class="correct_marker">tanzt</span>! Ist's nicht,</div>
-         <div class="text">Als ob sie, heiß von Eifersucht gespornt,</div>
-         <div class="text">Die Sonn' im Fluge übereilen wollte,</div>
-         <div class="text">Die seine jungen Scheitel küßt! O seht!</div>
-         <div class="text">Wenn sie zum Himmel auf sich schwingen wollte,</div>
-         <div class="text">Der hohen Nebenbuhl'rinn gleich zu sein,</div>
-         <div class="text">Der Perser könnte, ihren Wünschen fröhnend,</div>
-         <div class="text">Geflügelter sich in die Luft nicht heben!</div>
-         <div class="text">DIE OBERPRIESTERINN. <span class="stage_dir">(zur Hauptmänninn)</span>
-            <span class="correct_marker">War</span> keine unter allen Jungfrau'n denn,</div>
-         <div class="text">Die sie gewarnt, die sie zurückgehalten?</div>
-         <div class="text">DIE HAUPTMÄNNIN. Es <span class="correct_marker">warf</span> ihr ganzes fürstliches Gefolge</div>
-         <div class="text">Sich in den Weg ihr: <span class="correct_marker">hier</span> auf diesem Platze</div>
-         <div class="text">
-            <span class="correct_marker">Hat</span> Prothoe ihr Aeußerstes <span class="correct_marker">gethan</span>.</div>
-         <div class="text">Jedwede Kunst der Rede ward erschöpft.</div>
-         <div class="text">Nach Themiscyra sie zurückzuführen.</div>
-         <div class="text">Doch taub schien sie der Stimme der Vernunft:</div>
-         <div class="text">Vom giftigsten der Pfeile Amors sei,</div>
-         <div class="text">Heißt es, ihr jugendliches Herz getroffen.</div>
-         <div class="text">DIE OBERPRIESTERINN. Was sagst du?</div>
-         <div class="text">DAS ERSTE MÄDCHEN. <span class="stage_dir">(auf dem <span class="correct_marker">Hügel</span>)</span>              Ha, jetzt treffen sie einander!</div>
-         <div class="text">Ihr Götter! Haltet eure Erde fest –</div>
-         <div class="text">Jetzt, eben jetzt, da ich dies sage, schmettern</div>
-         <div class="text">Sie, wie zwei Sterne, auf einander ein!</div>
-         <span class="author_title">
-            <span class="author">Heinrich von Kleist: </span>
-            <span class="title">Penthesilea, 7. Auftritt (Ausschnitt)</span>
-         </span>
+         <div class="pretext">Textbeispiel:</div>DIE ERSTE PRIESTERINN. Ihr Kinder! <span class="correct_marker">Seht ihr</span> noch die Königinn nicht?<br/>DAS ERSTE MÄDCHEN. <span class="stage_dir">(auf dem Hügel)</span> Wohl, wohl! Das ganze Feld erglänzt – <span class="correct_marker">da ist sie</span>!<br/>DIE ERSTE PRIESTERINN. Wo zeigt sie sich?<br/>DAS MÄDCHEN.                               An aller Jungfrau'n Spitze!<br/>
+         <span class="correct_marker">Seht</span>, wie sie in dem goldnen Kriegsschmuck funkelnd,<br/>Voll Kampflust ihm entgegen <span class="correct_marker">tanzt</span>! Ist's nicht,<br/>Als ob sie, heiß von Eifersucht gespornt,<br/>Die Sonn' im Fluge übereilen wollte,<br/>Die seine jungen Scheitel küßt! O seht!<br/>Wenn sie zum Himmel auf sich schwingen wollte,<br/>Der hohen Nebenbuhl'rinn gleich zu sein,<br/>Der Perser könnte, ihren Wünschen fröhnend,<br/>Geflügelter sich in die Luft nicht heben!<br/>DIE OBERPRIESTERINN. <span class="stage_dir">(zur Hauptmänninn)</span>
+         <span class="correct_marker">War</span> keine unter allen Jungfrau'n denn,<br/>Die sie gewarnt, die sie zurückgehalten?<br/>DIE HAUPTMÄNNIN. Es <span class="correct_marker">warf</span> ihr ganzes fürstliches Gefolge<br/>Sich in den Weg ihr: <span class="correct_marker">hier</span> auf diesem Platze<br/>
+         <span class="correct_marker">Hat</span> Prothoe ihr Aeußerstes <span class="correct_marker">gethan</span>.<br/>Jedwede Kunst der Rede ward erschöpft.<br/>Nach Themiscyra sie zurückzuführen.<br/>Doch taub schien sie der Stimme der Vernunft:<br/>Vom giftigsten der Pfeile Amors sei,<br/>Heißt es, ihr jugendliches Herz getroffen.<br/>DIE OBERPRIESTERINN. Was sagst du?<br/>DAS ERSTE MÄDCHEN. <span class="stage_dir">(auf dem <span class="correct_marker">Hügel</span>)</span>              Ha, jetzt treffen sie einander!<br/>Ihr Götter! Haltet eure Erde fest –<br/>Jetzt, eben jetzt, da ich dies sage, schmettern<br/>Sie, wie zwei Sterne, auf einander ein!<br/>
+         <div class="author_title">
+            <span class="author">Heinrich von Kleist:</span>
+            <span class="title"> Penthesilea, 7. Auftritt (Ausschnitt)</span>
+         </div>
       </div>Teichoskopie und Botenbericht<div class="solution" id="solution_3">
-         <div class="feedback" id="feedback_3">
-                            Erläuterung:
-                        </div>
+         <div class="feedback" id="feedback_3">Erläuterung:</div>
          <div class="answer" id="answer_3">Teichoskopie und Botenbericht</div>
       </div>
    </div>
@@ -151,40 +121,32 @@
         resource="drama"
         id="dritteuebungzubesonderengespraechsformenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Liegt im folgenden Auftritt ein Botenbericht und/oder eine Teichoskopie und oder eine Vertrautenrede vor? Markieren Sie diejenigen Stellen, auf die sie ihre Entscheidung stützen.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Liegt im folgenden Auftritt ein Botenbericht und/oder eine Teichoskopie und oder eine Vertrautenrede vor? Markieren Sie diejenigen Stellen, auf die sie ihre Entscheidung stützen.</div>
+      </div>
       <div class="quotation" id="markable_text_3">
          <div class="pretext">Textbeispiel:</div>
-         <div class="text">
-            <span class="stage_dir">(Das <span class="correct_marker">Fräulein und hierauf Franziska</span>)</span>
+         <span class="stage_dir">(Das <span class="correct_marker">Fräulein und hierauf Franziska</span>)</span>
+         <br/>FRÄULEIN. Ich habe ihn wieder! - Bin ich allein? - Ich will nicht umsonst allein sein. <span class="stage_dir">(Sie faltet die Hände.)</span> Auch bin ich nicht allein! <span class="stage_dir">(Und blickt aufwärts.)</span> Ein einziger dankbarer Gedanke gen Himmel ist das willkommenste Gebet! - Ich hab ihn, ich hab ihn! <span class="stage_dir">(Mit ausgebreiteten Armen.)</span> Ich bin glücklich! und fröhlich! Was kann der Schöpfer lieber sehen als ein fröhliches Geschöpf! - <span class="stage_dir">(Franziska kömmt.)</span>
+         <span class="correct_marker">Bist du wieder da, Franziska? - Er jammert dich? Mich jammert er nicht. Unglück ist auch gut. Vielleicht, daß ihm der Himmel alles nahm, um ihm in mir alles wiederzugeben!</span>
+         <br/>FRANZISKA. Er kann den Augenblick hier sein. - Sie sind noch in Ihrem Neglige, gnädiges Fräulein. Wie, wenn Sie sich geschwind ankleideten?<br/>FRÄULEIN. Geh! ich bitte dich. Er wird mich von nun an öftrer so als geputzt sehen.<br/>FRANZISKA. Oh, <span class="correct_marker">Sie kennen sich</span>, mein Fräulein.<br/>FRÄULEIN. <span class="stage_dir">(nach einem kurzen Nachdenken).</span> Wahrhaftig, <span class="correct_marker">Mädchen, du hast es</span> wiederum getroffen.<br/>FRANZISKA. Wenn wir schön sind, sind wir ungeputzt am schönsten.<br/>FRÄULEIN. Müssen wir denn schön sein? - Aber daß wir uns schön glauben, war vielleicht notwendig. - Nein, wenn ich ihm, ihm nur schön bin! - Franziska, wenn alle Mädchens so sind, wie ich mich jetzt fühle, so sind wir <span class="correct_marker">-</span> sonderbare Dinger. <span class="correct_marker">-</span> Zärtlich und stolz, tugendhaft und eitel, wollüstig und fromm - <span class="correct_marker">Du wirst mich nicht verstehen</span>. Ich verstehe mich wohl selbst nicht. - Die Freude macht drehend, wirblicht. -<br/>FRANZISKA. Fassen Sie sich, mein Fräulein; ich höre kommen -<br/>FRÄULEIN. Mich fassen? Ich sollte ihn ruhig empfangen?<br/>
+         <div class="author_title">
+            <span class="author">Gotthold Ephraim Lessing:</span>
+            <span class="title"> Minna von Barnhelm, 2. Aufzug, 7. Auftritt</span>
          </div>
-         <div class="text">FRÄULEIN. Ich habe ihn wieder! - Bin ich allein? - Ich will nicht umsonst allein sein. <span class="stage_dir">(Sie faltet die Hände.)</span> Auch bin ich nicht allein! <span class="stage_dir">(Und blickt aufwärts.)</span> Ein einziger dankbarer Gedanke gen Himmel ist das willkommenste Gebet! - Ich hab ihn, ich hab ihn! <span class="stage_dir">(Mit ausgebreiteten Armen.)</span> Ich bin glücklich! und fröhlich! Was kann der Schöpfer lieber sehen als ein fröhliches Geschöpf! - <span class="stage_dir">(Franziska kömmt.)</span>
-            <span class="correct_marker">Bist du wieder da, Franziska? - Er jammert dich? Mich jammert er nicht. Unglück ist auch gut. Vielleicht, daß ihm der Himmel alles nahm, um ihm in mir alles wiederzugeben!</span>
-         </div>
-         <div class="text">FRANZISKA. Er kann den Augenblick hier sein. - Sie sind noch in Ihrem Neglige, gnädiges Fräulein. Wie, wenn Sie sich geschwind ankleideten?</div>
-         <div class="text">FRÄULEIN. Geh! ich bitte dich. Er wird mich von nun an öftrer so als geputzt sehen.</div>
-         <div class="text">FRANZISKA. Oh, <span class="correct_marker">Sie kennen sich</span>, mein Fräulein.</div>
-         <div class="text">FRÄULEIN. <span class="stage_dir">(nach einem kurzen Nachdenken).</span> Wahrhaftig, <span class="correct_marker">Mädchen, du hast es</span> wiederum getroffen.</div>
-         <div class="text">FRANZISKA. Wenn wir schön sind, sind wir ungeputzt am schönsten.</div>
-         <div class="text">FRÄULEIN. Müssen wir denn schön sein? - Aber daß wir uns schön glauben, war vielleicht notwendig. - Nein, wenn ich ihm, ihm nur schön bin! - Franziska, wenn alle Mädchens so sind, wie ich mich jetzt fühle, so sind wir <span class="correct_marker">-</span> sonderbare Dinger. <span class="correct_marker">-</span> Zärtlich und stolz, tugendhaft und eitel, wollüstig und fromm - <span class="correct_marker">Du wirst mich nicht verstehen</span>. Ich verstehe mich wohl selbst nicht. - Die Freude macht drehend, wirblicht. -</div>
-         <div class="text">FRANZISKA. Fassen Sie sich, mein Fräulein; ich höre kommen -</div>
-         <div class="text">FRÄULEIN. Mich fassen? Ich sollte ihn ruhig empfangen?</div>
-         <span class="author_title">
-            <span class="author">Gotthold Ephraim Lessing: </span>
-            <span class="title">Minna von Barnhelm, 2. Aufzug, 7. Auftritt</span>
-         </span>
       </div>Vertrautenrede<div class="solution" id="solution_4">
-         <div class="feedback" id="feedback_4">
-                            Erläuterung:
-                        </div>
+         <div class="feedback" id="feedback_4">Erläuterung:</div>
          <div class="answer" id="answer_4">Vertrautenrede</div>
       </div>
    </div>
    <div class="exercise text" resource="drama" id="uebungzumchorUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Überlegen Sie, in welchem Maße der Chor in den obigen Beispielen jeweils
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Überlegen Sie, in welchem Maße der Chor in den obigen Beispielen jeweils
 					in die Handlung involviert ist, und ordnen Sie den drei Szenen jeweils das
 					Adjektiv zu, das sie am treffendsten beschreibt: kommentierend, beratend oder
 					zeigend.</div>
+      </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>
          <textarea class="input_field" id="input_field_5"/>
@@ -194,11 +156,11 @@
                             Musterlösung:
                         </div>
          <div class="answer" id="answer_5">
-            <div class="text">Sophokles, <span class="title">König Ödipus</span>:
+            <div class="text">Sophokles, König Ödipus:
 					kommentierend</div>
-            <div class="text">Schiller, <span class="title">Braut von Messina</span>:
+            <div class="text">Schiller, Braut von Messina:
 					beratend.</div>
-            <div class="text">Brecht, <span class="title">Mahagonny</span>:
+            <div class="text">Brecht, Mahagonny:
 					zeigend</div>
          </div>
       </div>
@@ -207,7 +169,15 @@
         resource="drama"
         id="uebungdramatischetragischeironieUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Beschreiben Sie die Perspektive einer Dramenfigur auf das Geschehen im Drama im Gegensatz zur Zuschauerperspektive darauf. Markieren Sie dabei Differenzen des Wissens.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Beschreiben Sie die Perspektive einer Dramenfigur auf das Geschehen im Drama im Gegensatz zur Zuschauerperspektive darauf. Markieren Sie dabei Differenzen des Wissens.</div>
+      </div>
+      <div class="quotation">
+         <div class="pretext">Textbeispiel:</div>
+         <div class="author_title">
+            <span class="author"> :</span>
+         </div>
+      </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>
          <textarea class="input_field" id="input_field_6"/>
@@ -224,67 +194,69 @@
    </div>
    <div class="exercise text" resource="drama" id="uebungexpositionUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Goethe: <span class="title">Iphigenie</span> – Eingangsmonolog: Entnehmen Sie dem Text alle exponierenden Informationen und versuchen Sie so, die Ausgangssituation des Dramas zu beschreiben. </div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Goethe: Iphigenie – Eingangsmonolog: Entnehmen Sie dem Text alle exponierenden Informationen und versuchen Sie so, die Ausgangssituation des Dramas zu beschreiben. </div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
-         <div class="text">IPHIGENIE:</div>
-         <div class="text">Heraus in eure Schatten, rege Wipfel</div>
-         <div class="text">Des <span class="correct_marker">alten, heil'gen, dichtbelaubten Haines</span>,</div>
-         <div class="text">Wie in der Göttin stilles Heiligtum,</div>
-         <div class="text">Tret ich <span class="correct_marker">noch jetzt</span> mit schauderndem Gefühl,</div>
-         <div class="text">Als wenn ich sie zum erstenmal beträte,</div>
-         <div class="text">Und es gewöhnt sich nicht mein Geist hierher.</div>
-         <div class="text">So manches Jahr bewahrt mich hier verborgen</div>
-         <div class="text">Ein hoher Wille, dem ich mich ergebe;</div>
-         <div class="text">Doch immer bin ich, wie im ersten, fremd.</div>
-         <div class="text">Denn ach! mich trennt das Meer von den Geliebten,</div>
-         <div class="text">Und an dem Ufer steh ich lange Tage,</div>
-         <div class="text">Das Land der Griechen mit der Seele suchend;</div>
-         <div class="text">Und gegen meine Seufzer bringt die Welle</div>
-         <div class="text">Nur dumpfe Töne brausend mir herüber.</div>
-         <div class="text">Weh dem, der fern von Eltern und Geschwistern</div>
-         <div class="text">Ein einsam Leben führt! Ihm zehrt der Gram</div>
-         <div class="text">Das nächste Glück vor seinen Lippen weg,</div>
-         <div class="text">Ihm schwärmen abwärts immer die Gedanken</div>
-         <div class="text">Nach seines Vaters Hallen, wo die Sonne</div>
-         <div class="text">Zuerst den Himmel vor ihm aufschloß, wo</div>
-         <div class="text">Sich Mitgeborne spielend fest und fester</div>
-         <div class="text">Mit sanften Banden aneinanderknüpften.</div>
-         <div class="text">Ich rechte mit den Göttern nicht; allein</div>
-         <div class="text">Der Frauen Zustand ist beklagenswert.</div>
-         <div class="text">Zu Haus und in dem Kriege herrscht der Mann,</div>
-         <div class="text">Und in der Fremde weiß er sich zu helfen.</div>
-         <div class="text">Ihn freuet der Besitz; ihn krönt der Sieg!</div>
-         <div class="text">Ein ehrenvoller Tod ist ihm bereitet.</div>
-         <div class="text">Wie eng-gebunden ist des Weibes Glück!</div>
-         <div class="text">Schon einem rauhen Gatten zu gehorchen</div>
-         <div class="text">Ist Pflicht und Trost; wie elend, wenn sie gar</div>
-         <div class="text">Ein feindlich Schicksal in die Ferne treibt!</div>
-         <div class="text">So hält mich Thoas hier, ein edler Mann,</div>
-         <div class="text">In ernsten, heil'gen Sklavenbanden fest.</div>
-         <div class="text">O wie beschämt gesteh ich, daß ich dir</div>
-         <div class="text">Mit stillem Widerwillen diene, Göttin,</div>
-         <div class="text">Dir, meiner Retterin! Mein Leben sollte</div>
-         <div class="text">Zu freiem Dienste dir gewidmet sein.</div>
-         <div class="text">Auch hab ich stets auf dich gehofft und hoffe</div>
-         <div class="text">Noch jetzt auf dich, Diana, die du mich,</div>
-         <div class="text">Des größten Königes verstoßne Tochter,</div>
-         <div class="text">In deinen heil'gen, sanften Arm genommen.</div>
-         <div class="text">Ja, Tochter Zeus', wenn du den hohen Mann,</div>
-         <div class="text">Den du, die Tochter fordernd, ängstigtest,</div>
-         <div class="text">Wenn du den göttergleichen Agamemnon,</div>
-         <div class="text">Der dir sein Liebstes zum Altare brachte,</div>
-         <div class="text">Von Trojas umgewandten Mauern rühmlich</div>
-         <div class="text">Nach seinem Vaterland zurückbegleitet,</div>
-         <div class="text">Die Gattin ihm, Elektren und den Sohn,</div>
-         <div class="text">Die schonen Schätze, wohl erhalten hast:</div>
-         <div class="text">So gib auch mich den Meinen endlich wieder,</div>
-         <div class="text">Und rette mich, die du vom Tod errettet,</div>
-         <div class="text">Auch von dem Leben hier, dem zweiten Tod.</div>
-         <span class="author_title">
-            <span class="author">Johann Wolfgang von Goethe: </span>
-            <span class="title">Iphigenie auf Tauris</span>
-         </span>
+         <div class="drama_line">IPHIGENIE:</div>
+         <div class="drama_line">Heraus in eure Schatten, rege Wipfel</div>
+         <div class="drama_line">Des <span class="correct_marker">alten, heil'gen, dichtbelaubten Haines</span>,</div>
+         <div class="drama_line">Wie in der Göttin stilles Heiligtum,</div>
+         <div class="drama_line">Tret ich <span class="correct_marker">noch jetzt</span> mit schauderndem Gefühl,</div>
+         <div class="drama_line">Als wenn ich sie zum erstenmal beträte,</div>
+         <div class="drama_line">Und es gewöhnt sich nicht mein Geist hierher.</div>
+         <div class="drama_line">So manches Jahr bewahrt mich hier verborgen</div>
+         <div class="drama_line">Ein hoher Wille, dem ich mich ergebe;</div>
+         <div class="drama_line">Doch immer bin ich, wie im ersten, fremd.</div>
+         <div class="drama_line">Denn ach! mich trennt das Meer von den Geliebten,</div>
+         <div class="drama_line">Und an dem Ufer steh ich lange Tage,</div>
+         <div class="drama_line">Das Land der Griechen mit der Seele suchend;</div>
+         <div class="drama_line">Und gegen meine Seufzer bringt die Welle</div>
+         <div class="drama_line">Nur dumpfe Töne brausend mir herüber.</div>
+         <div class="drama_line">Weh dem, der fern von Eltern und Geschwistern</div>
+         <div class="drama_line">Ein einsam Leben führt! Ihm zehrt der Gram</div>
+         <div class="drama_line">Das nächste Glück vor seinen Lippen weg,</div>
+         <div class="drama_line">Ihm schwärmen abwärts immer die Gedanken</div>
+         <div class="drama_line">Nach seines Vaters Hallen, wo die Sonne</div>
+         <div class="drama_line">Zuerst den Himmel vor ihm aufschloß, wo</div>
+         <div class="drama_line">Sich Mitgeborne spielend fest und fester</div>
+         <div class="drama_line">Mit sanften Banden aneinanderknüpften.</div>
+         <div class="drama_line">Ich rechte mit den Göttern nicht; allein</div>
+         <div class="drama_line">Der Frauen Zustand ist beklagenswert.</div>
+         <div class="drama_line">Zu Haus und in dem Kriege herrscht der Mann,</div>
+         <div class="drama_line">Und in der Fremde weiß er sich zu helfen.</div>
+         <div class="drama_line">Ihn freuet der Besitz; ihn krönt der Sieg!</div>
+         <div class="drama_line">Ein ehrenvoller Tod ist ihm bereitet.</div>
+         <div class="drama_line">Wie eng-gebunden ist des Weibes Glück!</div>
+         <div class="drama_line">Schon einem rauhen Gatten zu gehorchen</div>
+         <div class="drama_line">Ist Pflicht und Trost; wie elend, wenn sie gar</div>
+         <div class="drama_line">Ein feindlich Schicksal in die Ferne treibt!</div>
+         <div class="drama_line">So hält mich Thoas hier, ein edler Mann,</div>
+         <div class="drama_line">In ernsten, heil'gen Sklavenbanden fest.</div>
+         <div class="drama_line">O wie beschämt gesteh ich, daß ich dir</div>
+         <div class="drama_line">Mit stillem Widerwillen diene, Göttin,</div>
+         <div class="drama_line">Dir, meiner Retterin! Mein Leben sollte</div>
+         <div class="drama_line">Zu freiem Dienste dir gewidmet sein.</div>
+         <div class="drama_line">Auch hab ich stets auf dich gehofft und hoffe</div>
+         <div class="drama_line">Noch jetzt auf dich, Diana, die du mich,</div>
+         <div class="drama_line">Des größten Königes verstoßne Tochter,</div>
+         <div class="drama_line">In deinen heil'gen, sanften Arm genommen.</div>
+         <div class="drama_line">Ja, Tochter Zeus', wenn du den hohen Mann,</div>
+         <div class="drama_line">Den du, die Tochter fordernd, ängstigtest,</div>
+         <div class="drama_line">Wenn du den göttergleichen Agamemnon,</div>
+         <div class="drama_line">Der dir sein Liebstes zum Altare brachte,</div>
+         <div class="drama_line">Von Trojas umgewandten Mauern rühmlich</div>
+         <div class="drama_line">Nach seinem Vaterland zurückbegleitet,</div>
+         <div class="drama_line">Die Gattin ihm, Elektren und den Sohn,</div>
+         <div class="drama_line">Die schonen Schätze, wohl erhalten hast:</div>
+         <div class="drama_line">So gib auch mich den Meinen endlich wieder,</div>
+         <div class="drama_line">Und rette mich, die du vom Tod errettet,</div>
+         <div class="drama_line">Auch von dem Leben hier, dem zweiten Tod.</div>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang von Goethe:</span>
+            <span class="title"> Iphigenie auf Tauris</span>
+         </div>
       </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>
@@ -308,11 +280,16 @@
                         Auf Touchscreen-Geräten wie Smartphones und Tablets können Sie diese Übung daher momentan noch nicht durchführen.
                     </div>
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Bitte ordnen Sie die folgenden Begriffe der jeweiligen Dramenform
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Bitte ordnen Sie die folgenden Begriffe der jeweiligen Dramenform
                     zu.</div>
+      </div>
+      <div class="quotation">
+         <div class="pretext">Textbeispiel:</div>
+      </div>
       <div class="drop_areas" id="drop_areas_8">
          <div class="drop_wrapper">
-            <th class="drop_head">Geschlossene Form</th>
+            <div class="drop_head">Geschlossene Form</div>
             <hr class="drop_separation"/>
             <div class="drop_area"
                  ondrop="drop(event, this)"
@@ -320,7 +297,7 @@
                  id="drop_area_8_1"/>
          </div>
          <div class="drop_wrapper">
-            <th class="drop_head">Offene Form</th>
+            <div class="drop_head">Offene Form</div>
             <hr class="drop_separation"/>
             <div class="drop_area"
                  ondrop="drop(event, this)"
@@ -364,33 +341,28 @@
    </div>
    <div class="exercise marker" resource="drama" id="uebungmonologUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Handelt es sich bei der nachfolgenden Rede um einen Monolog oder einen Dialog, oder aber einen Dialog mit monologischen Elementen? Markieren Sie die Elemente, die für den Monolog sprechen gelb, die für einen Dialog sprechen grau und entscheiden Sie dann.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Handelt es sich bei der nachfolgenden Rede um einen Monolog oder einen Dialog, oder aber einen Dialog mit monologischen Elementen? Markieren Sie die Elemente, die für den Monolog sprechen gelb, die für einen Dialog sprechen grau und entscheiden Sie dann.</div>
+      </div>
       <div class="quotation" id="markable_text_1">
          <div class="pretext">Textbeispiel:</div>
-         <div class="text">
-            <span class="stage_dir">Hamlet tritt auf, <span class="correct_marker">mit sich selbst redend</span>
-            </span>
-         </div>
-         <div class="text">HAMLET.</div>
-         <div class="text">Seyn oder nicht seyn - - Das ist die <span class="correct_marker">Frage - -</span> Ob es einem edeln Geist anständiger ist, sich den Beleidigungen des Glüks geduldig zu unterwerfen, oder seinen Anfällen entgegen zu stehen, und durch einen herzhaften Streich sie auf einmal zu endigen<span class="correct_marker">? Was ist sterben? - - Schlafen</span> - - das ist alles - - und durch einen guten Schlaf sich auf immer vom Kopfweh und allen andern Plagen, wovon unser Fleisch Erbe ist, zu erledigen, ist ja eine Glükseligkeit, die man einem andächtiglich zubeten sollte <span class="correct_marker">- -</span> Sterben - - Schlafen - - Doch vielleicht ist es was mehr <span class="correct_marker">- -</span> wie wenn es träumen wäre? - - Da stekt der Haken - - Was nach dem irdischen Getümmel in diesem langen Schlaf des Todes für Träume folgen können, das ist es, was uns stuzen machen muß. Wenn das nicht wäre, wer würde die Mißhandlungen und Staupen-Schläge der Zeit, die Gewaltthätigkeiten des Unterdrükers, die verächtlichen Kränkungen des Stolzen, die Quaal verschmähter Liebe, die Schicanen der Justiz, den Uebermuth der Grossen, ertragen, oder welcher Mann von Verdienst würde sich von einem Elenden, dessen Geburt oder Glük seinen ganzen Werth ausmacht, mit Füssen stossen lassen, wenn ihm frey stühnde, mit einem armen kleinen Federmesser sich Ruhe zu verschaffen? Welcher Taglöhner würde unter Aechzen und Schwizen ein mühseliges Leben fortschleppen wollen? - - Wenn die Furcht vor etwas nach dem Tode - - wenn dieses unbekannte Land, aus dem noch kein Reisender zurük gekommen ist, unsern Willen nicht betäubte, und uns riehte, lieber die Uebel zu leiden, die wir kennen, als uns freywillig in andre zu stürzen, die uns desto furchtbarer scheinen, weil sie uns unbekannt sind. Und so macht das Gewissen uns alle zu Memmen; so entnervet ein blosser Gedanke die Stärke des natürlichen Abscheues vor Schmerz und Elend, und die grössesten Thaten, die wichtigsten Entwürfe werden durch diese einzige Betrachtung in ihrem Lauf gehemmt, und von der Ausführung zurükgeschrekt - - Aber sachte! - - wie? Die schöne Ophelia? - - Nymphe, erinnre dich aller meiner Sünden in deinem Gebete.</div>
-         <div class="text">OPHELIA.</div>
-         <div class="text">Mein Gnädiger Prinz, wie habt ihr euch diese vielen Tage über befunden?</div>
-         <div class="text">HAMLET.</div>
-         <div class="text">Ich danke euch demüthigst; wohl - -</div>
-         <span class="author_title">
-            <span class="author">William Shakespeare: </span>
-            <span class="title">Hamlet, 3. Akt, 2. Auftritt</span>
+         <span class="stage_dir">Hamlet tritt auf, <span class="correct_marker">mit sich selbst redend</span>
          </span>
+         <br/>HAMLET.<br/>Seyn oder nicht seyn - - Das ist die <span class="correct_marker">Frage - -</span> Ob es einem edeln Geist anständiger ist, sich den Beleidigungen des Glüks geduldig zu unterwerfen, oder seinen Anfällen entgegen zu stehen, und durch einen herzhaften Streich sie auf einmal zu endigen<span class="correct_marker">? Was ist sterben? - - Schlafen</span> - - das ist alles - - und durch einen guten Schlaf sich auf immer vom Kopfweh und allen andern Plagen, wovon unser Fleisch Erbe ist, zu erledigen, ist ja eine Glükseligkeit, die man einem andächtiglich zubeten sollte <span class="correct_marker">- -</span> Sterben - - Schlafen - - Doch vielleicht ist es was mehr <span class="correct_marker">- -</span> wie wenn es träumen wäre? - - Da stekt der Haken - - Was nach dem irdischen Getümmel in diesem langen Schlaf des Todes für Träume folgen können, das ist es, was uns stuzen machen muß. Wenn das nicht wäre, wer würde die Mißhandlungen und Staupen-Schläge der Zeit, die Gewaltthätigkeiten des Unterdrükers, die verächtlichen Kränkungen des Stolzen, die Quaal verschmähter Liebe, die Schicanen der Justiz, den Uebermuth der Grossen, ertragen, oder welcher Mann von Verdienst würde sich von einem Elenden, dessen Geburt oder Glük seinen ganzen Werth ausmacht, mit Füssen stossen lassen, wenn ihm frey stühnde, mit einem armen kleinen Federmesser sich Ruhe zu verschaffen? Welcher Taglöhner würde unter Aechzen und Schwizen ein mühseliges Leben fortschleppen wollen? - - Wenn die Furcht vor etwas nach dem Tode - - wenn dieses unbekannte Land, aus dem noch kein Reisender zurük gekommen ist, unsern Willen nicht betäubte, und uns riehte, lieber die Uebel zu leiden, die wir kennen, als uns freywillig in andre zu stürzen, die uns desto furchtbarer scheinen, weil sie uns unbekannt sind. Und so macht das Gewissen uns alle zu Memmen; so entnervet ein blosser Gedanke die Stärke des natürlichen Abscheues vor Schmerz und Elend, und die grössesten Thaten, die wichtigsten Entwürfe werden durch diese einzige Betrachtung in ihrem Lauf gehemmt, und von der Ausführung zurükgeschrekt - - Aber sachte! - - wie? Die schöne Ophelia? - - Nymphe, erinnre dich aller meiner Sünden in deinem Gebete.<br/>OPHELIA.<br/>Mein Gnädiger Prinz, wie habt ihr euch diese vielen Tage über befunden?<br/>HAMLET.<br/>Ich danke euch demüthigst; wohl - -<br/>
+         <div class="author_title">
+            <span class="author">William Shakespeare:</span>
+            <span class="title"> Hamlet, 3. Akt, 2. Auftritt</span>
+         </div>
       </div>Zunächst handelt es sich um einen Monolog, da der Prinz mit sich selbst redet, eine Frage für sich erörtert und den Gedankengang durch rhetorische, also sich selbst gestellt und dann auch beantwortete, Fragen entwickelt und assoziiert (Gedankenstriche!). Erst als er Ophelia entdeckt, wird die Szene dialogisch, wobei er aber das Gesagte nicht aufgreift oder erklärt, sondern sich direkt an sie wendet und sie anspricht. Sie geht zwar nicht auf diese Ansprache (oder das vorher Gehörte) ein, stellt ihm jedoch eine Frage, die er dann auch beantwortet.<div class="solution" id="solution_9">
-         <div class="feedback" id="feedback_9">
-                            Erläuterung:
-                        </div>
+         <div class="feedback" id="feedback_9">Erläuterung:</div>
          <div class="answer" id="answer_9">Zunächst handelt es sich um einen Monolog, da der Prinz mit sich selbst redet, eine Frage für sich erörtert und den Gedankengang durch rhetorische, also sich selbst gestellt und dann auch beantwortete, Fragen entwickelt und assoziiert (Gedankenstriche!). Erst als er Ophelia entdeckt, wird die Szene dialogisch, wobei er aber das Gesagte nicht aufgreift oder erklärt, sondern sich direkt an sie wendet und sie anspricht. Sie geht zwar nicht auf diese Ansprache (oder das vorher Gehörte) ein, stellt ihm jedoch eine Frage, die er dann auch beantwortet.</div>
       </div>
    </div>
    <div class="exercise gaps" resource="drama" id="uebungrologUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Wie muss der Satz zum Prolog richtig lauten?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Wie muss der Satz zum Prolog richtig lauten?</div>
+      </div>
       <div class="gap_text" id="gap_text_10">Im Prolog wird <select name="dropdown" class="gap">
             <option value="standard">--- bitte auswählen ---</option>
             <option value="true">ein
@@ -420,96 +392,98 @@
    </div>
    <div class="exercise text" resource="drama" id="uebungteichoskopieUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Begründen Sie, warum folgende Szene als Mauerschau gestaltet ist.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Begründen Sie, warum folgende Szene als Mauerschau gestaltet ist.</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
-         <div class="text">Der HAUPTMANN. <span class="stage_dir">Eine Schaar von</span> GRIECHEN.</div>
-         <div class="text">
+         <div class="drama_line">Der HAUPTMANN. <span class="stage_dir">Eine Schaar von</span> GRIECHEN.</div>
+         <div class="drama_line">
             <span class="stage_dir">(welche während dessen einen Hügel bestiegen haben).</span>
          </div>
-         <div class="text">EIN MYRMIDONIER. <span class="stage_dir">(in die Gegend schauend.)</span>
+         <div class="drama_line">EIN MYRMIDONIER. <span class="stage_dir">(in die Gegend schauend.)</span>
          </div>
-         <div class="text">Seht! Steigt dort über jenes Berges Rücken,</div>
-         <div class="text">Ein Haupt nicht, ein bewaffnetes, empor?</div>
-         <div class="text">Ein Helm, von Federbüschen überschattet?</div>
-         <div class="text">Der Nacken schon, der mächt'ge, der es trägt?</div>
-         <div class="text">Die Schultern auch, die Arme, stahlumglänzt?</div>
-         <div class="text">Das ganze Brustgebild, O seht doch, Freunde,</div>
-         <div class="text">Bis wo den Leib der gold'ne Gurt umschließt?</div>
-         <div class="text">DER HAUPTMANN.</div>
-         <div class="text">Ha! Wessen!</div>
-         <div class="text">DER MYRMIDONIER.</div>
-         <div class="text">Wessen! Träum' ich, ihr Argiver?</div>
-         <div class="text">Die Häupter sieht man schon, geschmückt mit Blessen,</div>
-         <div class="text">Des Roßgespanns! Nur noch die Schenkel sind,</div>
-         <div class="text">Die Hufen, von der Höhe Rand bedeckt!</div>
-         <div class="text">Jetzt, auf dem Horizonte, steht das ganze</div>
-         <div class="text">Kriegsfahrzeug da! So geht die Sonne prachtvoll</div>
-         <div class="text">An einem heitern Frühlingstage auf!</div>
-         <div class="text">DIE GRIECHEN.</div>
-         <div class="text">Triumph! Achilleus ist's! Der Göttersohn!</div>
-         <div class="text">Selbst die Quadriga führet er heran!</div>
-         <div class="text">Er ist gerettet!</div>
-         <div class="text">DER HAUPTMANN.</div>
-         <div class="text">Ihr Olympischen!</div>
-         <div class="text">So sei euch ew'ger Ruhm gegönnt! – Odysseus!</div>
-         <div class="text">– Flieg Einer den argol'schen Fürsten nach!</div>
-         <div class="text">
+         <div class="drama_line">Seht! Steigt dort über jenes Berges Rücken,</div>
+         <div class="drama_line">Ein Haupt nicht, ein bewaffnetes, empor?</div>
+         <div class="drama_line">Ein Helm, von Federbüschen überschattet?</div>
+         <div class="drama_line">Der Nacken schon, der mächt'ge, der es trägt?</div>
+         <div class="drama_line">Die Schultern auch, die Arme, stahlumglänzt?</div>
+         <div class="drama_line">Das ganze Brustgebild, O seht doch, Freunde,</div>
+         <div class="drama_line">Bis wo den Leib der gold'ne Gurt umschließt?</div>
+         <div class="drama_line">DER HAUPTMANN.</div>
+         <div class="drama_line">Ha! Wessen!</div>
+         <div class="drama_line">DER MYRMIDONIER.</div>
+         <div class="drama_line">Wessen! Träum' ich, ihr Argiver?</div>
+         <div class="drama_line">Die Häupter sieht man schon, geschmückt mit Blessen,</div>
+         <div class="drama_line">Des Roßgespanns! Nur noch die Schenkel sind,</div>
+         <div class="drama_line">Die Hufen, von der Höhe Rand bedeckt!</div>
+         <div class="drama_line">Jetzt, auf dem Horizonte, steht das ganze</div>
+         <div class="drama_line">Kriegsfahrzeug da! So geht die Sonne prachtvoll</div>
+         <div class="drama_line">An einem heitern Frühlingstage auf!</div>
+         <div class="drama_line">DIE GRIECHEN.</div>
+         <div class="drama_line">Triumph! Achilleus ist's! Der Göttersohn!</div>
+         <div class="drama_line">Selbst die Quadriga führet er heran!</div>
+         <div class="drama_line">Er ist gerettet!</div>
+         <div class="drama_line">DER HAUPTMANN.</div>
+         <div class="drama_line">Ihr Olympischen!</div>
+         <div class="drama_line">So sei euch ew'ger Ruhm gegönnt! – Odysseus!</div>
+         <div class="drama_line">– Flieg Einer den argol'schen Fürsten nach!</div>
+         <div class="drama_line">
             <span class="stage_dir">(Ein Grieche schnell ab.)</span>
          </div>
-         <div class="text">Naht er sich uns, ihr Danaer?</div>
-         <div class="text">DER MYRMIDONIER.                         O sieh!</div>
-         <div class="text">DER HAUPTMANN.</div>
-         <div class="text">Was giebt's?</div>
-         <div class="text">DER MYRMIDONIER.</div>
-         <div class="text">O mir vergeht der Athem, Hauptmann!</div>
-         <div class="text">DER HAUPTMANN.</div>
-         <div class="text">So rede, sprich!</div>
-         <div class="text">DER MYRMIDONIER.</div>
-         <div class="text">O, wie er mit der Linken</div>
-         <div class="text">Vor über seiner Rosse Rücken geht!</div>
-         <div class="text">Wie er die Geißel umschwingt über sie!</div>
-         <div class="text">Wie sie von ihrem bloßen Klang erregt,</div>
-         <div class="text">Der Erde Grund, die göttlichen, zerstampfen!</div>
-         <div class="text">Am Zügel zieh'n sie, beim Lebendigen,</div>
-         <div class="text">Mit ihrer Schlünde Dampf, das Fahrzeug fort!</div>
-         <div class="text">Gehetzter Hirsche Flug ist schneller nicht!</div>
-         <div class="text">Der Blick drängt unzerknickt sich durch die Räder,</div>
-         <div class="text">Zur Scheibe fliegend eingedreht, nicht hin!</div>
-         <div class="text">EIN ÄTOLIER.</div>
-         <div class="text">Doch hinter ihm –</div>
-         <div class="text">DER HAUPTMANN.           Was?</div>
-         <div class="text">DER MYRMIDONIER.                   An des Berges Saum –</div>
-         <div class="text">DER ÄTOLIER.</div>
-         <div class="text">Staub –</div>
-         <div class="text">DER MYRMIDONIER.</div>
-         <div class="text">Staub aufqualmend, wie Gewitterwolken:</div>
-         <div class="text">Und, wie der Blitz vorzuckt –</div>
-         <div class="text">DER ÄTOLIER.                                     Ihr ew'gen Götter!</div>
-         <div class="text">DER MYRMIDONIER.</div>
-         <div class="text">Penthesilea.</div>
-         <div class="text">DER HAUPTMANN. Wer?</div>
-         <div class="text">DER ÄTOLIER.                   Die Königinn! –</div>
-         <div class="text">Ihm auf dem Fuß, dem Peleïden, schon</div>
-         <div class="text">Mit ihrem ganzen Troß von Weibern folgend.</div>
-         <div class="text">DER HAUPTMANN.</div>
-         <div class="text">Die rasende Megär'!</div>
-         <div class="text">DIE GRIECHEN. <span class="stage_dir">(rufend)</span>     Hieher den Lauf!</div>
-         <div class="text">Hieher den Lauf, du göttlicher gerichtet!</div>
-         <div class="text">Auf uns den Lauf!</div>
-         <div class="text">DER ÄTOLIER.                 Seht! wie sie mit den Schenkeln</div>
-         <div class="text">Des Tiegers Leib inbrünstiglich umarmt!</div>
-         <div class="text">Wie sie, bis auf die Mähn' herabgebeugt,</div>
-         <div class="text">Hinweg die Luft trinkt lechzend, die sie hemmt!</div>
-         <div class="text">Sie fliegt, wie von der Senne abgeschossen:</div>
-         <div class="text">Numidsche Pfeile sind nicht hurtiger!</div>
-         <div class="text">Das Heer bleibt keuchend, hinter ihr, wie Köter,</div>
-         <div class="text">Wenn sich ganz aus die Dogge streckt, zurück!</div>
-         <div class="text">Kaum daß ihr Federbusch ihr folgen kann!</div>
-         <span class="author_title">
-            <span class="author">Heinrich von Kleist: </span>
-            <span class="title">Penthesilea, 3.Aufzug</span>
-         </span>
+         <div class="drama_line">Naht er sich uns, ihr Danaer?</div>
+         <div class="drama_line">DER MYRMIDONIER.                         O sieh!</div>
+         <div class="drama_line">DER HAUPTMANN.</div>
+         <div class="drama_line">Was giebt's?</div>
+         <div class="drama_line">DER MYRMIDONIER.</div>
+         <div class="drama_line">O mir vergeht der Athem, Hauptmann!</div>
+         <div class="drama_line">DER HAUPTMANN.</div>
+         <div class="drama_line">So rede, sprich!</div>
+         <div class="drama_line">DER MYRMIDONIER.</div>
+         <div class="drama_line">O, wie er mit der Linken</div>
+         <div class="drama_line">Vor über seiner Rosse Rücken geht!</div>
+         <div class="drama_line">Wie er die Geißel umschwingt über sie!</div>
+         <div class="drama_line">Wie sie von ihrem bloßen Klang erregt,</div>
+         <div class="drama_line">Der Erde Grund, die göttlichen, zerstampfen!</div>
+         <div class="drama_line">Am Zügel zieh'n sie, beim Lebendigen,</div>
+         <div class="drama_line">Mit ihrer Schlünde Dampf, das Fahrzeug fort!</div>
+         <div class="drama_line">Gehetzter Hirsche Flug ist schneller nicht!</div>
+         <div class="drama_line">Der Blick drängt unzerknickt sich durch die Räder,</div>
+         <div class="drama_line">Zur Scheibe fliegend eingedreht, nicht hin!</div>
+         <div class="drama_line">EIN ÄTOLIER.</div>
+         <div class="drama_line">Doch hinter ihm –</div>
+         <div class="drama_line">DER HAUPTMANN.           Was?</div>
+         <div class="drama_line">DER MYRMIDONIER.                   An des Berges Saum –</div>
+         <div class="drama_line">DER ÄTOLIER.</div>
+         <div class="drama_line">Staub –</div>
+         <div class="drama_line">DER MYRMIDONIER.</div>
+         <div class="drama_line">Staub aufqualmend, wie Gewitterwolken:</div>
+         <div class="drama_line">Und, wie der Blitz vorzuckt –</div>
+         <div class="drama_line">DER ÄTOLIER.                                     Ihr ew'gen Götter!</div>
+         <div class="drama_line">DER MYRMIDONIER.</div>
+         <div class="drama_line">Penthesilea.</div>
+         <div class="drama_line">DER HAUPTMANN. Wer?</div>
+         <div class="drama_line">DER ÄTOLIER.                   Die Königinn! –</div>
+         <div class="drama_line">Ihm auf dem Fuß, dem Peleïden, schon</div>
+         <div class="drama_line">Mit ihrem ganzen Troß von Weibern folgend.</div>
+         <div class="drama_line">DER HAUPTMANN.</div>
+         <div class="drama_line">Die rasende Megär'!</div>
+         <div class="drama_line">DIE GRIECHEN. <span class="stage_dir">(rufend)</span>     Hieher den Lauf!</div>
+         <div class="drama_line">Hieher den Lauf, du göttlicher gerichtet!</div>
+         <div class="drama_line">Auf uns den Lauf!</div>
+         <div class="drama_line">DER ÄTOLIER.                 Seht! wie sie mit den Schenkeln</div>
+         <div class="drama_line">Des Tiegers Leib inbrünstiglich umarmt!</div>
+         <div class="drama_line">Wie sie, bis auf die Mähn' herabgebeugt,</div>
+         <div class="drama_line">Hinweg die Luft trinkt lechzend, die sie hemmt!</div>
+         <div class="drama_line">Sie fliegt, wie von der Senne abgeschossen:</div>
+         <div class="drama_line">Numidsche Pfeile sind nicht hurtiger!</div>
+         <div class="drama_line">Das Heer bleibt keuchend, hinter ihr, wie Köter,</div>
+         <div class="drama_line">Wenn sich ganz aus die Dogge streckt, zurück!</div>
+         <div class="drama_line">Kaum daß ihr Federbusch ihr folgen kann!</div>
+         <div class="author_title">
+            <span class="author">Heinrich von Kleist:</span>
+            <span class="title"> Penthesilea, 3.Aufzug</span>
+         </div>
       </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>
@@ -526,9 +500,11 @@
    </div>
    <div class="exercise mc" resource="edition" id="uebung1apparatUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Wie nennt man die hier gezeigte Darstellungsweise der beiden Versionen der
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Wie nennt man die hier gezeigte Darstellungsweise der beiden Versionen der
                     ersten Strophe von Goethes "An Schwager Kronos"?</div>
-      <table class="content_table">
+      </div>
+      <table class="standard_table">
          <tr>
             <td class="table_data">H1 An Schwager Kronos</td>
             <td class="table_data">H2 An Schwager Kronos</td>
@@ -566,6 +542,13 @@
             <td class="table_data">Rasch in’s Leben hinein!</td>
          </tr>
       </table>
+      <div class="quotation">
+         <div class="pretext">Textbeispiel:</div>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang Goethe:</span>
+            <span class="title"> Schwager Kronos</span>
+         </div>
+      </div>
       <fieldset id="option_pool_12">
          <div class="option">
             <input type="radio"
@@ -601,29 +584,31 @@
    </div>
    <div class="exercise text" resource="edition" id="uebung2apparatUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Dies ist die vierte Strophe der späteren Version von Goethes Gedicht „An
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Dies ist die vierte Strophe der späteren Version von Goethes Gedicht „An
                     Schwager Kronos“. Rekonstruieren Sie anhand des Apparates den
                     Ursprungstext.</div>
+      </div>
       <div class="poem">
          <div class="pretext">Textbeispiel:</div>
          <div class="poem_linegroup">
-            <p class="poem_line">Seitwärts des Überdachs Schatten</p>
-            <p class="poem_line">20 Zieht dich an,</p>
-            <p class="poem_line">Und ein Frischung verheißender Blick</p>
-            <p class="poem_line">Auf der Schwelle des Mädgens da.</p>
-            <p class="poem_line">Labe dich! – Mir auch, Mädgen,</p>
-            <p class="poem_line">Diesen schäumenden Trank,</p>
-            <p class="poem_line">25 Diesen frischen Gesundheitsblick!</p>
+            <div class="poem_line">Seitwärts des Überdachs Schatten</div>
+            <div class="poem_line">20 Zieht dich an,</div>
+            <div class="poem_line">Und ein Frischung verheißender Blick</div>
+            <div class="poem_line">Auf der Schwelle des Mädgens da.</div>
+            <div class="poem_line">Labe dich! – Mir auch, Mädgen,</div>
+            <div class="poem_line">Diesen schäumenden Trank,</div>
+            <div class="poem_line">25 Diesen frischen Gesundheitsblick!</div>
          </div>
          <div class="poem_linegroup">
-            <p class="poem_line">21 ein] der verheißender] verheißende</p>
-            <p class="poem_line">23 dich! –] dich – 24 Trank] Trunck 25 Diesen frischen
-                                Gesundheitsblick] Und den freundlichen Gesundheits Blick</p>
+            <div class="poem_line">21 ein] der verheißender] verheißende</div>
+            <div class="poem_line">23 dich! –] dich – 24 Trank] Trunck 25 Diesen frischen
+                                Gesundheitsblick] Und den freundlichen Gesundheits Blick</div>
          </div>
-         <span class="author_title">
-            <span class="author">Johann Wolfgang Goethe: </span>
-            <span class="title">Nach: Goethes Werke WA I, Bandnummer, Seitenzahl An Schwager Kreon</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang Goethe:</span>
+            <span class="title"> Nach: Goethes Werke WA I, Bandnummer, Seitenzahl</span>
+         </div>
       </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>
@@ -638,13 +623,13 @@
                <div class="poem">
                   <div class="pretext">Textbeispiel:</div>
                   <div class="poem_linegroup">
-                     <p class="poem_line">Seitwärts des Überdachs Schatten</p>
-                     <p class="poem_line">20 Zieht dich an,</p>
-                     <p class="poem_line">Und der Frischung verheißende Blick</p>
-                     <p class="poem_line">Auf der Schwelle des Mädgens da.</p>
-                     <p class="poem_line">Labe dich – Mir auch, Mädgen,</p>
-                     <p class="poem_line">Diesen schäumenden Trunck,</p>
-                     <p class="poem_line">25 Und den freundlichen Gesundheits Blick!</p>
+                     <div class="poem_line">Seitwärts des Überdachs Schatten</div>
+                     <div class="poem_line">20 Zieht dich an,</div>
+                     <div class="poem_line">Und der Frischung verheißende Blick</div>
+                     <div class="poem_line">Auf der Schwelle des Mädgens da.</div>
+                     <div class="poem_line">Labe dich – Mir auch, Mädgen,</div>
+                     <div class="poem_line">Diesen schäumenden Trunck,</div>
+                     <div class="poem_line">25 Und den freundlichen Gesundheits Blick!</div>
                   </div>
                </div>
             </div>
@@ -656,10 +641,14 @@
         id="ersteuebungentstehungsapparatentstehungskritikUeb">
       <div class="task">
          <div class="pretext">Fragestellung:</div>
-         <img class="media" src="{{ 'assets/media/trakl.gif' | relative_url }}"/>
+         <div class="text">
+            <img class="media" src="{{ 'assets/media/trakl.gif' | relative_url }}"/>
+         </div>
       </div>
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Handelt es sich bei dem im Beispiel gezeigten Text um ein/eine: </div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Handelt es sich bei dem im Beispiel gezeigten Text um ein/eine: </div>
+      </div>
       <fieldset id="option_pool_14">
          <div class="option">
             <input type="radio"
@@ -705,9 +694,18 @@
         resource="edition"
         id="zweiteuebungentstehungsapparatentstehungskritikUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Der Text ist geschrieben in:</div>
-      <div class="text">
-         <img class="media" src="{{ 'assets/media/trakl.gif' | relative_url }}"/>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Der Text ist geschrieben in:</div>
+      </div>
+      <div class="quotation">
+         <div class="pretext">Textbeispiel:</div>
+         <div class="text">
+            <img class="media" src="{{ 'assets/media/trakl.gif' | relative_url }}"/>
+         </div>
+         <div class="author_title">
+            <span class="author">f f:</span>
+            <span class="title"> f</span>
+         </div>
       </div>
       <fieldset id="option_pool_15">
          <div class="option">
@@ -746,7 +744,12 @@
         resource="edition"
         id="dritteuebungentstehungsapparatentstehungskritikUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Sieht man in diesem Text:</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Sieht man in diesem Text:<embed class="pdf"
+                   type="application/pdf"
+                   src="{{ 'assets/media/trakl2.pdf' | relative_url }}"/>
+         </div>
+      </div>
       <fieldset id="option_pool_16">
          <div class="option">
             <input type="radio"
@@ -792,9 +795,14 @@
         resource="edition"
         id="vierteuebungentstehungsapparatentstehungskritikUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>In einer Ausgabe welchen Editionstyps könnte der folgende Text auftauchen?
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">In einer Ausgabe welchen Editionstyps könnte der folgende Text auftauchen?
 					
-				</div>
+				<embed class="pdf"
+                   type="application/pdf"
+                   src="{{ 'assets/media/trakl2.pdf' | relative_url }}"/>
+         </div>
+      </div>
       <fieldset id="option_pool_17">
          <div class="option">
             <input type="radio"
@@ -838,8 +846,10 @@
    </div>
    <div class="exercise mc" resource="edition" id="uebungkollationUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Wie heißt der Bearbeitungsschritt des Editors, der der Erstellung des
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Wie heißt der Bearbeitungsschritt des Editors, der der Erstellung des
                     Variantenapparates unmittelbar vorangeht?</div>
+      </div>
       <fieldset id="option_pool_18">
          <div class="option">
             <input type="radio"
@@ -877,59 +887,52 @@
         resource="edition"
         id="zweiteuebungzurkollationUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Markieren Sie die abweichenden Textstellen in der Fassung von
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Markieren Sie die abweichenden Textstellen in der Fassung von
                     1787</div>
+      </div>
       <div class="quotation" id="markable_text_2">
-         <div class="pretext">Textbeispiel:</div>
-         <div class="text">Fassung 1774:</div>
-         <div class="text"> Erster Theil</div>
-         <div class="text">Was ich von der Geschichte des armen Werthers nur habe
+         <div class="pretext">Textbeispiel:</div>Fassung 1774:<br/> Erster Theil<br/>Was ich von der Geschichte des armen Werthers nur habe
                         auffinden können, habe ich mit Fleiß gesammelt, und leg es euch hier vor,
                         und weis, daß ihr mir´s danken werdet. Ihr könnt seinem Geist und seinem
                         Charakter eure Bewunderung und Liebe, und seinem Schicksaale eure Thränen
-                        nicht versagen.</div>
-         <div class="text">Fassung 1787:</div>
-         <div class="text"> Erste<span class="correct_marker">s
+                        nicht versagen.<br/>Fassung 1787:<br/> Erste<span class="correct_marker">s
                         Buch</span>
-         </div>
-         <div class="text">Was ich von der Geschichte des armen Werthers nur habe
+         <br/>Was ich von der Geschichte des armen Werthers nur habe
                         auffinden können, habe ich mit Fleiß gesammelt, und lege es euch hier vor,
                         und <span class="correct_marker">weiß</span>, daß ihr mir´s danken
                         werdet. Ihr könnt seinem <span class="correct_marker">Geiste</span> und
                         seinem <span class="correct_marker">Character</span> eure Bewunderung und
                         Liebe, <span class="correct_marker">seinem Schicksale</span> eure Thränen
-                        nicht versagen.</div>
-         <span class="author_title">
-            <span class="author">Johann Wolfgang von Goethe: </span>
-            <span class="title">Die Leiden des jungen Werther</span>
-         </span>
+                        nicht versagen.<br/>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang von Goethe:</span>
+            <span class="title"> Die Leiden des jungen Werther</span>
+         </div>
       </div>
       <div class="solution" id="solution_19">
-         <div class="feedback" id="feedback_19">
-                            Erläuterung:
-                        </div>
+         <div class="feedback" id="feedback_19">Erläuterung:</div>
          <div class="answer" id="answer_19"/>
       </div>
    </div>
    <div class="exercise marker" resource="edition" id="uebungkonjekturUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Markieren Sie diejenige Stelle, die vermutlich falsch überliefert
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Markieren Sie diejenige Stelle, die vermutlich falsch überliefert
                     wurde.</div>
+      </div>
       <div class="quotation" id="markable_text_1">
-         <div class="pretext">Textbeispiel:</div>
-         <div class="text">„Und der Vergangenheit Sonnenstrahl blickt herein, wie einem
-                        Gefangenen ein Traum von Herden, Wiesen und <span class="correct_marker">Ehrenämtern</span>!“</div>
-         <span class="author_title">
-            <span class="author">Johann Wolfgang von Goethe: </span>
-            <span class="title">Die Leiden des jungen Werther</span>
-         </span>
+         <div class="pretext">Textbeispiel:</div>„Und der Vergangenheit Sonnenstrahl blickt herein, wie einem
+                        Gefangenen ein Traum von Herden, Wiesen und <span class="correct_marker">Ehrenämtern</span>!“<br/>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang von Goethe:</span>
+            <span class="title"> Die Leiden des jungen Werther</span>
+         </div>
       </div>Diese Textstelle in „Die Leiden des jungen Werthers“ ist
                     nur in der Fassung von 1787 zu finden. Ganz offensichtlich muss der Editor den
                     Text verändert oder falsch erfasst haben, da das Wort „Ehrenämter“ in dem
                     Satzzusammenhang keinen Sinn ergibt.<div class="solution" id="solution_20">
-         <div class="feedback" id="feedback_20">
-                            Erläuterung:
-                        </div>
+         <div class="feedback" id="feedback_20">Erläuterung:</div>
          <div class="answer" id="answer_20">Diese Textstelle in „Die Leiden des jungen Werthers“ ist
                     nur in der Fassung von 1787 zu finden. Ganz offensichtlich muss der Editor den
                     Text verändert oder falsch erfasst haben, da das Wort „Ehrenämter“ in dem
@@ -938,7 +941,9 @@
    </div>
    <div class="exercise mc" resource="edition" id="uebunglesartUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Was bezeichnet „Lesart“ in der editorischen Terminologie?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Was bezeichnet „Lesart“ in der editorischen Terminologie?</div>
+      </div>
       <fieldset id="option_pool_21">
          <div class="option">
             <input type="radio"
@@ -977,7 +982,9 @@
         resource="edition"
         id="uebung1linearetextdarstellungUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Was ist ein emendierter Text?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Was ist ein emendierter Text?</div>
+      </div>
       <fieldset id="option_pool_22">
          <div class="option">
             <input type="radio"
@@ -1015,7 +1022,9 @@
         resource="edition"
         id="uebung2linearetextdarstellungUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Was ist ein Konstituierter Text?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Was ist ein Konstituierter Text?</div>
+      </div>
       <fieldset id="option_pool_23">
          <div class="option">
             <input type="radio"
@@ -1053,7 +1062,9 @@
         resource="edition"
         id="uebung3linearetextdarstellungUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Was ist ein differenzierter Text?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Was ist ein differenzierter Text?</div>
+      </div>
       <fieldset id="option_pool_24">
          <div class="option">
             <input type="radio"
@@ -1089,8 +1100,10 @@
    </div>
    <div class="exercise mc" resource="edition" id="uebungsiglenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Wie nennt man im Apparat verwendete Abkürzungen wie H1 für eine bestimmte
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Wie nennt man im Apparat verwendete Abkürzungen wie H1 für eine bestimmte
                     Handschrift?</div>
+      </div>
       <fieldset id="option_pool_25">
          <div class="option">
             <input type="radio"
@@ -1126,7 +1139,9 @@
    </div>
    <div class="exercise mc" resource="metrik" id="uebungamphibrachysUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Welche der folgenden Verspassagen ist amphibrachisch?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Welche der folgenden Verspassagen ist amphibrachisch?</div>
+      </div>
       <fieldset id="option_pool_26">
          <div class="option">
             <input type="radio"
@@ -1134,23 +1149,23 @@
                    id="option_26_uebungamphibrachysL1"
                    value="false"/>
             <label for="option_26_uebungamphibrachysL1">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Schlage zum Himmel, Champagnergezisch,</p>
-                     <p class="poem_line">Springe in silbernen Strudelkaskaden,</p>
-                     <p class="poem_line">Schieße in pochenden,</p>
-                     <p class="poem_line">Bäumenden Fluten,</p>
-                     <p class="poem_line">Fließe in kochenden,</p>
-                     <p class="poem_line">Schäumenden Gluten,</p>
-                     <p class="poem_line">Ähnlich dem Bronnen der Quellennajaden,</p>
-                     <p class="poem_line">Drin sich die Glieder der Artemis baden,</p>
-                     <p class="poem_line">Tief in des Idas Zypressengebüsch.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Moritz von Strachwitz: </span>
-                     <span class="title">  Champagnerlied, 1. Strophe</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Schlage zum Himmel, Champagnergezisch,</span>
+                     <span class="poem_line">Springe in silbernen Strudelkaskaden,</span>
+                     <span class="poem_line">Schieße in pochenden,</span>
+                     <span class="poem_line">Bäumenden Fluten,</span>
+                     <span class="poem_line">Fließe in kochenden,</span>
+                     <span class="poem_line">Schäumenden Gluten,</span>
+                     <span class="poem_line">Ähnlich dem Bronnen der Quellennajaden,</span>
+                     <span class="poem_line">Drin sich die Glieder der Artemis baden,</span>
+                     <span class="poem_line">Tief in des Idas Zypressengebüsch.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Moritz von Strachwitz:</span>
+                     <span class="title"> Champagnerlied, 1. Strophe</span>
+                  </span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1159,23 +1174,23 @@
                    id="option_26_uebungamphibrachysL2"
                    value="true"/>
             <label for="option_26_uebungamphibrachysL2">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Herein, o du Guter! du Alter herein!</p>
-                     <p class="poem_line">Hier unten im Saale da sind wir allein,</p>
-                     <p class="poem_line">Wir wollen die Pforte verschließen.</p>
-                     <p class="poem_line">Die Mutter sie betet, der Vater im Hain</p>
-                     <p class="poem_line">Ist gangen die Wölfe zu schießen.</p>
-                     <p class="poem_line">O sing uns ein Märchen, o sing es uns oft,</p>
-                     <p class="poem_line">Daß ich und der Bruder es lerne;</p>
-                     <p class="poem_line">Wir haben schon längst einen Sänger gehofft,</p>
-                     <p class="poem_line">Die Kinder sie hören es gerne.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Johann Wolfgang  Goethe: </span>
-                     <span class="title">  Ballade, 1. Strophe</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Herein, o du Guter! du Alter herein!</span>
+                     <span class="poem_line">Hier unten im Saale da sind wir allein,</span>
+                     <span class="poem_line">Wir wollen die Pforte verschließen.</span>
+                     <span class="poem_line">Die Mutter sie betet, der Vater im Hain</span>
+                     <span class="poem_line">Ist gangen die Wölfe zu schießen.</span>
+                     <span class="poem_line">O sing uns ein Märchen, o sing es uns oft,</span>
+                     <span class="poem_line">Daß ich und der Bruder es lerne;</span>
+                     <span class="poem_line">Wir haben schon längst einen Sänger gehofft,</span>
+                     <span class="poem_line">Die Kinder sie hören es gerne.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Johann Wolfgang  Goethe:</span>
+                     <span class="title"> Ballade, 1. Strophe</span>
+                  </span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1184,20 +1199,20 @@
                    id="option_26_uebungamphibrachysL3"
                    value="false"/>
             <label for="option_26_uebungamphibrachysL3">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Wenn einsam du im Kämmerlein gesessen,</p>
-                     <p class="poem_line">Wenn dich der Schlummer floh die lange Nacht,</p>
-                     <p class="poem_line">Dann hast du oft, so sprichst du, mein gedacht;</p>
-                     <p class="poem_line">Doch, wenn die Sonne kommen unterdessen,</p>
-                     <p class="poem_line">Wenn dir die Welt und jeglich Aug gelacht,</p>
-                     <p class="poem_line">Hast du auch dann wohl jemals mein gedacht?</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Theodor Storm: </span>
-                     <span class="title">  Frage</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Wenn einsam du im Kämmerlein gesessen,</span>
+                     <span class="poem_line">Wenn dich der Schlummer floh die lange Nacht,</span>
+                     <span class="poem_line">Dann hast du oft, so sprichst du, mein gedacht;</span>
+                     <span class="poem_line">Doch, wenn die Sonne kommen unterdessen,</span>
+                     <span class="poem_line">Wenn dir die Welt und jeglich Aug gelacht,</span>
+                     <span class="poem_line">Hast du auch dann wohl jemals mein gedacht?</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Theodor Storm:</span>
+                     <span class="title"> Frage</span>
+                  </span>
+               </span>
             </label>
          </div>
       </fieldset>
@@ -1213,7 +1228,9 @@
    </div>
    <div class="exercise mc" resource="metrik" id="uebunganapaestUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Welche der folgenden Verspassagen ist anapästisch?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Welche der folgenden Verspassagen ist anapästisch?</div>
+      </div>
       <fieldset id="option_pool_27">
          <div class="option">
             <input type="radio"
@@ -1221,16 +1238,15 @@
                    id="option_27_uebunganapaestL1"
                    value="true"/>
             <label for="option_27_uebunganapaestL1">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Das Gesicht und die Seele betrachtet mir wohl am Gedicht!</p>
-                     <p class="poem_line">Denn ein Spiegel der Seele soll sein auch des Liedes Gesicht.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Wilhelm Langewiesche: </span>
-                     <span class="title"/>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Das Gesicht und die Seele betrachtet mir wohl am Gedicht!</span>
+                     <span class="poem_line">Denn ein Spiegel der Seele soll sein auch des Liedes Gesicht.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Wilhelm Langewiesche:</span>
+                  </span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1239,18 +1255,18 @@
                    id="option_27_uebunganapaestL2"
                    value="false"/>
             <label for="option_27_uebunganapaestL2">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Man lebet doch wie im Schlaraffenland hier,</p>
-                     <p class="poem_line">Da schmauset man frühe wie spat;</p>
-                     <p class="poem_line">Schon dreht sich der Boden vor Wonne mit mir,</p>
-                     <p class="poem_line">Kaum daß ich die Schwelle betrat!</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Eduard Mörike: </span>
-                     <span class="title">Das lustige Wirtshaus</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Man lebet doch wie im Schlaraffenland hier,</span>
+                     <span class="poem_line">Da schmauset man frühe wie spat;</span>
+                     <span class="poem_line">Schon dreht sich der Boden vor Wonne mit mir,</span>
+                     <span class="poem_line">Kaum daß ich die Schwelle betrat!</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Eduard Mörike:</span>
+                     <span class="title"> Das lustige Wirtshaus</span>
+                  </span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1259,21 +1275,21 @@
                    id="option_27_uebunganapaestL3"
                    value="false"/>
             <label for="option_27_uebunganapaestL3">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Ein Mann, dem eine Maus des Nachts den Schuh zerbiß,</p>
-                     <p class="poem_line">Erzählte einst dem weisen Kato dies,</p>
-                     <p class="poem_line">Als ein Ereigniß, das ihn sehr beängstigt hätte.</p>
-                     <p class="poem_line">Darüber, Freund, legt ruhig euch zu Bette,</p>
-                     <p class="poem_line">Sprach Kato; denn das Wunder wär'</p>
-                     <p class="poem_line">Um zehnmal noch bedenklicher,</p>
-                     <p class="poem_line">Wenn euer Schuh die Maus gebissen hätte.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Aloys Blumauer: </span>
-                     <span class="title">Der Aberglaube</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Ein Mann, dem eine Maus des Nachts den Schuh zerbiß,</span>
+                     <span class="poem_line">Erzählte einst dem weisen Kato dies,</span>
+                     <span class="poem_line">Als ein Ereigniß, das ihn sehr beängstigt hätte.</span>
+                     <span class="poem_line">Darüber, Freund, legt ruhig euch zu Bette,</span>
+                     <span class="poem_line">Sprach Kato; denn das Wunder wär'</span>
+                     <span class="poem_line">Um zehnmal noch bedenklicher,</span>
+                     <span class="poem_line">Wenn euer Schuh die Maus gebissen hätte.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Aloys Blumauer:</span>
+                     <span class="title"> Der Aberglaube</span>
+                  </span>
+               </span>
             </label>
          </div>
       </fieldset>
@@ -1289,7 +1305,9 @@
    </div>
    <div class="exercise mc" resource="metrik" id="uebungdaktylusUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Welche der folgenden Verspassagen ist daktylisch?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Welche der folgenden Verspassagen ist daktylisch?</div>
+      </div>
       <fieldset id="option_pool_28">
          <div class="option">
             <input type="radio"
@@ -1297,18 +1315,18 @@
                    id="option_28_uebungdaktylusL1"
                    value="false"/>
             <label for="option_28_uebungdaktylusL1">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Ich wäre wohl fröhlich so gerne,</p>
-                     <p class="poem_line">Doch kann ich recht fröhlich nicht sein;</p>
-                     <p class="poem_line">Denn Liebchen das wohnet so ferne,</p>
-                     <p class="poem_line">Das muß ich oft lassen allein.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Friedrich Wilhelm August  Schmidt: </span>
-                     <span class="title">Stille Klage, 1. Strophe</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Ich wäre wohl fröhlich so gerne,</span>
+                     <span class="poem_line">Doch kann ich recht fröhlich nicht sein;</span>
+                     <span class="poem_line">Denn Liebchen das wohnet so ferne,</span>
+                     <span class="poem_line">Das muß ich oft lassen allein.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Friedrich Wilhelm August  Schmidt:</span>
+                     <span class="title"> Stille Klage, 1. Strophe</span>
+                  </span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1317,18 +1335,18 @@
                    id="option_28_uebungdaktylusL2"
                    value="false"/>
             <label for="option_28_uebungdaktylusL2">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Nobel, der König, versammelt den Hof; und seine Vasallen</p>
-                     <p class="poem_line">Eilen gerufen herbei mit großem Gepränge; da kommen</p>
-                     <p class="poem_line">Viele stolze Gesellen von allen Seiten und Enden,</p>
-                     <p class="poem_line">Lütke, der Kranich, und Markart, der Häher, und alle die Besten.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Johann Wolfgang Goethe: </span>
-                     <span class="title">Reineke Fuchs, V. 6-9</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Nobel, der König, versammelt den Hof; und seine Vasallen</span>
+                     <span class="poem_line">Eilen gerufen herbei mit großem Gepränge; da kommen</span>
+                     <span class="poem_line">Viele stolze Gesellen von allen Seiten und Enden,</span>
+                     <span class="poem_line">Lütke, der Kranich, und Markart, der Häher, und alle die Besten.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Johann Wolfgang Goethe:</span>
+                     <span class="title"> Reineke Fuchs, V. 6-9</span>
+                  </span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1337,19 +1355,19 @@
                    id="option_28_uebungdaktylusL3"
                    value="true"/>
             <label for="option_28_uebungdaktylusL3">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Lobe den Herren, den mächtigen König der Ehren,</p>
-                     <p class="poem_line">Meine geliebete Seele, das ist mein Begehren.</p>
-                     <p class="poem_line">Kommet zuhauf,</p>
-                     <p class="poem_line">Psalter und Harfe, wacht auf,</p>
-                     <p class="poem_line">Lasset die Musicam hören.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Joachim Neander: </span>
-                     <span class="title">Lobe den Herren, 1. Strophe</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Lobe den Herren, den mächtigen König der Ehren,</span>
+                     <span class="poem_line">Meine geliebete Seele, das ist mein Begehren.</span>
+                     <span class="poem_line">Kommet zuhauf,</span>
+                     <span class="poem_line">Psalter und Harfe, wacht auf,</span>
+                     <span class="poem_line">Lasset die Musicam hören.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Joachim Neander:</span>
+                     <span class="title"> Lobe den Herren, 1. Strophe</span>
+                  </span>
+               </span>
             </label>
          </div>
       </fieldset>
@@ -1365,7 +1383,9 @@
    </div>
    <div class="exercise mc" resource="metrik" id="uebungjambusUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Welche der folgenden Verspassagen ist jambisch?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Welche der folgenden Verspassagen ist jambisch?</div>
+      </div>
       <fieldset id="option_pool_29">
          <div class="option">
             <input type="radio"
@@ -1373,19 +1393,19 @@
                    id="option_29_uebungjambusL1"
                    value="false"/>
             <label for="option_29_uebungjambusL1">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Meine Liebe, lange wie die Taube</p>
-                     <p class="poem_line">Von dem Falken hin und her gescheucht,</p>
-                     <p class="poem_line">Wähnte froh, sie hab’ ihr Nest erreicht</p>
-                     <p class="poem_line">In den Zweigen einer Götterlaube.</p>
-                     <p class="poem_line"/>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Gottfried August Büger: </span>
-                     <span class="title">Liebe ohne Heimat, 1. Strophe</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Meine Liebe, lange wie die Taube</span>
+                     <span class="poem_line">Von dem Falken hin und her gescheucht,</span>
+                     <span class="poem_line">Wähnte froh, sie hab’ ihr Nest erreicht</span>
+                     <span class="poem_line">In den Zweigen einer Götterlaube.</span>
+                     <span class="poem_line"/>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Gottfried August Büger:</span>
+                     <span class="title"> Liebe ohne Heimat, 1. Strophe</span>
+                  </span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1394,18 +1414,18 @@
                    id="option_29_uebungjambusL2"
                    value="false"/>
             <label for="option_29_uebungjambusL2">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Es schienen so golden die Sterne,</p>
-                     <p class="poem_line">Am Fenster ich einsam stand</p>
-                     <p class="poem_line">Und hörte aus weiter Ferne</p>
-                     <p class="poem_line">Ein Posthorn im stillen Land.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Josef von Eichendorff: </span>
-                     <span class="title">Sehnsucht, Beginn</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Es schienen so golden die Sterne,</span>
+                     <span class="poem_line">Am Fenster ich einsam stand</span>
+                     <span class="poem_line">Und hörte aus weiter Ferne</span>
+                     <span class="poem_line">Ein Posthorn im stillen Land.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Josef von Eichendorff:</span>
+                     <span class="title"> Sehnsucht, Beginn</span>
+                  </span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1414,18 +1434,18 @@
                    id="option_29_uebungjambusL3"
                    value="true"/>
             <label for="option_29_uebungjambusL3">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">In einem kühlen Grunde</p>
-                     <p class="poem_line">Da geht ein Mühlenrad,</p>
-                     <p class="poem_line">Mein Liebste ist verschwunden,</p>
-                     <p class="poem_line">Die dort gewohnet hat.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Josef von Eichendorff: </span>
-                     <span class="title">Das zerbrochene Ringlein, 1. Strophe</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">In einem kühlen Grunde</span>
+                     <span class="poem_line">Da geht ein Mühlenrad,</span>
+                     <span class="poem_line">Mein Liebste ist verschwunden,</span>
+                     <span class="poem_line">Die dort gewohnet hat.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Josef von Eichendorff:</span>
+                     <span class="title"> Das zerbrochene Ringlein, 1. Strophe</span>
+                  </span>
+               </span>
             </label>
          </div>
       </fieldset>
@@ -1443,17 +1463,18 @@
         resource="metrik"
         id="uebungzurmetrischennotationUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Bestimmen Sie das abstrakte Metrum und den individuellen Rhythmus des Einzelverses des folgenden Gedichts. Notieren Sie beides entsprechend der hier geltenden Beschreibungskonvention.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Bestimmen Sie das abstrakte Metrum und den individuellen Rhythmus des Einzelverses des folgenden Gedichts. Notieren Sie beides entsprechend der hier geltenden Beschreibungskonvention.</div>
+      </div>
       <div class="poem">
          <div class="pretext">Textbeispiel:</div>
          <div class="poem_linegroup">
-            <p class="poem_line">Weißt du worin der Spaß des Lebens liegt?</p>
-            <p class="poem_line">Sei lustig! – geht es nicht, so sei vergnügt.</p>
+            <div class="poem_line">Weißt du worin der Spaß des Lebens liegt?</div>
+            <div class="poem_line">Sei lustig! – geht es nicht, so sei vergnügt.</div>
          </div>
-         <span class="author_title">
-            <span class="author">Johann Wolfgang Goethe: </span>
-            <span class="title"/>
-         </span>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang Goethe:</span>
+         </div>
       </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>
@@ -1476,7 +1497,9 @@
    </div>
    <div class="exercise mc" resource="metrik" id="uebungtrochaeusUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Welche der folgenden Verspassagen ist trochäisch?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Welche der folgenden Verspassagen ist trochäisch?</div>
+      </div>
       <fieldset id="option_pool_31">
          <div class="option">
             <input type="radio"
@@ -1484,20 +1507,20 @@
                    id="option_31_uebungtrochaeusL1"
                    value="true"/>
             <label for="option_31_uebungtrochaeusL1">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Wunderlichstes Buch der Bücher</p>
-                     <p class="poem_line">Ist das Buch der Liebe;</p>
-                     <p class="poem_line">Aufmerksam hab ich’s gelesen:</p>
-                     <p class="poem_line">Wenig Blätter Freuden,</p>
-                     <p class="poem_line">Ganze Hefte Leiden;</p>
-                     <p class="poem_line">Einen Abschnitt macht die Trennung.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author">Johann Wolfgang  Goethe: </span>
-                     <span class="title">Lesebuch, Beginn</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Wunderlichstes Buch der Bücher</span>
+                     <span class="poem_line">Ist das Buch der Liebe;</span>
+                     <span class="poem_line">Aufmerksam hab ich’s gelesen:</span>
+                     <span class="poem_line">Wenig Blätter Freuden,</span>
+                     <span class="poem_line">Ganze Hefte Leiden;</span>
+                     <span class="poem_line">Einen Abschnitt macht die Trennung.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author">Johann Wolfgang  Goethe:</span>
+                     <span class="title"> Lesebuch, Beginn</span>
+                  </span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1506,20 +1529,20 @@
                    id="option_31_uebungtrochaeusL2"
                    value="false"/>
             <label for="option_31_uebungtrochaeusL2">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Du hörtest meine Stimme wie von fern.</p>
-                     <p class="poem_line">Sprach ich von einem andern Stern?</p>
-                     <p class="poem_line">Du griffst mit deinen Händen in das Leere,</p>
-                     <p class="poem_line">Ob dort ein Leib nicht und ein Lächeln wäre.</p>
-                     <p class="poem_line">Kein Leib. Nur Stimme. Lippe nicht. Nur Wort.</p>
-                     <p class="poem_line">Und leise legtest du den Hörer fort.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author"> Klabund: </span>
-                     <span class="title">Als sie meine Stimme im Radio hörte</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Du hörtest meine Stimme wie von fern.</span>
+                     <span class="poem_line">Sprach ich von einem andern Stern?</span>
+                     <span class="poem_line">Du griffst mit deinen Händen in das Leere,</span>
+                     <span class="poem_line">Ob dort ein Leib nicht und ein Lächeln wäre.</span>
+                     <span class="poem_line">Kein Leib. Nur Stimme. Lippe nicht. Nur Wort.</span>
+                     <span class="poem_line">Und leise legtest du den Hörer fort.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author"> Klabund:</span>
+                     <span class="title"> Als sie meine Stimme im Radio hörte</span>
+                  </span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1528,22 +1551,22 @@
                    id="option_31_uebungtrochaeusL3"
                    value="false"/>
             <label for="option_31_uebungtrochaeusL3">
-               <div class="poem">
-                  <div class="poem_linegroup">
-                     <p class="poem_line">Hier ruht die Jungfrau Emma Puck aus Hinterstallupeinen,</p>
-                     <p class="poem_line">Eine Mutter hatte sie eine, einen Vater hatte sie keinen.</p>
-                     <p class="poem_line">In Unschuld erwuchs sie auf dem Land wie eine Lilie.</p>
-                     <p class="poem_line">Da kam sie in die Stadt zu einer Rechnungsratsfamilie.</p>
-                     <p class="poem_line">Hier hat sich erst ihr wahres Herz gezeigt,</p>
-                     <p class="poem_line">Indem sie gar nicht mehr zur Jungfrau hingeneigt.</p>
-                     <p class="poem_line">Bald kam das erste Kind. Was half da alles Greinen!</p>
-                     <p class="poem_line">Männer hatte sie viel, aber einen Mann hatte sie keinen.</p>
-                  </div>
-                  <span class="author_title">
-                     <span class="author"> Klabund: </span>
-                     <span class="title">Grabschrift für eine Jungfrau</span>
+               <span class="poem">
+                  <span class="poem_linegroup">
+                     <span class="poem_line">Hier ruht die Jungfrau Emma Puck aus Hinterstallupeinen,</span>
+                     <span class="poem_line">Eine Mutter hatte sie eine, einen Vater hatte sie keinen.</span>
+                     <span class="poem_line">In Unschuld erwuchs sie auf dem Land wie eine Lilie.</span>
+                     <span class="poem_line">Da kam sie in die Stadt zu einer Rechnungsratsfamilie.</span>
+                     <span class="poem_line">Hier hat sich erst ihr wahres Herz gezeigt,</span>
+                     <span class="poem_line">Indem sie gar nicht mehr zur Jungfrau hingeneigt.</span>
+                     <span class="poem_line">Bald kam das erste Kind. Was half da alles Greinen!</span>
+                     <span class="poem_line">Männer hatte sie viel, aber einen Mann hatte sie keinen.</span>
                   </span>
-               </div>
+                  <span class="author_title">
+                     <span class="author"> Klabund:</span>
+                     <span class="title"> Grabschrift für eine Jungfrau</span>
+                  </span>
+               </span>
             </label>
          </div>
       </fieldset>
@@ -1559,18 +1582,17 @@
    </div>
    <div class="exercise marker" resource="prosa" id="uebungzuranalepseUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Wo finden sich im folgenden Text Signale für eine Analepse? Markieren Sie sie gelb.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Wo finden sich im folgenden Text Signale für eine Analepse? Markieren Sie sie gelb.</div>
+      </div>
       <div class="quotation" id="markable_text_1">
-         <div class="pretext">Textbeispiel:</div>
-         <div class="text">Herzog Wilhelm von Breysach, der, seit seiner heimlichen Verbindung mit einer Gräfin, namens Katharina von Heersbruck, aus dem Hause Alt-Hüningen, die unter seinem Range zu sein schien, mit seinem Halbbruder, dem Grafen Jakob dem Rotbart, in Feindschaft lebte, kam gegen das Ende des vierzehnten Jahrhunderts, da die Nacht des heiligen Remigius zu dämmern begann, von einer in Worms mit dem deutschen Kaiser abgehaltenen Zusammenkunft zurück, worin er sich von diesem Herrn, in Ermangelung ehelicher Kinder, die ihm gestorben waren, die Legitimation eines, mit seiner Gemahlin vor der Ehe erzeugten, natürlichen Sohnes, des Grafen Philipp von Hüningen, <span class="correct_marker">ausgewirkt hatte</span>. Freudiger, als während des ganzen Laufs seiner Regierung in die Zukunft blickend, hatte er schon den Park, der hinter seinemSchlosse lag, erreicht: als plötzlich ein Pfeilschuß aus dem Dunkel der Gebüsche hervorbrach, und ihm, dicht unter dem Brustknochen, den Leib durchbohrte.</div>
-         <span class="author_title">
-            <span class="author">Heinrich von Kleist: </span>
-            <span class="title">Der Zweikampf (Beginn)</span>
-         </span>
+         <div class="pretext">Textbeispiel:</div>Herzog Wilhelm von Breysach, der, seit seiner heimlichen Verbindung mit einer Gräfin, namens Katharina von Heersbruck, aus dem Hause Alt-Hüningen, die unter seinem Range zu sein schien, mit seinem Halbbruder, dem Grafen Jakob dem Rotbart, in Feindschaft lebte, kam gegen das Ende des vierzehnten Jahrhunderts, da die Nacht des heiligen Remigius zu dämmern begann, von einer in Worms mit dem deutschen Kaiser abgehaltenen Zusammenkunft zurück, worin er sich von diesem Herrn, in Ermangelung ehelicher Kinder, die ihm gestorben waren, die Legitimation eines, mit seiner Gemahlin vor der Ehe erzeugten, natürlichen Sohnes, des Grafen Philipp von Hüningen, <span class="correct_marker">ausgewirkt hatte</span>. Freudiger, als während des ganzen Laufs seiner Regierung in die Zukunft blickend, hatte er schon den Park, der hinter seinemSchlosse lag, erreicht: als plötzlich ein Pfeilschuß aus dem Dunkel der Gebüsche hervorbrach, und ihm, dicht unter dem Brustknochen, den Leib durchbohrte.<br/>
+         <div class="author_title">
+            <span class="author">Heinrich von Kleist:</span>
+            <span class="title"> Der Zweikampf (Beginn)</span>
+         </div>
       </div>Das Plusquamperfekt zeigt hier an, dass die Unterredung zwischen dem Herzog und dem Kaiser von der Erzählgegenwart aus gesehen in der Vergangenheit statt gefunden hat: Das Spätere (die Heimkehr des Herzogs) wird also vor dem Früheren erzählt.<div class="solution" id="solution_32">
-         <div class="feedback" id="feedback_32">
-                            Erläuterung:
-                        </div>
+         <div class="feedback" id="feedback_32">Erläuterung:</div>
          <div class="answer" id="answer_32">Das Plusquamperfekt zeigt hier an, dass die Unterredung zwischen dem Herzog und dem Kaiser von der Erzählgegenwart aus gesehen in der Vergangenheit statt gefunden hat: Das Spätere (die Heimkehr des Herzogs) wird also vor dem Früheren erzählt.</div>
       </div>
    </div>
@@ -1578,16 +1600,18 @@
         resource="prosa"
         id="uebungzurautonomendirektenredeUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Offensichtlich unterhalten sich in dieser kurzen Passage aus den Jahrestagen von Uwe Johnson Marie und Gesine Cresspahl - eine etwas neunmalkluge Tochter und ihre Mutter - miteinander. Wie aber wird dieser Figurendialog präsentiert:</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Offensichtlich unterhalten sich in dieser kurzen Passage aus den Jahrestagen von Uwe Johnson Marie und Gesine Cresspahl - eine etwas neunmalkluge Tochter und ihre Mutter - miteinander. Wie aber wird dieser Figurendialog präsentiert:</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text"> - 785 West End Avenue, wo ist das Marie?</div>
          <div class="text">- Die letzte Ziffer vergessen, den Rest durch zwei, plus sechzig: es ist um die Ecke, Mrs., madam, Gesine.</div>
          <div class="text">- Wußtest du, daß es an der 99. Straße war? - Mir hat es Esmeralda erzählt, die hat es von Jason, und Jason hat es gesehen. Dazu brauch ich nicht die New York Times, anders als eine Dame, die ich kenne, madam, Mrs. Cresspahl.</div>
-         <span class="author_title">
-            <span class="author">Uwe Johnson: </span>
-            <span class="title">Jahrestage</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Uwe Johnson:</span>
+            <span class="title"> Jahrestage</span>
+         </div>
       </div>
       <fieldset id="option_pool_33">
          <div class="option">
@@ -1634,12 +1658,13 @@
         resource="prosa"
         id="uebungbewusstseinsberichtUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div> Markieren Sie diejenigen Worte oder Aussagen, die Ihnen anzeigen, dass
+         <div class="pretext">Fragestellung:</div>
+         <div class="text"> Markieren Sie diejenigen Worte oder Aussagen, die Ihnen anzeigen, dass
 					man es hier mit einem Bewusstseinbericht zu tun
 					hat.</div>
+      </div>
       <div class="quotation" id="markable_text_1">
-         <div class="pretext">Textbeispiel:</div>
-         <div class="text">So groß war seine Leidenschaft, so rein seine Überzeugung, er handle
+         <div class="pretext">Textbeispiel:</div>So groß war seine Leidenschaft, so rein seine Überzeugung, er handle
 						vollkommen recht, sich dem Drucke seines bisherigen Lebens zu entziehen und
 						einer neuen, edlern Bahn zu folgen, <span class="correct_marker">daß sein
 							Gewissen sich nicht im mindesten regte</span>, keine Sorge in ihm
@@ -1647,16 +1672,14 @@
 							heilig hielt</span>. <span class="correct_marker">Er war
 							gewiß</span>, daß ihn Eltern und Verwandte in der Folge für diesen
 						Schritt preisen und segnen sollten, er erkannte den Wink eines leitenden
-						Schicksals an diesen zusammentreffenden Umständen.</div>
-         <span class="author_title">
-            <span class="author">Johann Wolfgang von Goethe: </span>
-            <span class="title">Wilhelm Meisters Lehrjahre (Elftes Kapitel)</span>
-         </span>
+						Schicksals an diesen zusammentreffenden Umständen.<br/>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang von Goethe:</span>
+            <span class="title"> Wilhelm Meisters Lehrjahre (Elftes Kapitel)</span>
+         </div>
       </div>
       <div class="solution" id="solution_34">
-         <div class="feedback" id="feedback_34">
-                            Erläuterung:
-                        </div>
+         <div class="feedback" id="feedback_34"/>
          <div class="answer" id="answer_34"/>
       </div>
    </div>
@@ -1669,11 +1692,13 @@
                         Auf Touchscreen-Geräten wie Smartphones und Tablets können Sie diese Übung daher momentan noch nicht durchführen.
                     </div>
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Wodurch ist der innere Monolog charakterisiert,
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Wodurch ist der innere Monolog charakterisiert,
                     wodurch der Bewusstseinsstrom?</div>
+      </div>
       <div class="drop_areas" id="drop_areas_35">
          <div class="drop_wrapper">
-            <th class="drop_head">Innerer Monolog</th>
+            <div class="drop_head">Innerer Monolog</div>
             <hr class="drop_separation"/>
             <div class="drop_area"
                  ondrop="drop(event, this)"
@@ -1681,7 +1706,7 @@
                  id="drop_area_35_1"/>
          </div>
          <div class="drop_wrapper">
-            <th class="drop_head">Bewusstseinsstrom</th>
+            <div class="drop_head">Bewusstseinsstrom</div>
             <hr class="drop_separation"/>
             <div class="drop_area"
                  ondrop="drop(event, this)"
@@ -1723,7 +1748,9 @@
         resource="prosa"
         id="uebungzumdehnendenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>In welcher der Passagen liegt dehnendes Erzählen vor?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">In welcher der Passagen liegt dehnendes Erzählen vor?</div>
+      </div>
       <fieldset id="option_pool_36">
          <div class="option">
             <input type="radio"
@@ -1731,13 +1758,13 @@
                    id="option_36_uebungzumdehnendenerzaehlenL1"
                    value="false"/>
             <label for="option_36_uebungzumdehnendenerzaehlenL1">
-               <div class="quotation">
+               <span class="text">
                   <div class="text">Als mein Freund Stilpe geboren worden war, herrschte, wie das so üblich ist, viel Freude in der Familie. Dies umsomehr, als die Sache anfangs gedroht hatte, bös auszugehn.    Tante Pauline, die nachgezählt hat, will es beschwören, daß Stilpe-Vater an jenem schweren Tage dreiundachtzig Mal: Umgotteswillen! gesagt hat, wobei er sich, zornig halb, halb mit der Miene eines zerknirscht auf alles Gefaßten, in den Achselausschnitt der Weste fuhr und mit sämmtlichen Fingern, außer den Daumen, die eben hinten steckten, auf beide Seiten der Westenbrust trommelte. Und dabei war Stilpe-Vater eigentlich ein sehr ruhiger Mann, seines Zeichens Lepidopterologe, und konnte von sich sagen, daß er die Welt mit Gelassenheit betrachtete.</div>
-                  <span class="author_title">
-                     <span class="author">Otto Julius Bierbaum: </span>
-                     <span class="title">Stilpe. Ein Roman aus der Froschperspektive (Beginn)</span>
-                  </span>
-               </div>
+               </span>
+               <span class="author_title">
+                  <span class="author">Otto Julius Bierbaum:</span>
+                  <span class="title"> Stilpe. Ein Roman aus der Froschperspektive (Beginn)</span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1746,13 +1773,13 @@
                    id="option_36_uebungzumdehnendenerzaehlenL2"
                    value="false"/>
             <label for="option_36_uebungzumdehnendenerzaehlenL2">
-               <div class="quotation">
+               <span class="text">
                   <div class="text">Die Sonne neigte sich bereits zum Untergang, als Agathon, der sich in einem unwegsamen Walde verirret hatte, von der vergeblichen Bemühung einen Ausgang zu finden abgemattet, an dem Fuß eines Berges anlangte, welchen er noch zu ersteigen wünschte, in Hoffnung von dem Gipfel desselben irgend einen bewohnten Ort zu entdecken, wo er die Nacht zubringen könnte. Er schleppte sich also mit Mühe durch einen Fußweg hinauf, den er zwischen den Gesträuchen gewahr ward; allein da er ungefähr die Mitte des Berges erreicht hatte, fühlt er sich so entkräftet, daß er den Mut verlor den Gipfel erreichen zu können, der sich immer weiter von ihm zu entfernen schien, je mehr er ihm näher kam. Er warf sich also ganz Atemlos unter einen Baum hin, der eine kleine Terrasse umschaltete, auf welcher er die einbrechende Nacht zuzubringen beschloß.</div>
-                  <span class="author_title">
-                     <span class="author">Christoph Martin Wieland: </span>
-                     <span class="title">Geschichte des Agathon (1. Buch, 1. Kapitel)</span>
-                  </span>
-               </div>
+               </span>
+               <span class="author_title">
+                  <span class="author">Christoph Martin Wieland:</span>
+                  <span class="title"> Geschichte des Agathon (1. Buch, 1. Kapitel)</span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -1761,13 +1788,13 @@
                    id="option_36_uebungzumdehnendenerzaehlenL3"
                    value="true"/>
             <label for="option_36_uebungzumdehnendenerzaehlenL3">
-               <div class="quotation">
+               <span class="text">
                   <div class="text">Durch die halboffene Tür sehe ich den lehmigen, aufgestampften Weg und die morschen Bretter um den Schweinekofen. Der Rüssel des Schweines schnuppert in der breiten Fuge wenn er nicht schnaufend und grunzend im Schlamm wühlt. Außerdem sehe ich noch ein Stück der Hauswand, mit zersprungenem, teilweise abgebröckeltem gelblichen Putz, ein paar Pfähle, mit Querstangen für die Wäscheleinen, und dahinter, bis zum Horizont, feuchte, schwarze Ackererde. Dies sind die Geräusche; das Schmatzen und Grunzen des Schweinerüssels, das Schwappen und Klatschen des Schlammes, das borstige Schmieren des Schweinrückens an den Brettern, das Quietschen und Knarren der Bretter, das Knirschen der Bretter und lockeren Pfosten an der Hauswand.</div>
-                  <span class="author_title">
-                     <span class="author">Peter Weiss: </span>
-                     <span class="title">Der Schatten des Körpers des Kutschers</span>
-                  </span>
-               </div>
+               </span>
+               <span class="author_title">
+                  <span class="author">Peter Weiss:</span>
+                  <span class="title"> Der Schatten des Körpers des Kutschers</span>
+               </span>
             </label>
          </div>
       </fieldset>
@@ -1783,14 +1810,16 @@
    </div>
    <div class="exercise mc" resource="prosa" id="uebungzurdirektenredeUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Mit diesen Worten beginnt Thomas Bernhards Roman <span class="title">Alte Meister</span>. Offensichtlich gibt hier ein Erzähler wieder, was die Figur Atzbacher geschrieben hat. Bleibt die Frage, ob hier</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Mit diesen Worten beginnt Thomas Bernhards Roman Alte Meister. Offensichtlich gibt hier ein Erzähler wieder, was die Figur Atzbacher geschrieben hat. Bleibt die Frage, ob hier</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Erst für halb zwölf mit Reger im Kunsthistorischen Museum verabredet, war ich schon um halb elf Uhr dort, um ihn, wie ich mir schon längere Zeit vorgenommen hatte, einmal von einem möglichst idealen Winkel aus ungestört beobachten zu können, schreibt Atzbacher.</div>
-         <span class="author_title">
-            <span class="author">Thomas Bernhard: </span>
-            <span class="title">Alte Meister (Beginn)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Thomas Bernhard:</span>
+            <span class="title"> Alte Meister (Beginn)</span>
+         </div>
       </div>
       <fieldset id="option_pool_37">
          <div class="option">
@@ -1829,15 +1858,17 @@
         resource="prosa"
         id="uebungzumeingeschobenenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Letzteres wird Jane Turner, die als Gesellschafterin der „Allardyce“ in Walter Satterthwaits Krimi(-Parodie) <span class="title">Eskapaden</span> in einem vermeintlichen Spukschloss und am tatsächlichen Schauplatz eines Mordes gelandet ist, tatsächlich passieren - wie sie es ihrer besten Freundin „Evy“ in ihrem Brief ankündigt. Der Mordfall wird natürlich - nicht zuletzt dank Janes Mithilfe - am Ende gelöst.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Letzteres wird Jane Turner, die als Gesellschafterin der „Allardyce“ in Walter Satterthwaits Krimi(-Parodie) Eskapaden in einem vermeintlichen Spukschloss und am tatsächlichen Schauplatz eines Mordes gelandet ist, tatsächlich passieren - wie sie es ihrer besten Freundin „Evy“ in ihrem Brief ankündigt. Der Mordfall wird natürlich - nicht zuletzt dank Janes Mithilfe - am Ende gelöst.Die Frage, ob in dieser Textpassage</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Genug. Ich sollte jetzt wirklich versuchen, zu schlafen, Evy. Außerdem gibt es ohnehin kaum etwas Wichtiges mehr zu berichten.	
 Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce vorbeischleichen und den Brief im Flur einwerfen und dann auf Zehenspitzen wieder in mein gemütliches Nest zurückkehren. Und vielleicht werde ich zu nächtlicher Stunde von einem Gespenst heimgesucht.</div>
-         <span class="author_title">
-            <span class="author">Walter Satterthwait: </span>
-            <span class="title">Eskapaden</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Walter Satterthwait:</span>
+            <span class="title"> Eskapaden</span>
+         </div>
       </div>
       <fieldset id="option_pool_38">
          <div class="option">
@@ -1871,11 +1902,13 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
                         Auf Touchscreen-Geräten wie Smartphones und Tablets können Sie diese Übung daher momentan noch nicht durchführen.
                     </div>
       <div class="task">
-         <div class="pretext">Fragestellung:</div>In welcher der Passagen liegt eine Pause, in welchen eine
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">In welcher der Passagen liegt eine Pause, in welchen eine
                         Ellipse vor? Ordnen Sie zu!</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
-         <div class="text">a) In der Tat gefiel er mir im Herzen sehr wohl; allein so
+         <div class="drama_line">a) In der Tat gefiel er mir im Herzen sehr wohl; allein so
                         sehr ich mir ihn heimlich wünschen mochte, so hielt ich's doch für
                         unmöglich, ihn zu besitzen.</div>
          <div class="text">Nach einem Jahre schrieb er an mich, und der ganze Inhalt seines
@@ -1889,19 +1922,19 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
                         zufrieden. Die Kälte quälte uns am meisten. Niemand empfand sie mehr als der
                         arme Steeley an seinem mißhandelten Körper. Nach ungefähr sechs oder sieben
                         Wochen kamen wir in Tobolskoy an, wohin wir verwiesen waren. </div>
-         <div class="text">d) Er überreichte mir den Brief aus Siberien, den ich schon
+         <div class="drama_line">d) Er überreichte mir den Brief aus Siberien, den ich schon
                         eingerückt habe [...] Sein Herz war wirklich seiner ehrlichen und
                         einfältigen Miene gleich, und seine Sitten gefielen durch sein Herz. Er war
                         schon bei Jahren, und sein grauer Bart und sein langer polnischer Pelz gaben
                         ihm ein recht ehrwürdiges Ansehen. </div>
-         <span class="author_title">
-            <span class="author">Christian Fürchtegott Gellert: </span>
-            <span class="title">Das Leben der schwedischen Gräfin von G*</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Christian Fürchtegott Gellert:</span>
+            <span class="title"> Das Leben der schwedischen Gräfin von G*</span>
+         </div>
       </div>
       <div class="drop_areas" id="drop_areas_39">
          <div class="drop_wrapper">
-            <th class="drop_head">Ellipse</th>
+            <div class="drop_head">Ellipse</div>
             <hr class="drop_separation"/>
             <div class="drop_area"
                  ondrop="drop(event, this)"
@@ -1909,7 +1942,7 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
                  id="drop_area_39_1"/>
          </div>
          <div class="drop_wrapper">
-            <th class="drop_head">Pause</th>
+            <div class="drop_head">Pause</div>
             <hr class="drop_separation"/>
             <div class="drop_area"
                  ondrop="drop(event, this)"
@@ -1943,14 +1976,16 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
         resource="prosa"
         id="uebungzurpraesentationvonereignissenimdramatischenmodusUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>In dieser Textpassage aus Goethes <span class="title">Wahlverwandtschaften</span> wird der Weg beschrieben, den Eduard durch seine neu eingerichteten Gartenanlagen geht. Wird das Geschehen hier eher im narrativen oder eher im dramatischen Modus präsentiert?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">In dieser Textpassage aus Goethes Wahlverwandtschaften wird der Weg beschrieben, den Eduard durch seine neu eingerichteten Gartenanlagen geht. Wird das Geschehen hier eher im narrativen oder eher im dramatischen Modus präsentiert?</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Dieser [Eduard] stieg nun die Terrassen hinunter, musterte im Vorbeigehen Gewächshäuser und Treibebeete, bis er ans Wasser, dann über einen Steg an den Ort kam, wo sich der Pfad nach den neuen Anlagen in zwei Arme teilte. Den einen, der über den Kirchhof ziemlich gerade nach der Felswand hinging, ließ er liegen, um den andern einzuschlagen, der sich links etwas weiter durch anmutiges Gebüsch sachte hinauf wand; da, wo beide zusammentrafen, setzte er sich für einen Augenblick auf einer wohlangebrachten Bank nieder, betrat sodann den eigentlichen Stieg und sah sich durch allerlei Treppen und Absätze auf dem schmalen, bald mehr bald weniger steilen Wege endlich zur Mooshütte geleitet.</div>
-         <span class="author_title">
-            <span class="author">Johann Wolfgang von Goethe: </span>
-            <span class="title">Wahlverwandtschaften (1. Kapitel)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang von Goethe:</span>
+            <span class="title"> Wahlverwandtschaften (1. Kapitel)</span>
+         </div>
       </div>
       <fieldset id="option_pool_40">
          <div class="option">
@@ -1981,14 +2016,16 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
         resource="prosa"
         id="uebungzurpraesentationvonereignissenimnarrativenmodusUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div> In dieser Passage aus Theodor Fontanes <span class="title">Effi Briest</span> berichtet der Erzähler von einem Gespräch Effis mit ihrer Mutter, das durch die Klänge eines vorbeiziehenden Festumzugs unterbrochen wird. Zu fragen ist, ob diese Passage</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text"> In dieser Passage aus Theodor Fontanes Effi Briest berichtet der Erzähler von einem Gespräch Effis mit ihrer Mutter, das durch die Klänge eines vorbeiziehenden Festumzugs unterbrochen wird. Zu fragen ist, ob diese Passage</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Das war am 2. September, daß sie so [wie vorher präsentiert] sprachen, ein Gespräch, das sich wohl fortgesetzt hätte, wenn nicht gerade Sedantag gewesen wäre. So aber wurden sie durch Trommel- und Pfeifenklang unterbrochen, und Effi, die schon vorher von dem beabsichtigten Aufzuge gehört, aber es wieder vergessen hatte, stürzte mit einem Male von dem gemeinschaftlichen Arbeitstische fort und an Rondell und Teich vorüber auf einen kleinen, an die Kirchhofsmauer angebauten Balkon zu, zu dem sechs Stufen, nicht viel breiter als Leitersprossen, hinaufführten.</div>
-         <span class="author_title">
-            <span class="author">Theodor Fontane: </span>
-            <span class="title">Effi Briest (Viertes Kapitel)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Theodor Fontane:</span>
+            <span class="title"> Effi Briest (Viertes Kapitel)</span>
+         </div>
       </div>
       <fieldset id="option_pool_41">
          <div class="option">
@@ -2027,8 +2064,10 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
         resource="prosa"
         id="uebungerlebtegedankenredeUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Hier wird der Entschluss präsentiert, der im <span class="title">Apostel</span> aus Gerhart Hauptmanns gleichnamiger Novelle
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Hier wird der Entschluss präsentiert, der im Apostel aus Gerhart Hauptmanns gleichnamiger Novelle
                     herangereift ist.</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text"> Und nun, aus der mutigen Aufwallung seines Innern, stieg es auf als
@@ -2036,10 +2075,10 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
                         war eine Kraft, die Menschheit aufzurütteln. Jawohl! und sie mochten lachen,
                         spotten und ihn verhöhnen, er würde sie dennoch erlösen, alle,
                         alle!</div>
-         <span class="author_title">
-            <span class="author">Gerhart Hauptmann: </span>
-            <span class="title">Apostel</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Gerhart Hauptmann:</span>
+            <span class="title"> Apostel</span>
+         </div>
       </div>
       <fieldset id="option_pool_42">
          <div class="option">
@@ -2129,15 +2168,17 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
         resource="prosa"
         id="uebungzurerlebtenredeUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Welche Formen der Rede- und Gedankenwiedergabe können Sie in der oben stehenden Passage ausmachen? Beschreiben Sie mit Hilfe der in LiGo eingeführten Begriffe und sehen Sie sich dann die Musterlösung an.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Welche Formen der Rede- und Gedankenwiedergabe können Sie in der oben stehenden Passage ausmachen? Beschreiben Sie mit Hilfe der in LiGo eingeführten Begriffe und sehen Sie sich dann die Musterlösung an.</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text"> „Aber, Vaterleben, was sollen wir mit 'm Kirchturm?“</div>
          <div class="text">In dieser Richtung gingen öfters die Gespräche zwischen Vater und Sohn, und was der Alte vorläufig noch in der „Perspektive“ sah, das wäre vielleicht schon Wirklichkeit geworden, wenn nicht des alten Dubslav um zehn Jahre ältere Schwester mit ihrem von der Mutter her ererbten Vermögen gewesen wäre: Schwester Adelheid, Domina zu Kloster Wutz. Die half und sagte gut, wenn es schlecht stand oder gar zum Äußersten zu kommen schien. Aber sie half nicht aus Liebe zu dem Bruder - gegen den sie, ganz im Gegenteil, viel einzuwenden hatte -, sondern lediglich aus einem allgemeinen Stechlinschen Familiengefühl. Preußen war was und die Mark Brandenburg auch; aber das Wichtigste waren doch die Stechlins, und der Gedanke, das alte Schloß in andern Besitz und nun gar in einen solchen übergehen zu sehen, war ihr unerträglich.</div>
-         <span class="author_title">
-            <span class="author">Theodor Fontane: </span>
-            <span class="title">Stechlin (1. Kapitel)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Theodor Fontane:</span>
+            <span class="title"> Stechlin (1. Kapitel)</span>
+         </div>
       </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>
@@ -2156,7 +2197,9 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
         resource="prosa"
         id="uebungzurerwaehnungdessprachlichenaktesUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Hat man es in der vorliegenden Passage</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Hat man es in der vorliegenden Passage</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Wieder andere übten ihren Witz an allen, die das Unglück hatten am
@@ -2164,10 +2207,10 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
                         dann gewöhnlich mit lustigen Schimpfreden, welche wechselseitig so lange
                         fortgesetzt wurden, bis beide Parteien einander längst nicht mehr
                         verstanden.</div>
-         <span class="author_title">
-            <span class="author">Joseph Eichendorff: </span>
-            <span class="title">Ahnung und Gegenwart (1. Kapitel)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Joseph Eichendorff:</span>
+            <span class="title"> Ahnung und Gegenwart (1. Kapitel)</span>
+         </div>
       </div>
       <fieldset id="option_pool_44">
          <div class="option">
@@ -2220,15 +2263,17 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
         resource="prosa"
         id="uebungzurexternenfokalisierungUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Handelt es sich bei dieser Passage um eine externe Fokalisierung? Machen Sie sich auch klar, auf welche Indizien im Text Sie Ihre Position stützen.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Handelt es sich bei dieser Passage um eine externe Fokalisierung? Machen Sie sich auch klar, auf welche Indizien im Text Sie Ihre Position stützen.</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">An dem Schnittpunkte von Kurfürstendamm und Kurfürstenstraße, schräg gegenüber dem »Zoologischen«, befand sich in der Mitte der siebziger Jahre noch eine große, feldeinwärts sich erstreckende Gärtnerei, deren kleines, dreifenstriges, in einem Vorgärtchen um etwa hundert Schritte zurück gelegenes Wohnhaus, trotz aller Kleinheit und Zurückgezogenheit, von der vorübergehenden Straße her sehr wohl erkannt werden konnte. Was aber sonst noch zu dem Gesamtgewese der Gärtnerei gehörte, ja die recht eigentliche Hauptsache derselben ausmachte, war durch eben dies kleine Wohnhaus wie durch eine Kulisse versteckt, und nur ein rot und grün gestrichenes Holztürmchen mit einem halb weggebrochenen Zifferblatt unter der Turmspitze (von Uhr selbst keine Rede) ließ vermuten, daß hinter dieser Kulisse noch etwas anderes verborgen sein müsse, welche Vermutung denn auch in einer von Zeit zu Zeit aufsteigenden, das Türmchen umschwärmenden Taubenschar und mehr noch in einem gelegentlichen Hundegeblaff ihre Bestätigung fand. Wo dieser Hund eigentlich steckte, das entzog sich freilich der Wahrnehmung, trotzdem die hart an der linken Ecke gelegene, von früh bis spät aufstehende Haustür einen Blick auf ein Stückchen Hofraum gestattete. 
 </div>
-         <span class="author_title">
-            <span class="author">Theodor Fontane: </span>
-            <span class="title">Irrungen, Wirrungen</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Theodor Fontane:</span>
+            <span class="title"> Irrungen, Wirrungen</span>
+         </div>
       </div>
       <fieldset id="option_pool_45">
          <div class="option">
@@ -2267,7 +2312,9 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
         resource="prosa"
         id="uebungfiguraleschemataUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Lesen Sie den Text und beschreiben Sie, welches Schema hier durch das Verhalten des Kunstsammlers aufgerufen wird.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Lesen Sie den Text und beschreiben Sie, welches Schema hier durch das Verhalten des Kunstsammlers aufgerufen wird.</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">„Nina Donner“, meldete sie sich.</div>
@@ -2275,10 +2322,10 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
          <div class="text">„Mr. Larsen ...“</div>
          <div class="text">„Wann?“ fragte er hektisch.</div>
          <div class="text">Die Art, wie er das Gespräch führte, zeigte ihr einmal mehr, wie besessen er als Kunstsammler war. Er vergaß alles andere, jede Vorsicht.</div>
-         <span class="author_title">
-            <span class="author">Jerry Cotton: </span>
-            <span class="title">Die Venus und das Superding</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Jerry Cotton:</span>
+            <span class="title"> Die Venus und das Superding</span>
+         </div>
       </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>
@@ -2297,19 +2344,18 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
         resource="prosa"
         id="uebungfigureninformationUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Markieren Sie im folgenden Text diejenigen Stellen, an denen durch den Discours Informationen zur Figur des jungen Mannes gegeben werden.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Markieren Sie im folgenden Text diejenigen Stellen, an denen durch den Discours Informationen zur Figur des jungen Mannes gegeben werden.</div>
+      </div>
       <div class="quotation" id="markable_text_1">
-         <div class="pretext">Textbeispiel:</div>
-         <div class="text">Die Scherben eines gläsernen, gelben Lampions klirrten auf die Stimme eines Frauenzimmers: „Wollen Sie den Geist Ihrer Mutter sehen?“ Das haltlose Licht tropfte auf die <span class="correct_marker">zartmarkierte Glatze eines jungen Mannes, der ängstlich abbog, um allen Überlegungen über die Zusammensetzung seiner Person vorzubeugen. Er wandte sich ab von der Bude der verzerrenden Spiegel, die mehr zu Betrachtungen anregen als die Worte von fünfzehn Professoren. Er wandte sich ab vom Cirkus zur aufgehobenen Schwerkraft, wiewohl er lächelnd einsah, daß er damit die Lösung seines Lebens versäumte. Das Theater zur stummen Ekstase mied er mit stolz geneigtem Haupt: alle Ekstase ist unanständig, Ekstase blamiert unser Können, und ging schauernd in das Museum zur billigen Erstarrnis, an dessen Kasse eine breite verschwimmende Dame nackt saß. </span>
+         <div class="pretext">Textbeispiel:</div>Die Scherben eines gläsernen, gelben Lampions klirrten auf die Stimme eines Frauenzimmers: „Wollen Sie den Geist Ihrer Mutter sehen?“ Das haltlose Licht tropfte auf die <span class="correct_marker">zartmarkierte Glatze eines jungen Mannes, der ängstlich abbog, um allen Überlegungen über die Zusammensetzung seiner Person vorzubeugen. Er wandte sich ab von der Bude der verzerrenden Spiegel, die mehr zu Betrachtungen anregen als die Worte von fünfzehn Professoren. Er wandte sich ab vom Cirkus zur aufgehobenen Schwerkraft, wiewohl er lächelnd einsah, daß er damit die Lösung seines Lebens versäumte. Das Theater zur stummen Ekstase mied er mit stolz geneigtem Haupt: alle Ekstase ist unanständig, Ekstase blamiert unser Können, und ging schauernd in das Museum zur billigen Erstarrnis, an dessen Kasse eine breite verschwimmende Dame nackt saß. </span>
+         <br/>
+         <div class="author_title">
+            <span class="author">Carl Einstein:</span>
+            <span class="title"> Bebuquin</span>
          </div>
-         <span class="author_title">
-            <span class="author">Carl Einstein: </span>
-            <span class="title">Bebuquin</span>
-         </span>
       </div>Zunächst erfährt man, dass der junge Mann eine Glatze hat, dann werden drei Handlungen (er geht nicht in ein Spiegelkabinett, nicht in den Zirkus, nicht ins Theater, dafür aber ins Museum) und zwei Gedankengänge („wiewohl er lächelnd einsah, daß er damit die Lösung seines Lebens versäumte“, „alle Ekstase ist unanständig“) mitgeteilt.<div class="solution" id="solution_47">
-         <div class="feedback" id="feedback_47">
-                            Erläuterung:
-                        </div>
+         <div class="feedback" id="feedback_47">Erläuterung:</div>
          <div class="answer" id="answer_47">Zunächst erfährt man, dass der junge Mann eine Glatze hat, dann werden drei Handlungen (er geht nicht in ein Spiegelkabinett, nicht in den Zirkus, nicht ins Theater, dafür aber ins Museum) und zwei Gedankengänge („wiewohl er lächelnd einsah, daß er damit die Lösung seines Lebens versäumte“, „alle Ekstase ist unanständig“) mitgeteilt.</div>
       </div>
    </div>
@@ -2317,16 +2363,18 @@ Darum werde ich jetzt auf Zehenspitzen an der schnarchenden Masse der Allardyce 
         resource="prosa"
         id="uebungzumfrueherenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Dies ist die Eingangspassage aus George Orwells berühmtem Roman <span class="title">Nineteen Eighty-Four </span>aus dem Jahre 1949, dessen Geschehen dem Titel nach im Jahre 1984 anzusiedeln ist, also - aus der Sicht des Autors und des ursprünglichen Lesepublikums - in einer fernen Zukunft.
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Dies ist die Eingangspassage aus George Orwells berühmtem Roman Nineteen Eighty-Four aus dem Jahre 1949, dessen Geschehen dem Titel nach im Jahre 1984 anzusiedeln ist, also - aus der Sicht des Autors und des ursprünglichen Lesepublikums - in einer fernen Zukunft.
 Was liegt hier vor?
 </div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text"> It was a bright cold day in April, and the clocks were striking thirteen. Winston Smith, his chin nuzzled into his breast in an effort to escape the vile wind, slipped quickly through the glass doors of Victory Mansions, though not quickly enough to prevent a swirl of gritty dust from entering along with him. </div>
-         <span class="author_title">
-            <span class="author">George Orwell: </span>
-            <span class="title">Nineteen Eighty-Four</span>
-         </span>
+         <div class="author_title">
+            <span class="author">George Orwell:</span>
+            <span class="title"> Nineteen Eighty-Four</span>
+         </div>
       </div>
       <fieldset id="option_pool_48">
          <div class="option">
@@ -2355,7 +2403,9 @@ Was liegt hier vor?
    </div>
    <div class="exercise mc" resource="prosa" id="uebunggedankenzitatUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>In welchem der drei Beispiele findet sich ein Gedankenzitat?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">In welchem der drei Beispiele findet sich ein Gedankenzitat?</div>
+      </div>
       <fieldset id="option_pool_49">
          <div class="option">
             <input type="radio"
@@ -2363,13 +2413,13 @@ Was liegt hier vor?
                    id="option_49_uebunggedankenzitatL1"
                    value="false"/>
             <label for="option_49_uebunggedankenzitatL1">
-               <div class="quotation">
+               <span class="text">
                   <div class="text"> Wutz trug seinen mit dem Gas der Liebe aufgefüllten und emporgetriebnen Herzballon freudig ins Alumneum zurück, ohne jemand eine Silbe zu melden, am wenigsten der Schnupftuch-Fahnenjunkerin selber - nicht aus Scheu, sondern weil er nie mehr begehrte als die Gegenwart; er war nur froh, daß er selber verliebt war, und dachte an weiter nichts...</div>
-                  <span class="author_title">
-                     <span class="author">Jean Paul: </span>
-                     <span class="title">Leben des vergnügten Schulmeisterlein Maria Wutz in Auenthal</span>
-                  </span>
-               </div>
+               </span>
+               <span class="author_title">
+                  <span class="author">Jean Paul:</span>
+                  <span class="title"> Leben des vergnügten Schulmeisterlein Maria Wutz in Auenthal</span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -2378,13 +2428,13 @@ Was liegt hier vor?
                    id="option_49_uebunggedankenzitatL2"
                    value="true"/>
             <label for="option_49_uebunggedankenzitatL2">
-               <div class="quotation">
+               <span class="text">
                   <div class="text"> „Ach ja,“ sagte sie, „ich verspreche dir alles, was du willst, wenn du mir nur die Kugel wiederbringst.“ Sie dachte aber „was der einfältige Frosch schwätzt, der sitzt im Wasser bei seinesgleichen und quakt, und kann keines Menschen Geselle sein.“</div>
-                  <span class="author_title">
-                     <span class="author">Jakob und Wilhelm Grimm: </span>
-                     <span class="title">Der Froschkönig (Kinder- und Hausmärchen)</span>
-                  </span>
-               </div>
+               </span>
+               <span class="author_title">
+                  <span class="author">Jakob und Wilhelm Grimm:</span>
+                  <span class="title"> Der Froschkönig (Kinder- und Hausmärchen)</span>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -2393,13 +2443,13 @@ Was liegt hier vor?
                    id="option_49_uebunggedankenzitatL3"
                    value="false"/>
             <label for="option_49_uebunggedankenzitatL3">
-               <div class="quotation">
+               <span class="text">
                   <div class="text">[...] und gleichsam als ob sie, von Schrecken ergriffen, das Unrecht, das sie begangen, einsähe, wandte sie sich plötzlich, und fiel der Mutter, die sie, wie sie wohl wußte, von hinten beobachtet hatte, zu Füßen. Sie bat, die Knie derselben umklammernd, ihr die rasenden Äußerungen, die sie sich zugunsten des Fremden erlaubt, zu vergeben; entschuldigte sich mit dem Zustand, halb träumend, halb wachend, in welchem sie von ihr mit den Vorschlägen zu seiner Überlistung, da sie noch im Bette gelegen, überrascht worden sei, und meinte, daß sie ihn ganz und gar der Rache der bestehenden Landesgesetze, die seine Vernichtung einmal beschlossen, preisgäbe.</div>
-                  <span class="author_title">
-                     <span class="author">Heinrich von Kleist: </span>
-                     <span class="title">Die Verlobung von Santo Domingo</span>
-                  </span>
-               </div>
+               </span>
+               <span class="author_title">
+                  <span class="author">Heinrich von Kleist:</span>
+                  <span class="title"> Die Verlobung von Santo Domingo</span>
+               </span>
             </label>
          </div>
       </fieldset>
@@ -2417,7 +2467,9 @@ Was liegt hier vor?
         resource="prosa"
         id="uebungzumgleichzeitigenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Dies ist die Eingangspassage aus der ‚Skizze’ <span class="title">Sankt Wolfgang</span> von Peter Altenberg. Liegt hier </div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Dies ist die Eingangspassage aus der ‚Skizze’ Sankt Wolfgang von Peter Altenberg. Liegt hier </div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text"> Station Zahnradbahn, Schafbergbahn.</div>
@@ -2425,10 +2477,10 @@ Was liegt hier vor?
 Die schiefe Lokomotive ist quasi zusammengeduckt, wie einer, der sich gräßlich anstrengt - - -. 
 </div>
          <div class="text">La femme incomprise mit den rotbraunen Haaren und dem seidenen lila-grün changierenden Kleide saß da und fuhr den Fichten-Berg hinauf und auf die gelblichen Alm-Wiesen mit dem Duft nach Ziegen, Kühen und feuchtem Moos, zwischen schwarzgrünen Legföhren hindurch bis dorthin, wo das braunrote Gerölle anfängt - - -. </div>
-         <span class="author_title">
-            <span class="author">Peter Altenberg: </span>
-            <span class="title">Sankt Wolfgang</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Peter Altenberg:</span>
+            <span class="title"> Sankt Wolfgang</span>
+         </div>
       </div>
       <fieldset id="option_pool_50">
          <div class="option">
@@ -2472,11 +2524,13 @@ Die schiefe Lokomotive ist quasi zusammengeduckt, wie einer, der sich gräßlich
                         Auf Touchscreen-Geräten wie Smartphones und Tablets können Sie diese Übung daher momentan noch nicht durchführen.
                     </div>
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Was kennzeichnet den homodiegtischen, was den heterodiegetischen Erzähler?
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Was kennzeichnet den homodiegtischen, was den heterodiegetischen Erzähler?
                     Ordnen Sie zu!</div>
+      </div>
       <div class="drop_areas" id="drop_areas_51">
          <div class="drop_wrapper">
-            <th class="drop_head">homodiegetischer Erzähler</th>
+            <div class="drop_head">homodiegetischer Erzähler</div>
             <hr class="drop_separation"/>
             <div class="drop_area"
                  ondrop="drop(event, this)"
@@ -2484,7 +2538,7 @@ Die schiefe Lokomotive ist quasi zusammengeduckt, wie einer, der sich gräßlich
                  id="drop_area_51_1"/>
          </div>
          <div class="drop_wrapper">
-            <th class="drop_head">heterodiegetischer Erzähler</th>
+            <div class="drop_head">heterodiegetischer Erzähler</div>
             <hr class="drop_separation"/>
             <div class="drop_area"
                  ondrop="drop(event, this)"
@@ -2528,20 +2582,19 @@ Die schiefe Lokomotive ist quasi zusammengeduckt, wie einer, der sich gräßlich
         resource="prosa"
         id="uebungzumhomodiegetischenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Markieren Sie diejenigen Passagen, in denen kenntlich wird, dass hier homodiegetisch erzählt wird.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Markieren Sie diejenigen Passagen, in denen kenntlich wird, dass hier homodiegetisch erzählt wird.</div>
+      </div>
       <div class="quotation" id="markable_text_1">
          <div class="pretext">Textbeispiel:</div>
-         <div class="text">
-            <span class="correct_marker">Wir</span> haben einen neuen Advokaten, den Dr. Bucephalus. In seinem Äußern erinnert wenig an die Zeit, da er noch Streitroß Alexanders von Mazedonien war. Wer allerdings mit den Umständen vertraut ist, bemerkt einiges. <span class="correct_marker">Doch sah ich</span> letzthin auf der Freitreppe selbst einen ganz einfältigen Gerichtsdiener mit dem Fachblick des kleinen Stammgastes der Wettrennen den Advokaten bestaunen, als dieser, hoch die Schenkel hebend, mit auf dem Marmor aufklingendem Schritt von Stufe zu Stufe stieg.</div>
-         <span class="author_title">
-            <span class="author">Franz Kafka: </span>
-            <span class="title">Ein Landarzt</span>
-         </span>
+         <span class="correct_marker">Wir</span> haben einen neuen Advokaten, den Dr. Bucephalus. In seinem Äußern erinnert wenig an die Zeit, da er noch Streitroß Alexanders von Mazedonien war. Wer allerdings mit den Umständen vertraut ist, bemerkt einiges. <span class="correct_marker">Doch sah ich</span> letzthin auf der Freitreppe selbst einen ganz einfältigen Gerichtsdiener mit dem Fachblick des kleinen Stammgastes der Wettrennen den Advokaten bestaunen, als dieser, hoch die Schenkel hebend, mit auf dem Marmor aufklingendem Schritt von Stufe zu Stufe stieg.<br/>
+         <div class="author_title">
+            <span class="author">Franz Kafka:</span>
+            <span class="title"> Ein Landarzt</span>
+         </div>
       </div>
       <div class="solution" id="solution_52">
-         <div class="feedback" id="feedback_52">
-                            Erläuterung:
-                        </div>
+         <div class="feedback" id="feedback_52"/>
          <div class="answer" id="answer_52"/>
       </div>
    </div>
@@ -2549,14 +2602,16 @@ Die schiefe Lokomotive ist quasi zusammengeduckt, wie einer, der sich gräßlich
         resource="prosa"
         id="uebungzurindirektengedankenredeUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div> Hat man es hier mit indirekter Gedankenrede, mit erlebter Gedankenrede oder einem Bewusstseinsbericht zu tun?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text"> Hat man es hier mit indirekter Gedankenrede, mit erlebter Gedankenrede oder einem Bewusstseinsbericht zu tun?</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">So groß war seine Leidenschaft, so rein seine Überzeugung, er handle vollkommen recht, sich dem Drucke seines bisherigen Lebens zu entziehen und einer neuen, edlern Bahn zu folgen, daß sein Gewissen sich nicht im mindesten regte, keine Sorge in ihm entstand, ja daß er vielmehr diesen Betrug für heilig hielt. Er war gewiß, daß ihn Eltern und Verwandte in der Folge für diesen Schritt preisen und segnen sollten, er erkannte den Wink eines leitenden Schicksals an diesen zusammentreffenden Umständen.</div>
-         <span class="author_title">
-            <span class="author">Johann Wolfgang von Goethe: </span>
-            <span class="title">Wilhelm Meisters Lehrjahre (11. Kapitel)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang von Goethe:</span>
+            <span class="title"> Wilhelm Meisters Lehrjahre (11. Kapitel)</span>
+         </div>
       </div>
       <fieldset id="option_pool_53">
          <div class="option">
@@ -2595,16 +2650,18 @@ Die schiefe Lokomotive ist quasi zusammengeduckt, wie einer, der sich gräßlich
         resource="prosa"
         id="uebungzurindirektenredeUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Welche Form der Redewiedergabe liegt hier vor?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Welche Form der Redewiedergabe liegt hier vor?</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Als Wilhelm seine Mutter des andern Morgens begrüßte, eröffnete sie
                         ihm, daß der Vater sehr verdrießlich sei und ihm den täglichen Besuch des
                         Schauspiels nächstens untersagen werde.</div>
-         <span class="author_title">
-            <span class="author">Johann Wolfgang von Goethe: </span>
-            <span class="title">Wilhelm Meisters Lehrjahre (2. Kapitel)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang von Goethe:</span>
+            <span class="title"> Wilhelm Meisters Lehrjahre (2. Kapitel)</span>
+         </div>
       </div>
       <fieldset id="option_pool_54">
          <div class="option">
@@ -2647,19 +2704,21 @@ Die schiefe Lokomotive ist quasi zusammengeduckt, wie einer, der sich gräßlich
         resource="prosa"
         id="uebungzurinternenfokalisierungUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Handelt es sich bei dieser Passage um eine
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Handelt es sich bei dieser Passage um eine
 interne Fokalisierung? Machen Sie sich auch klar, auf welche Indizien im Text
 Sie Ihre Position stützen.</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Nathanael fand eine Einladungskarte und ging
 mit hochklopfendem Herzen zur bestimmten Stunde, als schon die Wagen rollten
 und die Lichter in den geschmückten Sälen schimmerten, zum
 Professor.</div>
-         <span class="author_title">
-            <span class="author">E. T. A. Hoffmann: </span>
-            <span class="title">Der Sandmann</span>
-         </span>
+         <div class="author_title">
+            <span class="author">E. T. A. Hoffmann:</span>
+            <span class="title"> Der Sandmann</span>
+         </div>
       </div>
       <fieldset id="option_pool_55">
          <div class="option">
@@ -2710,14 +2769,16 @@ vor.</span>
         resource="prosa"
         id="uebungzumextradiegetischenerzaehlenbzwzumintradiegetischenerzaehltenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Hier geht es offensichtlich um Erzählungen, die erzählt werden. Liegt hier also</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Hier geht es offensichtlich um Erzählungen, die erzählt werden. Liegt hier also</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Don Quijote fragte sie, was sie über Marcela und Grisostomo vernommen hätten. Der fremde Reisende sagte, sie seien an diesem Morgen auf die Schäfer gestoßen, und weil sie diese in Trauer gekleidet gesehen, hätten sie nach der Ursache gefragt. Darüber habe ihnen einer der Schäfer Aufschluß gegeben und ihnen von der sonderbaren Wesensart und der Schönheit einer Schäferin namens Marcela [...] erzählt.</div>
-         <span class="author_title">
-            <span class="author">Miguel Cervantes: </span>
-            <span class="title">Don Quijote</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Miguel Cervantes:</span>
+            <span class="title"> Don Quijote</span>
+         </div>
       </div>
       <fieldset id="option_pool_56">
          <div class="option">
@@ -2757,8 +2818,10 @@ vor.</span>
         resource="prosa"
         id="uebungzumiterativenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>In diesem kurzen Textabschnitt aus Jean Pauls <span class="title">Leben des vergnügten Schulmeisterlein Maria Wutz im Auenthal</span>
-                    wird über die Kinderspiele der Titelfigur berichtet. </div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">In diesem kurzen Textabschnitt aus Jean Pauls Leben des vergnügten Schulmeisterlein Maria Wutz im Auenthal
+                    wird über die Kinderspiele der Titelfigur berichtet. Zu fragen wäre allerdings, ob hier</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Schon in der Kindheit war er [Wutz] ein wenig kindisch. Denn es gibt
@@ -2769,10 +2832,10 @@ vor.</span>
                         ein Pferd oder gar der Wagen daran. Glaubt mir! ein Seraph findet auch in
                         unsern Kollegien und Hörsälen keine Geschäfte, sondern nur Spiele und, wenn
                         ers hoch treibt, jene zweierlei Spiele.</div>
-         <span class="author_title">
-            <span class="author">Jean Paul: </span>
-            <span class="title">Leben des vergnügten Schulmeisterlein Maria Wutz im Auenthal (3. Abschnitt)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Jean Paul:</span>
+            <span class="title"> Leben des vergnügten Schulmeisterlein Maria Wutz im Auenthal (3. Abschnitt)</span>
+         </div>
       </div>
       <fieldset id="option_pool_57">
          <div class="option">
@@ -2816,19 +2879,18 @@ vor.</span>
         resource="prosa"
         id="uebungzurkausalenmotivierungUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Markieren Sie im folgenden Textabschnitt Stellen, die zu einer kausalen Motivierung der Geschichte führen.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Markieren Sie im folgenden Textabschnitt Stellen, die zu einer kausalen Motivierung der Geschichte führen.</div>
+      </div>
       <div class="quotation" id="markable_text_1">
-         <div class="pretext">Textbeispiel:</div>
-         <div class="text">Als die Fürstin aufsaß, sagte Honorio: „Reiten Euer Durchlaucht, ich bitte, langsam! In der Stadt wie auf dem Schloß sind die Feueranstalten in bester Ordnung, [...].“ Die Fürstin glaubte nicht daran; <span class="correct_marker">sie sah den Rauch sich verbreiten, sie glaubte einen aufflammenden Blitz gesehen, einen Schlag gehört zu haben, und nun bewegten sich in ihrer Einbildungskraft alle die Schreckbilder, welche des trefflichen Oheims wiederholte Erzählung von dem erlebten Jahrmarktsbrande leider nur zu tief eingesenkt hatte.</span>
+         <div class="pretext">Textbeispiel:</div>Als die Fürstin aufsaß, sagte Honorio: „Reiten Euer Durchlaucht, ich bitte, langsam! In der Stadt wie auf dem Schloß sind die Feueranstalten in bester Ordnung, [...].“ Die Fürstin glaubte nicht daran; <span class="correct_marker">sie sah den Rauch sich verbreiten, sie glaubte einen aufflammenden Blitz gesehen, einen Schlag gehört zu haben, und nun bewegten sich in ihrer Einbildungskraft alle die Schreckbilder, welche des trefflichen Oheims wiederholte Erzählung von dem erlebten Jahrmarktsbrande leider nur zu tief eingesenkt hatte.</span>
+         <br/>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang von Goethe:</span>
+            <span class="title"> Novelle</span>
          </div>
-         <span class="author_title">
-            <span class="author">Johann Wolfgang von Goethe: </span>
-            <span class="title">Novelle</span>
-         </span>
       </div>Weil die Fürstin Rauch sieht und weil sie die Geschichte des Oheims vom Brand gehört hat, fürchtet sie, dass das Schoss in Brand geraten könnte.<div class="solution" id="solution_58">
-         <div class="feedback" id="feedback_58">
-                            Erläuterung:
-                        </div>
+         <div class="feedback" id="feedback_58">Erläuterung:</div>
          <div class="answer" id="answer_58">Weil die Fürstin Rauch sieht und weil sie die Geschichte des Oheims vom Brand gehört hat, fürchtet sie, dass das Schoss in Brand geraten könnte.</div>
       </div>
    </div>
@@ -2836,16 +2898,18 @@ vor.</span>
         resource="prosa"
         id="uebungzummetadiegetischenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Offensichtlich ist dies eine Erzählung, die erzählt wird. Liegt hier also</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Offensichtlich ist dies eine Erzählung, die erzählt wird. Liegt hier also</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Meister Nicolas bat ihn [den Pfarrer] ebenfalls, sie vorzulesen, und auch Sancho schloß sich ihm an. Als der Pfarrer dies sah und glaubte, er würde allen damit ein Vergnügen machen und sich selbst eines verschaffen, sagte er: „Da dem so ist, so hört mir alle zu. Die Novelle beginnt folgendermaßen“:</div>
          <div class="text">33. Kapitel. In dem die „Novelle vom unziemlich Neugierigen“ erzählt wird.</div>
          <div class="text">In Florenz, einer reichen und berühmten Stadt Italiens, [usw.]</div>
-         <span class="author_title">
-            <span class="author">Miguel Cervantes: </span>
-            <span class="title">Don Quijote</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Miguel Cervantes:</span>
+            <span class="title"> Don Quijote</span>
+         </div>
       </div>
       <fieldset id="option_pool_59">
          <div class="option">
@@ -2876,14 +2940,16 @@ vor.</span>
         resource="prosa"
         id="uebungzummoduseinerfigurenbezogenentatsacheUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Welchen Status haben die beiden indirekten Charakterisierungen durch die Gemeindemitglieder und durch die Frauen?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Welchen Status haben die beiden indirekten Charakterisierungen durch die Gemeindemitglieder und durch die Frauen?</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Dennoch war Rabbi Abraham ein sehr reicher Mann; verheuratet mit der einzigen Tochter seines verstorbenen Vaterbruders, welcher den Juwelenhandel getrieben, erbte er dessen große Reichtümer. Einige Fuchsbärte in der Gemeinde deuteten darauf hin, als wenn der Rabbi eben des Geldes wegen seine Frau geheuratet habe. Aber sämtliche Weiber widersprachen und wußten alte Geschichten zu erzählen: wie der Rabbi schon vor seiner Reise nach Spanien verliebt gewesen in Sara - man hieß sie eigentlich die schöne Sara - und wie Sara sieben Jahre warten mußte, bis der Rabbi aus Spanien zurückkehrte, indem er sie gegen den Willen ihres Vaters und selbst gegen ihre eigne Zustimmung durch den Trauring geheuratet hatte.</div>
-         <span class="author_title">
-            <span class="author">Heinrich Heine: </span>
-            <span class="title">Der Rabbi von Bacherach</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Heinrich Heine:</span>
+            <span class="title"> Der Rabbi von Bacherach</span>
+         </div>
       </div>
       <fieldset id="option_pool_60">
          <div class="option">
@@ -2922,14 +2988,16 @@ vor.</span>
         resource="prosa"
         id="uebungzurnullfokalisierungUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Handelt es sich bei dieser Passage um eine Nullfokalisierung? Machen Sie sich auch klar, auf welche Indizien im Text Sie Ihre Position stützen.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Handelt es sich bei dieser Passage um eine Nullfokalisierung? Machen Sie sich auch klar, auf welche Indizien im Text Sie Ihre Position stützen.</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Hätte Nathanael außer der schönen Olimpia noch etwas anderes zu sehen vermocht, so wäre allerlei fataler Zank und Streit unvermeidlich gewesen; denn offenbar ging das halbleise, mühsam unterdrückte Gelächter, was sich in diesem und jenem Winkel unter den jungen Leuten erhob, auf die schöne Olimpia, die sie mit ganz kuriosen Blicken verfolgten, man konnte gar nicht wissen, warum.</div>
-         <span class="author_title">
-            <span class="author">E. T. A. Hoffmann: </span>
-            <span class="title">Der Sandmann</span>
-         </span>
+         <div class="author_title">
+            <span class="author">E. T. A. Hoffmann:</span>
+            <span class="title"> Der Sandmann</span>
+         </div>
       </div>
       <fieldset id="option_pool_61">
          <div class="option">
@@ -2968,34 +3036,34 @@ vor.</span>
         resource="prosa"
         id="uebungdeskriptivepauseUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Markieren Sie im folgenden Text diejenige Stelle, bei der die Handlung durch eine deskriptive Pause unterbrochen wird.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Markieren Sie im folgenden Text diejenige Stelle, bei der die Handlung durch eine deskriptive Pause unterbrochen wird.</div>
+      </div>
       <div class="quotation" id="markable_text_1">
-         <div class="pretext">Textbeispiel:</div>
-         <div class="text">Eines Tages ging ich von dem Hochgebirge gegen das Hügelland hinaus. <span class="correct_marker">Ich wollte nämlich von einem Gebirgszuge in einen andern übersiedeln und meinen Weg dahin durch einen Teil des offenen Landes nehmen. Jedermann kennt die Vorberge, mit welchen das Hochgebirge gleichsam wie mit einem Übergange gegen das flachere Land ausläuft. Mit Laub- oder Nadelwald bedeckt ziehen sie in angenehmer Färbung dahin, lassen hie und da das blaue Haupt eines Hochberges über sich sehen, sind hie und da von einer leuchtenden Wiese unterbrochen, führen alle Wässer, die das Gebirge liefert, und die gegen das Land hinaus gehen, zwischen sich, zeigen manches Gebäude und manches Kirchlein, und strecken sich nach allen Richtungen, in denen das Gebirge sich abniedert, gegen die bebauteren und bewohnteren Teile hinaus.</span>
+         <div class="pretext">Textbeispiel:</div>Eines Tages ging ich von dem Hochgebirge gegen das Hügelland hinaus. <span class="correct_marker">Ich wollte nämlich von einem Gebirgszuge in einen andern übersiedeln und meinen Weg dahin durch einen Teil des offenen Landes nehmen. Jedermann kennt die Vorberge, mit welchen das Hochgebirge gleichsam wie mit einem Übergange gegen das flachere Land ausläuft. Mit Laub- oder Nadelwald bedeckt ziehen sie in angenehmer Färbung dahin, lassen hie und da das blaue Haupt eines Hochberges über sich sehen, sind hie und da von einer leuchtenden Wiese unterbrochen, führen alle Wässer, die das Gebirge liefert, und die gegen das Land hinaus gehen, zwischen sich, zeigen manches Gebäude und manches Kirchlein, und strecken sich nach allen Richtungen, in denen das Gebirge sich abniedert, gegen die bebauteren und bewohnteren Teile hinaus.</span>
+         <br/>Als ich von dem Hange dieser Berge herab ging und eine freiere Umsicht gewann, erblickte ich gegen Untergang hin die sanften Wolken eines Gewitters, das sich sachte zu bilden begann und den Himmel umschleierte.<br/>
+         <div class="author_title">
+            <span class="author">Adalbert Stifter:</span>
+            <span class="title"> Der Nachsommer (1. Band, 3. Kapitel)</span>
          </div>
-         <div class="text">Als ich von dem Hange dieser Berge herab ging und eine freiere Umsicht gewann, erblickte ich gegen Untergang hin die sanften Wolken eines Gewitters, das sich sachte zu bilden begann und den Himmel umschleierte.</div>
-         <span class="author_title">
-            <span class="author">Adalbert Stifter: </span>
-            <span class="title">Der Nachsommer (1. Band, 3. Kapitel)</span>
-         </span>
       </div>
       <div class="solution" id="solution_62">
-         <div class="feedback" id="feedback_62">
-                            Erläuterung:
-                        </div>
+         <div class="feedback" id="feedback_62"/>
          <div class="answer" id="answer_62"/>
       </div>
    </div>
    <div class="exercise mc" resource="prosa" id="uebungprolepseUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Hat man es in diesem Bewusstseinsbericht Wilhelms mit einer Anachronie zu tun und wenn ja mit welcher Form?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Hat man es in diesem Bewusstseinsbericht Wilhelms mit einer Anachronie zu tun und wenn ja mit welcher Form?</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">So groß war seine Leidenschaft, so rein seine Überzeugung, er handle vollkommen recht, sich dem Drucke seines bisherigen Lebens zu entziehen und einer neuen, edlern Bahn zu folgen, daß sein Gewissen sich nicht im mindesten regte, keine Sorge in ihm entstand, ja daß er vielmehr diesen Betrug für heilig hielt. Er war gewiß, daß ihn Eltern und Verwandte in der Folge für diesen Schritt preisen und segnen sollten, er erkannte den Wink eines leitenden Schicksals an diesen zusammentreffenden Umständen.</div>
-         <span class="author_title">
-            <span class="author">Johann Wolfgang von Goethe: </span>
-            <span class="title">Wilhelm Meisters Lehrjahre (1, 11)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Johann Wolfgang von Goethe:</span>
+            <span class="title"> Wilhelm Meisters Lehrjahre (1, 11)</span>
+         </div>
       </div>
       <fieldset id="option_pool_63">
          <div class="option">
@@ -3034,14 +3102,16 @@ vor.</span>
         resource="prosa"
         id="uebungzumraffendenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Wie ist das Erzähltempo in der folgenden Passage?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Wie ist das Erzähltempo in der folgenden Passage?</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Meine Sanftmut und mein gutes Betragen hatten den Kaiser und seinen Hof sowie auch Heer und Volk im allgemeinen so sehr gewonnen, daß ich anfing, die Hoffnung zu hegen, ich würde in kurzem meine Freiheit erhalten: Ich gab mir alle mögliche Mühe, diese günstige Stimmung zu erhalten. Die Eingebornen fürchteten allmählich weniger Gefahr; bisweilen legte ich mich nieder und ließ fünf oder sechs auf meinen Kopf; Knaben und Mädchen wagten zuletzt, Verstecken in meinem Haare zu spielen. Auch hatte ich schon ziemliche Fortschritte im Verständnis der Landessprache gemacht.</div>
-         <span class="author_title">
-            <span class="author">Jonathan Swift: </span>
-            <span class="title">Gullivers Travel (Beginn des 3. Kapitels)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Jonathan Swift:</span>
+            <span class="title"> Gullivers Travel (Beginn des 3. Kapitels)</span>
+         </div>
       </div>
       <fieldset id="option_pool_64">
          <div class="option">
@@ -3078,14 +3148,16 @@ vor.</span>
    </div>
    <div class="exercise text" resource="prosa" id="uebungzumredeberichtUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Formulieren Sie diesen  	Redebericht aus Achim von Arnims <span class="title">Armut, Reichtum, Schuld und Buße der Gräfin Dolores</span> so um, dass daraus eine Erwähnung des sprachlichen Akts wird.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Formulieren Sie diesen  	Redebericht aus Achim von Arnims Armut, Reichtum, Schuld und Buße der Gräfin Dolores so um, dass daraus eine Erwähnung des sprachlichen Akts wird.</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Den andern Tag entschädigte sich die Gräfin wenigstens damit bei ihren Bekannten, daß sie erzählte von ihrem Schwager, von seinem Reichtume, seiner Pracht, daß er ihr eigentlich bestimmt gewesen, daß sie sich aber glücklich schätze, nicht in so fremde Gegenden wandern zu müssen.</div>
-         <span class="author_title">
-            <span class="author">Achim von Arnim: </span>
-            <span class="title">Armut, Reichtum, Schuld und Buße der Gräfin Dolores (2. Kapitel)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Achim von Arnim:</span>
+            <span class="title"> Armut, Reichtum, Schuld und Buße der Gräfin Dolores (2. Kapitel)</span>
+         </div>
       </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>
@@ -3104,9 +3176,11 @@ vor.</span>
         resource="prosa"
         id="uebungzumrepetitivenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>So beginnt Uwe Johnsons erster veröffentlichter Roman <span class="title">Mutmassungen über Jakob</span>. Ganz offensichtlich
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">So beginnt Uwe Johnsons erster veröffentlichter Roman Mutmassungen über Jakob. Ganz offensichtlich
                     beschäftigen sich hier gleich mehrere ‚Stimmen’ mit ein und demselben
                     Ereignis.</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Aber Jakob ist immer quer über die Gleise gegangen.</div>
@@ -3121,10 +3195,10 @@ vor.</span>
          <div class="text">- Jakob war sieben Jahre bei der Eisenbahn will ich dir sagen, und
                         wenn irgend wo sich was gerührt hat was auf Schienen fahren konnte, dann hat
                         er das wohl genau gehört.</div>
-         <span class="author_title">
-            <span class="author">Uwe Johnson: </span>
-            <span class="title">Mutmassungen über Jakob (Beginn)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Uwe Johnson:</span>
+            <span class="title"> Mutmassungen über Jakob (Beginn)</span>
+         </div>
       </div>
       <fieldset id="option_pool_66">
          <div class="option">
@@ -3169,14 +3243,16 @@ vor.</span>
         resource="prosa"
         id="uebungzumsekundaerenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Haben wir es hier mit </div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Haben wir es hier mit </div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Don Quijote fragte sie, was sie über Marcela und Grisostomo vernommen hätten. Der fremde Reisende sagte, sie seien an diesem Morgen auf die Schäfer gestoßen, und weil sie diese in Trauer gekleidet gesehen, hätten sie nach der Ursache gefragt. Darüber habe ihnen einer der Schäfer Aufschluß gegeben und ihnen von der sonderbaren Wesensart und der Schönheit einer Schäferin namens Marcela [...] erzählt.</div>
-         <span class="author_title">
-            <span class="author">Miguel Cervantes: </span>
-            <span class="title">Don Quijote</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Miguel Cervantes:</span>
+            <span class="title"> Don Quijote</span>
+         </div>
       </div>
       <fieldset id="option_pool_67">
          <div class="option">
@@ -3216,14 +3292,16 @@ vor.</span>
         resource="prosa"
         id="uebungzumsingulativenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>In dieser Eingangspassage aus Jean Pauls <span class="title">Selberlebensbeschreibung</span> (=Autobiographie) erzählt der „Professor der Geschichte von sich“ vom Tag seiner Geburt.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">In dieser Eingangspassage aus Jean Pauls Selberlebensbeschreibung (=Autobiographie) erzählt der „Professor der Geschichte von sich“ vom Tag seiner Geburt.</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Es war im Jahr 1763, wo der Hubertsburger Friede zur Welt kam und gegenwärtiger Professor der Geschichte von sich; - und zwar in dem Monate, wo ihm noch die gelbe und graue Bachstelze, das Rotkehlchen, der Kranich, der Rohrammer und mehrere Schnepfen und Sumpfvögel anlangten, nämlich im März; - und zwar an dem Monattage, wo, falls Blüten auf seine Wiege zu streuen waren, gerade dazu das Scharbock- oder Löffelkraut und die Zitterpappel in Blüte traten, desgleichen der Ackerehrenpreis oder Hühnerbißdarm, nämlich am 21ten März; - und zwar in der frühesten frischesten Tageszeit, nämlich am Morgen um 1 1/2 Uhr; was aber alles krönt, war, daß der Anfang seines Lebens zugleich der des damaligen Lenzes war.</div>
-         <span class="author_title">
-            <span class="author">Jean Paul: </span>
-            <span class="title">Selberlebensbeschreibung  (Beginn)</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Jean Paul:</span>
+            <span class="title"> Selberlebensbeschreibung  (Beginn)</span>
+         </div>
       </div>
       <fieldset id="option_pool_68">
          <div class="option">
@@ -3254,14 +3332,16 @@ vor.</span>
         resource="prosa"
         id="uebungzumspaeterenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Diese kurze Textpassage stammt aus Raymond Chandlers Kriminalerzählung <span class="title">The Big Sleep</span>. Der ich-erzählende ‚Schnüffler’ ist im Laufe seiner Ermittlungen in eine fremde Wohnung eingedrungen, in der ‚etwas nicht stimmt’. Er weiß nur noch nicht, was.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Diese kurze Textpassage stammt aus Raymond Chandlers Kriminalerzählung The Big Sleep. Der ich-erzählende ‚Schnüffler’ ist im Laufe seiner Ermittlungen in eine fremde Wohnung eingedrungen, in der ‚etwas nicht stimmt’. Er weiß nur noch nicht, was.Liegt hier also</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Something was wrong. Something on the air, a scent. The shades were down at the windows and the street light leaking in at the sides made a dim light in the room. I stood still and listened. The scent on the air was a perfume, a heavy cloying perfume.</div>
-         <span class="author_title">
-            <span class="author">Raymond Chandler: </span>
-            <span class="title">The Big Sleep</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Raymond Chandler:</span>
+            <span class="title"> The Big Sleep</span>
+         </div>
       </div>
       <fieldset id="option_pool_69">
          <div class="option">
@@ -3290,14 +3370,16 @@ vor.</span>
    </div>
    <div class="exercise mc" resource="prosa" id="uebungszeneUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Hat man es in der folgenden Textpassage mit szenischem Erzählen zu tun?</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Hat man es in der folgenden Textpassage mit szenischem Erzählen zu tun?</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">„Gruber“, sagt Jerome und neigt sich zu dem Kameraden, der sich immer tiefer in die Nische zurücklehnt, „es war schon wieder an dir, zu klettern, auf dem Strick, geh mal, versuchs, sonst macht dir der Jastersky irgend eine Geschichte, weißt du…“ Gruber nickt. Aber statt aufzustehen, schließt er plötzlich die Augen  und gleitet unter den Worten Jeromes durch, als ob eine Welle ihn trüge, fort, gleitet langsam und lautlos tiefer, tiefer, gleitet vom Sitz, und Jerome weiß erst, was geschieht, als er hört, wie der Kopf Grubers hart an das Holz des Sitzes prallt und dann vornüber fällt.</div>
-         <span class="author_title">
-            <span class="author">Rainer Maria Rilke: </span>
-            <span class="title">Die Turnstunde</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Rainer Maria Rilke:</span>
+            <span class="title"> Die Turnstunde</span>
+         </div>
       </div>
       <fieldset id="option_pool_70">
          <div class="option">
@@ -3336,16 +3418,18 @@ vor.</span>
         resource="prosa"
         id="uebungzumtertiaerenerzaehlenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Offensichtlich ist dies eine Erzählung, die erzählt wird. Liegt hier also</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Offensichtlich ist dies eine Erzählung, die erzählt wird. Liegt hier also</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Meister Nicolas bat ihn [den Pfarrer] ebenfalls, sie vorzulesen, und auch Sancho schloß sich ihm an. Als der Pfarrer dies sah und glaubte, er würde allen damit ein Vergnügen machen und sich selbst eines verschaffen, sagte er: „Da dem so ist, so hört mir alle zu. Die Novelle beginnt folgendermaßen“:</div>
          <div class="text">33. Kapitel. In dem die „Novelle vom unziemlich Neugierigen“ erzählt wird.</div>
          <div class="text">In Florenz, einer reichen und berühmten Stadt Italiens, [usw.]</div>
-         <span class="author_title">
-            <span class="author">Miguel Cervantes: </span>
-            <span class="title">Don Quijote</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Miguel Cervantes:</span>
+            <span class="title"> Don Quijote</span>
+         </div>
       </div>
       <fieldset id="option_pool_71">
          <div class="option">
@@ -3374,7 +3458,9 @@ vor.</span>
    </div>
    <div class="exercise mc" resource="prosa" id="uebungzurtextmontageUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Das erste Kapitel von Edlef Köppens Roman <span class="title">Heeresbericht</span> über den ersten Weltkrieg, in dem die Kriegserlebnisse des (fiktiven) Soldaten Adolf Reisiger geschxildert werden, beginnt - vor Einsetzen der eigentlichen Erzählung - mit einer Reihe von (kursiv gedruckten) authentischen Dokumenten, darunter dem kaiserlichen Mobilmachungsbefehl für die Armee des Deutschen Reiches: Liegt in einem solchen Fall</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Das erste Kapitel von Edlef Köppens Roman Heeresbericht über den ersten Weltkrieg, in dem die Kriegserlebnisse des (fiktiven) Soldaten Adolf Reisiger geschxildert werden, beginnt - vor Einsetzen der eigentlichen Erzählung - mit einer Reihe von (kursiv gedruckten) authentischen Dokumenten, darunter dem kaiserlichen Mobilmachungsbefehl für die Armee des Deutschen Reiches: Liegt in einem solchen Fall</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Ich bestimme hiermit:</div>
@@ -3383,10 +3469,10 @@ vor.</span>
          <div class="text">Berlin, den 1. August 1914</div>
          <div class="text">Wilhelm I.R.</div>
          <div class="text">von Bethmann Hollweg</div>
-         <span class="author_title">
-            <span class="author">Edlef Köppen: </span>
-            <span class="title">Heeresbericht</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Edlef Köppen:</span>
+            <span class="title"> Heeresbericht</span>
+         </div>
       </div>
       <fieldset id="option_pool_72">
          <div class="option">
@@ -3417,14 +3503,16 @@ vor.</span>
         resource="prosa"
         id="uebungzurzuverlaessigkeitvonfigurenbezogenentatsachenUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Was lässt sich über die Zuverlässigkeit der Aussage „Josefine ist eine Sängerin“ sagen? Beschreiben Sie den Status der figurenbezogenen Tatsachen und sehen Sie sich dann die Musterlösung an.</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Was lässt sich über die Zuverlässigkeit der Aussage „Josefine ist eine Sängerin“ sagen? Beschreiben Sie den Status der figurenbezogenen Tatsachen und sehen Sie sich dann die Musterlösung an.</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Unsere Sängerin heißt Josefine. Wer sie nicht gehört hat, kennt nicht die Macht des Gesanges. Es gibt niemanden, den ihr Gesang nicht fortreißt, was um so höher zu bewerten ist, als unser Geschlecht im ganzen Musik nicht liebt. […] Ist es denn überhaupt Gesang? Ist es nicht vielleicht doch nur ein Pfeifen? Und Pfeifen allerdings kennen wir alle, es ist die eigentliche Kunstfertigkeit unseres Volkes, oder vielmehr gar keine Fertigkeit, sondern eine charakteristische Lebensäußerung. Alle pfeifen wir, aber freilich denkt niemand daran, das als Kunst auszugeben, wir pfeifen, ohne darauf zu achten, ja ohne es zu merken, und es gibt sogar viele unter uns, die gar nicht wissen, daß das Pfeifen zu unsern Eigentümlichkeiten gehört. Wenn es also wahr wäre, daß Josefine nicht singt, sondern nur pfeift und vielleicht gar, wie es mir wenigstens scheint, über die Grenzen des üblichen Pfeifens kaum hinauskommt - ja vielleicht reicht ihre Kraft für dieses übliche Pfeifen nicht einmal ganz hin, während es ein gewöhnlicher Erdarbeiter ohne Mühe den ganzen Tag über neben seiner Arbeit zustande bringt -, wenn das alles wahr wäre, dann wäre zwar Josefinens angebliche Künstlerschaft widerlegt, aber es wäre dann erst recht das Rätsel ihrer großen Wirkung zu lösen.</div>
-         <span class="author_title">
-            <span class="author">Franz Kafka: </span>
-            <span class="title">Josefine, die Sängerin oder Das Volk der Mäuse</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Franz Kafka:</span>
+            <span class="title"> Josefine, die Sängerin oder Das Volk der Mäuse</span>
+         </div>
       </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>
@@ -3441,8 +3529,10 @@ vor.</span>
    </div>
    <div class="exercise mc" resource="rhetorik" id="uebungaptumUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>In welchem der folgenden Szenarien hält sich der jeweilige Redner an das
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">In welchem der folgenden Szenarien hält sich der jeweilige Redner an das
                     rhetorische Prinzip des aptum?</div>
+      </div>
       <fieldset id="option_pool_74">
          <div class="option">
             <input type="radio"
@@ -3450,14 +3540,14 @@ vor.</span>
                    id="option_74_uebungaptumL1"
                    value="false"/>
             <label for="option_74_uebungaptumL1">
-               <div class="quotation">
+               <span class="text">
                   <div class="text">Schorsch Bücherl aus Rosenheim ist auf die Hochzeit eines alten
                         Schulkamaraden eingeladen, der seit langer Zeit in Hannover lebt. Als ganz
                         besonderes Schmankerl hat er beschlossen, auf der Hochzeit eine Rede zu
                         halten. Weil er schon immer die Nase über die Tatsache, dass in Hannover
                         angeblich das „beste Deutsch“ gesprochen wird, gerümpft hat, hält er die
                         launige Hochzeitsrede in seinem Dialekt.</div>
-               </div>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -3466,14 +3556,14 @@ vor.</span>
                    id="option_74_uebungaptumL2"
                    value="false"/>
             <label for="option_74_uebungaptumL2">
-               <div class="quotation">
+               <span class="text">
                   <div class="text">Professor C. Geertz ist Ethnologe, und seine neueste Feldforschung
                         beschäftigt sich mit auf der Straße lebenden Jugendlichen. Nach einigen
                         Tagen muss er feststellen, dass sich die Kommunikation mit ihnen als recht
                         schwierig herausstellt. Er überlegt hin und her woran das liegen könnte,
                         schließlich redet er doch die gleiche Sprache wie die Jugendlichen und redet
                         so, wie mit seinen Studenten auch.</div>
-               </div>
+               </span>
             </label>
          </div>
          <div class="option">
@@ -3482,13 +3572,13 @@ vor.</span>
                    id="option_74_uebungaptumL3"
                    value="true"/>
             <label for="option_74_uebungaptumL3">
-               <div class="quotation">
+               <span class="text">
                   <div class="text">Im Jahre 1993 erhielt der US-amerikanische Comic-Autor Carl Barks den
                         Max-und-Moritz-Preis für sein herausragendes Lebenswerk. Zu seinen Ehren
                         hielt Cuno Affolter eine Rede, in der er das mittlerweile fast
                         unüberschaubare Lebenswerk Barks’ lobte und die Großartigkeit und
                         Beliebtheit seiner Zeichnungen betonte.</div>
-               </div>
+               </span>
             </label>
          </div>
       </fieldset>
@@ -3515,15 +3605,17 @@ vor.</span>
    </div>
    <div class="exercise mc" resource="rhetorik" id="uebunggeneradicendiUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Ordnen Sie die folgende Rede des Brutus aus Shakespeares <span class="title">Julius Caesar</span> einem der drei genera dicendi zu! Brutus will und soll hier Rechenschaft ablegen für seine eben vollzogene Tat, die Tötung Caesars:</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Ordnen Sie die folgende Rede des Brutus aus Shakespeares Julius Caesar einem der drei genera dicendi zu! Brutus will und soll hier Rechenschaft ablegen für seine eben vollzogene Tat, die Tötung Caesars:</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Brutus:</div>
          <div class="text">Römer! Mitbürger! Freunde! Hört mich meine Sache führen und seid still, damit ihr hören möget! Glaubt mir um meiner Ehre willen, und hegt Achtung vor meiner Ehre, damit ihr glauben mögt! Richtet mich nach eurer Weisheit, und weckt eure Sinne, um desto besser urteilen zu können! Ist jemand in dieser Versammlung, irgend ein herzlicher Freund Cäsars, dem sage ich: des Brutus Liebe zu Cäsar war nicht geringer als seine. Wenn dieser Freund dann fragt, warum Brutus gegen Cäsar aufstand, ist dies meine Antwort: nicht weil ich Cäsarn weniger liebte, sondern weil ich Rom mehr liebte. Wolltet ihr lieber, Cäsar lebte und ihr stürbet alle als Sklaven, als dass Cäsar tot ist, damit ihr alle lebet wie freie Männer? Weil Cäsar mich liebte, wein’ ich um ihn; weil er glücklich war, freue ich mich; weil er tapfer war, ehr’ ich ihn; aber weil er herrschsüchtig war, erschlug ich ihn. Also Tränen für seine Liebe, Freude für sein Glück, Ehre für seine Tapferkeit, und Tod für seine Herrschsucht. Wer ist hier so niedrig gesinnt, dass er ein Knecht sein möchte? Ist es jemand, er rede, denn ich habe ihn beleidigt. Wer ist hier so roh, dass er nicht wünschte, ein Römer zu sein? Ist es jemand, er rede, denn ich habe ihn beleidigt. Ich halte inne, um Antwort zu hören. […]</div>
-         <span class="author_title">
-            <span class="author">William Shakespeare: </span>
-            <span class="title">Julius Caesar</span>
-         </span>
+         <div class="author_title">
+            <span class="author">William Shakespeare:</span>
+            <span class="title"> Julius Caesar</span>
+         </div>
       </div>
       <fieldset id="option_pool_75">
          <div class="option">
@@ -3561,7 +3653,9 @@ vor.</span>
    </div>
    <div class="exercise text" resource="rhetorik" id="uebungpersuasioUeb">
       <div class="task">
-         <div class="pretext">Fragestellung:</div>Ordnen sie die (durch Nummern und Hervorhebung) markierten Stellen des nun folgenden Textes, den Sie schon als Beispiel kennengelernt haben, dem jeweiligen rhetorischen Wirkungsprinzip zu! (Dies ist eine interpretative Aufgabe. Deshalb kann die angegebene Musterlösung nur als Orientierung dienen.)</div>
+         <div class="pretext">Fragestellung:</div>
+         <div class="text">Ordnen sie die (durch Nummern und Hervorhebung) markierten Stellen des nun folgenden Textes, den Sie schon als Beispiel kennengelernt haben, dem jeweiligen rhetorischen Wirkungsprinzip zu! (Dies ist eine interpretative Aufgabe. Deshalb kann die angegebene Musterlösung nur als Orientierung dienen.)</div>
+      </div>
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">Liebe Mitbürgerinnen und Mitbürger,</div>
@@ -3577,10 +3671,10 @@ vor.</span>
          <div class="text">[4] <span class="highlight">Das beginnt übrigens bei jedem von uns ganz persönlich: zum Beispiel mit einem Gespräch, einem ausgedehnten Spaziergang, einem Besuch oder indem wir mal das Handy ganz bewusst ausschalten, auch wenn dies manchem, wie zum Beispiel auch mir, zunächst einmal ungewohnt erscheinen mag. Sie werden sehen, wie gut all das für das Miteinander ist.</span>
          </div>
          <div class="text">Und so wünsche ich Ihnen allen ein gutes, ein erfülltes und ein gesegnetes neues Jahr 2007.</div>
-         <span class="author_title">
-            <span class="author">Angela Merkel: </span>
-            <span class="title">Neujahrsansprache 31.12.2006</span>
-         </span>
+         <div class="author_title">
+            <span class="author">Angela Merkel:</span>
+            <span class="title"> Neujahrsansprache 31.12.2006</span>
+         </div>
       </div>
       <div class="input">
          <div class="pretext">Ihre Formulierung:</div>

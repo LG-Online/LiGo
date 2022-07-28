@@ -1,0 +1,228 @@
+---
+title: "[Titel]"
+layout: default
+type: lerneinheit
+---
+<!-- HINWEIS: Einträge in [eckigen Klammern] sind durch eigene Angaben/Inhalte zu ersetzen -->
+
+<!-- Brotkrumen-Navigation-->
+<div class="breadcrumb_nav">
+   <a class="breadcrumb_link" href="{{ '_pages/verzeichnisse/[Datei].html' | relative_url }}">Kursübersicht</a>
+   <i class="bi bi-caret-right"></i>
+   <a class="breadcrumb_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Übergeordneter Kursabschnitt]</a>
+   <i class="bi bi-caret-right"></i>
+   <a class="breadcrumb_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Übergeordneter Kursabschnitt]</a>
+   <i class="bi bi-caret-right"></i>
+   [Aktuelle Kurseinheit]
+</div>
+<hr class="separation_line">
+
+<h1>[Überschrift]</h1>
+<!-- Diesen Button nur einfügen, wenn es Drop-Down-Inhalte (Beispiele/Übungen) auf der Seite gibt -->
+<button class="show_collapse_button">Alle Beispiele/Übungen anzeigen/verbergen</button>
+<h6>[Zwischenüberschrift]</h6> 
+<!-- Definition: Begriff + Erläuterung -->
+<div class="definition">
+   <span class="term">[Begriff]: </span>[Erläuterung]
+</div>
+<!-- Textabschnitte (werden als eigener Absatz mit Abstand davor und danach dargestellt) -->
+<div class="paragraph">
+   [Text]
+   <!-- Autoren (werden normal dargestellt) -->
+   <span class="author">[Autor]</span>
+   <!-- Werktitel (werden kursiv dargestellt) -->
+   <span class="title">[Titel]</span>
+   <!-- Autoren und wichtige Personen im Literaturgeschichte-Kurs oder Figuren/Sprecher im Drama (werden fett dargestellt)  -->
+   <span class="person">[Person]</span>
+   
+   <!-- Fußnoten-Links (-> Weiterer Code bzw. Fußnoten-Text am Ende des Dokuments) -->
+   [Text]<a class="footnote_link" id="footnote_[Fußnote-Nr.]" href="#anchor_[Fußnote-Nr.]"><sup class="footnote_number">[[Fußnote-Nr.]]</sup></a>
+   
+   <!-- Seiten-Links -->
+   <a class="internal_link" href="{{ '_pages/[Pfad/Datei].html' | relative_url }}"><i class="bi bi-chevron-right"></i><span class="link_text">[Link-Text]</span></a>
+   
+   <!-- Pop-Over-Erläuterungen -->
+   <details class="pop_over">
+      <summary class="pop_over_link"><i class="bi bi-caret-right-fill rotate_90"></i>[Begriff]</summary>
+      <div class="pop_over_content">
+         <h5>[Begriff]</h5>
+         <span class="pop_over_text">[Begriffserläuterung (= Definition-Text)]</span>
+         <div class="pop_over_course_link">
+            <a class="course_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}"><i class="bi bi-chevron-right"></i><span class="link_text">Zur Kursseite</span></a>
+         </div>
+      </div>
+   </details>
+</div> 
+
+<!-- Textbeispiel/Zitierter Text: Prosa -->
+<div class="quotation">
+   <div class="pretext">Textbeispiel:</div>
+   <div class="text">
+      [Text]
+   </div>
+   <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
+</div>
+
+<!-- Textbeispiel/Zitierter Text: Drama -->
+<div class="quotation">
+   <div class="pretext">Textbeispiel:</div>
+   <div class="drama_line">
+      [FIGUR]: <!-- ALTERNATIV: <span class="person">[Figur]</span>: --> [Text] <span class="stage_dir">[Regieanweisung]</span>
+   </div>
+   <div class="drama_line">
+      <span class="person">[Figur]</span>: <!-- ALTERNATIV: [FIGUR]: --> [Text] <span class="stage_dir">[Regieanweisung]</span>
+   </div>
+   <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
+</div>
+
+<!-- Textbeispiel/Zitierter Text: Lyrik -->   
+<div class="poem">
+   <div class="pretext">Textbeispiel:</div>
+   <!-- 1. Strophe -->
+   <div class="poem_linegroup">
+      <div class="poem_line">
+         [Verszeile]
+      </div>
+      <div class="poem_line">
+         [Verszeile]
+      </div>
+   </div>
+   <!-- 2. Strophe -->
+   <div class="poem_linegroup">
+      <div class="poem_line">
+         [Verszeile]
+      </div>
+      <div class="poem_line">
+         [Verszeile]
+      </div>
+   </div>
+   <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
+</div>
+
+<!-- Durchnummerierte Liste -->
+<ol class="ordered_list">
+   <li class="list_item">[Stichpunkt/Aufzählung]</li>
+</ol>
+   
+<!-- Unnummerierte (Stichpunkt-)Liste -->
+<ul class="unordered_list">
+   <li class="list_item">[Stichpunkt/Aufzählung]</li>
+</ul>
+   
+<!-- Liste in einer Liste -->
+<ul class="unordered_list">
+   <li class="list_item">[Stichpunkt/Aufzählung]
+      <ul class="unordered_list">
+         <li class="list_item">[Stichpunkt/Aufzählung]</li>
+      </ul>
+   </li>
+</ul>
+   
+<!-- Tabelle -->
+<table class="standard_table">
+   <!-- 1. Zeile -->
+   <tr>
+      <!-- Spalte/Zellen (Optional: Spalten-Überschrift mit <th class="table_head"> -> Wird rot und fett dargestellt) -->
+      <th class="table_head">[Überschrift]</th>
+      <th class="table_head">[Überschrift]</th>
+   </tr>
+   <!-- 2. Zeile -->
+   <tr>
+      <!-- Spalte/Zellen -->
+      <td class="table_data">[Eintrag]</td>
+      <td class="table_data">[Eintrag]</td>
+   </tr>
+</table>
+
+<!-- PDF -->
+<embed class="pdf" src="{{ 'assets/media/[Datei].pdf' | relative_url }}" type="application/pdf">
+
+<!-- Bild -->
+<img class="media" src="{{ 'assets/media/[Datei].jpg/.gif' | relative_url }}">
+   
+<!-- Video(-beispiel) -->
+<div class="ex list-group-item">
+   <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false" href="#[ID des dazugehörigen list-group-Elements (darunter)]" aria-controls="[ID des dazugehörigen list-group-Elements (darunter)]">
+      <i class="bi bi-chevron-down rotate_180"></i><span class="expand_link">Beispiel [zu Thema]</span>
+   </a>
+   <div class="list-group collapse" id="[ID des list-group-Elements]">
+      <video class="media" type="video/mp4" controls src="{{ 'assets/media/[Datei].mp4' | relative_url }}">Video-Wiedergabe wird nicht vom Browser unterstützt.</video>
+   </div>
+</div>
+   
+<!-- Textbeispiel -->   
+<div class="ex list-group-item">
+   <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false" href="#[ID des dazugehörigen list-group-Elements (darunter)]" aria-controls="[ID des dazugehörigen list-group-Elements (darunter)]">
+      <i class="bi bi-chevron-down rotate_180"></i><span class="expand_link">Beispiel [zu Thema]</span>
+   </a>
+   <div class="list-group collapse" id="[ID des list-group-Elements]">
+      <!-- Zitierter Text als Beispiel -->
+      <div class="quotation">
+         <div class="pretext">Textbeispiel:</div>
+         <div class="text">
+         [Text]
+         </div>
+         <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
+      </div>
+      <!-- Erläuterung zum Textbeispiel -->
+      <div class="explanation">
+         <div class="pretext">Erläuterung:</div>
+         <div class="text">
+         [Text]
+         </div>
+      </div>
+   </div>
+</div>
+   
+<!-- Übung -->
+<div class="ex list-group-item">
+   <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false" href="#[ID des dazugehörigen list-group-Elements (darunter)]" aria-controls="[ID des dazugehörigen list-group-Elements (darunter)]">
+      <i class="bi bi-chevron-down rotate_180"></i><span class="expand_link">Übung [zu Thema]</span>
+   </a>
+   <div class="list-group collapse" id="[ID des list-group-Elements]">
+      <!-- Für die Vorlagen zu den einzelnen Übungstypen: siehe die uebungen.html-Datei im gleichen Ordner
+           -> Code für den gwünschten Übungstyp einfach von dort kopieren und hier einfügen -->
+   </div>
+</div>
+   
+<!-- Angabe zu Autoren und letzter Änderung der Lerneineinheit -->
+<div class="content_data">
+   <!-- &#169; ist der Code für das Copyright-Symbol und &#160; ist der Code für ein Leerzeichen, bei dem kein Zeilenumbruch stattfindet -->
+   <span class="content_author">&#169;&#160;[Autor(en)]&#160;/</span>
+   <span class="content_date">&#160;Letzte inhaltliche Änderung am: [Änderungsdatum]</span>
+</div>
+   
+<!-- Angabe zu zitiertem Werk für den Inhalt der Lerneinheit -->
+<div class="reference">Vgl. [Autor]: [Werk], S. [Seitenzahl].</div>
+
+<!-- Kurs-Navigation -->
+<hr class="separation_line">  
+<div class="course_nav">
+   <!-- Vorherige Lerneinheit aus diesem Kurs oder letzte Lerneinheit aus dem vorherigen Kurs, falls es sich bei der aktuellen Lerneinheit um die erste aus diesem Kurs handelt -->
+   <div class="previous_course"><a class="previous_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}"><i class="bi bi-chevron-double-left"></i><span class="link_text">Vorherige Lerneinheit</span></a></div>
+   <div class="course_separator">|</div>
+   <!-- Vorherige Lerneinheit(en) aus diesem Kurs (falls vorhanden) -->
+   <div class="course_item"><a class="course_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Lerneinheit]</a></div>
+   <div class="course_separator">|</div>
+   <div class="course_item"><a class="course_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Lerneinheit]</a></div>
+   <div class="course_separator">|</div>
+   <!-- Aktuelle Lerneinheit -->
+   <div class="course_item">[Aktuelle Lerneinheit]</div>
+   <div class="course_separator">|</div>
+   <!-- Nächste Lerneinheit(en) aus diesem Kurs (falls vorhanden) -->
+   <div class="course_item"><a class="course_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Lerneinheit]</a></div>
+   <div class="course_separator">|</div>
+   <div class="course_item"><a class="course_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Lerneinheit]</a></div>
+   <div class="course_separator">|</div>
+   <!-- Nächste Lerneinheit aus diesem Kurs oder erste Lerneinheit aus dem nächsten Kurs, falls es sich bei der aktuellen Lerneinheit um die letzte aus diesem Kurs handelt -->
+   <div class="next_course"><a class="next_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}"><span class="link_text">Nächste Lerneinheit</span><i class="bi bi-chevron-double-right"></i></a></div>
+</div>
+
+<!-- Fußnoten(-Text) -->
+<hr class="separation_line">
+<div class="footnote">
+   <a class="footnote_link" id="anchor_[Fußnote-Nr.]" href="#footnote_[Fußnote-Nr.]"><sup class="footnote_number">[[Fußnote-Nr.]</sup></a>
+   [Fußnoten-Text]
+   <!-- Link, der den Nutzer zurück zur Fußnote im obigen Text führt -->
+   <a class="back_link" href="#footnote_[Fußnote-Nr.]"><i class="bi bi-chevron-double-up"></i><span class="link_text">Zurück</span></a>
+</div>

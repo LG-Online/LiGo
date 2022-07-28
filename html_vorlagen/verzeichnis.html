@@ -1,0 +1,87 @@
+---
+title: "[Titel]"
+layout: default
+type: liste
+---
+<!-- HINWEIS: Einträge in [eckigen Klammern] sind durch eigene Angaben/Inhalte zu ersetzen -->
+
+<h1>[Überschrift]</h1>
+<button class="show_collapse_button">Alle Ebenen anzeigen/verbergen</button>
+<div class="drop_down_list">
+    
+    <!-- 1. Ebene -->
+    <div class="list-group-item level_1">
+        <!-- Für Listen-Einträge, bei denen der Chevron (= Pfeil-Icon) eine Unterebene aufklappen und der Text zu einer Kursseite führen soll: -->
+        <!-- 1. Link für den Chevron, der die Unterebene aufklappt -->
+        <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="[Kurs]_unit_1" href="#[Kurs]_unit_1"><i class="bi bi-chevron-down rotate_180"></i></a>
+        <!-- 2. Link für den Text, der zur entsprechenden Kursseite führt (-> Text wird bei Hover blau dargestellt) -->
+        <a class="list_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Ebene 1 - 1. Eintrag]</a>
+        
+        <!-- 2. Ebene -->
+        <!-- Bitte bei der ID immer noch den jeweiligen Kurs oder ein Kürzel mit angeben (z.B. prosa, edition, litgesch), damit die ID nicht nur auf dieser Seite, sondern generell auf allen LiGo-Seiten eindeutig ist
+             -> Das ist wichtig, damit die Speicherung und automatische Wiederherstellung des zuletzt geöffneten Zustands bei allen Drop-Down-Listen funktioniert und keine Konflikte über mehrere Seiten/Listen hinweg aufgrund gleicher IDs entstehen -->
+        <div class="list-group collapse level_2" id="[Kurs]_unit_1">
+            <div class="list-group-item level_2">
+                <!-- Für Listen-Einträge, bei denen der Chevron eine Unterebene aufklappen und der Text NICHT zu einer Kursseite führen, sondern ebenfalls die Unterebene aufklappen soll: -->
+                <!-- Ein Link, der Chevron und Text umfasst (-> Text wird bei Hover rot dargestellt) -->
+                <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="[Kurs]_unit_1-1" href="#[Kurs]_unit_1-1"><i class="bi bi-chevron-down rotate_180"></i><span class="expand_link">[Ebene 2 - 1. Eintrag]</span></a>
+                
+                <!-- 3. Ebene -->
+                <div class="list-group collapse level_3" id="[Kurs]_unit_1-1">
+                    <div class="list-group-item level_3">
+                        <!-- Für Listen-Einträge, die keine weitere Unterebene besitzen: -->
+                        <!-- Kein Chevron, aber dafür ein Tag mit der Klasse "no_chevron" für eine zusätzliche Einrückung statt des Chevrons -->
+                        <span class="no_chevron"></span>
+                        <!-- Ein Link, der zur entsprechenden Kursseite führt (-> Text wird bei Hover blau dargestellt) -->
+                        <a class="list_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Ebene 3 - 1. Eintrag]</a>
+                    </div>
+                    <div class="list-group-item level_3">
+                        <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="[Kurs]_unit_1-1-1" href="#[Kurs]_unit_1-1-1"><i class="bi bi-chevron-down rotate_180"></i></a>
+                        <a class="list_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Ebene 3 - 2. Eintrag]</a>
+                        
+                        <!-- 4. Ebene -->
+                        <div class="list-group collapse level_4" id="[Kurs]_unit_1-1-1">
+                            <div class="list-group-item level_4">
+                                <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="[Kurs]_unit_1-1-1-1" href="#[Kurs]_unit_1-1-1-1"><i class="bi bi-chevron-down rotate_180"></i></a>
+                                <a class="list_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Ebene 4 - 1. Eintrag]</a>
+                                
+                                <!-- 5. Ebene -->
+                                <div class="list-group collapse level_5" id="[Kurs]_unit_1-1-1-1">
+                                    <div class="list-group-item level_5">
+                                    <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="[Kurs]_unit_1-1-1-1" href="#[Kurs]_unit_1-1-1-1-1"><i class="bi bi-chevron-down rotate_180"></i></a>
+                                    <a class="list_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Ebene 5 - 1. Eintrag]</a>
+                                    <!-- An dieser Stelle bis zu 3 weitere untergeordnete Ebenen/list-group-Elemente nach dem obigen Schema einfügen -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Ebene -->
+        <div class="list-group collapse level_2" id="[Kurs]_unit_2">
+            <div class="list-group-item level_2">
+                <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="[Kurs]_unit_2-1" href="#[Kurs]_unit_2-1"><i class="bi bi-chevron-down rotate_180"></i></a>
+                <a class="list_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Ebene 2 - 2. Eintrag]</a>
+                
+                <!-- 3. Ebene -->
+                <div class="list-group collapse level_3" id="[Kurs]_unit_2-1">
+                    <div class="list-group-item level_3">
+                        <span class="no_chevron"></span>
+                        <a class="list_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Ebene 3 - 1. Eintrag]</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Ebene -->
+        <div class="list-group collapse level_2" id="[Kurs]_unit_3">
+            <div class="list-group-item level_2">
+                <span class="no_chevron"></span>
+                <a class="list_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Ebene 2 - 3. Eintrag]</a>
+            </div>
+        </div>        
+    </div>
+</div>
