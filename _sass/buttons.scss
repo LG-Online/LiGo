@@ -1,6 +1,6 @@
-/* Buttons für die Startseite */
+/* STARTSEITE-BUTTONS */
 
-.button-m {
+.index_button {
     color: white;
     background-color: #003aad;
     border: 2px solid #003aad;
@@ -14,17 +14,18 @@
     cursor: pointer;
 }
 
+/* Button-Farbwechsel von blau zu weiß bei Hover -> Nur auf Geräten, die Hover unterstützen (-> Keine Touchscreens) */
 @media (hover: hover) {
-    .button-m:hover {
+    .index_button:hover {
         color: #003aad;
         background-color: white;
     }
 }
 
 
-/* Buttons für die Auswahlseiten */
+/* AUSWAHLSEITEN-BUTTONS */
 
-.button-l {
+.select_button {
     color: #003aad;
     background-color: white;
     border: 2px solid #003aad;
@@ -38,15 +39,16 @@
     cursor: pointer;
 }
 
+/* Button-Farbwechsel von weiß zu blau bei Hover -> Nur auf Geräten, die Hover unterstützen (-> Keine Touchscreens) */
 @media (hover: hover) {
-    .button-l:hover {
+    .select_button:hover {
         color: white;
         background-color: #003aad;
     }
 }
 
 
-/* Buttons für die Übungen */
+/* ÜBUNGEN-BUTTONS */
 
 .exercise_buttons >* {
     color: white;
@@ -59,6 +61,7 @@
     cursor: pointer;
 }
 
+/* Button-Farbwechsel von blau zu weiß bei Hover -> Nur auf Geräten, die Hover unterstützen (-> Keine Touchscreens) */
 @media (hover: hover) {
     .exercise_buttons >*:hover {
         color: #003aad;
@@ -68,20 +71,22 @@
 }
 
 
-/* Alle Ausklappen/Einklappen-Button für Drop-Down-Listen und Kursseiten */
+/* "Alle anzeigen/verbergen"-BUTTONS (-> Für Drop-Down-Listen und Kursseiten-Beispiele/Übungen) */
 
-.expand-collapse-button {
+.show_collapse_button {
     color: #003aad;
     background-color: white;
     border: 2px solid #003aad;
     border-radius: 3px;
     text-decoration: none;
-    margin: 1vh 0;
+    margin: 1rem 0;
+    display: block;
     cursor: pointer;
 }
 
+/* Button-Farbwechsel von weiß zu blau bei Hover -> Nur auf Geräten, die Hover unterstützen (-> Keine Touchscreens) */
 @media (hover: hover) {
-    .expand-collapse-button:hover {
+    .show_collapse_button:hover {
         color: white;
         background-color: #003aad;
     }

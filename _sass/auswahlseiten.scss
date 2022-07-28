@@ -1,26 +1,34 @@
-/* Verzeichnisse-Auswahl */
+/* ZENTRIERUNG */
 
+/* Horizontales Zentrieren des gesamten Button-Rasters */
 .center_content {
     margin: 15px 0;
     display: flex;
     justify-content: center;
 }
 
-.verzeichnisse_flex, .tests_flex, .wissensbereiche_flex, .uebungstypen_flex, .ueber_ligo_flex, .literaturgeschichte_flex {
+/* Horizontales Zentrieren der einzelnen Buttons */
+.max_2_columns, .max_3_columns, .max_4_columns {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
 }
 
-.verzeichnisse_flex, .tests_flex {
+
+/* SPALTENANZAHL (auf großen Bildschirmen mit ausreichend Platz -> Auf kleineren Bildschirmen: automatische Darstellung der Buttons untereinander dank Flexbox) */
+
+/* Maximal 2 Spalten (-> Für: Verzeichnisse, Tests) */
+.max_2_columns {
     max-width: calc(2*(300px + 20px));
 }
 
-.wissensbereiche_flex, .uebungstypen_flex {
+/* Maximal 3 Spalten (-> Für: Wissensbereiche, Übungstypen) */
+.max_3_columns {
     max-width: calc(3*(300px + 20px));
 }
 
-.ueber_ligo_flex, .literaturgeschichte_flex {
+/* Maximal 4 Spalten (-> Für: Über LiGo) */
+.max_4_columns {
     max-width: calc(4*(300px + 20px));
 }

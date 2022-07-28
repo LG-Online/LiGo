@@ -1,9 +1,10 @@
-/* Alle Übungen */
+/* ALLE ÜBUNGEN */
 
-.dnd_info, .explanation, .task {
-    margin-bottom: 0.5rem;
+.dnd_info, .task {
+    margin: 0.5rem 0;
 }
 
+/* Unterbinden der Darstellung der Lösung-Elemente -> Werden erst nach Button-Klick angezeigt (-> Siehe uebungen.js- und tests.js-Dateien im assets -> js -> uebungen-Ordner) */
 .solution, .answer_pool {
     display: none;
 }
@@ -22,19 +23,24 @@
     text-align: left;
 }
 
+/* Darstellen von Elementen, die bei den MC-Optionen gezwungenermaßen als Inline-Elemente umgesetzt werden mussten (für valides HTML), als Block-Elemente -> Dadurch: Zeilenumbruch nach jedem Element */
+.author_title, .drama_line, .poem_linegroup, .poem_line {
+    display: block;
+}
+
+/* Einfärben und Hervorheben von korrekten und falschen Antworten */
 .correct {
     color: #006400;
     font-weight: bold;
 }
-
 .right {
     color: #006400;
 }
-
 .wrong {
     color: #9c0707;
 }
 
+/* Zentrieren der Buttons für die Übungen -> Werden auf kleinen Bildschirmen untereinander dargestellt dank Flexbox */
 .exercise_buttons {
     display: flex;
     flex-wrap: wrap;
@@ -44,99 +50,14 @@
 }
 
 
-/* Drag & Drop-Übung */
-
-.drop_areas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    margin: 1rem 0;
-    gap: 1rem;
-}
-
-.drop_wrapper {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    flex: 0 0 300px;
-}
-
-.drop_head {
-    margin: 0.5rem 0;
-    color: #003aad;
-    font-weight: bold;
-}
-
-.drop_separation {
-    margin: 0;
-    color: black;
-    opacity: 1;
-}
-
-.drop_area {
-    margin: 0.5rem 0;
-    min-height: 150px;
-}
-
-.dnd_items {
-    width: 100%;
-    text-align: center;
-}
-
-[draggable] {
-    cursor: move;
-    cursor: grab;
-}
-
-[draggable]:active {
-    cursor: grabbing;
-}
-
-.drop_content >* {
-    text-align: center;
-    margin: 5px 0;
-}
-
-
-/* Markieren-Übung */
-
-.marked {
-    background-color: #ffe135;
-}
-
-.marked_false {
-    color: white;
-    background-color: #9c0707;
-}
-
-.marked_correct {
-    color: white;
-    background-color: #006400;
-    font-weight: bold;
-}
-
-.unmarked_correct {
-    color: white;
-    background-color: #003aad;
-    font-weight: bold;
-}
-
-
-/* Texteingabe-Übung */
-
-.input_field {
-    width: 100%;
-    height: 150px;
-}
-
-/* Multiple Choice- & Alternative Textbeispiele-Übung */
+/* MULTIPLE CHOICE- UND ALTERNATIVE TEXTBEISPIELE-ÜBUNG */
 
 .option {
     position: relative;
     margin: 10px 0;
 }
 
+/* Anpassen von Farbe und Abstand der Radio-Buttons zum Text */
 input[type = "radio"] {
     accent-color: #003aad;
     position: absolute;
@@ -151,21 +72,59 @@ label {
     padding-left: 40px;
 }
 
-/* Lückentext-Übung */
+
+/* TEXTEINGABE-ÜBUNG */
+
+.input {
+    margin: 0.5rem 0;
+}
+
+.input_field {
+    width: 100%;
+    height: 150px;
+}
+
+
+/* MARKIEREN-ÜBUNG */
+
+/* Einfärben und Hervorheben von (korrekten und falschen) Markierungen durch den Nutzer */
+.marked {
+    background-color: #ffe135;
+}
+.marked_false {
+    color: white;
+    background-color: #9c0707;
+}
+.marked_correct {
+    color: white;
+    background-color: #006400;
+    font-weight: bold;
+}
+.unmarked_correct {
+    color: white;
+    background-color: #003aad;
+    font-weight: bold;
+}
+
+
+/* LÜCKENTEXT-ÜBUNG */
 
 .gap_text {
     padding: 0.5rem 0;
 }
 
 .gap {
+    /* Unterbinden des vom Browser vorgegebenen Standard-Layouts für die Lücken */
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border: 1.5px solid #003aad;
-    background-color: white;
+    /* Einbinden eines eigenen Icons für die Lücken */
     background-image: url('../images/svg/caret-down-fill.svg');
     background-repeat: no-repeat;
     background-position: 98% 50%;
+    /* Festlegen eines eigenen Layouts für die Lücken und ihren Text */
+    border: 1.5px solid #003aad;
+    background-color: white;
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 100%;
@@ -173,4 +132,64 @@ label {
     outline: none;
     margin: 0.7rem 0.2rem;
     padding: 0.2rem 25px 0.2rem 0.2rem;
+}
+
+
+/* DRAG AND DROP-ÜBUNG */
+
+/* Zentrieren aller Drop-Bereiche -> Werden auf kleinen Bildschirmen automatisch untereinander dargestellt dank Flexbox */
+.drop_areas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+/* Formatieren der einzelnen Drop-Bereiche -> Überschrift, Trennlinie und Drop-Feld werden untereinander dargestellt dank Flexbox */
+.drop_wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    flex: 0 0 300px;
+}
+
+/* Überschrift der Drop-Bereiche*/
+.drop_head {
+    margin: 0.5rem 0;
+    color: #003aad;
+    font-weight: bold;
+}
+
+/* Trennlinie zwischen Überschrift und Drop-Feld der Drop-Bereiche */
+.drop_separation {
+    margin: 0;
+    color: black;
+    opacity: 1;
+}
+
+/* Drop-Feld der Drop-Bereiche */
+.drop_area {
+    margin: 0.5rem 0;
+    min-height: 150px;
+}
+
+.dnd_items {
+    width: 100%;
+    text-align: center;
+}
+
+.drop_area >*,
+.dnd_items >* {
+    margin: 5px 0;
+}
+
+/* Darstellen des Cursors als greifende Hand über den greifbaren Drop-Items */
+[draggable] {
+    cursor: move;
+    cursor: grab;
+}
+[draggable]:active {
+    cursor: grabbing;
 }

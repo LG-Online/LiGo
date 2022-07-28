@@ -1,29 +1,34 @@
-/* Alle Inhalte - Generelle Formatierung */
+/* GESAMTE WEBSITE */
 
 html {
     font-size: 100%;
     height: 100%;
+    /* Vorgeben des Scrollverhaltens -> Flüssiges Scrollen anstatt abruptes Springen nach oben, wenn der Nutzer auf einen "Zurück nach oben"-Link klickt */
     scroll-behavior: smooth;
 }
 
 body {
     height: 100%;
+    /* Einkalkulieren der Scrollbar bei der Seitenbreite, damit die Seiteninhalte (bzw. Navbar und Footer) nicht von ihr verdeckt werden, sobald sie erscheint */
     width: calc(100vw - (100vw - 100%));
+    /* Verwenden von Flexbox für responsives Design, d.h. für automatische Umbrüche und Darstellungsanpassungen auf kleineren Bildschirmen */
     display: flex;
     flex-direction: column;
 }
 
 .container {
     width: 100%;
+    /* Sicherstellen, dass sich die Seiteninhalte nicht bis zu den äußersten Bildschirmrändern erstrecken, sondern links, rechts, oben und unten stets freier Platz erhalten bleibt */
     max-width: 90%;
-    flex: 1 0 auto;
     margin: 2vh 0;
+    /* Verwenden von Flexbox für responsives Design, d.h. für automatische Umbrüche und Darstellungsanpassungen auf kleineren Bildschirmen */
+    flex: 1 0 auto;
 }
 
+/* Unterbinden der Umrandung, die automatisch von manchen Browsern beim Klick auf gewisse Felder/Links generiert wird */
 :focus {
   outline: none;
 }
-
 ::-moz-focus-inner {
   border: 0;
 }

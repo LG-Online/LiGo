@@ -1,17 +1,21 @@
-/* Brotkrumen- & Kurs-Navigation */
+/* NAVIGATION (Brotkrumen- und Kursnav) */
 
+/* Trennlinie zwischen Navigationselementen oben/unten und Kursinhalt (+ gegebenenfalls zwischen Kursnav und Fußnoten) */
 .separation_line {
-    margin: 2vh 0;
+    margin: 1rem 0;
     color: #9c0707;
     opacity: 1;
 }
 
-.course_items {
+/* Gleichmäßiges dynamisches Verteilen der Kursnavigation-Items mittels Flexbox */
+.course_nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+/* Auf der prosa.html- bzw. "Erzählen"-Seite (= 1. Seite des 1. Wissensbereichs) gibt es keinen Link zur vorherigen Lerneinheit, sondern nur den Link zur nächsten Lerneinheit */
+/* Rechtsbündiges Ausrichten des Links am Zeilenende mittels Flexbox */
 .only_next_item {
     display: flex;
     justify-content: flex-end;
@@ -23,44 +27,28 @@
     color: #003aad;
 }
 
+/* Link-Farbwechsel von blau zu rot bei Hover -> Nur auf Geräten, die Hover unterstützen (-> Keine Touchscreens) */
 @media (hover: hover) {
     .breadcrumb_link:hover, .course_link:hover, .previous_link:hover, .next_link:hover {
         color: #9c0707;
     }
 }
 
+/* Unterbinden von Zeilenumbrüchen in den Links -> Sorgt dafür, dass das Chevron-Icon und der Link-Text auf kleinen Bildschirmen nicht in 2 Zeilen dargestellt bzw. voneinander getrennt werden */
 .previous_link, .next_link {
     white-space: nowrap;
 }
 
+/* Trenner zwischen den Kursnavigation-Items */
 .course_separator {
     color: #9c0707;
+    margin: 0 0.5rem;
 }
 
 
-/* Abstände */
+/* AUTOR-/WERKANGABEN UND REFERENZEN */ 
 
-:not(.explanation) > .info_example, 
-.definition {
-    margin: 1.5vh 0;
-}
-
-.info_example > .list-group-item {
-    margin-top: 1.5vh;
-}
-
-.list-group {
-    margin-top: 1vh;
-}
-
-.section, .text, .poem_line {
-    margin: 0;
-}
-
-.poem_linegroup {
-    padding: 0 0 0.3rem 0;
-}
-
+/* Rechtsbündiges Ausrichten der Nachweise am Zeilenende mittels Flexbox */
 .author_title, .content_data, .reference {
     display: flex;
     justify-content: flex-end;
@@ -68,38 +56,65 @@
     text-align: right;
 }
 
+.author_title {
+    margin-top: 0.25rem;
+}
 
-/* Medien (Bilder/Videos) */
+/* MEDIEN (Bilder und Videos) */
 
+/* Darstellen der Bilder/Videos in voller Breite/Größe auf großen Bildschirmen, ansonsten so groß wie möglich auf kleineren Bildschirmen */
 .media {
     border: 1px solid black;
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0.7rem 0;
+}
+
+.pdf {
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: 0.7rem 0;
 }
 
 
-/* Listen */
+/* LISTEN */
 
+.unordered_list, .ordered_list {
+    margin: 0.7rem 0;
+}
+
+.list_item >* {
+    margin: 0;
+}
+
+/* Rotes Einfärben der Aufzählungszeichen (= Nummerierung/Stichpunkte) für Listen */
 .list_item::marker {
     color: #9c0707;
 }
 
 
-/* Tabellen */
+/* TABELLEN */
 
-.content_table {
-    margin: 1rem 0;
+.standard_table {
+    margin: 0.7rem 0;
     display: block;
+    /* Falls die Tabelle zu breit für die aktuelle Bildschirmgröße ist (auf kleineren Geräten): Aktivieren des horizontalen Scrollens */
     overflow-x: auto;
 }
 
-.table_data {
+.table_head, .table_data {
     padding: 0.5rem;
     border: 1px solid black;
 }
 
+.table_head {
+    color: #9c0707;
+}
 
-/* Fußnoten */
+/* FUSSNOTEN */
 
 .footnote_link, .back_link {
     display: inline-block;
@@ -107,6 +122,7 @@
     color: #003aad;
 }
 
+/* Link-Farbwechsel von blau zu rot bei Hover -> Nur auf Geräten, die Hover unterstützen (-> Keine Touchscreens) */
 @media (hover: hover) {
     .footnote_link:hover, .back_link:hover {
         color: #9c0707;

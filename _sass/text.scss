@@ -1,10 +1,12 @@
-/* Überschriften */
+/* ÜBERSCHRIFTEN */
 
+/* Große Seitenüberschrift auf jeder Seite */
 h1 {
     font-size: 1.8rem !important;
     color: #003aad;
 }
 
+/*  h2 bis h5: Zwischen-/Unterüberschriften auf Info-Seiten (-> Datenschutz/Impressum) */
 h2 {
     font-size: 1.4rem !important;
     margin-top: 1rem !important;
@@ -22,48 +24,88 @@ h4 {
     margin-bottom: -0.5rem !important;
 }
 
+/* Überschrift für Inhalte in Pop-Over-Fenstern */
 h5 {
     font-size: 1rem !important;
     font-weight: bold !important;
     color: #9c0707;
 }
 
+/* Kleinere Zwischenüberschrift auf Lerneinheit-Seiten */
+h6 {
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    margin-top: 1rem !important;
+}
 
-/* Text */
 
+/* TEXT */
+
+/* Einleitende Hinweise vor den Texteinheiten */
+.pretext {
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Texteinheiten (mit Zeilenumbruch, aber ohne Abstand davor/danach) */
+.text {
+    margin: 0;
+}
+
+/* Absätze, Definitionen und Beispiele/Übungen (mit Zeilenumbruch und Abstand davor/danach) */
+.paragraph, .definition, .ex {
+    margin: 0.7rem 0;
+}
+
+/* Hinweise für den Nutzer */
+.warning {
+    color: #9c0707;
+}
+
+/* Definierte Begriffe */
 .term {
     font-weight: bold;
     color: #9c0707;
 }
 
+/* Wichtige Personen und Hervorhebungen */
 .person, .highlight {
     font-weight: bold;
 }
 
+/* Werktitel, Regieanweisungen, Kursives */
 .title, .stage_dir, .italic {
     font-style: italic;
 }
 
-.pretext {
-    font-weight: bold;
+/* Textbeispiele (Gedicht-, Prosa-, Dramenausschnitte) und Erläuterungen */
+.poem, .quotation, .explanation {
+    margin-top: 0.5rem;
+}
+.poem_linegroup {
+    margin-bottom: 0.25rem;
+}
+.poem_line {
+    margin: 0;
 }
 
-.link_text {
-    white-space: normal;
-}
+/* LINKS */
 
+/* Unterbinden von Zeilenumbrüchen für den gesamten Link -> Sorgt dafür, dass die Icons und der Link-Text auf kleinen Bildschirmen nicht in 2 Zeilen bzw. untereinander dargestellt werden */
 .internal_link, .external_link, .mail_link {
     color: #003aad;
     text-decoration: none;
     white-space: nowrap;
 }
 
+/* Erlauben von Zeilenumbrüchen im Link-Text -> Sorgt dafür, dass trotz des Zeilenumbruch-Verbots zwischen Icon und Text dennoch Zeilenumbrüche im Link-Text stattfinden können */
+.link_text {
+    white-space: normal;
+}
+
+/* Link-Farbwechsel von blau zu rot bei Hover -> Nur auf Geräten, die Hover unterstützen (-> Keine Touchscreens) */
 @media (hover: hover) {
     .internal_link:hover, .external_link:hover, .mail_link:hover {
         color: #9c0707;
     }
-}
-
-.warning {
-    color: #9c0707;
 }

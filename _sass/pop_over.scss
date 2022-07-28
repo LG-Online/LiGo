@@ -1,85 +1,70 @@
+/* POP-OVER-LINK */
+
 details {
     display: inline;
     position: relative;
 }
 
-details > summary:focus {
-    outline: none;
-}
-
-details > summary::-webkit-details-marker {
-    display: none;
-}
-
+/* Blaues Einfärben und Entfernen des standardmäßigen Markers/Icons für den Pop-Over-Link (-> Ein eigenes Icon wurde im HTML-Code hinzugefügt) */
 details > summary {
     list-style: none;
     color: #003aad;
 }
 
+/* Farbwechsel des Pop-Over-Links von blau zu rot, sobald das Pop-Over-Fenster geöffnet ist */
+details[open] > summary {
+    color: #9c0707;
+}
+
+
+/* POP-OVER-FENSTER */
+
 details > summary + * {
+    /* Darstellen des Fensters zentriert über dem Pop-Over-Link und im Vordergrund vor dem restlichen Seiteninhalt */
     position: absolute;
     display: block;
+    bottom: calc(0.5rem + 75%);
+    right: 50%;
+    transform: translateX(50%);
     z-index: 1;
-    max-width: 40vw;
-    max-height: 20vh;
-    overflow-y: auto;
+    /* Festlegen des roten Rahmens und der weißen Hintergrundfarbe für das Fenster */
     border: solid 1.5px #9c0707;
     padding: 0.5rem;
     background: white;
+    /* Einstellen der maximalen Breite und Höhe des Fensters (-> Genauere Anpassung basierend auf den Bildschirmgrößen: siehe unten) */
+    max-width: 40vw;
+    max-height: 20vh;
+    /* Falls der Textinhalt zu umfangreich für die aktuelle Fenstergröße ist: Aktivieren des vertikalen Scrollens */
+    overflow-y: auto;
+    /* Verschmälern und rotes Einfärben der Scrollbar im Pop-Up-Fenster für Firefox */
     scrollbar-width: thin;
     scrollbar-color: #9c0707 transparent;
 }
 
+/* Verschmälern und rotes Einfärben der Scrollbar im Pop-Up-Fenster für andere Browser */
 details > summary + *::-webkit-scrollbar {
   width: 7px;
 }
-
 details > summary + *::-webkit-scrollbar-thumb {
   background-color: #9c0707;
 }
 
-details > * + * {
-    display: none;
-}
-
-details > summary + * {
-    bottom: calc(0.5rem + 75%);
-    right: 50%;
-    transform: translateX(50%);
-}
-
-details[open] > .pop_over_link {
-    color: #9c0707;
-}
-
-.pop_over_link {
-    white-space: nowrap;
-}
-
-.pop_over_course_link {
-    display: block;
-    text-align: right;
-}
-
-
+/* Anpassen der Pop-Up-Fenstergröße basierend auf der Bildschirmgröße des Geräts */
 @media screen and (max-width: 599px) {
     details > summary + * {
         width: 200px;
     }
 }
-
 @media screen and (min-width: 600px) and (max-width: 999px) {
     details > summary + * {
         width: 250px;
     }
 }
-
 @media screen and (min-width: 1000px) and (max-width: 1299px) {
     details > summary + * {
         width: 300px;
     }
 }
-
 @media screen and (min-width: 1300px) {
     details > summary + * {
         width: 350px;
@@ -87,22 +72,14 @@ details[open] > .pop_over_link {
 }
 
 
-.rotate-up {
-    -webkit-transition-duration: 0.1s;
-    -moz-transition-duration: 0.1s;
-    -o-transition-duration: 0.1s;
-    transition-duration: 0.1s;
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
-    outline: none;
+/* POP-OVER-INHALT */
+
+.pop_over_text {
+    color: black;
 }
 
-.rotate-up.active {
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+/* Rechtsbündiges Darstellen des Links zur jeweiligen Kurs-/Lerneinheit */
+.pop_over_course_link {
+    display: block;
+    text-align: right;
 }

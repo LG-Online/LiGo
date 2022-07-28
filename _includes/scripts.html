@@ -1,11 +1,12 @@
 <script src="{{'/assets/js/bootstrap/bootstrap.min.js' | prepend: site.baseurl}}"></script>
-<script src="{{'/assets/js/jquery/jquery-3.6.0.min.js' | prepend: site.baseurl}}"></script>
+<script src="{{'/assets/js/jquery/jquery-3.6.0.min.js' | prepend: site.baseurl}}"></script>   
 {% if page.type == 'liste' %}
     <script src="{{'/assets/js/listen/ausklappen_rotieren.js' | prepend: site.baseurl}}"></script>
+    <script src="{{'/assets/js/listen/zustand_merken.js' | prepend: site.baseurl}}"></script>
 {% endif %}
 {% if page.type == 'lerneinheit' %}
-    <script src="{{'/assets/js/uebungen/uebungen.js' | prepend: site.baseurl}}"></script>
     <script src="{{'/assets/js/listen/ausklappen_rotieren.js' | prepend: site.baseurl}}"></script>
+    <script src="{{'/assets/js/uebungen/uebungen.js' | prepend: site.baseurl}}"></script>
 {% endif %}
 {% if page.type == 'test' %}
     <script src="{{'/assets/js/uebungen/tests.js' | prepend: site.baseurl}}"></script>

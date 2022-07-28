@@ -1,22 +1,43 @@
-/* Startseite */
+/* GESAMTE STARTSEITE */
 
+/* Vertikales und horizontales Zentrieren des Startseite-Inhalts */
+.center_index {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Darstellen der Startseite-Inhalte in 2 Spalten: Logo links, Text/Buttons rechts (-> Auf kleineren Bildschirmen: automatische Darstellung der Inhalte untereinander dank Flexbox) */
+.index_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: calc(2*(500px + 30px));
+    column-gap: 30px;
+}
+
+
+/* LOGO (Links/Oben) */
+
+.index_left_top {
+    text-align: center;
+}
+
+.logo_image {
+    height: 100px;
+    width: auto;
+}
+
+/* Einbinden der Schriftart in 2 Varianten für den Logo-Text */
 @font-face {
   font-family: "metropolis-semibold";
   src: url("../fonts/Metropolis-SemiBold.otf");
 }
-
 @font-face {
   font-family: "metropolis-light";
   src: url("../fonts/Metropolis-Light.otf");
-}
-
-.logo_left {
-    text-align: center;
-}
-
-.logo {
-    height: 100px;
-    width: auto;
 }
 
 .main_text {
@@ -34,12 +55,16 @@
     height: 30px;
 }
 
+
+/* TRENNLINIEN (Mitte) */
+
 .vertical_separator {
     border-right: 1.5px solid #003aad;
     height: 100%;
     width: 1.5px;
 }
 
+/* Unterbinden der Darstellung der horizontalen Trennlinie -> Wird nur auf kleineren Bildschirmen angezeigt, wo die Inhalte nicht mehr neben- sondern untereinander dargestellt werden */
 .horizontal_separator {
     display: none;
     border-bottom: 1.5px solid #003aad;
@@ -47,6 +72,7 @@
     margin: 2vh auto;
 }
 
+/* Bei kleineren Bildschirmen: Unterbinden der Darstellung der vertikalen Trennlinie und stattdessen Anzeigen der horizontalen Trennlinie */
 @media screen and (max-width: 1200px) {
     .vertical_separator {
         display: none;
@@ -54,36 +80,24 @@
     .horizontal_separator {
         display: block;
     }
-    .separator_mid {
+    .index_middle_center {
         width: 100%;
     }
 }
 
-.start_flex {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+/* TEXT UND BUTTONS (Rechts/Unten) */
+
+.index_text {
+    margin-bottom: 18px;
+    text-align: center;
 }
 
-.outer_flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: calc(2*(500px + 30px));
-    column-gap: 30px;
-}
-
-.inner_flex {
+/* Darstellen der Buttons in 2 Spalten (-> Auf kleineren Bildschirmen: automatische Darstellung der Buttons untereinander dank Flexbox) */
+.index_buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: calc(2*(250px + 60px));
     gap: 18px;
-}
-
-.start_text {
-    margin-bottom: 18px;
-    text-align: center;
 }

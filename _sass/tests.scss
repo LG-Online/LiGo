@@ -1,8 +1,12 @@
+/* FORTSCHRITTSBALKEN */
+
 .progress {
+    /* Anheften des Fortschrittsbalkens an den oberen Bildschirmrand nach dem Darüberscrollen */
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     height: 3vh !important;
+    /* Darstellen des Balkens über allem anderen Seiteninhalt (abgesehen von Pop-Ups) */
     z-index: 1;
 }
 
@@ -10,8 +14,26 @@
     width: 100%;
 }
 
+/* Klassen für den Farbwechsel des Balkens von grün zu blau bei 2/3 und von blau zu rot bei 1/3 verbleibender Bearbeitungszeit  */
+.max_time {
+    background-color: #006400 !important;
+}
+.mid_time {
+    background-color: #003aad !important;
+}
+.min_time {
+    background-color: #9c0707 !important;
+}
+
+
+/* POP-UPS */
+
 #timeout_pop_up, #warning_pop_up {
+    /* Zu Beginn: Unterbinden der Darstellung der Pop-Ups -> Werden erst nach Ablauf der Zeit bzw. nach Button-Klick durch den Nutzer angezeigt (-> Siehe tests.js-Datei im assets -> js -> uebungen-Ordner) */
     display: none;
+    /* Nach Zeitablauf/Klick: Ausgrauen des Seiteninhalts hinter dem Pop-Up */
+    background-color: rgba(255, 255 ,255, 0.9);
+    /* Nach Zeitablauf/Klick: Darstellen der Pop-Ups vertikal und horizontal zentriert über allem anderen Inhalt der Seite */
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -19,11 +41,10 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(255, 255 ,255, 0.9);
     z-index: 2;
 }
 
-
+/* Festlegen der Größe, des Rahmens und der Farbe der Pop-Ups */
 #timeout_content, #warning_content {
     width: 40%;
     padding: 5px 20px 13px 20px;
@@ -33,22 +54,15 @@
     z-index: 3;
 }
 
+
+/* WEITERE ELEMENTE */
+
+/* Zu Beginn: Unterbinden der Darstellung der Übungen -> Werden erst nach Start des Tests angezeigt (-> Siehe tests.js-Datei) */
+/* Zu Beginn: Unterbinden der Darstellung des "Übung zurücksetzen"-Buttons -> Wird erst nach Auswertung des Tests angezeigt (-> Siehe tests.js-Datei) */
 #exercises, #reset_button {
     display: none;
 }
 
 #feedback {
     text-align: center;
-}
-
-.max_time {
-    background-color: #006400 !important;
-}
-
-.mid_time {
-    background-color: #003aad !important;
-}
-
-.min_time {
-    background-color: #9c0707 !important;
 }

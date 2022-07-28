@@ -1,4 +1,4 @@
-/* Verzeichnisse (Glossar, Bibliographie, Personen) */
+/* ABSTÄNDE UND FORMATIERUNG */
 
 .toc {
     margin-top: 2vh;
@@ -8,30 +8,20 @@
     margin: 0.5rem 0;
 }
 
-.toc_link, .gloss_link, .top_link {
-    text-decoration: none;
-    color: #003aad;
-}
-
-.top_link {
-    white-space: nowrap;
-}
-
-@media (hover: hover) {
-    .toc_link:hover, .gloss_link:hover, .top_link:hover {
-        color: #9c0707;
-    }
-}
-
 .gloss_term, .bib_author, .pers_name {
     font-weight: bold;
 }
 
+
+/* LISTEN */
+
+/* Entfernen des standardmäßigen Aufzählungszeichens/-punkts für HTML-Listen */
 .toc_items, .gloss_entries, .bib_entries, .pers_entries {
     list-style-type: none;
     padding-left: 0;
 }
 
+/* Einfügen eines roten Gedankenstrichs als Aufzählungszeichen bei den Literatur- und Personenverzeichnis-Einträgen */
 .bib_entry:before, .pers_entry:before {
     content: '\2013';
     margin-right: 8px;
@@ -39,6 +29,26 @@
     -webkit-text-stroke: 0.5px #9c0707;
 }
 
+
+/* LINKS */
+
+.toc_link, .gloss_link, .top_link {
+    text-decoration: none;
+    color: #003aad;
+}
+
+/* Link-Farbwechsel von blau zu rot bei Hover -> Nur auf Geräten, die Hover unterstützen (-> Keine Touchscreens) */
+@media (hover: hover) {
+    .toc_link:hover, .gloss_link:hover, .top_link:hover {
+        color: #9c0707;
+    }
+}
+
+.top_link {
+    white-space: nowrap;
+}
+
+/* Rechtsbündige Darstellung des "Zurück zum Seitenanfang"-Links am Zeilenende */
 .return_link {
     margin-top: 0.5rem;
     display: flex;

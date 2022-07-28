@@ -1,78 +1,95 @@
+/* BRANDING (Text neben dem Logo) */
+
+/* Unterbinden der Darstellung des mittleren und langen Brandings -> Werden nur auf größeren Bildschirmen dargestellt, sobald der Platz dafür ausreicht */
 .brand_medium, .brand_long {
     display: none;
 }
 
+/* Auf kleinen Bildschirmen: Anzeigen des kurzen Brandings ("LiGo"), Verbergen des mittleren und langen Brandings */
 @media screen and (max-width: 357px) {
     .brand_short {
         display: inline;
     }
-   .brand_medium {
-       display: none;
-   }
-   .brand_large {
+    .brand_medium {
         display: none;
-   }
+    }
+    .brand_large {
+        display: none;
+    }
 }
 
+/* Auf mittelgroßen Bildschirmen: Anzeigen des mittellangen Brandings ("Lit. Grundbegriffe online"), Verbergen des kurzen und langen Brandings */
 @media screen and (min-width: 358px) and (max-width: 557px) {
     .brand_short {
         display: none;
     }
-   .brand_medium {
-       display: inline;
-   }
-   .brand_long {
-       display: none;
-   }
+    .brand_medium {
+        display: inline;
+    }
+    .brand_long {
+        display: none;
+    }
 }
 
+/* Auf großen Bildschirmen: Anzeigen des langen Brandings ("Literaturwissenschaftliche Grundbegriffe online"), Verbergen des kurzen und mittellangen Brandings */
 @media screen and (min-width: 558px)  {
     .brand_short {
         display: none;
     }
-   .brand_medium {
-       display: none;
-   }
-   .brand_long {
-       display: inline;
-   }
+    .brand_medium {
+        display: none;
+    }
+    .brand_long {
+        display: inline;
+    }
 }
 
+
+/* (DROP-DOWN-)LINKS */
+
+/* Festlegen eines Mindestabstands zwischen dem letztem Nav-DD-Link ganz rechts und dem "Suche"-Link */
 .navbar-collapse > ul {
-    padding-right: 1.25vw;
+    padding-right: 1vw;
 }
 
+/* Festelegen von schwarzer Schriftfarbe und Unterbinden von Zeilenumbrüchen für die Nav-Links, damit das DD-Chevron-Icon und der Link-Text nicht in verschiedenen Zeilen dargestellt werden */
 .nav-item, .nav-link {
     display: inline !important;
     color: black !important;
     white-space: nowrap;
 }
 
+/* Festlegen eines Mindestabstands zwischen den Nav-DD-Links */
 .nav-link {
-    margin: 0 0.5rem 0 0 !important;
+    margin-right: 0.5vw;
     padding: 0 !important;
 }
 
+/* Link-Farbwechsel von schwarz zu blau bei Hover -> Nur auf Geräten, die Hover unterstützen (-> Keine Touchscreens) */
 @media (hover: hover) {
     .navbar-brand:hover, .nav-link:hover {
         color: #003aad !important;
     }
 }
 
+/* Ändern der Hintergrundfarbe zu dunkelblau, sobald der Nutzer einen Eintrag im DD-Untermenü anklickt */
 .dropdown-item:active {
     background-color: #003aad !important;
 }
 
+/* Zusätzliche Abstände für den Chevron-Icon-Link, über den das DD-Untermenü ausgeklappt wird, damit ein größerer Hover-Spielraum für den Mauszeiger besteht und sich das Menü leichter per Hover anzeigen lässt */
 .dropdown-toggle {
     display: inline-block;
-    padding: 0 0.5rem;
-    margin: 0 -0.5rem;
+    padding: 0 0.5vw;
+    margin: 0 -0.5vw;
 }
 
+/* Entfernen des Standard-Drop-Down-Icons von Bootstrap (-> Eigenes Icon wurde im HTML-Code hinzugefügt -> Siehe navbar.html im _includes-Ordner) */
 .dropdown-toggle::after {
     display: none !important;
 }
 
+/* Darstellen des DD-Untermenüs als Block-Element bei Hover -> Nur auf Geräten, die Hover auch unterstützen (-> Keine Touchscreens)  */
 @media (hover: hover) {
     .dropdown-toggle:hover ~ .dropdown-menu,
     .dropdown-menu:hover {
@@ -81,6 +98,8 @@
     }
 }
 
+/* Auf kleineren Bildschirmen, wenn die mobile Ansicht der Navbar aktiviert ist (-> Ausklappbar durch Hamburger-Icon): DD-Untermenü normal/linksbündig unter dem dazugehörigen DD-Link darstellen */
+/* Aber: mit zusätzlichem Abstand zwischen den Links, damit sie sich auf Touchscreens einfacher mit dem Finger auswählen/antippen lassen */
 @media screen and (max-width: 1199px) {
     .nav-item {
         padding: 3px 0;
@@ -90,6 +109,7 @@
     }
 }
 
+/* Auf größeren Bildschirmen, wenn die standardmäßige Ansicht der Navbar aktiviert ist (-> Ohne Hamburger-Icon): DD-Untermenü zentriert unter dem dazugehörigen DD-Link darstellen */
 @media screen and (min-width: 1200px) {
     .dropdown-menu {
       left: 50% !important;
@@ -98,14 +118,14 @@
     }
 }
 
+/* Vergrößern/Verkleinern der Abstände zwischen den Nav-Links basierend auf der Bildschirmgröße des Geräts für eine gleichmäßige Verteilung */
 @media screen and (min-width: 1200px) and (max-width: 1499px) {
     .navbar-nav > li {
         padding: 0 2vw;
     }
 }
-
 @media screen and (min-width: 1500px) {
     .navbar-nav > li {
-        padding: 0 3.5vw;
+        padding: 0 4vw;
     }
 }

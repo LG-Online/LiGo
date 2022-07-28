@@ -1,3 +1,26 @@
+/* ABSTÄNDE UND FORMATIERUNG */
+
+/* Abstände für Info-Textabschnitte auf allen "Über LiGo"-Seiten + Impressum und Datenschutz */
+.info {
+    margin: 0.5rem 0;
+}
+
+/* Styling für Elemente/Beispiele auf der "Technisches und Benutzung"-Seite */
+.example_separator {
+    color: black;
+}
+.chevron_link.example {
+    text-decoration: none;
+}
+.list-group-item.example {
+    border-width: 0;
+    padding: 0;
+}
+.list-group.example {
+    margin: 0.2rem 0 0 3.2rem;
+}
+
+/* Positionierung von Uni-Logo (links) und Uni-Link (rechts) nebeneinander auf der "Beteiligte Universitäten"-Seite */
 .uni_flex {
     display: flex;
     gap: 1.5rem;
@@ -5,21 +28,23 @@
     align-items: center;
 }
 
-.uni_logo_large {
-    width: 100px;
-    height: auto;
-}
-
-.info {
-    margin: 0.5rem 0;
-}
-
+/* Positionierung von Award-Logo (links) und Award-Text (rechts) nebeneinander auf der "Entwicklung und Relaunch"-Seite */
 .info.pic {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
+
+/* BILDER */
+
+/* Uni-Logos auf der "Beteiligte Universitäten"-Seite */
+.uni_logo_large {
+    width: 100px;
+    height: auto;
+}
+
+/* E-Teaching-Award-Logo auf der "Entwicklung und Relaunch"-Seite */
 .award {
     width: 100%;
     max-width: 250px !important;
@@ -27,18 +52,15 @@
     height: auto;
 }
 
-.links_list {
-    line-height: 2rem;
-}
 
+/* LISTEN */
+
+/* Abstände für Info-Listen auf allen "Über LiGo"-Seiten + Impressum und Datenschutz */
 .info_list {
     margin: 0;
 }
 
-.example_segment {
-    color: black;
-}
-
-.chevron-link.example {
-    text-decoration: none;
+/* Abstände für Link-Liste auf der "Weiterführende Links"-Seite */
+.links_list {
+    line-height: 2rem;
 }

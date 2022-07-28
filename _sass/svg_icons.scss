@@ -1,13 +1,28 @@
-/* Ausgefüllte Carets als Navbar-Drop-Down-Links */
+/* ICONS */
+
+/* Ausgefüllte Caret-Icons als Navbar-Drop-Down-Links */
 .bi-caret-down-fill {
     color: #003aad;
 }
 
-/* Lupe als Such-Symbol in der Navbar */
+/* Lupen-Icon als Navbar-Suche-Link */
 .bi-search {
     color: #003aad;
     padding: 0 0.5rem;
     -webkit-text-stroke: 0.7px;
+}
+
+/* Nicht-ausgefüllte Caret-Icons für Brotkrumen-Navigation */
+.bi-caret-right {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    color: #9c0707;
+}
+
+/* Ausgefüllte Caret-Marker für Pop-Over-Links */
+.bi-caret-right-fill {
+    display: inline-block;
+    margin-left: -0.1rem;
 }
 
 /* Chevron-Marker für interne Links */
@@ -16,14 +31,14 @@
     -webkit-text-stroke: 0.7px;
 }
 
-/* Doppel-Chevron-Marker oben für Links zum Zurück-nach-oben-springen */
+/* Doppel-Chevron-Marker (Richtung oben) für Zurück-nach-oben-Links */
 .bi-chevron-double-up {
     padding-right: 0.2rem;
     font-size: 0.9rem;
     -webkit-text-stroke: 0.5px;
 }
 
-/* Doppel-Chevron-Marker links/rechts für Link zur voherigen/nächsten Kurseinheit */
+/* Doppel-Chevron-Marker (Richtung links/rechts) für Links zur voherigen/nächsten Kurseinheit */
 .bi-chevron-double-left, .bi-chevron-double-right {
     font-size: 0.9rem;
     -webkit-text-stroke: 0.5px;
@@ -35,14 +50,7 @@
     padding-left: 0.2rem;
 }
 
-/* Nicht-ausgefüllte Carets für Brotkrumen-Navigation */
-.bi-caret-right {
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
-    color: #9c0707;
-}
-
-/* Chevron-Marker für ausklappbare Einheiten */
+/* Chevron-Marker (Richtung unten) für ausklappbare Einheiten */
 .bi-chevron-down {
     display: inline-block;
     color: #003aad;
@@ -53,22 +61,59 @@
     -webkit-text-stroke: 0.5px #9c0707;
 }
 
-/* Ausgefüllte Caret-Marker für Pop-Over-Links */
-.bi-caret-right-fill {
-    display: inline-block;
-    margin-left: -0.1rem;
-}
-
-/* Briefumschlag-Symbol für E-Mail-Links */
-.bi-envelope {
-    font-size: 0.8rem;
-    padding-right: 0.3rem;
-}
-
-/* In-neuem-Fenster-öffnen-Symbol für externe Links */
+/* In-neuem-Fenster-öffnen-Marker für externe Links */
 .bi-box-arrow-up-right {
     position: relative;
     font-size: 0.8rem;
     bottom: 0.1rem;
     padding-left: 0.3rem;
+}
+
+/* Briefumschlag-Marker für E-Mail-Links */
+.bi-envelope {
+    font-size: 0.8rem;
+    padding-right: 0.3rem;
+}
+
+
+/* ROTATION */
+
+/* Rotieren des Caret-Icons bei Pop-Over-Links um 90°, sobald auf den Link geklickt und das Icon mit der Klasse "active" versehen wurde (-> Siehe ausklappen_rotieren.js-Datei im assets -> js -> listen-Ordner) */
+.rotate_90 {
+    -webkit-transition-duration: 0.1s;
+    -moz-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    outline: none;
+}
+.rotate_90.active {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+/* Rotieren des Chevron-Icons bei Drop-Down-Links um 180°, sobald auf den Link geklickt und das Icon mit der Klasse "active" versehen wurde (-> Siehe ausklappen_rotieren.js-Datei) */
+.rotate_180 {
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    outline: none;
+}
+.rotate_180.active {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
 }
