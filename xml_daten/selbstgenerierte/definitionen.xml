@@ -275,13 +275,13 @@
         id="Emendatio"
         label="emendatiodef"
         uri="edition"
-        file="emendatio.html">Übersetzung: lat.:Verbesserung („Heilung“) eines offenbar verderbten Textes
+        file="emendatio.html">Lat.: Verbesserung („Heilung“) eines offenbar verderbten Textes
                 (sog. Korruptele).</div>
    <div class="definition"
         id="Korruptele"
         label="korrupteledef"
         uri="edition"
-        file="emendatio.html">Korruptele: meist durch offenbar
+        file="emendatio.html">Meist durch offenbar
                 fehlerhafte Überlieferung verderbte Textstelle, die der Editor zumindest zu
                 benennen, vielleicht zu emendieren hat.</div>
    <div class="definition"
@@ -293,7 +293,7 @@
         id="Konjektur"
         label="konjekturdef"
         uri="edition"
-        file="konjektur.html">lat.: Vermutung </div>
+        file="konjektur.html">Lat.: Vermutung.</div>
    <div class="definition"
         id="Textphasen"
         label="textphasendef"

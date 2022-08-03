@@ -2,14 +2,14 @@
 <?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
 <!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
 <lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
-    <section type="course" title="emendatio" author="Dr. Ulrich Joost; Sonja Schwänen"
+    <section type="course" title="Emendatio" author="Dr. Ulrich Joost; Sonja Schwänen"
         creationTime="14.01.2008" label="emendatio">
         <definition title="Emendatio" label="emendatiodef">
-            <LMMLtext>Übersetzung: lat.:Verbesserung („Heilung“) eines offenbar verderbten Textes
+            <LMMLtext>Lat.: Verbesserung („Heilung“) eines offenbar verderbten Textes
                 (sog. Korruptele).</LMMLtext>
         </definition>
         <definition title="Korruptele" label="korrupteledef">
-            <LMMLtext><formatted style="hervorhebung">Korruptele</formatted>: meist durch offenbar
+            <LMMLtext>Meist durch offenbar
                 fehlerhafte Überlieferung verderbte Textstelle, die der Editor zumindest zu
                 benennen, vielleicht zu emendieren hat.</LMMLtext>
         </definition>
