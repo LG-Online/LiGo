@@ -394,13 +394,13 @@
 			<section label="textphasen" type="course" uri="textphasen.html" title="Textphasen" related2practice="true"/>
 		</section>
 		<section label="geschichtederliteraturwissenschaft" type="course" uri="geschichtederliteraturwissenschaft.html" title="Geschichte der Literaturwissenschaft" discipline="fachgeschichtegerm">
-			<section label="einewissenschaftformiertsichvarianten18101870" type="course" uri="einewissenschaftformiertsichvarianten18101870.html" title="Eine Wissenschaft formiert sich. Varianten 1810-1870">
+			<section label="einewissenschaftformiertsichvarianten18101870" type="course" uri="einewissenschaftformiertsichvarianten18101870.html" title="Eine Wissenschaft formiert sich. Varianten 1810&#x2013;1870">
 				<section label="universitaereliteraturforschungundihrealternativen" type="course" uri="universitaereliteraturforschungundihrealternativen.html" title="Universitäre Literaturforschung und ihre Alternativen">
 					<section label="philologie" type="course" uri="philologie.html" title="Philologie"/>
 					<section label="literaturgeschichte" type="course" uri="literaturgeschichte.html" title="Literaturgeschichte"/>
 				</section>
 			</section>
-			<section label="moderneliteraturgeschichteamseminarfuerdeutschephilologie" type="course" uri="moderneliteraturgeschichteamseminarfuerdeutschephilologie.html" title="_Moderne Literaturgeschichte_ am Seminar für deutsche Philologie">
+			<section label="moderneliteraturgeschichteamseminarfuerdeutschephilologie" type="course" uri="moderneliteraturgeschichteamseminarfuerdeutschephilologie.html" title="&#x201E;Moderne Literaturgeschichte&#x201C; am Seminar für deutsche Philologie">
 				<section label="diebegruendungderliteraturwissenschaft" type="course" uri="diebegruendungderliteraturwissenschaft.html" title="Die Begründung der &#x201E;Literatur-Wissenschaft&#x201C;"/>
 			</section>
 			<section label="geistundverfahrensynthesenundformbeobachtungen19001933" type="course" uri="geistundverfahrensynthesenundformbeobachtungen19001933.html" title="&#x201E;Geist&#x201C; und &#x201E;Verfahren&#x201C;. Synthesen und Formbeobachtungen, 1900&#x2013;1933"/>
@@ -410,12 +410,12 @@
 				<section label="soziologischeundsozialgeschichtlicheansaetze" type="course" uri="soziologischeundsozialgeschichtlicheansaetze.html" title="Soziologische und sozialgeschichtliche Ansätze"/>
 			</section>
 			<section label="beobachtungundbeschreibungformalismusundstrukturalismus" type="course" uri="beobachtungundbeschreibungformalismusundstrukturalismus.html" title="Beobachtung und Beschreibung. Formalismus und Strukturalismus"/>
-			<section label="imspannungsfeldpolitischerlenkungsansprueche19331945" type="course" uri="imspannungsfeldpolitischerlenkungsansprueche19331945.html" title="Im Spannungsfeld politischer Lenkungsansprüche. 1933-1945" density="high">
+			<section label="imspannungsfeldpolitischerlenkungsansprueche19331945" type="course" uri="imspannungsfeldpolitischerlenkungsansprueche19331945.html" title="Im Spannungsfeld politischer Lenkungsansprüche. 1933&#x2013;1945">
 				<section label="institutionellerahmenbedingungen" type="course" uri="institutionellerahmenbedingungen.html" title="Institutionelle Rahmenbedingungen"/>
 				<section label="arbeitsfelderunddarstellungsformen" type="course" uri="arbeitsfelderunddarstellungsformen.html" title="Arbeitsfelder und Darstellungsformen"/>
 				<section label="kontinuitaetslinienbruecheinnovationen" type="course" uri="kontinuitaetslinienbruecheinnovationen.html" title="Kontinuitätslinien, Brüche, Innovationen"/>
 			</section>
-			<section label="getrenntewegegemeinsameprobleme19451966" type="course" uri="getrenntewegegemeinsameprobleme19451966.html" title="Getrennte Wege, gemeinsame Probleme. 1945 &#x2013; 1966">
+			<section label="getrenntewegegemeinsameprobleme19451966" type="course" uri="getrenntewegegemeinsameprobleme19451966.html" title="Getrennte Wege, gemeinsame Probleme. 1945&#x2013;1966">
 				<section label="restaurationundmodernisierungliteraturwissenschaftinderbrdundinwesteuropa" type="course" uri="restaurationundmodernisierungliteraturwissenschaftinderbrdundinwesteuropa.html" title="Restauration und Modernisierung. Literaturwissenschaft in der BRD und in Westeuropa">
 					<section label="institutionelleundpersonalerahmenbedingungen" type="course" uri="institutionelleundpersonalerahmenbedingungen.html" title="Institutionelle und personale Rahmenbedingungen"/>
 					<section label="konzepteundmethoden" type="course" uri="konzepteundmethoden.html" title="Konzepte und Methoden"/>
