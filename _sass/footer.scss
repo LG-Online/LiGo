@@ -1,6 +1,6 @@
-/* LAYOUT */
+/* GESAMTLAYOUT */
 
-/* Gleichmäßiges Verteilen der Footer-Elemente mithilfe von Flexbox */
+/* Gleichmäßiges Verteilen der Footer-Elemente mittels Flexbox */
 .footer {
     display: flex;
     justify-content: space-evenly;
@@ -25,7 +25,7 @@
     color: #003aad;
 }
 
-/* Link Farbwechsel von blau zu rot bei Hover -> Nur auf Geräten, die Hover auch unterstüzen (-> Keine Touchscreens) */
+/* Link-Farbwechsel von blau zu rot bei Hover -> Nur auf Geräten, die Hover unterstüzen (-> Keine Touchscreens) */
 @media (hover: hover) {
     .footer_link:hover, .uni_link:hover {
         color: #9c0707;

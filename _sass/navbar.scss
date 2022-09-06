@@ -1,4 +1,4 @@
-/* BRANDING (Text neben dem Logo) */
+/* BRANDING (= Text neben dem Logo) */
 
 /* Unterbinden der Darstellung des mittleren und langen Brandings -> Werden nur auf größeren Bildschirmen dargestellt, sobald der Platz dafür ausreicht */
 .brand_medium, .brand_long {
@@ -52,7 +52,7 @@
     padding-right: 1vw;
 }
 
-/* Festelegen von schwarzer Schriftfarbe und Unterbinden von Zeilenumbrüchen für die Nav-Links, damit das DD-Chevron-Icon und der Link-Text nicht in verschiedenen Zeilen dargestellt werden */
+/* Festelegen einer schwarzen Schriftfarbe und Unterbinden von Zeilenumbrüchen für die Nav-Links, damit das DD-Chevron-Icon und der Link-Text nicht in verschiedenen Zeilen dargestellt werden */
 .nav-item, .nav-link {
     display: inline !important;
     color: black !important;
@@ -72,7 +72,7 @@
     }
 }
 
-/* Ändern der Hintergrundfarbe zu dunkelblau, sobald der Nutzer einen Eintrag im DD-Untermenü anklickt */
+/* Ändern seiner Hintergrundfarbe zu dunkelblau, sobald ein Eintrag im DD-Untermenü angeklickt wird */
 .dropdown-item:active {
     background-color: #003aad !important;
 }
@@ -84,7 +84,7 @@
     margin: 0 -0.5vw;
 }
 
-/* Entfernen des Standard-Drop-Down-Icons von Bootstrap (-> Eigenes Icon wurde im HTML-Code hinzugefügt -> Siehe navbar.html im _includes-Ordner) */
+/* Entfernen des Standard-DD-Icons von Bootstrap (-> Eigenes Icon wurde im HTML-Code hinzugefügt -> Siehe navbar.html im _includes-Ordner) */
 .dropdown-toggle::after {
     display: none !important;
 }
@@ -118,7 +118,7 @@
     }
 }
 
-/* Vergrößern/Verkleinern der Abstände zwischen den Nav-Links basierend auf der Bildschirmgröße des Geräts für eine gleichmäßige Verteilung */
+/* Vergrößern/Verkleinern der Abstände zwischen den Nav-Links basierend auf der Bildschirmgröße des Endgeräts für eine gleichmäßige Verteilung */
 @media screen and (min-width: 1200px) and (max-width: 1499px) {
     .navbar-nav > li {
         padding: 0 2vw;

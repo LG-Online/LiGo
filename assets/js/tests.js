@@ -13,7 +13,7 @@ var correct_answers = 0;
 var exercises = document.querySelectorAll('.exercise');
 var general_feedback = document.getElementById("feedback");
 
-// Deklarieren der benötigten globalen Variablen für die Kontrolle des Timers/Fortschrittsbalkens
+// Deklarieren der benötigten globalen Variablen für die Kontrolle des Timers + Fortschrittsbalkens
 var progress_bar = document.getElementById('progress-bar');
 var stopTimer = false;
 var time = progress_bar.getAttribute("aria-valuemax");
@@ -30,7 +30,7 @@ start_button.addEventListener('click', function start(){
 });
 
 
-// TIMER/FORTSCHRITTSBALKEN
+// TIMER + FORTSCHRITTSBALKEN
 
 function startTimer(time) {
     // Zurücksetzen der Variable zum Anhalten des Timers
@@ -53,7 +53,7 @@ function startTimer(time) {
             progress_bar.classList.add("min_time");
         }
         // Sobald die Zeit abgelaufen ist bzw. der Balken eine Länge von 0 erreicht hat: Deaktivieren der Scroll-Funktion und Anzeigen des Timeout-Pop-Ups
-        // Der Nutzer hat dann nur noch die Möglichkeit, auf einen Button zu klicken, um den Test auswerten und sich die Lösungen/Ergebnisse anzeigen zu lassen
+        // Der/Die Übende hat dann nur noch die Möglichkeit, auf einen Button zu klicken, um den Test auswerten und sich die Lösungen/Ergebnisse anzeigen zu lassen
         if (progress_bar.style.width === '0%'){
             disableScroll();
             document.getElementById("timeout_pop_up").style.display = "flex";
@@ -77,7 +77,7 @@ function startTimer(time) {
     requestAnimationFrame(frame);
 }
 
-// Bei Klick auf den "Ergebnisse auswerten"-Button im Timeout-Pop-Up: Schließen des Pop-Ups; Reaktivieren der Scroll-Funktion; Auswerten der Testergebnisse (-> Der Nutzer kann die Übungen nicht mehr weiter bearbeiten)
+// Bei Klick auf den "Ergebnisse auswerten"-Button im Timeout-Pop-Up: Schließen des Pop-Ups; Reaktivieren der Scroll-Funktion; Auswerten der Testergebnisse (-> Der/die Übende kann die Fragen nicht mehr weiter bearbeiten)
 timeout_button.addEventListener('click', function(){
     document.getElementById("timeout_pop_up").style.display = "none";
     enableScroll();
@@ -95,11 +95,11 @@ solution_button.addEventListener('click', function validate(){
     }
 });
 
-// 1. Check, bei dem getestet wird, ob der Nutzer bei jeder Frage eine Antwort ausgewählt hat
+// 1. Check, bei dem getestet wird, ob der/die Übende bei jeder Frage eine Antwort ausgewählt hat
 function firstCheck(exercises){
     var not_checked = [];
-    // Iterieren über sämtliche Fragen -> Überprüfen, ob der Nutzer eine Antwort für die aktuelle Frage ausgewählt hat -> Falls nein: Hinzufügen der nicht beantworteten Frage zu einem Array
-    // Dieses Array wird im Folgenden genutzt, um dem Nutzer im Warnung-Pop-Up ein genaues Feedback dazu zu geben, welche Fragen er noch nicht beantwortet hat
+    // Iterieren über sämtliche Fragen -> Überprüfen, ob der/die Übende eine Antwort für die aktuelle Frage ausgewählt hat -> Falls nein: Hinzufügen der nicht beantworteten Frage zu einem Array
+    // Dieses Array wird im Folgenden genutzt, um dem/der Übenden im Warnung-Pop-Up ein genaues Feedback dazu zu geben, welche Fragen noch nicht beantwortet wurden
     for (var i = 0; i < exercises.length; i++){
         var id = exercises[i].getElementsByClassName('solution')[0].getAttribute('id');
         var ex_nr = id.substring(id.indexOf("_") + 1);
@@ -122,13 +122,13 @@ function firstCheck(exercises){
     }
 }
 
-// Bei Klick auf den "Weiter bearbeiten"-Button im Warnung-Pop-Up: Schließen des Pop-Ups; Reaktivieren der Scroll-Funktion (-> Der Nutzer kann die Übungen weiter bearbeiten)
+// Bei Klick auf den "Weiter bearbeiten"-Button im Warnung-Pop-Up: Schließen des Pop-Ups; Reaktivieren der Scroll-Funktion (-> Der/Die Übende kann die Fragen weiter bearbeiten)
 return_button.addEventListener('click', function(){
     document.getElementById("warning_pop_up").style.display = "none";
     enableScroll();
 });
 
-// Bei Klick auf den "Trotzdem auswerten"-Button im Warnung-Pop-Up: Schließen des Pop-Ups; Reaktivieren der Scroll-Funktion; Auswerten der Testergebnisse (-> Der Nutzer kann die Übungen nicht mehr weiter bearbeiten)
+// Bei Klick auf den "Trotzdem auswerten"-Button im Warnung-Pop-Up: Schließen des Pop-Ups; Reaktivieren der Scroll-Funktion; Auswerten der Testergebnisse (-> Der/Die Übende kann die Fragen nicht mehr weiter bearbeiten)
 resume_button.addEventListener('click', function(){
     document.getElementById("warning_pop_up").style.display = "none";
     enableScroll();
@@ -168,7 +168,7 @@ function checkExercises(ex_nr){
         // Falls keine Anwort für die Frage ausgewählt wurde: Abbrechen
         if (checked_option === null){
             return
-        // Ansonsten: Iterieren über den Antwort-Pool -> Heraussuchen der passenden Antwort (bzw. Erklärung) zur vom Nutzer ausgewählten Option (mittels Abgleich von Klasse der Antwort und ID der ausgewählten Option)
+        // Ansonsten: Iterieren über den Antwort-Pool -> Heraussuchen der passenden Antwort (bzw. Erklärung) zur ausgewählten Option (mittels Abgleich von Klasse der Antwort und ID der ausgewählten Option)
         }else{
             for (var j = 0; j < answer_pool.children.length; j++){
                 if (answer_pool.children[j].className === checked_option.id){
@@ -235,7 +235,7 @@ reset_button.addEventListener('click', function reset(){
         feedback.classList.remove("wrong");
         answer.innerHTML = "";
     }
-    // Ausführen der Funktionen und Befehle zum Bereinigen/Zurücksetzen der übrigen Test-Elemente/Variablen
+    // Ausführen der Funktionen und Befehle zum Bereinigen/Zurücksetzen der übrigen Testelemente/Variablen
     hideSolution();
     clearProgressBar(progress_bar);
     correct_answers = 0;
@@ -243,7 +243,7 @@ reset_button.addEventListener('click', function reset(){
 
 // Zurücksetzen der MC-Optionen
 function clearOptions(checked_option, option_pool){
-    // Entfernen der Nutzer-Auswahl bei den Radio Buttons
+    // Entfernen der eingeloggten Auswahl bei den Radio Buttons
     if (checked_option != null){
         checked_option.checked = false;
     }

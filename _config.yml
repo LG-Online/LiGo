@@ -19,17 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: LiGo - Literaturwissenschaftliche Grundbegriffe online
+description: LiGo ist ein Selbstlernkurs zu literaturwissenschaftlichen Grundbegriffen.
 email: lit.grundbegriffe.online@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  LiGo ist ein Selbstlernkurs zu literaturwissenschaftlichen Grundbegriffen.
-  Lassen Sie sich neue Begriffe erklären und an Beispielen demonstrieren.
-  Überprüfen Sie Ihr Wissen mit Hilfe der interaktiven Übungen.
 baseurl: "/LiGo" # the subpath of your site, e.g. /blog
 url: "https://lg-online.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: LG-Online
 
 # Build settings
-# theme: minima
 plugins:
   - jekyll-sitemap
   

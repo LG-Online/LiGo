@@ -11,7 +11,7 @@ body {
     height: 100%;
     /* Einkalkulieren der Scrollbar bei der Seitenbreite, damit die Seiteninhalte (bzw. Navbar und Footer) nicht von ihr verdeckt werden, sobald sie erscheint */
     width: calc(100vw - (100vw - 100%));
-    /* Verwenden von Flexbox für responsives Design, d.h. für automatische Umbrüche und Darstellungsanpassungen auf kleineren Bildschirmen */
+    /* Verwenden von Flexbox für responsives Design, d.h. für automatische Umbrüche und dynamische Darstellung auf kleineren Bildschirmen */
     display: flex;
     flex-direction: column;
 }
@@ -21,7 +21,7 @@ body {
     /* Sicherstellen, dass sich die Seiteninhalte nicht bis zu den äußersten Bildschirmrändern erstrecken, sondern links, rechts, oben und unten stets freier Platz erhalten bleibt */
     max-width: 90%;
     margin: 2vh 0;
-    /* Verwenden von Flexbox für responsives Design, d.h. für automatische Umbrüche und Darstellungsanpassungen auf kleineren Bildschirmen */
+    /* Verwenden von Flexbox für responsives Design, d.h. für automatische Umbrüche und dynamische Darstellung auf kleineren Bildschirmen */
     flex: 1 0 auto;
 }
 

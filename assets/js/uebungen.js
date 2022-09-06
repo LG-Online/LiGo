@@ -74,7 +74,7 @@ function mc_exercise(ex_nr){
     }
     
     function checkAnswer(checked_option, answer_pool){
-        // Iterieren über den Antwort-Pool -> Heraussuchen der passenden Antwort (bzw. Erklärung) zur vom Nutzer ausgewählten Option (mittels Abgleich von Klasse der Antwort und ID der ausgewählten Option)
+        // Iterieren über den Antworten-Pool -> Heraussuchen der passenden Antwort (bzw. Erklärung) zur von dem/der Übenden ausgewählten Option (mittels Abgleich von Klasse der Antwort und ID der ausgewählten Option)
         for (var j = 0; j < answer_pool.children.length; j++){
             if (answer_pool.children[j].className === checked_option.id){
                 answer.innerHTML = answer_pool.children[j].innerHTML;
@@ -104,7 +104,7 @@ function mc_exercise(ex_nr){
     
     function clearOptions(){
         var checked_option = option_pool.querySelector('input[type = "radio"]:checked');
-        // Entfernen der Nutzer-Auswahl bei den Radio Buttons
+        // Entfernen der eingeloggten Auswahl bei den Radio Buttons
         if (checked_option != null){
             checked_option.checked = false;
         }
@@ -161,19 +161,19 @@ function marker_exercise(ex_nr){
     mark_button.addEventListener('click', function mark(){
         var range_node = document.getSelection().focusNode;
         var range = document.getSelection().getRangeAt(0);
-        // Testen, ob der markierte Textabschnitt Teil des markierbaren Texts ist (-> Dadurch: Verhindern, dass der Nutzer eine Markierung außerhalb des dafür vorgesehenen Texts setzt) -> Falls ja:
+        // Testen, ob der markierte Textabschnitt Teil des markierbaren Texts ist (-> Dadurch: Verhindern, dass der/die Übende eine Markierung außerhalb des dafür vorgesehenen Texts setzt) -> Falls ja:
         if (markable_text.contains(range_node)){
-            // Generieren eines <span class="marked">-Elements und Umschließen des vom Nutzer ausgewählten Texts mit diesem Element
+            // Generieren eines <span class="marked">-Elements und Umschließen des von dem/der Übenden ausgewählten Texts mit diesem Element
             var span = document.createElement('span');
             span.className = 'marked';
             span.appendChild(range.extractContents());
             range.insertNode(span);
-            // Zurücksetzen/Leeren der gespeicherten Textauswahl, nachdem die Markierung gesetzt wurde (-> Der Nutzer kann nun eine weitere Stelle zur Markierung auswählen)
+            // Zurücksetzen/Leeren der gespeicherten Textauswahl, nachdem die Markierung gesetzt wurde (-> Der/Die Übende kann nun eine weitere Stelle zur Markierung auswählen)
             document.getSelection().empty();
         }
     });
     
-    // Bei Klick auf den "Lösung anzeigen"-Button: Validieren des vom Nutzer markierten Texts; Verbergen des Markieren-Buttons; Anzeigen der korrekten Markierungen und der Lösung
+    // Bei Klick auf den "Lösung anzeigen"-Button: Validieren des markierten Texts; Verbergen des Markieren-Buttons; Anzeigen der korrekten Markierungen und der Lösung
     solution_button.addEventListener('click', function validate(){
         checkUserMarkings();
         showCorrectMarkings();
@@ -182,14 +182,14 @@ function marker_exercise(ex_nr){
     });
     
     function checkUserMarkings(){
-        // Speichern aller Nutzer-Markierungen in einer Variable -> Iterieren über diese Markierungen
+        // Speichern aller Markierungen des/der Übenden in einer Variable -> Iterieren über diese Markierungen
         var user_markings = markable_text.querySelectorAll(".marked");
         for (var n = 0; n < user_markings.length; n++){
-            // Testen, ob der vom Nutzer markierte Text ein Teil des korrekten/gesuchten Textabschnitts ist -> Falls ja: 
+            // Testen, ob der markierte Text ein Teil des korrekten/gesuchten Textabschnitts ist -> Falls ja: 
             // Hinzufügen der "marked_correct"-Klasse, über die der Text grün hinterlegt wird (-> Siehe uebungen.scss-Datei)
             if (user_markings[n].parentElement.classList.contains('correct_marker')){
                 user_markings[n].className = "marked_correct";
-            // Ansonsten, also falls ein falscher/nicht gesuchter Textabschnitt vom Nutzer markiert wurde:
+            // Ansonsten, also falls ein falscher/nicht gesuchter Textabschnitt markiert wurde:
             // Hinzufügen der "marked_false"-Klasse, über die der Text rot hinterlegt wird (-> Siehe uebungen.scss-Datei)
             }else{
                 user_markings[n].className = "marked_false";
@@ -201,12 +201,12 @@ function marker_exercise(ex_nr){
         // Speichern aller korrekten/gesuchten Textabschnitte in einer Variable -> Iterieren über diese Textabschnitte
         var correct_markings = markable_text.querySelectorAll(".correct_marker");
         for (var o = 0; o < correct_markings.length; o++){
-            // Testen, ob die korrekte/gesuchte Stelle ein Teil des vom Nutzer markierten Texts ist -> Falls ja: 
+            // Testen, ob die korrekte/gesuchte Stelle ein Teil des markierten Texts ist -> Falls ja: 
             // Hinzufügen der "marked_correct"-Klasse, über die der Text grün hinterlegt wird (-> Siehe uebungen.scss-Datei)
-            // Dadurch wird die korrekte Stelle grün hinterlegt, die überflüssigen/falschen Nutzer-Markierungen davor und danach bleiben jedoch rot hinterlegt
+            // Dadurch wird die korrekte Stelle grün hinterlegt, die überflüssigen/falschen Markierungen davor und danach bleiben jedoch rot hinterlegt
             if (correct_markings[o].parentElement.classList.contains('marked_false')){
                 correct_markings[o].className = "marked_correct";
-            // Ansonsten, also falls eine gesuchte Stelle gar nicht vom Nutzer markiert wurde:
+            // Ansonsten, also falls eine gesuchte Stelle gar nicht von dem/der Übenden markiert wurde:
             // Hinzufügen der "unmarked_correct"-Klasse, über die der Text blau hinterlegt wird (-> Siehe uebungen.scss-Datei)
             }else{
                 correct_markings[o].className = "unmarked_correct";
@@ -242,8 +242,8 @@ function luecken_exercise(ex_nr){
             var gap = gap_text.getElementsByClassName("gap")[p];
             // Testen, ob die ausgewählte Option den Wert "true" besitzt (und somit richtig ist) -> Falls ja:
             if (gap.options[gap.selectedIndex].value === "true"){
-                // Grünes Einfärben der Textlücke über die Klasse "right"; Erhöhen der Anzahl an korrekt ausgefüllten Lücken um 1
-                gap.classList.add("right");
+                // Grünes Einfärben der Textlücke über die Klasse "correct"; Erhöhen der Anzahl an korrekt ausgefüllten Lücken um 1
+                gap.classList.add("correct");
                 num_gaps_correct++;
             // Ansonsten, also falls die ausgewählte Option nicht den Wert "true" besitzt (und somit falsch ist):
             }else{
@@ -275,7 +275,7 @@ function luecken_exercise(ex_nr){
         // Iterieren über alle Lücken -> Entfernen der Klassen zur farblichen Markierung, Zurücksetzen auf den Standardwert und Entsperren jeder Lücke
         for (var r = 0; r < num_gaps_total; r++){
             var gap = gap_text.getElementsByClassName("gap")[r]
-            gap.classList.remove("right", "wrong");
+            gap.classList.remove("correct", "wrong");
             gap.value = "standard";
             gap.disabled = false;
         }
@@ -310,11 +310,11 @@ function dnd_exercise(ex_nr){
     });
     
     function colorizeCheck(drop_area){
-        // Iterieren über alle Drop-Area-Kindelemente (= DND-Items, die der Nutzer in der jeweiligen Drop-Area platziert hat)
+        // Iterieren über alle Drop-Area-Kindelemente (= DND-Items, die der/die Übende in der jeweiligen Drop-Area platziert hat)
         for (var t = 0; t < drop_area.children.length; t++){
             // Testen, ob die Klasse des zugeordneten DND-Items mit der ID der Drop-Area übereinstimmt (und das Item somit richtig zugeordnet wurde) -> Falls ja:
             if (drop_area.children[t].className === drop_area.id){
-                // Grünes Einfärben des DND-Items über die Klasse "wrong"; Erhöhen der Anzahl an korrekt zugeordneten Items um 1
+                // Grünes Einfärben des DND-Items über die Klasse "correct"; Erhöhen der Anzahl an korrekt zugeordneten Items um 1
                 drop_area.children[t].classList.add("correct");
                 num_items_correct++;
             // Ansonsten, also falls die Klasse des zugeordneten DND-Items nicht mit der ID der Drop-Area übereinstimmt (und das Item somit falsch zugeordnet wurde):
@@ -325,7 +325,7 @@ function dnd_exercise(ex_nr){
             // In jedem Fall: Entfernen des "draggable"-Attributs bei jedem Item, um die DND-Funktion zu unterbinden
             drop_area.children[t].removeAttribute("draggable");
         }
-        // Iterieren über alle DND-Items, die noch an ihrer ursprünglichen Position sind (und somit nicht vom Nutzer zu einer Drop-Area zugeordnet wurden) -> 
+        // Iterieren über alle DND-Items, die noch an ihrer ursprünglichen Position sind (und somit nicht von dem/der Übenden zu einer Drop-Area zugeordnet wurden) -> 
         for (var u = 0; u < dnd_items.children.length; u++){
             // Rotes Einfärben des DND-Items über die Klasse "wrong"; Entfernen des "draggable"-Attributs bei jedem Item, um die DND-Funktion zu unterbinden
             dnd_items.children[u].classList.add("wrong");
@@ -350,7 +350,7 @@ function dnd_exercise(ex_nr){
 
 // WEITERE FUNKTIONEN
 
-// Funktionen zum Aktivieren der Drop-Down-Funktionalität
+// Funktionen zum Aktivieren der Drag and Drop-Funktionalität
 function allowDrop(ev){
     ev.preventDefault();
 }

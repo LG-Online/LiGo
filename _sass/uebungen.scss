@@ -4,7 +4,7 @@
     margin: 0.5rem 0;
 }
 
-/* Unterbinden der Darstellung der Lösung-Elemente -> Werden erst nach Button-Klick angezeigt (-> Siehe uebungen.js- und tests.js-Dateien im assets -> js -> uebungen-Ordner) */
+/* Unterbinden der Darstellung der Lösung-Elemente -> Werden erst nach Button-Klick angezeigt (-> Siehe uebungen.js- und tests.js-Dateien im assets -> js-Ordner) */
 .solution, .answer_pool {
     display: none;
 }
@@ -88,18 +88,26 @@ label {
 /* MARKIEREN-ÜBUNG */
 
 /* Einfärben und Hervorheben von (korrekten und falschen) Markierungen durch den Nutzer */
+
+/* Gelbe Farbe für alle Markierungen vor der Auswertung */
 .marked {
     background-color: #ffe135;
 }
+
+/* Rote Farbe für falsche Markierungen */
 .marked_false {
     color: white;
     background-color: #9c0707;
 }
+
+/* Grüne Farbe für korrekte Markierungen */
 .marked_correct {
     color: white;
     background-color: #006400;
     font-weight: bold;
 }
+
+/* Blaue Farbe für korrekte Stellen, die nicht markiert wurden */
 .unmarked_correct {
     color: white;
     background-color: #003aad;
@@ -119,7 +127,7 @@ label {
     -moz-appearance: none;
     appearance: none;
     /* Einbinden eines eigenen Icons für die Lücken */
-    background-image: url('../images/svg/caret-down-fill.svg');
+    background-image: url('../images/caret-down-fill.svg');
     background-repeat: no-repeat;
     background-position: 98% 50%;
     /* Festlegen eines eigenen Layouts für die Lücken und ihren Text */
@@ -147,7 +155,7 @@ label {
     gap: 1rem;
 }
 
-/* Formatieren der einzelnen Drop-Bereiche -> Überschrift, Trennlinie und Drop-Feld werden untereinander dargestellt dank Flexbox */
+/* Formatieren der einzelnen Drop-Bereiche -> Überschrift, Trennlinie und Drop-Feld werden untereinander dargestellt mittels Flexbox */
 .drop_wrapper {
     display: flex;
     flex-direction: column;
@@ -185,7 +193,7 @@ label {
     margin: 5px 0;
 }
 
-/* Darstellen des Cursors als greifende Hand über den greifbaren Drop-Items */
+/* Darstellen des Cursors als (zu)greifende Hand über den greifbaren DND-Items */
 [draggable] {
     cursor: move;
     cursor: grab;

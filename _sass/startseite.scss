@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-/* Darstellen der Startseite-Inhalte in 2 Spalten: Logo links, Text/Buttons rechts (-> Auf kleineren Bildschirmen: automatische Darstellung der Inhalte untereinander dank Flexbox) */
+/* Darstellen der Startseite-Inhalte in 2 Spalten: Logo links, Text + Buttons rechts (-> Auf kleineren Bildschirmen: automatische Darstellung der Inhalte untereinander dank Flexbox) */
 .index_flex {
     display: flex;
     flex-wrap: wrap;

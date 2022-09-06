@@ -5,13 +5,13 @@ details {
     position: relative;
 }
 
-/* Blaues Einfärben und Entfernen des standardmäßigen Markers/Icons für den Pop-Over-Link (-> Ein eigenes Icon wurde im HTML-Code hinzugefügt) */
+/* Blaues Einfärben und Entfernen des standardmäßigen Markers/Icons für den PO-Link (-> Ein eigenes Icon wurde im HTML-Code hinzugefügt) */
 details > summary {
     list-style: none;
     color: #003aad;
 }
 
-/* Farbwechsel des Pop-Over-Links von blau zu rot, sobald das Pop-Over-Fenster geöffnet ist */
+/* Farbwechsel des PO-Links von blau zu rot, sobald das PO-Fenster geöffnet ist */
 details[open] > summary {
     color: #9c0707;
 }
@@ -20,7 +20,7 @@ details[open] > summary {
 /* POP-OVER-FENSTER */
 
 details > summary + * {
-    /* Darstellen des Fensters zentriert über dem Pop-Over-Link und im Vordergrund vor dem restlichen Seiteninhalt */
+    /* Darstellen des Fensters zentriert über dem PO-Link und im Vordergrund vor dem restlichen Seiteninhalt */
     position: absolute;
     display: block;
     bottom: calc(0.5rem + 75%);
@@ -41,7 +41,7 @@ details > summary + * {
     scrollbar-color: #9c0707 transparent;
 }
 
-/* Verschmälern und rotes Einfärben der Scrollbar im Pop-Up-Fenster für andere Browser */
+/* Verschmälern und rotes Einfärben der Scrollbar im PO-Fenster für andere Browser */
 details > summary + *::-webkit-scrollbar {
   width: 7px;
 }
@@ -49,25 +49,25 @@ details > summary + *::-webkit-scrollbar-thumb {
   background-color: #9c0707;
 }
 
-/* Anpassen der Pop-Up-Fenstergröße basierend auf der Bildschirmgröße des Geräts */
+/* Anpassen der PO-Fenstergröße basierend auf der Bildschirmgröße des Geräts */
 @media screen and (max-width: 599px) {
     details > summary + * {
-        width: 200px;
+        width: 150px;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 999px) {
     details > summary + * {
-        width: 250px;
+        width: 200px;
     }
 }
 @media screen and (min-width: 1000px) and (max-width: 1299px) {
     details > summary + * {
-        width: 300px;
+        width: 250px;
     }
 }
 @media screen and (min-width: 1300px) {
     details > summary + * {
-        width: 350px;
+        width: 300px;
     }
 }
 

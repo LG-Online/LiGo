@@ -29,11 +29,11 @@
 /* POP-UPS */
 
 #timeout_pop_up, #warning_pop_up {
-    /* Zu Beginn: Unterbinden der Darstellung der Pop-Ups -> Werden erst nach Ablauf der Zeit bzw. nach Button-Klick durch den Nutzer angezeigt (-> Siehe tests.js-Datei im assets -> js -> uebungen-Ordner) */
+    /* Zu Beginn: Unterbinden der Darstellung der Pop-Ups -> Werden erst nach Ablauf der Zeit bzw. nach Button-Klick durch den Nutzer angezeigt (-> Siehe tests.js-Datei im assets -> js-Ordner) */
     display: none;
-    /* Nach Zeitablauf/Klick: Ausgrauen des Seiteninhalts hinter dem Pop-Up */
+    /* Ausgrauen des Seiteninhalts hinter dem Pop-Up */
     background-color: rgba(255, 255 ,255, 0.9);
-    /* Nach Zeitablauf/Klick: Darstellen der Pop-Ups vertikal und horizontal zentriert über allem anderen Inhalt der Seite */
+    /* Darstellen der Pop-Ups vertikal und horizontal zentriert über allem anderen Inhalt der Seite */
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -58,7 +58,7 @@
 /* WEITERE ELEMENTE */
 
 /* Zu Beginn: Unterbinden der Darstellung der Übungen -> Werden erst nach Start des Tests angezeigt (-> Siehe tests.js-Datei) */
-/* Zu Beginn: Unterbinden der Darstellung des "Übung zurücksetzen"-Buttons -> Wird erst nach Auswertung des Tests angezeigt (-> Siehe tests.js-Datei) */
+/* Zu Beginn: Unterbinden der Darstellung des "Test zurücksetzen"-Buttons -> Wird erst nach Auswertung des Tests angezeigt (-> Siehe tests.js-Datei) */
 #exercises, #reset_button {
     display: none;
 }

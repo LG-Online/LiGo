@@ -1,11 +1,15 @@
 /* ABSTÄNDE UND FORMATIERUNG */
 
 .toc {
-    margin-top: 2vh;
+    margin: 2vh 0;
+}
+
+.gloss_entries, .bib_entries {
+    margin-top: 0.7rem;
 }
 
 .toc_item, .gloss_entry, .bib_entry, .pers_entry {
-    margin: 0.5rem 0;
+    margin: 0.3rem 0;
 }
 
 .gloss_term, .bib_author, .pers_name {
@@ -16,7 +20,7 @@
 /* LISTEN */
 
 /* Entfernen des standardmäßigen Aufzählungszeichens/-punkts für HTML-Listen */
-.toc_items, .gloss_entries, .bib_entries, .pers_entries {
+.toc, .gloss_entries, .bib_entries, .pers_entries {
     list-style-type: none;
     padding-left: 0;
 }

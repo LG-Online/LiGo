@@ -10,18 +10,21 @@ h1 {
 h2 {
     font-size: 1.4rem !important;
     margin-top: 1rem !important;
+    margin-bottom: -0.2rem !important;
 }
 
 h3 {
     font-size: 1.2rem !important;
     margin-top: 1rem !important;
+    margin-bottom: -0.3rem !important;
     color: #9c0707;
 }
 
 h4 {
     font-size: 1rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: -0.4rem !important;
     font-weight: bold !important;
-    margin-bottom: -0.5rem !important;
 }
 
 /* Überschrift für Inhalte in Pop-Over-Fenstern */
@@ -41,7 +44,7 @@ h6 {
 
 /* TEXT */
 
-/* Einleitende Hinweise vor den Texteinheiten */
+/* Einleitende Angaben vor den Texteinheiten */
 .pretext {
     font-weight: bold;
     margin: 0;
@@ -57,7 +60,7 @@ h6 {
     margin: 0.7rem 0;
 }
 
-/* Hinweise für den Nutzer */
+/* Hinweise für die Nutzer*innen */
 .warning {
     color: #9c0707;
 }
@@ -73,7 +76,7 @@ h6 {
     font-weight: bold;
 }
 
-/* Werktitel, Regieanweisungen, Kursives */
+/* Werktitel, Regieanweisungen und Kursives */
 .title, .stage_dir, .italic {
     font-style: italic;
 }
