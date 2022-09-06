@@ -1,4 +1,61 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
 <!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
-<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Alliteration/Stabreim" author="Sebastian Donat" creationTime="24.03.2008" label="alliterationstabreim" topics="Alliteration/Stabreim"><definition title="Alliteration" label="alliterationdef"><LMMLtext><referencesLink show="new" type="defines" target="lautlicheuebereinstimmungdef"><referencesLink target="lautlicheuebereinstimmung">Lautliche Übereinstimmung</referencesLink></referencesLink> der Anfänge von zwei oder mehr akzentuierten Silben.</LMMLtext></definition><illustration><LMMLtext>Konstituierendes Prinzip in der germanischen Versdichtung (Stabreim) mit vereinzelten jüngeren Wiederbelebungsversuchen (z.B. bei Richard Wagner oder Felix Dahn). Es alliterieren bzw. staben identische Anlautkonsonanten (dabei gelten sk, sp und st als Einheit) sowie alle Anlautvokale betonter Silben untereinander.<referencesLink type="illustrates" target="beispielalliterationstabreimBsp"></referencesLink></LMMLtext></illustration><section type="example" title="Beispiel Alliteration/Stabreim" label="beispielalliterationstabreimBsp"><poem authorname="Felix" authorfamily="Dahn" title="An Carmen Sylva, III, 6"><poemlinegroup><poemline>Als <formatted style="hervorhebung">O</formatted>dhin <formatted style="hervorhebung">o</formatted>ben in <formatted style="hervorhebung">A</formatted>sgardh</poemline><poemline><formatted style="hervorhebung">B</formatted>rachten diese <formatted style="hervorhebung">B</formatted>otschaft</poemline><poemline><formatted style="hervorhebung">R</formatted>aunend seine <formatted style="hervorhebung">r</formatted>aschen <formatted style="hervorhebung">R</formatted>aben,</poemline><poemline>Da <formatted style="hervorhebung">st</formatted>rich der <formatted style="hervorhebung">St</formatted>olze</poemline><poemline>Sich, <formatted style="hervorhebung">s</formatted>elig <formatted style="hervorhebung">s</formatted>innend,</poemline><poemline>Ueber den <formatted style="hervorhebung">w</formatted>irr <formatted style="hervorhebung">w</formatted>ogenden, <formatted style="hervorhebung">w</formatted>eißen</poemline><poemline> <formatted style="hervorhebung">B</formatted>reiten <formatted style="hervorhebung">B</formatted>art:</poemline><poemline>»<formatted style="hervorhebung">H</formatted>eil Dir, Du <formatted style="hervorhebung">H</formatted>errliche!« </poemline><poemline> <formatted style="hervorhebung">R</formatted>ief er in <formatted style="hervorhebung">R</formatted>ührung,</poemline><poemline>»<formatted style="hervorhebung">W</formatted>ohl Dir – trotz all Deinem <formatted style="hervorhebung">W</formatted>eh!</poemline><poemline> Du <formatted style="hervorhebung">w</formatted>eihevoll <formatted style="hervorhebung">W</formatted>eib!«</poemline></poemlinegroup></poem><illustration label="beispielalliterationstabreimBspIllu"><LMMLtext>Die Alliterationen bzw. Stabreime sind durch Fettdruck hervorgehoben.</LMMLtext></illustration></section></section></lmml>
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Alliteration/Stabreim" author="Sebastian Donat"
+        creationTime="24.03.2008" label="alliterationstabreim" topics="Alliteration/Stabreim">
+        <definition title="Alliteration" label="alliteration">
+            <LMMLtext><referencesLink show="new" type="defines"
+                    target="lautlicheuebereinstimmungdef"><referencesLink
+                        target="lautlicheuebereinstimmung">Lautliche
+                        Übereinstimmung</referencesLink></referencesLink> der Anfänge von zwei oder
+                mehr akzentuierten Silben.</LMMLtext>
+        </definition>
+        <illustration>
+            <LMMLtext>Konstituierendes Prinzip in der germanischen Versdichtung (Stabreim) mit
+                vereinzelten jüngeren Wiederbelebungsversuchen (z.B. bei Richard Wagner oder Felix
+                Dahn). Es alliterieren bzw. staben identische Anlautkonsonanten (dabei gelten sk, sp
+                und st als Einheit) sowie alle Anlautvokale betonter Silben
+                    untereinander.<referencesLink type="illustrates"
+                    target="beispielalliterationstabreimBsp"/></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel Alliteration/Stabreim"
+            label="beispielalliterationstabreimBsp">
+            <poem authorname="Felix" authorfamily="Dahn" title="An Carmen Sylva, III, 6">
+                <poemlinegroup>
+                    <poemline>Als <formatted style="hervorhebung">O</formatted>dhin <formatted
+                            style="hervorhebung">o</formatted>ben in <formatted style="hervorhebung"
+                            >A</formatted>sgardh</poemline>
+                    <poemline><formatted style="hervorhebung">B</formatted>rachten diese <formatted
+                            style="hervorhebung">B</formatted>otschaft</poemline>
+                    <poemline><formatted style="hervorhebung">R</formatted>aunend seine <formatted
+                            style="hervorhebung">r</formatted>aschen <formatted style="hervorhebung"
+                            >R</formatted>aben,</poemline>
+                    <poemline>Da <formatted style="hervorhebung">st</formatted>rich der <formatted
+                            style="hervorhebung">St</formatted>olze</poemline>
+                    <poemline>Sich, <formatted style="hervorhebung">s</formatted>elig <formatted
+                            style="hervorhebung">s</formatted>innend,</poemline>
+                    <poemline>Ueber den <formatted style="hervorhebung">w</formatted>irr <formatted
+                            style="hervorhebung">w</formatted>ogenden, <formatted
+                            style="hervorhebung">w</formatted>eißen</poemline>
+                    <poemline>
+                        <formatted style="hervorhebung">B</formatted>reiten <formatted
+                            style="hervorhebung">B</formatted>art:</poemline>
+                    <poemline>»<formatted style="hervorhebung">H</formatted>eil Dir, Du <formatted
+                            style="hervorhebung">H</formatted>errliche!« </poemline>
+                    <poemline>
+                        <formatted style="hervorhebung">R</formatted>ief er in <formatted
+                            style="hervorhebung">R</formatted>ührung,</poemline>
+                    <poemline>»<formatted style="hervorhebung">W</formatted>ohl Dir – trotz all
+                        Deinem <formatted style="hervorhebung">W</formatted>eh!</poemline>
+                    <poemline> Du <formatted style="hervorhebung">w</formatted>eihevoll <formatted
+                            style="hervorhebung">W</formatted>eib!«</poemline>
+                </poemlinegroup>
+            </poem>
+            <illustration label="beispielalliterationstabreimBspIllu">
+                <LMMLtext>Die Alliterationen bzw. Stabreime sind durch Fettdruck
+                    hervorgehoben.</LMMLtext>
+            </illustration>
+        </section>
+    </section>
+</lmml>

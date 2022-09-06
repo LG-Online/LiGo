@@ -3,7 +3,7 @@ title: "[Titel]"
 layout: default
 type: lerneinheit
 ---
-<!-- HINWEIS: Einträge in [eckigen Klammern] sind durch eigene Angaben/Inhalte zu ersetzen -->
+<!-- HINWEIS: Einträge in [eckigen Klammern] sind durch eigene Angaben/Inhalte zu ersetzen; nicht benötigte Elemente sind zu löschen  -->
 
 <!-- Brotkrumen-Navigation-->
 <div class="breadcrumb_nav">
@@ -13,18 +13,24 @@ type: lerneinheit
    <i class="bi bi-caret-right"></i>
    <a class="breadcrumb_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}">[Übergeordneter Kursabschnitt]</a>
    <i class="bi bi-caret-right"></i>
-   [Aktuelle Kurseinheit]
+   [Aktuelle Kurs-/Lerneinheit]
 </div>
 <hr class="separation_line">
 
+<!-- Obligatorische Seiten-/Lerneinheitüberschrift -->
 <h1>[Überschrift]</h1>
-<!-- Diesen Button nur einfügen, wenn es Drop-Down-Inhalte (Beispiele/Übungen) auf der Seite gibt -->
+   
+<!-- Diesen Button nur einfügen, wenn es aus-/einklappbare Inhalte (= Beispiele/Übungen) auf der Seite gibt -->
 <button class="show_collapse_button">Alle Beispiele/Übungen anzeigen/verbergen</button>
-<h6>[Zwischenüberschrift]</h6> 
-<!-- Definition: Begriff + Erläuterung -->
+
+<!-- Optionale Zwischenüberschrift -->
+<h6>[Zwischenüberschrift]</h6>
+   
+<!-- Begriffsdefinition -->
 <div class="definition">
    <span class="term">[Begriff]: </span>[Erläuterung]
 </div>
+
 <!-- Textabschnitte (werden als eigener Absatz mit Abstand davor und danach dargestellt) -->
 <div class="paragraph">
    [Text]
@@ -35,10 +41,10 @@ type: lerneinheit
    <!-- Autoren und wichtige Personen im Literaturgeschichte-Kurs oder Figuren/Sprecher im Drama (werden fett dargestellt)  -->
    <span class="person">[Person]</span>
    
-   <!-- Fußnoten-Links (-> Weiterer Code bzw. Fußnoten-Text am Ende des Dokuments) -->
+   <!-- Fußnoten-Links (-> Weiterer Code bzw. Fußnoten-Text am Ende dieses Dokuments) -->
    [Text]<a class="footnote_link" id="footnote_[Fußnote-Nr.]" href="#anchor_[Fußnote-Nr.]"><sup class="footnote_number">[[Fußnote-Nr.]]</sup></a>
    
-   <!-- Seiten-Links -->
+   <!-- Links zu anderen internen Seiten/Lerneinheiten -->
    <a class="internal_link" href="{{ '_pages/[Pfad/Datei].html' | relative_url }}"><i class="bi bi-chevron-right"></i><span class="link_text">[Link-Text]</span></a>
    
    <!-- Pop-Over-Erläuterungen -->
@@ -46,7 +52,7 @@ type: lerneinheit
       <summary class="pop_over_link"><i class="bi bi-caret-right-fill rotate_90"></i>[Begriff]</summary>
       <div class="pop_over_content">
          <h5>[Begriff]</h5>
-         <span class="pop_over_text">[Begriffserläuterung (= Definition-Text)]</span>
+         <span class="pop_over_text">[Begriffserläuterung (= Definitionstext)]</span>
          <div class="pop_over_course_link">
             <a class="course_link" href="{{ '_pages/wissensbereiche/[Pfad/Datei].html' | relative_url }}"><i class="bi bi-chevron-right"></i><span class="link_text">Zur Kursseite</span></a>
          </div>
@@ -101,19 +107,19 @@ type: lerneinheit
 
 <!-- Durchnummerierte Liste -->
 <ol class="ordered_list">
-   <li class="list_item">[Stichpunkt/Aufzählung]</li>
+   <li class="list_item">[Listeneintrag]</li>
 </ol>
    
 <!-- Unnummerierte (Stichpunkt-)Liste -->
 <ul class="unordered_list">
-   <li class="list_item">[Stichpunkt/Aufzählung]</li>
+   <li class="list_item">[Listeneintrag</li>
 </ul>
    
-<!-- Liste in einer Liste -->
+<!-- Verschachtelte Liste in einer Liste -->
 <ul class="unordered_list">
-   <li class="list_item">[Stichpunkt/Aufzählung]
+   <li class="list_item">[Listeneintrag]
       <ul class="unordered_list">
-         <li class="list_item">[Stichpunkt/Aufzählung]</li>
+         <li class="list_item">[Untergeordneter Listeneintrag]</li>
       </ul>
    </li>
 </ul>
@@ -135,7 +141,7 @@ type: lerneinheit
 </table>
 
 <!-- PDF -->
-<embed class="pdf" src="{{ 'assets/media/[Datei].pdf' | relative_url }}" type="application/pdf">
+<object class="pdf" data="{{ 'assets/media/[Datei].pdf' | relative_url }}" type="application/pdf"></object>
 
 <!-- Bild -->
 <img class="media" src="{{ 'assets/media/[Datei].jpg/.gif' | relative_url }}">
@@ -156,11 +162,11 @@ type: lerneinheit
       <i class="bi bi-chevron-down rotate_180"></i><span class="expand_link">Beispiel [zu Thema]</span>
    </a>
    <div class="list-group collapse" id="[ID des list-group-Elements]">
-      <!-- Zitierter Text als Beispiel -->
+      <!-- Zitierter Text als Beispiel -> Siehe Prosa-, Drama- und Lyrik-Vorlagen weiter oben -->
       <div class="quotation">
          <div class="pretext">Textbeispiel:</div>
          <div class="text">
-         [Text]
+            [Text]
          </div>
          <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
       </div>
@@ -168,7 +174,7 @@ type: lerneinheit
       <div class="explanation">
          <div class="pretext">Erläuterung:</div>
          <div class="text">
-         [Text]
+            [Text]
          </div>
       </div>
    </div>
@@ -180,8 +186,7 @@ type: lerneinheit
       <i class="bi bi-chevron-down rotate_180"></i><span class="expand_link">Übung [zu Thema]</span>
    </a>
    <div class="list-group collapse" id="[ID des list-group-Elements]">
-      <!-- Für die Vorlagen zu den einzelnen Übungstypen: siehe die uebungen.html-Datei im gleichen Ordner
-           -> Code für den gwünschten Übungstyp einfach von dort kopieren und hier einfügen -->
+      <!-- Für die Vorlagen zu den einzelnen Übungstypen: siehe die uebungen.html-Datei im gleichen Ordner -> Code für den gewünschten Übungstyp einfach von dort kopieren und hier einfügen -->
    </div>
 </div>
    
@@ -192,7 +197,7 @@ type: lerneinheit
    <span class="content_date">&#160;Letzte inhaltliche Änderung am: [Änderungsdatum]</span>
 </div>
    
-<!-- Angabe zu zitiertem Werk für den Inhalt der Lerneinheit -->
+<!-- Angabe zu zitiertem Werk für den Inhalt der Lerneinheit (-> Wichtig für Literaturgeschichte-Lerneinheiten) -->
 <div class="reference">Vgl. [Autor]: [Werk], S. [Seitenzahl].</div>
 
 <!-- Kurs-Navigation -->
@@ -221,7 +226,7 @@ type: lerneinheit
 <!-- Fußnoten(-Text) -->
 <hr class="separation_line">
 <div class="footnote">
-   <a class="footnote_link" id="anchor_[Fußnote-Nr.]" href="#footnote_[Fußnote-Nr.]"><sup class="footnote_number">[[Fußnote-Nr.]</sup></a>
+   <a class="footnote_link" id="anchor_[Fußnote-Nr.]" href="#footnote_[Fußnote-Nr.]"><sup class="footnote_number">[[Fußnote-Nr.]]</sup></a>
    [Fußnoten-Text]
    <!-- Link, der den Nutzer zurück zur Fußnote im obigen Text führt -->
    <a class="back_link" href="#footnote_[Fußnote-Nr.]"><i class="bi bi-chevron-double-up"></i><span class="link_text">Zurück</span></a>

@@ -2,17 +2,27 @@
 <?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
 <!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
 <lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
-	<section type="course" title="Zäsur" author="Sebastian Donat" creationTime="24.03.2008" label="zaesur" topics="Zäsur">
+	<section type="course" title="Zäsur" author="Sebastian Donat" creationTime="24.03.2008"
+		label="zaesur" topics="Zäsur">
 		<definition title="Zäsur" label="zaesurdef">
 			<LMMLtext>Syntaktisch bedingte <referencesLink target="pause_m">
-					<referencesLink show="new" type="defines" target="pausedef">Pause</referencesLink>
+					<referencesLink show="new" type="defines" target="pausedef"
+						>Pause</referencesLink>
 				</referencesLink> im Versinneren.</LMMLtext>
 		</definition>
 		<illustration>
-			<LMMLtext>Landläufig dient Zäsur als Oberbegriff für jede Form von Verseinschnitt (also z.B. auch die <referencesLink target="diaerese">Diärese</referencesLink>). Abhängig von der Art des Silbenübergangs kann sie unterschiedlich stark ausgeprägt sein (am deutlichsten bei Satzgrenzen, am geringsten bei Wortgrenzen innerhalb von Kola).</LMMLtext>
-			<LMMLtext>Im engeren Begriffsgebrauch bezeichet eine Zäsur einen Einschnitt innerhalb eines Versfußes (<referencesLink target="versfuss">
-					<referencesLink show="new" type="defines" target="versfussdef">Versfüße</referencesLink>
-				</referencesLink>), z.B. im Inneren der ersten drei Versfüße des Hexameters (Trithemimeres, Penthemimeres, Hepthemimeres)</LMMLtext>
+			<LMMLtext>Landläufig dient Zäsur als Oberbegriff für jede Form von Verseinschnitt (also
+				z.B. auch die <referencesLink target="diaerese"><referencesLink show="new" type="defines" target="diaeresedef"
+					>Diärese</referencesLink></referencesLink>). Abhängig
+				von der Art des Silbenübergangs kann sie unterschiedlich stark ausgeprägt sein (am
+				deutlichsten bei Satzgrenzen, am geringsten bei Wortgrenzen innerhalb von
+				Kola).</LMMLtext>
+			<LMMLtext>Im engeren Begriffsgebrauch bezeichet eine Zäsur einen Einschnitt innerhalb
+				eines Versfußes (<referencesLink target="versfuss">
+					<referencesLink show="new" type="defines" target="versfussdef"
+						>Versfüße</referencesLink>
+				</referencesLink>), z.B. im Inneren der ersten drei Versfüße des Hexameters
+				(Trithemimeres, Penthemimeres, Hepthemimeres)</LMMLtext>
 		</illustration>
 	</section>
 </lmml>

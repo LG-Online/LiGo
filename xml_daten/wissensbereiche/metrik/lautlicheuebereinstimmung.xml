@@ -1,4 +1,24 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
 <!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
-<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Lautliche Übereinstimmung" author="Sebastian Donat" creationTime="24.03.2008" label="lautlicheuebereinstimmung" topics="Lautliche Übereinstimmung"><definition title="Lautliche Übereinstimmung" label="lautlicheuebereinstimmungdef"><LMMLtext>Lautliche Übereinstimmung: Eine der vier <referencesLink target="verskonstituenten"><referencesLink show="new" type="defines" target="verskonstituentendef">Verskonstituenten</referencesLink></referencesLink>. Nach Anzahl und/oder Position regulierte Wiederholung von Phonemen oder Phonemgruppen im Verstext. Die Lautwiederholung betrifft in der Regel den Wortanfang (<referencesLink target="alliterationstabreim"><referencesLink show="new" type="defines" target="alliterationdef">Alliteration/Stabreim</referencesLink></referencesLink>) oder das Wortende (<referencesLink target="assonanz"><referencesLink show="new" type="defines" target="assonanzauchhalbreimdef">Assonanz</referencesLink></referencesLink>, <referencesLink target="endreim"><referencesLink show="new" type="defines" target="endreimdef">Endreim</referencesLink></referencesLink>).</LMMLtext></definition></section></lmml>
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Lautliche Übereinstimmung" author="Sebastian Donat"
+        creationTime="24.03.2008" label="lautlicheuebereinstimmung"
+        topics="Lautliche Übereinstimmung">
+        <definition title="Lautliche Übereinstimmung" label="lautlicheuebereinstimmungdef">
+            <LMMLtext>Lautliche Übereinstimmung: Eine der vier <referencesLink
+                    target="verskonstituenten"><referencesLink show="new" type="defines"
+                        target="verskonstituentendef"
+                    >Verskonstituenten</referencesLink></referencesLink>. Nach Anzahl und/oder
+                Position regulierte Wiederholung von Phonemen oder Phonemgruppen im Verstext. Die
+                Lautwiederholung betrifft in der Regel den Wortanfang (<referencesLink
+                    target="alliterationstabreim"><referencesLink show="new" type="defines"
+                        target="alliteration"
+                    >Alliteration/Stabreim</referencesLink></referencesLink>) oder das Wortende
+                    (<referencesLink target="assonanz"><referencesLink show="new" type="defines"
+                        target="assonanzauchhalbreimdef">Assonanz</referencesLink></referencesLink>,
+                    <referencesLink target="endreim"><referencesLink show="new" type="defines"
+                        target="endreimdef">Endreim</referencesLink></referencesLink>).</LMMLtext>
+        </definition>
+    </section>
+</lmml>

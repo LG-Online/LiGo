@@ -160,9 +160,7 @@
 		<bibliography title="Der gegenwärtige Stand der Literaturwissenschaft. Eine erste Einführung in ihre Problemlage. Wien / Leipzig." author="Benda" authorFirstName="Oskar" bookYear="1928" label="Benda1928" topics="FachgeschichteGermanistik"/>
 		<illustration>
 			<LMMLtext type="bibliographie" uri="drama">Drama</LMMLtext>
-			<LMMLtext type="bibliographie" uri="edition">Edition</LMMLtext>
 			<LMMLtext type="bibliographie" uri="fachgeschichte">Fachgeschichte</LMMLtext>
-			<LMMLtext type="bibliographie" uri="literaturtheorie">Literaturtheorie</LMMLtext>
 			<LMMLtext type="bibliographie" uri="lyrik">Lyrik</LMMLtext>
 			<LMMLtext type="bibliographie" uri="metrik">Metrik</LMMLtext>
 			<LMMLtext type="bibliographie" uri="erzaehltextanalyse">Prosa</LMMLtext>

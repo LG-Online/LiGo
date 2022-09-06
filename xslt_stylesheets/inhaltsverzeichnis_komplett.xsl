@@ -1,13 +1,13 @@
 <!-- ANWENDUNG UND ZIEL -->
-<!-- Anwenden des Stylesheets auf die menue.xml-Datei (im daten -> xml_sonstige-Ordner) mit der Gesamtstruktur aller Wissensbereiche/Kurse/Lerneinheiten -->
-<!-- Generieren der kurse.html-Datei (im _pages -> verzeichnisse-Ordner) mit der Gesamtübersicht über alle Kurs-/Lerneinheiten in sämtlichen Wissensbereichen -->
+<!-- Anwenden des Stylesheets auf die menue.xml-Datei (im xml_daten -> sonstige-Ordner) mit der Gesamtstruktur aller Wissensbereiche/Kurse/Lerneinheiten -->
+<!-- Generieren der kursinhalte.html-Datei (im _pages -> verzeichnisse-Ordner) mit der Gesamtübersicht über alle Kurs-/Lerneinheiten in sämtlichen Wissensbereichen -->
 <xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon" exclude-result-prefixes="saxon">
     <xsl:output method="html" indent="yes"/>
     <xsl:strip-space elements="*"/>
     
     <!-- VARIABLEN -->
-    <!-- Deklarieren von 8 Variablen (-> 1 für jede der maximal 8 Ebenen), jeweils mit dem Wert 1 -> Werden später inkrementell erhöht und dazu genutzt, die Listeneinträge durchzunummerieren -->
-    <!-- Durch diese Nummerierung wird sichergestellt, dass alle Einträge eine individuelle ID erhalten und somit als Drop-Down-Element per Link-Klick aufgeklappt werden können -->
+    <!-- Deklarieren von 8 Variablen (-> 1 für jede der maximal 8 Ebenen), jeweils mit dem Wert 1 -> Werden später inkrementell erhöht und zum Durchnummerieren der Listeneinträge genutzt
+         -> Durch diese Nummerierung wird sichergestellt, dass alle Einträge eine individuelle ID erhalten und somit per Link-Klick aufgeklappt werden können -->
     <xsl:variable name="first_level_units" select="1" saxon:assignable="yes"/>
     <xsl:variable name="second_level_units" select="1" saxon:assignable="yes"/>
     <xsl:variable name="third_level_units" select="1" saxon:assignable="yes"/>
@@ -27,9 +27,9 @@
         type: liste
         ---
         <h1>Kursinhalte</h1>
-        <!-- Einfügen eines Buttons, mit dem alle Ebenen gleichzeitig auf-/eingeklappt werden können -->
+        <!-- Einfügen eines Buttons, mit dem alle Ebenen gleichzeitig aus-/eingeklappt werden können -->
         <button class="show_collapse_button">Alle Ebenen anzeigen/verbergen</button>
-        <div class="drop_down_list">
+        <div class="nested_list">
             <!-- Anwenden der Templates für die Listenelemente -> Einfügen der Liste -->
             <xsl:apply-templates select="lmml"/>
         </div>
@@ -40,11 +40,11 @@
         <!-- EBENE 1 -->
         <!-- Iterieren über die Elemente der 1. Ebene -->
         <xsl:for-each select="./section">
-            <!-- Zurücksetzen der Variable für die Einheiten der 2. Ebene auf 1 bei jeder Iteration -> Garantiert korrekte Nummerierung über das gesamte Dokument bzw. alle Unterebenen hinweg -->
+            <!-- Zurücksetzen der Variable für die Einheiten der 2. Ebene auf 1 bei jeder Iteration -> Garantiert die korrekte Nummerierung über das gesamte Dokument bzw. alle Unterebenen hinweg -->
             <saxon:assign name="second_level_units">1</saxon:assign>
             <div class="list-group-item level_1">
                 <xsl:choose>
-                    <!-- Testen, ob der Abschnitt ein weiteres section-Kindelement (= Unterebene, die ausgeklappt werden soll) besitzt -> Falls ja: -->
+                    <!-- Testen, ob der Abschnitt ein weiteres <section>-Kindelement (= Unterebene, die ausgeklappt werden soll) besitzt -> Falls ja: -->
                     <xsl:when test="./section">
                         <!-- Einfügen und Verlinken eines Chevron-Icons, über das diese Unterebene ausgeklappt werden kann -->
                         <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false">
@@ -62,7 +62,7 @@
                     </xsl:when>
                     <!-- Ansonsten (falls keine Unterebene existiert, die ausgeklappt werden soll): -->
                     <xsl:otherwise>
-                        <!-- Einfügen eines <span>-Elements, über das per CSS eine Einrückung anstatt des Chevron-Icons im HTML-Dokument vorgenommen wird (-> Siehe svg_icons.scss im _sass-Ordner) -->
+                        <!-- Einfügen eines Elements, über dessen Klasse eine Einrückung per CSS vorgenommen wird, um das Fehlen des Chevron-Icons zu kompensieren (-> Siehe uebersichtslisten.scss im _sass-Ordner) -->
                         <span class="no_chevron"/>
                     </xsl:otherwise>
                 </xsl:choose>
@@ -70,14 +70,14 @@
                 <a class="list_link">
                     <xsl:attribute name="href">
                         <xsl:text>{{ '_pages/wissensbereiche/</xsl:text>
-                        <!-- Zugreifen auf das discipline-Attribut dieses Elements oder des naheliegendsten Vorfahrens mit diesem Attribut (-> Beinhaltet den Namen des Wissensbereichs) -->
+                        <!-- Zugreifen auf das discipline-Attribut dieses Elements oder des naheliegendsten Vorfahren mit diesem Attribut (-> Beinhaltet den Namen des Wissensbereichs) -->
                         <xsl:value-of select="ancestor-or-self::section[@discipline]/@discipline"/>
                         <xsl:text>/</xsl:text>
                         <!-- Zugreifen auf das uri-Attribut des aktuellen Elements (-> Beinhaltet den Namen der HTML-Datei) -->
                         <xsl:value-of select="@uri"/>
                         <xsl:text>' | relative_url }}</xsl:text>
                     </xsl:attribute>
-                    <!-- Zugreifen auf das titel-Attribut des aktuellen Elements (-> Beinhaltet den Titel der Lerneinheit bzw. des Verzeichniseintrags) -->
+                    <!-- Zugreifen auf das title-Attribut des aktuellen Elements (-> Beinhaltet den Titel der Lerneinheit bzw. des Verzeichniseintrags) -->
                     <xsl:value-of select="@title"/>
                 </a>
                 
@@ -464,7 +464,7 @@
                 </div>
                 
             </div>
-            <!-- Inkrementelles Erhöhen der Nummerierungsvariable um den Wert 1 für jede Iteration -> Garantiert korrekte Nummerierung über das gesamte Dokument bzw. alle Unterebenen hinweg -->
+            <!-- Inkrementelles Erhöhen der Nummerierungsvariable um den Wert 1 für jede Iteration -> Garantiert die korrekte Nummerierung über das gesamte Dokument bzw. alle Unterebenen hinweg -->
             <saxon:assign name="first_level_units"><xsl:value-of select="$first_level_units+1"/></saxon:assign>
         </xsl:for-each>
         

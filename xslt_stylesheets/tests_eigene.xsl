@@ -1,5 +1,5 @@
 <!-- ANWENDUNG UND ZIEL -->
-<!-- Anwenden des Stylesheets auf die uebungen.xml-Datei (im daten -> xml_selbstgenerierte-Ordner), in der sämtliche Übungen aus allen Wissensbereichen gesammelt wurden -->
+<!-- Anwenden des Stylesheets auf die uebungen.xml-Datei (im xml_daten -> selbstgenerierte-Ordner), in der sämtliche Übungen aus allen Wissensbereichen gesammelt wurden -->
 <!-- Generieren der [test].html-Dateien (im _pages -> tests -> selbstgenerierte-Ordner) mit dem Test zum jeweiligen Wissensbereich -->
 <xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon" exclude-result-prefixes="saxon">
     <xsl:output method="html" indent="yes"/>
@@ -13,8 +13,8 @@
     
     <!-- GESAMTER TEST -->
     <xsl:template match="div[@class='exercises']">
-        <!-- Gruppieren der Übungen nach ihrem resource-Attribut (-> Enthält den Wissensbereich, aus dem die jeweilige Übung stammt) -->
-        <xsl:for-each-group select=".//div[tokenize(@class,'\s')='exercise']" group-by="@resource">
+        <!-- Gruppieren der <div>-Kindelemente (= einzelne Übungen) nach ihrem resource-Attribut (-> Enthält den Wissensbereich, aus dem die jeweilige Übung stammt) -->
+        <xsl:for-each-group select="./div" group-by="@resource">
             <!-- Generieren einer eigenen HTML-Datei für jede Gruppe bzw. jeden Wissensbereich -->
             <!-- YAML FRONT MATTER -->
             <!-- Festlegen des Seitentitels, der dann im Browser-Tab angezeigt wird (-> Titel muss manuell/individuell für jeden Test ergänzt werden) -->
@@ -29,7 +29,7 @@
                     <!-- Generieren der Überschrift (-> Überschrift muss manuell/individuell für jeden Test ergänzt werden) -->
                     <!-- Austatten der Überschrift mit einer ID, damit sie als Link-Anker dienen kann -> Ermöglicht den Sprung per Button-Klick zurück zur Überschrift/zum Seitenanfang -->
                     <h1 id="top">Test - [Wissensbereich]</h1>
-                    <!-- Generieren des Einleitungstexts mit Infos zur Fragenanzahl, Thema und Zeitvorgabe (-> Infos müssen manuell/individuell für jeden Test nachgetragen werden) -->
+                    <!-- Generieren des Einleitungstexts mit Infos zu Fragenanzahl, Thema und Zeitvorgabe (-> Infos müssen manuell/individuell für jeden Test nachgetragen werden) -->
                     <div class="introduction">
                         Bei diesem Test sollen insgesamt [Anzahl] Multiple Choice-Fragen aus dem Bereich »[Wissensbereich]« innerhalb von [Anzahl] Min. [Anzahl] Sek. beantwortet werden.
                         Es wird empfohlen, zuerst den LiGo-Kurs zum entsprechenden Bereich zu absolvieren, bevor Sie Ihr Wissen testen.
@@ -42,13 +42,14 @@
                     <!-- Generieren des (Bootstrap-)Fortschrittsbalkens, mit dem die verbleibende Zeit angezeigt wird -->
                     <div class="progress">
                         <!-- Angeben des minimalen Zeitwerts (-> 0 Sekunden) sowie des aktuellen und maximalen Zeitwerts (-> Sekunden-Wert muss manuell/individuell für jeden Test nachgetragen werden) -->
-                        <!-- Hinzufügen des max_time-Attributs, mit dem eine grüne Farbe der Leiste festgelegt wird -> Wird später mittels JavaScript gegen mid_time für blauen und min_time für roten Farbwechsel ausgetauscht (-> Siehe tests.js-Datei im assets -> js -> uebungen-Ordner) -->
+                        <!-- Hinzufügen der max_time-Klasse, mit der eine grüne Farbe des Balkens festgelegt wird (-> Siehe tests.scss-Datei im _sass-Ordner)
+                             -> Wird später mittels JavaScript gegen mid_time für blauen und min_time für roten Farbwechsel ausgetauscht (-> Siehe tests.js-Datei im assets -> js-Ordner) -->
                         <div id="progress-bar" class="progress-bar max_time" role="progressbar" aria-valuemin="0" aria-valuenow="[Anzahl]" aria-valuemax="[Anzahl]">
                             <!-- Angeben der verbleibenden Zeit im Fortschrittsbalken (-> Minuten/Sekunden-Wert muss manuell/individuell für jeden Test nachgetragen werden) -->
                             <span id="time_text">[Anzahl] Min. [Anzahl] Sek. verbleibend.</span>
                         </div>
                     </div>
-                    <!-- Generieren des Timeout-Pop-Ups, das zunächst auf der Website verborgen bleibt -> Es erscheint automatisch, sobald die vorgegebene Zeit abgelaufen ist (-> Siehe tests.js-Datei) -->
+                    <!-- Generieren des Timeout-Pop-Ups, das zunächst auf der Webseite verborgen bleibt -> Es erscheint automatisch, sobald die vorgegebene Zeit abgelaufen ist (-> Siehe tests.js-Datei) -->
                     <div id="timeout_pop_up">
                         <div id="timeout_content">
                             <h3>Zeit abgelaufen</h3>
@@ -58,7 +59,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Generieren eines <div>-Elements mit den Übungen und weiteren Buttons, das zunächst auf der Website verborgen bleibt -> Der Inhalt wird erst angezeigt, sobald der Nutzer auf den "Test starten"-Button klickt (-> Siehe tests.js-Datei) -->
+                    <!-- Generieren eines <div>-Elements mit den Übungen und weiteren Buttons, das zunächst auf der Webseite verborgen bleibt -> Der Inhalt wird erst nach einem Klick auf den 'Test starten'-Button angezeigt (-> Siehe tests.js-Datei) -->
                     <div id="exercises">
                         <!-- Itieren über die gruppierten Übungen -->
                         <xsl:for-each select="current-group()">
@@ -79,7 +80,7 @@
                             <button id="solution_button">Ergebnisse auswerten</button>
                             <button id="reset_button">Test zurücksetzen</button>
                         </div>
-                        <!-- Generieren des Warnung-Pop-Ups, das zunächst auf der Website verborgen bleibt -> Es erscheint, falls der Nutzer auf den "Ergebnisse auswerten"-Button klickt, bevor er eine Antwort bei jeder Frage ausgewählt hat (-> Siehe tests.js-Datei) -->
+                        <!-- Generieren des Warnung-Pop-Ups, das zunächst auf der Webseite verborgen bleibt -> Es nur erscheint nach einem Klick auf den 'Ergebnisse auswerten'-Button, falls noch nicht für jeder Frage eine Antwort ausgewählt wurde (-> Siehe tests.js-Datei) -->
                         <div id="warning_pop_up">
                             <div id="warning_content">
                                 <h3>Hinweis</h3>

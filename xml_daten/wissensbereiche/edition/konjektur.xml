@@ -5,7 +5,7 @@
     <section type="course" title="Konjektur" author="Christine Pohl, Ulrich Joost"
         creationTime="21.01.2008" label="konjektur" topics="Konjektur">
         <definition title="Konjektur" label="konjekturdef">
-            <LMMLtext>Lat.: Vermutung.</LMMLtext>
+            <LMMLtext>Lat.: Vermutung </LMMLtext>
         </definition>
         <illustration>
             <LMMLtext><referencesLink type="exercises" target="uebungkonjekturUeb"/></LMMLtext>

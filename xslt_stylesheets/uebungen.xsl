@@ -1,18 +1,18 @@
 <!-- ANWENDUNG UND ZIEL -->
 <!-- Anwenden des Stylesheets über die -it:main-Funktion des Saxon-XSLT-Prozessors -> Anwenden/Datenzugriff auf mehrere XML-Dateien über das main-Template (und nicht nur auf eine bestimmte Datei) -->
-<!-- Generieren der uebungen.xml-Datei (im daten -> xml_selbstgenerierte-Ordner), in der sämtliche Übungen aus allen Lerneinheiten gesammelt werden -->
+<!-- Generieren der uebungen.xml-Datei (im xml_daten -> selbstgenerierte-Ordner), in der sämtliche Übungen aus allen Lerneinheiten gesammelt werden -->
 <xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon" exclude-result-prefixes="saxon">
     <xsl:output method="xml" omit-xml-declaration="yes" indent="yes"/>
     <xsl:strip-space elements="*"/>
     
     <!-- VARIABLE UND DATENZUGRIFF -->
-    <!-- Deklarieren einer Variable mit dem Wert 0 -> Wird später inkrementell erhöht und dazu genutzt, sämtliche Übungen bzw. deren einzelne Elemente durchzunummerieren und ihnen somit eine eindeutige ID zu geben -->
+    <!-- Deklarieren einer Variable mit dem Wert 0 -> Wird später inkrementell erhöht und dazu genutzt, sämtliche Übungen bzw. deren einzelne Elemente durchzunummerieren und ihnen somit eine eindeutige ID zuzuweisen -->
     <xsl:variable name="ex_nr" select="0" saxon:assignable="yes"/>
     
     <!-- Zugreifen auf die benötigten Daten/Dateien -->
-    <xsl:template name="main">
+    <xsl:template name="xsl:initial-template">
         <div class="exercises">
-            <!-- Iterieren über sämtliche .xml-Dateien im xml_wissensbereiche-Ordner mithilfe der collection()-Funktion -->
+            <!-- Iterieren über sämtliche .xml-Dateien im xml_daten -> wissensbereiche-Ordner mithilfe der collection()-Funktion -->
             <xsl:for-each select="collection('../xml_daten/wissensbereiche/?select=*.xml;recurse=yes')">
                 <!-- Anwenden der Templates für sämtliche Übungen in der jeweiligen Datei -->
                 <xsl:apply-templates select=".//exercise"/>
@@ -31,7 +31,7 @@
                     <!-- Speichern des Wissensbereichs, aus dem die aktuelle Übung stammt, im resource-Attribut -->
                     <xsl:attribute name="resource">
                         <!-- Verwenden eines regex-Ausdrucks, um den gewünschten String (= Wissensbereich) aus der Dokument-URI (= Dateipfad) zu erhalten -->
-                        <xsl:analyze-string select="base-uri(.)" regex=".+xml_wissensbereiche/(.+?)/.+\.xml">
+                        <xsl:analyze-string select="base-uri(.)" regex=".+wissensbereiche/(.+?)/.+\.xml">
                             <xsl:matching-substring>
                                 <xsl:value-of select="regex-group(1)"/>
                             </xsl:matching-substring>
@@ -44,7 +44,7 @@
                     <!-- Einfügen der Fragestellung und des Textbeispiels (-> Templates für diese Elemente: siehe weiter unten, nach den Übungen) -->
                     <xsl:apply-templates select="./task[@type='fragestellung']"/>
                     <xsl:apply-templates select="./task[@type='textbeispiel']"/>
-                    <!-- Generieren des Pools an auswählbaren Multiple Choice-Optionen -->
+                    <!-- Generieren des Pools an auswählbaren MC-Optionen -->
                     <fieldset>
                         <xsl:attribute name="id">option_pool_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                         <!-- Iterieren über alle MC-Optionen/-Alternativen -> Generieren eines Radio-Buttons und eines Labels (= Textinhalt der Alternative) für jede Option -->
@@ -62,8 +62,7 @@
                             </div>
                         </xsl:for-each>
                     </fieldset>
-                    <!-- Generieren eines <div class="solution">-Elements, in dem das Feedback und die Lösung später mittels JavaScript eingefügt wird (-> Siehe tests.js-Datei im assets -> js -> uebungen-Ordner) -->
-                    <!-- Dieses Element bleibt zunächst verborgen -> Wird erst angezeigt, nachdem der Nutzer auf den 'Lösung anzeigen'-Button geklickt hat -->
+                    <!-- Generieren eines Elements, in dem das Feedback und die Lösung später mittels JavaScript eingefügt wird (-> Siehe tests.js-Datei im assets -> js-Ordner) -->
                     <div class="solution">
                         <xsl:attribute name="id">solution_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                         <div class="feedback">
@@ -73,12 +72,12 @@
                             <xsl:attribute name="id">answer_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                         </div>
                     </div>
-                    <!-- Speichern der Antworten/Lösungen in einem Element, das ebenfalls auf der HTML-Seite verborgen bleibt -->
+                    <!-- Speichern aller Antworten/Lösungen in einem Element -->
                     <div class="answer_pool">
                         <xsl:attribute name="id">answer_pool_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                         <xsl:for-each select="./solution">
                             <span>
-                                <!-- Ausstatten jeder Anwort mit einer Klasse -> Diese wird bei der Auswertung mit der ID der vom Nutzer ausgewählten Antwort abgeglichen, um so diejenige Lösung auszugeben, die zur vom Nutzer ausgewählten Option passt (-> Siehe tests.js-Datei) -->
+                                <!-- Ausstatten jeder Anwort mit einer Klasse -> Diese wird bei der Auswertung mit der ID der ausgewählten Antwort abgeglichen, um so diejenige Lösung anzuzeigen, die zur ausgewählten Option passt (-> Siehe tests.js-Datei) -->
                                 <xsl:attribute name="class">option_<xsl:value-of select="$ex_nr"/>_<xsl:value-of select="@label"/></xsl:attribute>
                                 <xsl:apply-templates/>
                             </span>
@@ -88,10 +87,10 @@
             </xsl:when>
             
             <!-- TEXTEINGABE-ÜBUNG -->
-            <xsl:when test="./@topics='musterloesung'">
+            <xsl:when test="@topics='musterloesung'">
                 <div class="exercise text">
                     <xsl:attribute name="resource">
-                        <xsl:analyze-string select="base-uri(.)" regex=".+xml_wissensbereiche/(.+?)/.+\.xml">
+                        <xsl:analyze-string select="base-uri(.)" regex=".+wissensbereiche/(.+?)/.+\.xml">
                             <xsl:matching-substring>
                                 <xsl:value-of select="regex-group(1)"/>
                             </xsl:matching-substring>
@@ -102,14 +101,13 @@
                     </xsl:attribute>
                     <xsl:apply-templates select="./task[@type='fragestellung']"/>
                     <xsl:apply-templates select="./task[@type='textbeispiel']"/>
-                    <!-- Generieren eines Textfelds, das der Nutzer mit eigenem Text befüllen kann -->
+                    <!-- Generieren eines Textfelds, das von dem/der Übenden mit einem eigenen Text befüllt werden kann -->
                     <div class="input">
                         <div class="pretext">Ihre Formulierung:</div>
                         <textarea class="input_field">
                             <xsl:attribute name="id">input_field_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                         </textarea>
                     </div>
-                    <!-- Speichern der Antwort/Lösung in einem Element, das auf der HTML-Seite zunächst verborgen bleibt -> Wird erst angezeigt, nachdem der Nutzer auf den 'Lösung anzeigen'-Button geklickt hat -->
                     <div class="solution">
                         <xsl:attribute name="id">solution_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                         <div class="feedback">
@@ -125,10 +123,10 @@
             </xsl:when>
             
             <!-- MARKIEREN-ÜBUNG -->
-            <xsl:when test="./@topics='markieren'">
+            <xsl:when test="@topics='markieren'">
                 <div class="exercise marker">
                     <xsl:attribute name="resource">
-                        <xsl:analyze-string select="base-uri(.)" regex=".+xml_wissensbereiche/(.+?)/.+\.xml">
+                        <xsl:analyze-string select="base-uri(.)" regex=".+wissensbereiche/(.+?)/.+\.xml">
                             <xsl:matching-substring>
                                 <xsl:value-of select="regex-group(1)"/>
                             </xsl:matching-substring>
@@ -155,10 +153,10 @@
             </xsl:when>
             
             <!-- LÜCKENTEXT-ÜBUNG -->
-            <xsl:when test="./@topics='luecken'">
+            <xsl:when test="@topics='luecken'">
                 <div class="exercise gaps">
                     <xsl:attribute name="resource">
-                        <xsl:analyze-string select="base-uri(.)" regex=".+xml_wissensbereiche/(.+?)/.+\.xml">
+                        <xsl:analyze-string select="base-uri(.)" regex=".+wissensbereiche/(.+?)/.+\.xml">
                             <xsl:matching-substring>
                                 <xsl:value-of select="regex-group(1)"/>
                             </xsl:matching-substring>
@@ -176,7 +174,7 @@
                             </div>
                         </xsl:if>
                     </xsl:for-each>
-                    <!-- Generieren eines <div class="solution">-Elements, in dem jetzt die Antwort/Lösung aus dem XML-Dokument eingefügt wird und später das Feedback mittels JavaScript ergänzt werden kann -->
+                    <!-- Generieren eines Elements, in dem jetzt die Antwort/Lösung aus dem XML-Dokument eingefügt wird und später das Feedback mittels JavaScript ergänzt werden kann -->
                     <div class="solution">
                         <xsl:attribute name="id">solution_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                         <div class="feedback">
@@ -194,7 +192,7 @@
             <xsl:otherwise>
                 <div class="exercise dnd">
                     <xsl:attribute name="resource">
-                        <xsl:analyze-string select="base-uri(.)" regex=".+xml_wissensbereiche/(.+?)/.+\.xml">
+                        <xsl:analyze-string select="base-uri(.)" regex=".+wissensbereiche/(.+?)/.+\.xml">
                             <xsl:matching-substring>
                                 <xsl:value-of select="regex-group(1)"/>
                             </xsl:matching-substring>
@@ -214,7 +212,7 @@
                     <!-- Generieren der Drop-Areas, in denen die DND-Items platziert werden sollen -->
                     <div class="drop_areas">
                         <xsl:attribute name="id">drop_areas_<xsl:value-of select="$ex_nr"/></xsl:attribute>
-                        <!-- Iterieren über alle Spalten der DND-Tabelle im XML-Dokument - Für jede Spalte: -->
+                        <!-- Iterieren über alle Spalten der DND-Tabelle im XML-Dokument -> Für jede Spalte: -->
                         <xsl:for-each select=".//LMMLtext[matches(@type, 'column')]">
                             <div class="drop_wrapper">
                                 <!-- Einfügen der Drop-Area-Überschrift -->
@@ -233,19 +231,19 @@
                         <xsl:attribute name="id">dnd_items_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                         <!-- Iterieren über alle <LMMLtext type='input'>-Elemente (= DND-Items) -->
                         <xsl:for-each select=".//LMMLtext[matches(@type, 'input')]">
-                            <!-- Sicherstellen, dass das DND-Item (bzw. Element) nicht leer ist -->
+                            <!-- Sicherstellen, dass das Element nicht leer ist -->
                             <xsl:if test=". != ''">
                                 <!-- Austatten des Items mit einer ID und Attributen, welche die DND-Funktion ermöglichen -->
                                 <div draggable="true" ondragstart="drag(event)">
                                     <xsl:attribute name="id">dnd_item_<xsl:value-of select="$ex_nr"/>_<xsl:number count="LMMLtext[matches(@type, 'input')]"/></xsl:attribute>
-                                    <!-- Austatten des Items mit einer Klasse -> Diese wird bei der Auswertung mit der ID der Drop-Area abgeglichen, in die der Nutzer das Item platziert hat, um so festzustellen, ob es korrekt zugeordnet wurde (-> Siehe uebungen.js-Datei) -->
+                                    <!-- Austatten des Items mit einer Klasse -> Diese wird bei der Auswertung mit der ID der Drop-Area abgeglichen, in der das Item platziert wurde, um so festzustellen, ob es korrekt zugeordnet wurde -->
                                     <xsl:attribute name="class">drop_area_<xsl:value-of select="$ex_nr"/>_<xsl:value-of select="@title"/></xsl:attribute>
                                     <xsl:apply-templates/>
                                 </div>
                             </xsl:if>
                         </xsl:for-each>
                     </div>
-                    <!-- Generieren eines <div class="solution">-Elements, in dem das Feedback später mittels JavaScript eingefügt werden kann -->
+                    <!-- Generieren eines Elements, in dem später das Feedback mittels JavaScript eingefügt werden kann -->
                     <div class="solution">
                         <xsl:attribute name="id">solution_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                         <div class="feedback">
@@ -278,9 +276,11 @@
             <span class="author_title">
                 <span class="author"><xsl:value-of select="@authorname"/><xsl:text xml:space="preserve"> </xsl:text><xsl:value-of select="@authorfamily"/>:</span>
                 <xsl:choose>
+                    <!-- Testen, ob das booktitle-Attribut einen Textinhalt (und nicht nur Leerzeichen) besitzt -> Falls ja: Titel daraus beziehen -->
                     <xsl:when test="normalize-space(@booktitle) != ''">
                         <span class="title"><xsl:text xml:space="preserve"> </xsl:text><xsl:value-of select="@booktitle"/></span>
                     </xsl:when>
+                    <!-- Testen, ob das title-Attribut einen Textinhalt (und nicht nur Leerzeichen) besitzt -> Falls ja: Titel daraus beziehen -->
                     <xsl:when test="normalize-space(@title) != ''">
                         <span class="title"><xsl:text xml:space="preserve"> </xsl:text><xsl:value-of select="@title"/></span>
                     </xsl:when>
@@ -333,7 +333,7 @@
         </div>
     </xsl:template>
     
-    <!-- Markieren-Übung: Kennzeichnung für die korrekten bzw. gesuchten Stellen im markierbaren Text -->
+    <!-- Markieren-Übung: Kennzeichnung für die korrekten/gesuchten Stellen im markierbaren Text -->
     <xsl:template match="formatted[@style='richtig' or @style='style1']">
         <span class="correct_marker">
             <xsl:apply-templates/>
@@ -348,12 +348,12 @@
     <xsl:template match="option[not(@target)]">
         <xsl:variable name="label"><xsl:value-of select="@label"/></xsl:variable>
         <select name="dropdown" class="gap">
-            <!-- Festlegen des Standardwerts für jede Lücke, der vor der Auswahl durch den Nutzer zu sehen ist -->
+            <!-- Festlegen des Standardwerts für jede Lücke, der zu Beginn eingestellt ist -->
             <option value="standard">--- bitte auswählen ---</option>
             <!-- Anwenden des Templates für das aktuelle <option>-Element -->
             <!-- Versehen mit dem Attribut value="true", da es sich hierbei um die korrekte Option handelt -->
             <option value="true"><xsl:apply-templates/></option>
-            <!-- Iterieren über alle nachfolgenden Geschwister-Elemente, deren target-Attribut mit dem label der Lücke übereinstimmt (= weitere Optionen für diese Lücke) -->
+            <!-- Iterieren über alle nachfolgenden Geschwisterelemente, deren target-Attribut mit dem label der Lücke übereinstimmt (= weitere Optionen für diese Lücke) -->
             <xsl:for-each select="following-sibling::option[@target=$label]">
                 <!-- Versehen mit dem Attribut value="false", da es sich hierbei um die inkorrekten Optionen handelt -->
                 <option value="false"><xsl:value-of select="."></xsl:value-of></option>
@@ -453,7 +453,7 @@
     <xsl:template match="quotation/LMMLtext[not(@type='br')]">
         <xsl:if test=".//node()">
             <xsl:choose>
-                <!-- Testen, ob der Text ein Teil der Markieren-Übung ist -> Falls ja: Textabschnitte dürfen nicht mit <div>-Elementen umschlossen werden, da die Markierfunktion sonst nicht korrekt funktioniert -->
+                <!-- Testen, ob der Text ein Teil der Markieren-Übung ist -> Falls ja: Textabschnitte dürfen nicht mit <div>-Elementen umschlossen werden, weil das Markieren sonst nicht korrekt funktioniert -->
                 <!-- Für Zeilenumbrüche wird stattdessen mit <br/>-Elementen gesorgt -->
                 <xsl:when test="ancestor::task[@type='selection']">
                     <xsl:apply-templates/><br/>
@@ -526,9 +526,9 @@
     <!-- MEDIEN -->
     <!-- PDFs -->
     <xsl:template match="externalLink[matches(@uri, '.pdf|.PDF')]">
-        <embed class="pdf" type="application/pdf">
-            <xsl:attribute name="src"><xsl:text>{{ 'assets/media/</xsl:text><xsl:value-of select="@uri"/><xsl:text>' | relative_url }}</xsl:text></xsl:attribute>
-        </embed>
+        <object class="pdf" type="application/pdf">
+            <xsl:attribute name="data"><xsl:text>{{ 'assets/media/</xsl:text><xsl:value-of select="@uri"/><xsl:text>' | relative_url }}</xsl:text></xsl:attribute>
+        </object>
     </xsl:template>
     
     <!-- Bilder -->
@@ -569,7 +569,7 @@
     </xsl:template>
     
     <!-- LINKS/POP-OVER -->
-    <!-- Darstellen ohne Links bzw. als gewöhnlicher Text in diesem Rahmen -->
+    <!-- Darstellen ohne Links bzw. als gewöhnlicher Text -> Links/Pop-Over werden in diesem Kontext nicht benötigt -->
     <xsl:template match="referencesLink[@target and not(@type='illustrates') and not(@type='exercises') and not(@type='book')]">
         <xsl:apply-templates/>
     </xsl:template>

@@ -32,7 +32,7 @@
                 <item>
                     <LMMLtext><referencesLink show="new" type="defines" target="aptumdef"
                                 ><referencesLink target="aptum"
-                            >aptum</referencesLink></referencesLink>: die Angemessenheit</LMMLtext>
+                                    >aptum</referencesLink></referencesLink>: die Angemessenheit – </LMMLtext>
                     <LMMLtext>Die Tugend des aptum besagt, dass der Redner sämtliche Bestandteile
                         der sprachlichen Äußerung an deren Inhalte und Gegenstände (<formatted
                             style="hervorhebung">inneres aptum</formatted>) ebenso anpasst wie an
@@ -43,21 +43,21 @@
                 <item>
                     <LMMLtext><formatted style="hervorhebung">latinitas</formatted>: die
                         Sprachrichtigkeit (ursprünglich bezogen auf die lateinische
-                        Sprache)</LMMLtext>
+                        Sprache) – </LMMLtext>
                     <LMMLtext>Die Tugend der latinitas besagt, dass der Text bzw. die Rede den
                         jeweiligen sprachlichen Regeln entspricht, also sprachlich korrekt
                         ist.</LMMLtext>
                 </item>
                 <item>
                     <LMMLtext><formatted style="hervorhebung">perspicuitas</formatted>: die
-                        Durchschaubarkeit, Transparenz</LMMLtext>
+                        Durchschaubarkeit, Transparenz – </LMMLtext>
                     <LMMLtext>Die Tugend der perspicuitas meint die Deutlichkeit und
                         Verständlichkeit der Rede, die vom Redner in allen Produktionsstadien der
                         Rede zu beachten sind.</LMMLtext>
                 </item>
                 <item>
                     <LMMLtext><formatted style="hervorhebung">ornatus</formatted>: der
-                        Redeschmuck</LMMLtext>
+                        Redeschmuck – </LMMLtext>
                     <LMMLtext>Die Tugend des ornatus besagt, dass die gefundenen Gedanken in
                         ‚schönen Worten’ (oder in besonders prägnanten, in besonders auffälligen, in
                         besonders pointierten oder besonders emotionalen ... Worten) zum Ausdruck
@@ -67,13 +67,13 @@
                         nicht nur belehrend, sondern auch unterhaltend und mitreißend sein. Somit
                         fallen die rhetorischen Figuren ebenso wie die Tropen in den Bereich des
                         rhetorischen und sprachkünstlerischen ornatus (vgl. <referencesLink
-                                target="rhetorischetextanalyseundstilistik">rhetorische
-                                Textanalyse</referencesLink>). Im Gegensatz zu den
-                        drei ersten Tugenden der elocutio, die unmittelbar an Normen orientiert
-                        sind, beruht der ornatus eher auf der bewussten und zweckorientierten
-                        Abweichung von (konventionellen) Normen (vgl. <referencesLink show="new"
-                            type="defines" target="arsnaturadef"><referencesLink target="arsnatura"
-                                >ars – natura</referencesLink></referencesLink>).</LMMLtext>
+                            target="rhetorischetextanalyseundstilistik">rhetorische
+                            Textanalyse</referencesLink>). Im Gegensatz zu den drei ersten Tugenden
+                        der elocutio, die unmittelbar an Normen orientiert sind, beruht der ornatus
+                        eher auf der bewussten und zweckorientierten Abweichung von
+                        (konventionellen) Normen (vgl. <referencesLink show="new" type="defines"
+                            target="arsnaturadef"><referencesLink target="arsnatura">ars –
+                                natura</referencesLink></referencesLink>).</LMMLtext>
                 </item>
             </ulist>
         </illustration>

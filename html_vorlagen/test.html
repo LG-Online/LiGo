@@ -3,7 +3,7 @@ title: "[Titel]"
 layout: default
 type: test
 ---
-<!-- HINWEIS: Einträge in [eckigen Klammern] sind durch eigene Angaben/Inhalte zu ersetzen -->
+<!-- HINWEIS: Einträge in [eckigen Klammern] sind durch eigene Angaben/Inhalte zu ersetzen; nicht benötigte Elemente sind zu löschen  -->
 
 <h1 id="top">Test - [Wissensbereich/Thema]</h1>
 <div class="introduction">
@@ -15,7 +15,7 @@ type: test
     <button id="start_button">Test starten</button>
 </div>
 <div class="progress">
-    <div id="progress-bar" class="progress-bar max_time" role="progressbar" aria-valuemin="0" aria-valuenow="[Zeitvorgabe in Sek.]" aria-valuemax="[Zeitvorgabe in Sek.]">
+    <div id="progress-bar" class="progress-bar max_time" role="progressbar" aria-valuemin="0" aria-valuenow="[Zeitvorgabe IN SEKUNDEN]" aria-valuemax="[Zeitvorgabe IN SEKUNDEN]">
         <span id="time_text">[Zahl] Min. [Zahl] Sek. verbleibend.</span>
     </div>
 </div>
@@ -39,38 +39,45 @@ type: test
             <div class="text">[Text]</div>
             <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
         </div>
-        <fieldset id="option_pool_[Übung-Nr.]">
+        <!-- Optionale PDF-Datei zur Frage -->
+        <object class="pdf" data="{{ 'assets/media/[Datei].pdf' | relative_url }}" type="application/pdf"></object>
+        <!-- Optionales Bild zur Frage -->
+        <img class="media" src="{{ 'assets/media/[Datei].jpg/.gif' | relative_url }}">
+        <!-- Set an auswählbaren Optionen -->
+        <fieldset id="option_pool_1">
             <div class="option">
-                <input type="radio" name="set_[Übung-Nr.]" id="option_[Übung-Nr.]-1" value="true">
-                <label for="option_[Übung-Nr.]-1">
+                <input type="radio" name="set_1" id="option_1-1" value="true">
+                <label for="option_1-1">
                     <span class="text">[Text]</span>
                     <!-- Optionale Angabe zu Autor und Titel, falls es sich bei der Option um ein Textbeispiel aus einem Werk handelt -->
                     <span class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</span>
                 </label>
             </div>
             <div class="option">
-                <input type="radio" name="set_[Übung-Nr.]" id="option_[Übung-Nr.]-2" value="false">
-                <label for="option_[Übung-Nr.]-2">
+                <input type="radio" name="set_1" id="option_1-2" value="false">
+                <label for="option_1-2">
                     <span class="text">[Text]</span>
                     <span class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</span>
                 </label>
             </div>
             <div class="option">
-                <input type="radio" name="set_[Übung-Nr.]" id="option_[Übung-Nr.]-3" value="false">
-                <label for="option_[Übung-Nr.]-3">
+                <input type="radio" name="set_1" id="option_1-3" value="false">
+                <label for="option_1-3">
                     <span class="text">[Text]</span>
                     <span class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</span>
                 </label>
             </div>
         </fieldset>
-        <div id="solution_[Übung-Nr.]" class="solution">
-            <div id="feedback_[Übung-Nr.]" class="feedback"></div>
-            <div id="answer_[Übung-Nr.]" class="answer"></div>
+        <div id="solution_1" class="solution">
+            <!-- Beide Elemente hier leer lassen -> Werden später durch eine JavaScript-Funktion befüllt, basierend auf der ausgewählten Antwort bei dieser Frage -->
+            <div id="feedback_1" class="feedback"></div>
+            <div id="answer_1" class="answer"></div>
         </div>
-        <div id="answer_pool_[Übung-Nr.]" class="answer_pool">
-            <div class="option_[Übung-Nr.]-1">[Text]</div>
-            <div class="option_[Übung-Nr.]-2">[Text]</div>
-            <div class="option_[Übung-Nr.]-3">[Text]</div>
+        <!-- Individuelle Antworten/Lösungen zu den einzelnen MC-Optionen dieser Frage -->
+        <div id="answer_pool_1" class="answer_pool">
+            <div class="option_1-1">[Text]</div>
+            <div class="option_1-2">[Text]</div>
+            <div class="option_1-3">[Text]</div>
         </div>
     </div>
     <hr class="separation_line">
@@ -80,48 +87,44 @@ type: test
             <div class="pretext">Fragestellung:</div>
             <div class="text">[Text]</div>
         </div>
-        <!-- Optionales Textbeispiel zur Frage -->
-        <div class="quotation">
-            <div class="pretext">Textbeispiel:</div>
-            <div class="text">[Text]</div>
-            <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
-        </div>
-        <fieldset id="option_pool_[Übung-Nr.]">
+        <fieldset id="option_pool_2">
             <div class="option">
-                <input type="radio" name="set_[Übung-Nr.]" id="option_[Übung-Nr.]-1" value="true">
-                <label for="option_[Übung-Nr.]-1">
+                <input type="radio" name="set_2" id="option_2-1" value="true">
+                <label for="option_2-1">
                     <span class="text">[Text]</span>
                     <!-- Optionale Angabe zu Autor und Titel, falls es sich bei der Option um ein Textbeispiel handelt -->
                     <span class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</span>
                 </label>
             </div>
             <div class="option">
-                <input type="radio" name="set_[Übung-Nr.]" id="option_[Übung-Nr.]-2" value="false">
-                <label for="option_[Übung-Nr.]-2">
+                <input type="radio" name="set_2" id="option_2-2" value="false">
+                <label for="option_2-2">
                     <span class="text">[Text]</span>
                     <span class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</span>
                 </label>
             </div>
             <div class="option">
-                <input type="radio" name="set_[Übung-Nr.]" id="option_[Übung-Nr.]-3" value="false">
-                <label for="option_[Übung-Nr.]-3">
+                <input type="radio" name="set_2" id="option_2-3" value="false">
+                <label for="option_2-3">
                     <span class="text">[Text]</span>
                     <span class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</span>
                 </label>
             </div>
         </fieldset>
-        <div id="solution_[Übung-Nr.]" class="solution">
-            <div id="feedback_[Übung-Nr.]" class="feedback"></div>
-            <div id="answer_[Übung-Nr.]" class="answer"></div>
+        <div id="solution_2" class="solution">
+            <div id="feedback_2" class="feedback"></div>
+            <div id="answer_2" class="answer"></div>
         </div>
-        <div id="answer_pool_[Übung-Nr.]" class="answer_pool">
-            <div class="option_[Übung-Nr.]-1">[Text]</div>
-            <div class="option_[Übung-Nr.]-2">[Text]</div>
-            <div class="option_[Übung-Nr.]-3">[Text]</div>
+        <div id="answer_pool_2" class="answer_pool">
+            <div class="option_2-1">[Text]</div>
+            <div class="option_2-2">[Text]</div>
+            <div class="option_2-3">[Text]</div>
         </div>
     </div>
     <hr class="separation_line">
-    <!-- An dieser Stelle beliebig viele weitere Fragen nach dem obigen Schema hinzufügen und durchnummerieren -->    
+    
+    <!-- An dieser Stelle beliebig viele weitere Fragen/MC-Übungen nach dem obigen Schema hinzufügen und durchnummerieren -->
+    
     <div class="exercise_buttons">
         <button id="solution_button">Ergebnisse auswerten</button>
         <button id="reset_button">Test zurücksetzen</button>
@@ -129,6 +132,7 @@ type: test
     <div id="warning_pop_up">
         <div id="warning_content">
             <h3>Hinweis</h3>
+            <!-- Dieses Element hier leer lassen -> Wird später ggf. durch eine JavaScript-Funktion befüllt, basierend auf den noch unbeantworteten Fragen -->
             <p id="warning_text"></p>
             <div class="exercise_buttons">
                 <button id="return_button">Weiter bearbeiten</button>
@@ -136,5 +140,6 @@ type: test
             </div>
         </div>
     </div>
+    <!-- Dieses Element hier leer lassen -> Wird später durch eine JavaScript-Funktion befüllt, basierend auf der Anzahl der korrekt beantworteten Fragen -->
     <div id="feedback" class="feedback"></div>
 </div>

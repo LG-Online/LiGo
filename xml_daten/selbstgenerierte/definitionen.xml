@@ -293,7 +293,7 @@
         id="Konjektur"
         label="konjekturdef"
         uri="edition"
-        file="konjektur.html">Lat.: Vermutung.</div>
+        file="konjektur.html">Lat.: Vermutung </div>
    <div class="definition"
         id="Textphasen"
         label="textphasendef"
@@ -337,9 +337,11 @@
         file="akcentnyjstich.html">(Russ. ›Akzentvers‹.) Untergruppe der Verse mit Füllungsfreiheit. Die Anzahl der nicht-prominenten zwischen den prominenten Silben variiert zwischen 0 und mehr als 3.</div>
    <div class="definition"
         id="Alliteration"
-        label="alliterationdef"
+        label="alliteration"
         uri="metrik"
-        file="alliterationstabreim.html">Lautliche Übereinstimmung der Anfänge von zwei oder mehr akzentuierten Silben.</div>
+        file="alliterationstabreim.html">Lautliche
+                        Übereinstimmung der Anfänge von zwei oder
+                mehr akzentuierten Silben.</div>
    <div class="definition"
         id="Amphibrachys"
         label="amphibrachysdef"
@@ -384,7 +386,10 @@
         id="Einzelvortrag"
         label="einzelvortragdef"
         uri="metrik"
-        file="einzelvortrag.html">konkrete sprachliche Präsentation eines Verstextes, in der sich der Sprecher möglicherweise an einem Vortragstyp orientiert, die aber dennoch eine individuelle Interpretation des Rhythmus der Einzelverse darstellt.</div>
+        file="einzelvortrag.html">konkrete sprachliche Präsentation eines Verstextes, in der sich der Sprecher
+                möglicherweise an einem Vortragstyp orientiert, die aber dennoch
+                eine individuelle Interpretation des Rhythmus der
+                        Einzelverse darstellt.</div>
    <div class="definition"
         id="Endecasillabo"
         label="endecasillabodef"
@@ -434,7 +439,11 @@
         id="Lautliche Übereinstimmung"
         label="lautlicheuebereinstimmungdef"
         uri="metrik"
-        file="lautlicheuebereinstimmung.html">Lautliche Übereinstimmung: Eine der vier Verskonstituenten. Nach Anzahl und/oder Position regulierte Wiederholung von Phonemen oder Phonemgruppen im Verstext. Die Lautwiederholung betrifft in der Regel den Wortanfang (Alliteration/Stabreim) oder das Wortende (Assonanz, Endreim).</div>
+        file="lautlicheuebereinstimmung.html">Lautliche Übereinstimmung: Eine der vier Verskonstituenten. Nach Anzahl und/oder
+                Position regulierte Wiederholung von Phonemen oder Phonemgruppen im Verstext. Die
+                Lautwiederholung betrifft in der Regel den Wortanfang (Alliteration/Stabreim) oder das Wortende
+                    (Assonanz,
+                    Endreim).</div>
    <div class="definition"
         id="Metrische Notation"
         label="metrischenotationdef"
@@ -463,11 +472,8 @@
         label="pause_mdef"
         uri="metrik"
         file="pause_m.html">Eine der vier 
-				
-						Verskonstituenten
-					
-				. Position im Vers, an welcher der Artikulationsvorgang unterbrochen wird.
-			</div>
+						Verskonstituenten  . Position im Vers, an welcher der Artikulationsvorgang
+				unterbrochen wird. </div>
    <div class="definition"
         id="Prosodie"
         label="prosodiedef"
@@ -721,7 +727,9 @@ Anführungszeichen.</div>
         id="Figur"
         label="figurdef"
         uri="prosa"
-        file="figur.html">Mentales Modell eines Menschen oder einer menschenähnlichen Gestalt in einer erzählten Welt. Wird vom Leser aufgebaut, indem er Informationen aus dem Discours um Weltwissen ergänzt.</div>
+        file="figur.html">Mentales Modell eines Menschen oder einer menschenähnlichen Gestalt in einer
+                erzählten Welt. Wird vom Leser aufgebaut, indem er Informationen aus dem Discours um
+                Weltwissen ergänzt.</div>
    <div class="definition"
         id="Figurale Schemata"
         label="figuraleschematadef"
@@ -732,11 +740,6 @@ Anführungszeichen.</div>
         label="figureninformationen"
         uri="prosa"
         file="figureninformationenimdiscours.html">Informationen über die Figur aus dem Discours. Angaben zum Äußeren, zu mentalen und charakterlichen Eigenschaften, sprachliche Äußerungen der Figur und die Inhalte dieser Äußerungen und Handlungen.</div>
-   <div class="definition"
-        id="Figurenkonstellation"
-        label="figurenkonstellationdef"
-        uri="prosa"
-        file="figurenkonstellation.html">Verhältnis und Stellung aller Figuren eines Dramas zueinander wird als Figurenkonstellation beschrieben.</div>
    <div class="definition"
         id="Figurenmodell"
         label="figurenmodell"
@@ -1224,11 +1227,6 @@ Erzählers?).</div>
         uri="rhetorik"
         file="emblem.html">Gattung/Textsorte: aus Überschrift, Bild und Text zusammengesetzter bimedialer Komplex, in dem die einzelnen Bestandteile durch Ähnlichkeits- oder andere Verweisungszusammenhänge miteinander verknüpft sind</div>
    <div class="definition"
-        id="Epilog"
-        label="epilogdef"
-        uri="rhetorik"
-        file="epilog.html">Der eigentlichen Dramenhandlung folgendes, deutlich abgegrenztes Nachwort, das eine zwischen Dramentext, Autor und Publikum vermittelnde Position einnehmen kann.</div>
-   <div class="definition"
         id="(rhetorische) Figur"
         label="rhetorischefigurdef"
         uri="rhetorik"
@@ -1345,11 +1343,6 @@ Parataxe: syntaktisch-hierarchielose Reihung von Satzgliedern</div>
         label="praeteritiodef"
         uri="rhetorik"
         file="praeteritio.html">Gedankenfigur: explizite Auslassung von Gedanken und Sachverhalten</div>
-   <div class="definition"
-        id="Prolog"
-        label="prologdef"
-        uri="rhetorik"
-        file="prolog.html">Der eigentlichen Dramenhandlung vorgelagerte, deutlich markierte Vorrede, die der Ankündigung, Erläuterung und Ausdeutung dienen kann.</div>
    <div class="definition"
         id="res - verba"
         label="resverbadef"

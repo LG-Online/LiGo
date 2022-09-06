@@ -14,7 +14,8 @@
                     Anordnungsprinzipien</referencesLink> sind dabei die Kategorien <referencesLink
                     target="auftaktanakrusis"><referencesLink show="new" type="defines"
                         target="auftaktanakrusisdef">Auftakt</referencesLink></referencesLink> und
-                    <referencesLink target="kadenzversausgangdef">Kadenz</referencesLink> besonders
+                <referencesLink target="kadenzversausgang"><referencesLink show="new" type="defines"
+                    target="kadenzversausgangdef">Kadenz</referencesLink></referencesLink> besonders
                 einschlägig. Für die Abfolge der Verszeilen (vertikale Anordnungsprinzipien) erlangt
                 die Gestaltung des Übergangs besondere Bedeutung, sei es unter primär syntaktischem
                 (Enjambement), sei es unter primär metrisch-rhythmischem Blickwinkel

@@ -1,17 +1,17 @@
 <!-- ANWENDUNG UND ZIEL -->
-<!-- Anwenden des Stylesheets auf die [lerneinheit].xml-Dateien (in den daten -> xml_wissensbereiche -> Unterordnern) mit den einzelnen Kurs-/Lerneinheiten -->
-<!-- Generieren der [lerneinheit].html-Dateien (in den _pages -> wissensbereiche -> Unterordnern) mit den einzelnen Kurs-/Lerneinheiten -->
+<!-- Anwenden des Stylesheets auf die [lerneinheit].xml-Dateien (in den xml_daten -> wissensbereiche-Unterordnern) mit den einzelnen Kurs-/Lerneinheiten -->
+<!-- Generieren der [lerneinheit].html-Dateien (in den _pages -> wissensbereiche-Unterordnern) mit den einzelnen Kurs-/Lerneinheiten -->
 <xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" indent="yes"/>
     <xsl:strip-space elements="*"/>
     
     <!-- VARIABLE UND KEY -->
-    <!-- Speichern des aktuellen Dokument-Pfads in der path-Variable -> Wird später zur Zuordnung des korrekten Wissensbereichs beim Generieren der Navigationslinks und der internen Links verwendet  -->
+    <!-- Speichern des aktuellen Dokument-Pfads in der path-Variable -> Wird später zur Zuordnung des korrekten Wissensbereichs beim Generieren der Navigationslinks und der internen Links verwendet -->
     <xsl:variable name="path" select="document-uri(/)"/>    
-    <!-- Speichern der menue.xml-Datei, in der die gesamte Struktur aller Wissensbereiche und Kurse gespeichert ist, in der menue-Variable -> Wird später zum Generien der Navigationslinks verwendet  -->
+    <!-- Speichern der menue.xml-Datei, in der die gesamte Struktur aller Wissensbereiche und Kurse gespeichert ist, in der menue-Variable -> Wird später zum Generien der Navigationslinks verwendet -->
     <xsl:variable name="menue" select="document('../xml_daten/sonstige/menue.xml')"/>
-    <!-- Generieren eines Keys für die Beispiele/Übungen -> Wird später verwendet, um diese Elemente an der korrekten Stelle im HTML-Dokument einzufügen -->
-    <!-- (In den XML-Dokumenten befinden sich die Beispiele/Übungen immer ganz am Ende, aber im HTML-Dokument sollen sie direkt an der dafür vorgesehenen Stelle zwischen den Textabschnitten eingefügt werden) -->
+    <!-- Generieren eines Keys für die Beispiele/Übungen -> Wird später verwendet, um diese Elemente an der korrekten Stelle in den HTML-Dokumenten einzufügen
+         (-> In den XML-Dokumenten befinden sich die Beispiele/Übungen immer ganz am Ende, aber in den HTML-Dokumenten sollen sie direkt an der für sie vorgesehenen Stelle zwischen den Textabschnitten eingefügt werden) -->
     <xsl:key name="examples_exercises" match="section[@type='example']|exercise" use="@label"/>
     
     <!-- YAML FRONT MATTER -->
@@ -28,7 +28,7 @@
     
     <xsl:template match="section[@type='course']">
         <!-- Speichern des Lerneinheit-Labels in der label-Variable -> Wird später zum Finden der aktuellen Lerneinheit in der menue.xml-Datei verwendet -->
-        <xsl:variable name="label" select="./@label"/>
+        <xsl:variable name="label" select="@label"/>
         
         <!-- BROTKRUMEN-NAVIGATION -->
         <div class="breadcrumb_nav">
@@ -73,7 +73,7 @@
                         <xsl:text>{{ '_pages/wissensbereiche/</xsl:text>
                         <xsl:value-of select="./ancestor-or-self::section[@discipline]/@discipline"/>
                         <xsl:text>/</xsl:text>
-                        <xsl:value-of select="./@uri"/>
+                        <xsl:value-of select="@uri"/>
                         <xsl:text>' | relative_url }}</xsl:text>
                     </xsl:attribute>
                     <xsl:value-of select="@title"/>
@@ -82,10 +82,10 @@
             </xsl:for-each>
             <xsl:value-of select="@title"/>
         </div>
-        <!-- Einfügen einer Trennlinie zwischen Navigation und Hauptinhalt der Lerneinheit -->
+        <!-- Einfügen einer Trennlinie zwischen Navigation und Kerninhalt der Lerneinheit -->
         <hr class="separation_line"/>
         
-        <!-- HAUPTINHALT -->
+        <!-- KERNINHALT -->
         <!-- Überschrift der Lerneinheit -->
         <h1><xsl:value-of select="@title"/></h1>
         
@@ -102,8 +102,8 @@
         <div class="content_data">
             <!-- Einfügen des Copyright-Symbols mit &#169; -->
             <!-- Einfügen von Leerzeichen, bei denen kein Zeilenumbruch stattfinden darf, mit &#160; -> Dadurch wird sichergestellt, dass der Zeilenumbruch auf kleineren Bildschirmen immer NACH dem '/'-Trenner erfolgt -->
-            <span class="content_author">&#169;&#160;<xsl:value-of select="./@author"/>&#160;/</span>
-            <span class="content_date">&#160;Letzte inhaltliche Änderung am: <xsl:value-of select="./@creationTime"/></span>
+            <span class="content_author">&#169;&#160;<xsl:value-of select="@author"/>&#160;/</span>
+            <span class="content_date">&#160;Letzte inhaltliche Änderung am: <xsl:value-of select="@creationTime"/></span>
         </div>
         
         <!-- KURS-NAVIGATION -->
@@ -114,7 +114,7 @@
             <!-- Testen, dass es sich nicht um die 1. Seite (= Startseite) eines Kurses handelt (-> Diese Seiten werden später gesondert behandelt) -->
             <xsl:when test="not($menue//section[@label = $label]/parent::section[@label='ligostart'])">
                 <div class="course_nav">
-                    <!-- Link zur vorherigen Kurseinheit -->
+                    <!-- Link zur vorherigen Einheit -->
                     <div class="previous_course">
                         <a class="previous_link">
                             <xsl:attribute name="href">
@@ -144,8 +144,8 @@
                         <div class="course_item">
                             <xsl:choose>
                                 <!-- Falls es sich um die Lerneinheit des aktuell transformierten Dokuments handelt: keinen Link, sondern nur Texteintrag generieren -->
-                                <xsl:when test="./@label = $label">
-                                    <xsl:value-of select="./@title"/>
+                                <xsl:when test="@label = $label">
+                                    <xsl:value-of select="@title"/>
                                 </xsl:when>
                                 <!-- Falls es sich um eine andere Lerneinheit des Kurses handelt: Link generieren -->
                                 <xsl:otherwise>
@@ -154,10 +154,10 @@
                                             <xsl:text>{{ '_pages/wissensbereiche/</xsl:text>
                                             <xsl:value-of select="./ancestor-or-self::section[@discipline]/@discipline"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="./@uri"/>
+                                            <xsl:value-of select="@uri"/>
                                             <xsl:text>' | relative_url }}</xsl:text>
                                         </xsl:attribute>
-                                        <xsl:value-of select="./@title"/>
+                                        <xsl:value-of select="@title"/>
                                     </a>
                                 </xsl:otherwise>
                             </xsl:choose>
@@ -166,7 +166,7 @@
                             |
                         </div>
                     </xsl:for-each>
-                    <!-- Link zur nächsten Kurseinheit -->
+                    <!-- Link zur nächsten Einheit -->
                     <div class="next_course">
                         <a class="next_link">
                             <xsl:choose>
@@ -271,13 +271,14 @@
         </xsl:if>
         <!-- Iterieren über alle Fußnoten-Elemente -->
         <xsl:for-each select=".//annotated">
-            <!-- Generieren des Fußnoten-Links, des Fußnoten-Texts und des Zurück-Links, der zurück zur Fußnote im Text führt -->
+            <!-- Generieren des Fußnoten-Links, des Fußnoten-Texts und des 'Zurück'-Links, der zurück zur Fußnote im Text führt -->
             <div class="footnote">
                 <a class="footnote_link">
                     <xsl:attribute name="id">anchor_<xsl:number level="any"/></xsl:attribute>
                     <xsl:attribute name="href">#footnote_<xsl:number level="any"/></xsl:attribute>
                     <sup class="footnote_number">[<xsl:number level="any"/>]</sup>
                 </a>
+                <xsl:text xml:space="preserve"> </xsl:text>
                 <xsl:value-of select="."/>
                 <xsl:text xml:space="preserve"> </xsl:text>
                 <a class="back_link">
@@ -289,12 +290,12 @@
     
     <!-- BEISPIELE UND ÜBUNGEN -->
     <xsl:template match="referencesLink[@type='illustrates' or @type='exercises']">
-        <!-- Festlegen einer Variable, in der die Nummer der aktuellen Übung gespeichert wird --> 
-        <!-- Sie wird benötigt, um die IDs der einzelnen Übungselemente mit der jeweiligen Übungsnummer zu versehen, damit sie auch bei mehreren Übungen auf einer Seite einzigartig sind und alle Übungen parallel funktionieren -->
+        <!-- Festlegen einer Variable, in der die Nummer der aktuellen Übung gespeichert wird
+             -> Sie wird benötigt, um die IDs der einzelnen Übungselemente mit der jeweiligen Übungsnummer zu versehen, damit sie auch bei mehreren Übungen auf einer Seite einzigartig sind und alle Übungen parallel funktionieren -->
         <xsl:variable name="ex_nr">
             <xsl:number level="any" count="referencesLink[@type='exercises']"/>
         </xsl:variable>
-        <!-- Umschließen des Beispiels/der Übung mit einem <div class="list-group-item">-Element, das vom Nutzer aufgeklappt werden kann -->
+        <!-- Umschließen des Beispiels/der Übung mit einem <div class="list-group-item">-Element, dessen Inhalt aus- und eingeklappt werden kann -->
         <div class="ex list-group-item">
             <!-- Generieren des Links, über den der Inhalt ausgeklappt wird -->
             <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false">
@@ -322,7 +323,7 @@
                             <!-- Einfügen der Fragestellung und des Textbeispiels (-> Templates für diese Elemente: siehe weiter unten, nach den Übungen) -->
                             <xsl:apply-templates select="key('examples_exercises', @target)/task[@type='fragestellung']"/>
                             <xsl:apply-templates select="key('examples_exercises', @target)/task[@type='textbeispiel']"/>
-                            <!-- Generieren des Pools an auswählbaren Multiple Choice-Optionen -->
+                            <!-- Generieren des Pools an auswählbaren MC-Optionen -->
                             <fieldset>
                                 <xsl:attribute name="id">option_pool_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                                 <!-- Iterieren über alle MC-Optionen/-Alternativen -> Generieren eines Radio Buttons und eines Labels (= Textinhalt der Alternative) für jede Option -->
@@ -351,8 +352,8 @@
                                     Lösung anzeigen
                                 </button>                            
                             </div>
-                            <!-- Generieren eines <div class="solution">-Elements, in dem das Feedback und die Lösung später mittels JavaScript eingefügt wird (-> Siehe uebungen.js-Datei im assets -> js -> uebungen-Ordner) -->
-                            <!-- Dieses Element bleibt zunächst verborgen -> Wird erst angezeigt, nachdem der Nutzer auf den 'Lösung anzeigen'-Button geklickt hat -->
+                            <!-- Generieren eines Elements, in dem das Feedback und die Lösung später mittels JavaScript eingefügt wird (-> Siehe uebungen.js-Datei im assets -> js-Ordner)
+                                 -> Dieses Element bleibt zunächst auf der Webseite verborgen und wird erst nach einem Klick auf den 'Lösung anzeigen'-Button sichtbar gemacht -->
                             <div class="solution">
                                 <xsl:attribute name="id">solution_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                                 <div class="feedback">
@@ -362,12 +363,13 @@
                                     <xsl:attribute name="id">answer_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                                 </div>
                             </div>
-                            <!-- Speichern der Antworten/Lösungen in einem Element, das ebenfalls auf der HTML-Seite verborgen bleibt -->                 
+                            <!-- Speichern aller Antworten/Lösungen in einem Element 
+                                 -> Dieses Element bleibt dauerhaft auf der Webseite verborgen und wird nur im JS-Skript genutzt, um die passende Lösung zur ausgewählten Option bereitzustellen -->
                             <div class="answer_pool">
                                 <xsl:attribute name="id">answer_pool_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                                 <xsl:for-each select="key('examples_exercises', @target)/solution">
                                     <span>
-                                        <!-- Ausstatten jeder Anwort mit einer Klasse -> Diese wird bei der Auswertung mit der ID der vom Nutzer ausgewählten Antwort abgeglichen, um so diejenige Lösung auszugeben, die zur vom Nutzer ausgewählten Option passt (-> Siehe uebungen.js-Datei) -->
+                                        <!-- Ausstatten jeder Anwort mit einer Klasse -> Diese wird bei der Auswertung mit der ID der ausgewählten Antwort abgeglichen, um so diejenige Lösung anzuzeigen, die zur ausgewählten Option passt (-> Siehe uebungen.js-Datei) -->
                                         <xsl:attribute name="class">option_<xsl:value-of select="$ex_nr"/>-<xsl:value-of select="@label"/></xsl:attribute>
                                         <xsl:apply-templates/>
                                     </span>
@@ -381,7 +383,7 @@
                         <div class="exercise text">
                             <xsl:apply-templates select="key('examples_exercises', @target)/task[@type='fragestellung']"/>
                             <xsl:apply-templates select="key('examples_exercises', @target)/task[@type='textbeispiel']"/>
-                            <!-- Generieren eines Textfelds, das der Nutzer mit eigenem Text befüllen kann -->
+                            <!-- Generieren eines Textfelds, das von dem/der Übenden mit einem eigenen Text befüllt werden kann -->
                             <div class="input">
                                 <div class="pretext">Ihre Formulierung:</div>
                                 <textarea class="input_field">
@@ -398,7 +400,6 @@
                                     Lösung anzeigen
                                 </button>                            
                             </div>
-                            <!-- Speichern der Antwort/Lösung in einem Element, das auf der HTML-Seite zunächst verborgen bleibt -> Wird erst angezeigt, nachdem der Nutzer auf den 'Lösung anzeigen'-Button geklickt hat -->
                             <div class="solution">
                                 <xsl:attribute name="id">solution_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                                 <div class="feedback">
@@ -419,7 +420,7 @@
                             <xsl:apply-templates select="key('examples_exercises', @target)/task[@type='fragestellung']"/>
                             <xsl:apply-templates select="key('examples_exercises', @target)/task[@type='selection']/quotation"/>
                             <div class="exercise_buttons">
-                                <!-- Einfügen eines zusätzlichen 'Markieren'-Buttons, über den die Textauswahl, die der Nutzer mit dem Maus-Cursor vorgenommen hat, als Markierung festgelegt werden kann -->
+                                <!-- Einfügen eines zusätzlichen 'Markieren'-Buttons, über den die Textauswahl, die zuvor mit dem Maus-Cursor vorgenommen wurde, als Markierung festgelegt werden kann -->
                                 <button>
                                     <xsl:attribute name="id">mark_button_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                                     Markierung setzen
@@ -470,7 +471,7 @@
                                     Lösung anzeigen
                                 </button>
                             </div>
-                            <!-- Generieren eines <div class="solution">-Elements, in dem jetzt die Antwort/Lösung aus dem XML-Dokument und später das Feedback mittels JavaScript eingefügt wird (-> Siehe uebungen.js-Datei) -->
+                            <!-- Generieren eines Elements, in dem jetzt die Antwort/Lösung aus dem XML-Dokument und später das Feedback mittels JavaScript eingefügt wird (-> Siehe uebungen.js-Datei) -->
                             <div class="solution">
                                 <xsl:attribute name="id">solution_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                                 <div class="feedback">
@@ -498,7 +499,7 @@
                             <!-- Generieren der Drop-Areas, in denen die DND-Items platziert werden sollen -->
                             <div class="drop_areas">
                                 <xsl:attribute name="id">drop_areas_<xsl:value-of select="$ex_nr"/></xsl:attribute>
-                                <!-- Iterieren über alle Spalten der DND-Tabelle im XML-Dokument - Für jede Spalte: -->
+                                <!-- Iterieren über alle Spalten der DND-Tabelle im XML-Dokument -> Für jede Spalte: -->
                                 <xsl:for-each select="key('examples_exercises', @target)//LMMLtext[matches(@type, 'column')]">
                                     <div class="drop_wrapper">
                                         <!-- Einfügen der Drop-Area-Überschrift -->
@@ -517,12 +518,12 @@
                                 <xsl:attribute name="id">dnd_items_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                                 <!-- Iterieren über alle <LMMLtext type='input'>-Elemente (= DND-Items) -->
                                 <xsl:for-each select="key('examples_exercises', @target)//LMMLtext[matches(@type, 'input')]">
-                                    <!-- Sicherstellen, dass das DND-Item (bzw. Element) nicht leer ist -->
+                                    <!-- Sicherstellen, dass das Element nicht leer ist -->
                                     <xsl:if test=". != ''">
                                         <!-- Austatten des Items mit einer ID und Attributen, welche die DND-Funktion ermöglichen -->
                                         <div draggable="true" ondragstart="drag(event)">
                                             <xsl:attribute name="id">dnd_item_<xsl:value-of select="$ex_nr"/>-<xsl:number count="LMMLtext[matches(@type, 'input')]"/></xsl:attribute>
-                                            <!-- Austatten des Items mit einer Klasse -> Diese wird bei der Auswertung mit der ID der Drop-Area abgeglichen, in die der Nutzer das Item platziert hat, um so festzustellen, ob das Item korrekt zugeordnet wurde (-> Siehe uebungen.js-Datei) -->
+                                            <!-- Austatten des Items mit einer Klasse -> Diese wird bei der Auswertung mit der ID der Drop-Area abgeglichen, in der das Item platziert wurde, um so festzustellen, ob das Item korrekt zugeordnet wurde (-> Siehe uebungen.js-Datei) -->
                                             <xsl:attribute name="class">drop_area_<xsl:value-of select="$ex_nr"/>-<xsl:value-of select="@title"/></xsl:attribute>
                                             <xsl:apply-templates/>
                                         </div>
@@ -539,7 +540,7 @@
                                     Lösung anzeigen
                                 </button>
                             </div>
-                            <!-- Generieren eines <div class="solution">-Elements, in dem das Feedback später mittels JavaScript eingefügt wird (-> Siehe uebungen.js-Datei) -->
+                            <!-- Generieren eines Elements, in dem später das Feedback mittels JavaScript eingefügt wird (-> Siehe uebungen.js-Datei) -->
                             <div class="solution">
                                 <xsl:attribute name="id">solution_<xsl:value-of select="$ex_nr"/></xsl:attribute>
                                 <div class="feedback">
@@ -565,8 +566,8 @@
     
     <!-- Alternative Textbeispiele-Übung: Prosa-Textbeispiel -->
     <xsl:template match="task[@type='alternative']//quotation">
-        <!-- Hier müssen <span>-Elemente zur Umschließung der Texteinheiten verwendet werden (statt Blockelemente wie <p> oder <div>, die für diesen Zweck eigentlich vorgesehen sind) -->
-        <!-- Grund: <p> und <div> sind nicht als Kindelemente von <label> bei den MC-Optionen erlaubt (-> Ungültiges HTML) -->
+        <!-- Hier müssen <span>-Elemente zur Umschließung der Texteinheiten verwendet werden (statt Blockelemente wie <p> oder <div>, die für diesen Zweck eigentlich vorgesehen sind)
+             -> Grund: <p> und <div> sind nicht als Kindelemente von <label> bei den MC-Optionen erlaubt (-> Ungültiges HTML) -->
         <span class="text">
             <xsl:apply-templates/>
         </span>
@@ -591,8 +592,8 @@
     <!-- Alternative Textbeispiele-Übung: Lyrik-Textbeispiel -->
     <!-- Gesamtes Gedicht -->
     <xsl:template match="task[@type='alternative']//poem">
-        <!-- Hier müssen <span>-Elemente zur Umschließung der Texteinheiten verwendet werden (statt Blockelemente wie <p> oder <div>, die für diesen Zweck eigentlich vorgesehen sind) -->
-        <!-- Grund: <p> und <div> sind nicht als Kindelemente von <label> bei den MC-Optionen erlaubt (-> Ungültiges HTML) -->
+        <!-- Hier müssen <span>-Elemente zur Umschließung der Texteinheiten verwendet werden (statt Blockelemente wie <p> oder <div>, die für diesen Zweck eigentlich vorgesehen sind)
+             -> Grund: <p> und <div> sind nicht als Kindelemente von <label> bei den MC-Optionen erlaubt (-> Ungültiges HTML) -->
         <span class="poem">
             <xsl:apply-templates/>
             <xsl:if test="@authorname or @authorfamily">
@@ -632,7 +633,7 @@
         </div>
     </xsl:template>
     
-    <!-- Markieren-Übung: Kennzeichnung für die korrekten bzw. gesuchten Stellen im markierbaren Text -->
+    <!-- Markieren-Übung: Kennzeichnung für die korrekten/gesuchten Stellen im markierbaren Text -->
     <xsl:template match="formatted[@style='richtig' or @style='style1']">
         <span class="correct_marker">
             <xsl:apply-templates/>
@@ -647,12 +648,12 @@
     <xsl:template match="option[not(@target)]">
         <xsl:variable name="label"><xsl:value-of select="@label"/></xsl:variable>
         <select name="dropdown" class="gap">
-            <!-- Festlegen des Standardwerts für jede Lücke, der vor der Auswahl durch den Nutzer zu sehen ist -->
+            <!-- Festlegen des Standardwerts für jede Lücke, der zu Beginn eingestellt ist -->
             <option value="standard">--- bitte auswählen ---</option>
             <!-- Anwenden des Templates für das aktuelle <option>-Element -->
             <!-- Versehen mit dem Attribut value="true", da es sich hierbei um die korrekte Option handelt -->
             <option value="true"><xsl:apply-templates/></option>
-            <!-- Iterieren über alle nachfolgenden Geschwister-Elemente, deren target-Attribut mit dem label der Lücke übereinstimmt (= weitere Optionen für diese Lücke) -->
+            <!-- Iterieren über alle nachfolgenden Geschwisterelemente, deren target-Attribut mit dem label der Lücke übereinstimmt (= weitere Optionen für diese Lücke) -->
             <xsl:for-each select="following-sibling::option[@target=$label]">
                 <!-- Versehen mit dem Attribut value="false", da es sich hierbei um die inkorrekten Optionen handelt -->
                 <option value="false"><xsl:value-of select="."></xsl:value-of></option>
@@ -743,9 +744,9 @@
     <!-- MEDIEN -->
     <!-- PDFs -->
     <xsl:template match="externalLink[matches(@uri, '.pdf|.PDF')]">
-        <embed class="pdf" type="application/pdf">
-            <xsl:attribute name="src"><xsl:text>{{ 'assets/media/</xsl:text><xsl:value-of select="@uri"/><xsl:text>' | relative_url }}</xsl:text></xsl:attribute>
-        </embed>
+        <object class="pdf" type="application/pdf">
+            <xsl:attribute name="data"><xsl:text>{{ 'assets/media/</xsl:text><xsl:value-of select="@uri"/><xsl:text>' | relative_url }}</xsl:text></xsl:attribute>
+        </object>
     </xsl:template>
     
     <!-- Bilder -->
@@ -756,8 +757,8 @@
     </xsl:template>
     
     <!-- Videos -->
-    <xsl:template match="LMMLtext[externalLink[matches(@uri, '.swf')]]" priority="1">
-        <!-- Verbergen des Videos in einem ausklappbaren Element -->
+    <xsl:template match="LMMLtext[externalLink[matches(@uri, '.swf|.SWF')]]" priority="1">
+        <!-- Einbetten des Videos in einem aus-/einklappbaren Element -->
         <div class="ex list-group-item">
             <a class="chevron_link" data-bs-toggle="collapse" aria-expanded="false">
                 <xsl:attribute name="href">#<xsl:value-of select="./externalLink/substring-before(@uri, '.')"/></xsl:attribute>
@@ -811,7 +812,7 @@
     </xsl:template>
     
     <!-- ERLÄUTERUNGEN/BEISPIELE -->
-    <!-- Leerlassen des Templates, damit Übungen/Beispiele nicht doppelt bzw. noch eimmal am Ende des Texts eingefügt werden -> Sie werden bereits über den Key in den Text integriert (-> Siehe weiter oben) -->
+    <!-- Leerlassen des Templates, damit Übungen/Beispiele nicht doppelt bzw. noch einmal am Ende des Texts eingefügt werden -> Sie werden bereits über den Key an der vorgesehenen Stelle integriert (-> Siehe weiter oben) -->
     <xsl:template match="exercise|section[@type='example']"/>
     
     <!-- Erläuterungen/Textbeispiele -->
@@ -865,7 +866,7 @@
     <xsl:template match="quotation/LMMLtext[not(@type='br')]">
         <xsl:if test=".//node()">
             <xsl:choose>
-                <!-- Testen, ob der Text ein Teil der Markieren-Übung ist -> Falls ja: Textabschnitte dürfen nicht mit <div>-Elementen umschlossen werden, da die Markierfunktion sonst nicht korrekt funktioniert -->
+                <!-- Testen, ob der Text ein Teil der Markieren-Übung ist -> Falls ja: Textabschnitte dürfen nicht mit <div>-Elementen umschlossen werden, weil das Markieren sonst nicht mehr korrekt funktioniert -->
                 <!-- Für Zeilenumbrüche wird stattdessen mit <br/>-Elementen gesorgt -->
                 <xsl:when test="ancestor::task[@type='selection']">
                     <xsl:apply-templates/><br/>
@@ -939,7 +940,7 @@
     <!-- Sicherstellen, dass es sich bei dem Link-Element nicht um eine (Pop-Over-)Definition, ein Beispiel, eine Übung oder ein Werk handelt -->
     <xsl:template match="referencesLink[@target and not(@type='defines') and not(@type='illustrates') and not(@type='exercises') and not(@type='book')]">
         <xsl:choose>
-            <!-- Sicherstellen, dass es sich weder beim Eltern- noch beim Kind-Element um ein Element handelt, das als eine Pop-Over-Definition erhält --> 
+            <!-- Sicherstellen, dass es sich weder beim Eltern- noch beim Kindelement um ein Element handelt, das als eine Pop-Over-Definition erhält --> 
             <!-- Grund: hier wird der interne Link auf andere Weise umgesetzt -> Siehe nachfolgendes POP-OVER-Template) -->
             <xsl:when test="not(./parent::referencesLink[@type='defines']) and not(./child::referencesLink[@type='defines'])">
                 <!-- Nutzen der path-Variable und der contains()-Funktion, um den internen Link zu generieren -->
@@ -969,7 +970,7 @@
                                 <xsl:text>rhetorik/</xsl:text>
                             </xsl:when>
                         </xsl:choose>
-                        <xsl:value-of select="./@target"/>
+                        <xsl:value-of select="@target"/>
                         <xsl:text>.html' | relative_url }}</xsl:text>
                     </xsl:attribute>
                     <i class="bi bi-chevron-right"></i><span class="link_text"><xsl:apply-templates/></span>
@@ -988,21 +989,21 @@
         <xsl:variable name="target" select="@target"/>
         <!-- Generieren des Pop-Overs -->
         <details class="pop_over">
-            <!-- Generieren des Pop-Over-Links mit einem Caret, das beim Anklicken des Links bzw. beim Öffnen des Pop-Over-Fensters um 90° nach oben gedreht wird (-> Siehe svg_icons.scss-Datei im _sass-Ordner) -->
+            <!-- Generieren des Pop-Over-Links mit einem Caret-Icon, das beim Anklicken des Links bzw. beim Öffnen des Pop-Over-Fensters um 90° nach oben gedreht wird (-> Siehe svg_icons.scss-Datei im _sass-Ordner) -->
             <summary class="pop_over_link">
                 <i class="bi bi-caret-right-fill rotate_90"></i><xsl:apply-templates/>
             </summary>
             <!-- Iterieren über alle Definitionen in der definitionen.xml-Datei -->
-            <!-- In dieser Datei, die extra für diesen Zweck generiert wurde (-> Siehe definitionen.xsl-Datei), sind sämtliche Definitionen aller Lerneinheiten enthalten -->
+            <!-- In dieser Datei, die extra für diesen Zweck generiert wurde (-> Siehe definitionen.xsl-Datei in diesem Ordner), sind sämtliche Definitionen aller Lerneinheiten enthalten -->
             <xsl:for-each select="document('../xml_daten/selbstgenerierte/definitionen.xml')//div[@class='definition']">
-                <!-- Testen, ob das Label der aktuellen Definition (in der definitionen.xml-Datei) dem Target-Wert der gesuchten Definition für das Pop-Over im HTML-Dokument entspricht -> Falls ja: -->
+                <!-- Testen, ob das Label der aktuellen Definition (in der definitionen.xml-Datei) dem target-Wert der gesuchten Definition für das Pop-Over im HTML-Dokument entspricht -> Falls ja: -->
                 <xsl:if test="@label = $target">
                     <!-- Generieren des Pop-Over-Inhalts -->
                     <div class="pop_over_content">
                         <!-- Entnehmen der Überschrift und der Definition aus der definitionen.xml-Datei -->
                         <h5><xsl:value-of select="@id"/></h5>
                         <span class="pop_over_text"><xsl:value-of select="."/></span>
-                        <!-- Generieren des Links zur derjenigen Lerneinheit, die diese Definition beinhaltet -->
+                        <!-- Generieren des Links zu derjenigen Lerneinheit, die diese Definition beinhaltet -->
                         <div class="pop_over_course_link">
                             <a class="course_link">
                                 <xsl:attribute name="href">
@@ -1030,7 +1031,7 @@
                                             <xsl:text>rhetorik/</xsl:text>
                                         </xsl:when>
                                     </xsl:choose>
-                                    <xsl:value-of select="./@file"/>
+                                    <xsl:value-of select="@file"/>
                                     <xsl:text>' | relative_url }}</xsl:text>
                                 </xsl:attribute>
                                 <i class="bi bi-chevron-right"></i><span class="link_text">Zur Kursseite</span>

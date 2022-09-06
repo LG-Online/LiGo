@@ -745,9 +745,9 @@
         id="dritteuebungentstehungsapparatentstehungskritikUeb">
       <div class="task">
          <div class="pretext">Fragestellung:</div>
-         <div class="text">Sieht man in diesem Text:<embed class="pdf"
-                   type="application/pdf"
-                   src="{{ 'assets/media/trakl2.pdf' | relative_url }}"/>
+         <div class="text">Sieht man in diesem Text:<object class="pdf"
+                    type="application/pdf"
+                    data="{{ 'assets/media/trakl2.pdf' | relative_url }}"/>
          </div>
       </div>
       <fieldset id="option_pool_16">
@@ -798,9 +798,9 @@
          <div class="pretext">Fragestellung:</div>
          <div class="text">In einer Ausgabe welchen Editionstyps könnte der folgende Text auftauchen?
 					
-				<embed class="pdf"
-                   type="application/pdf"
-                   src="{{ 'assets/media/trakl2.pdf' | relative_url }}"/>
+				<object class="pdf"
+                    type="application/pdf"
+                    data="{{ 'assets/media/trakl2.pdf' | relative_url }}"/>
          </div>
       </div>
       <fieldset id="option_pool_17">

@@ -3,7 +3,7 @@ title: "[Titel]"
 layout: default
 type: lerneinheit
 ---
-<!-- HINWEIS: Einträge in [eckigen Klammern] sind durch eigene Angaben/Inhalte zu ersetzen -->
+<!-- HINWEIS: Einträge in [eckigen Klammern] sind durch eigene Angaben/Inhalte zu ersetzen; nicht benötigte Elemente sind zu löschen -->
 
 <!-- MULTIPLE CHOICE und ALTERNATIVE TEXTBEISPIELE (-> Gleicher Code für beide Übungstypen) -->
 <div class="exercise mc">
@@ -17,6 +17,10 @@ type: lerneinheit
         <div class="text">[Text]</div>
         <div class="author_title"><span class="author">[Autor]:</span> <span class="title">[Titel]</span> [Zusatz (optional)]</div>
     </div>
+    <!-- Optionale PDF-Datei zur Frage -->
+    <object class="pdf" data="{{ 'assets/media/[Datei].pdf' | relative_url }}" type="application/pdf"></object>
+    <!-- Optionales Bild zur Frage -->
+    <img class="media" src="{{ 'assets/media/[Datei].jpg/.gif' | relative_url }}">
     <!-- Set an auswählbaren Optionen -->
     <fieldset id="option_pool_[Übung-Nr.]">
         <div class="option">
@@ -48,7 +52,7 @@ type: lerneinheit
         <button id="solution_button_[Übung-Nr.]">Lösung anzeigen</button>
     </div>
     <div id="solution_[Übung-Nr.]" class="solution">
-        <!-- Beide Elemente hier leer lassen -> Werden später mittels einer JavaScript-Funktion befüllt, basierend auf der Auswahl des Benutzers -->
+        <!-- Beide Elemente hier leer lassen -> Werden später durch eine JavaScript-Funktion befüllt, basierend auf der ausgewählten Antwort bei dieser Übung -->
         <div id="feedback_[Übung-Nr.]" class="feedback"></div>
         <div id="answer_[Übung-Nr.]" class="answer"></div>
     </div>
@@ -140,7 +144,7 @@ type: lerneinheit
         <button id="solution_button_[Übung-Nr.]">Lösung anzeigen</button>
     </div>
     <div id="solution_[Übung-Nr.]" class="solution">
-        <!-- Element hier leer lassen -> Wird später mittels einer JavaScript-Funktion befüllt, basierend auf der Anzahl der korrekt ausgefüllten Lücken -->
+        <!-- Element hier leer lassen -> Wird später durch eine JavaScript-Funktion befüllt, basierend auf der Anzahl der korrekt ausgefüllten Lücken -->
         <div id="feedback_[Übung-Nr.]" class="feedback"></div>
         <div id="answer_[Übung-Nr.]" class="answer">[Antwort-Text]</div>
     </div>
@@ -168,7 +172,7 @@ type: lerneinheit
     <div id="drop_areas_[Übung-Nr.]" class="drop_areas">
         <div class="drop_wrapper">
             <div class="drop_head">[Drop-Area-Überschrift]</div>
-            <hr class="drop_separation"/>
+            <hr class="drop_separation">
             <div class="drop_area" id="drop_area_[Übung-Nr.]-1" ondrop="drop(event, this)" ondragover="allowDrop(event)"></div>
         </div>
         <div class="drop_wrapper">
@@ -180,18 +184,18 @@ type: lerneinheit
     </div>
     <div id="dnd_items_[Übung-Nr.]" class="dnd_items">
         <!-- Im class-Attribut des DND-Items wird die ID derjenigen Drop-Area angegeben, zu der das Item korrekterweise zugeordnet werden soll -->
-        <div id="dnd_item_[Übung-Nr.]-1" class="drop_area_[Übung-Nr.]-[DA-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
-        <div id="dnd_item_[Übung-Nr.]-2" class="drop_area_[Übung-Nr.]-[DA-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
-        <div id="dnd_item_[Übung-Nr.]-3" class="drop_area_[Übung-Nr.]-[DA-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
-        <div id="dnd_item_[Übung-Nr.]-4" class="drop_area_[Übung-Nr.]-[DA-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
-        <!-- An dieser Stelle beliebig viele weitere Drop-Items nach dem obigen Schema hinzufügen und durchnummerieren -->
+        <div id="dnd_item_[Übung-Nr.]-1" class="drop_area_[Übung-Nr.]-[Drop-Area-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
+        <div id="dnd_item_[Übung-Nr.]-2" class="drop_area_[Übung-Nr.]-[Drop-Area-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
+        <div id="dnd_item_[Übung-Nr.]-3" class="drop_area_[Übung-Nr.]-[Drop-Area-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
+        <div id="dnd_item_[Übung-Nr.]-4" class="drop_area_[Übung-Nr.]-[Drop-Area-Nr.]" draggable="true" ondragstart="drag(event)">[DND-Item]</div>
+        <!-- An dieser Stelle beliebig viele weitere DND-Items nach dem obigen Schema hinzufügen und durchnummerieren -->
     </div>
     <div class="exercise_buttons">
         <button id="reset_button_[Übung-Nr.]">Übung zurücksetzen</button>
         <button id="solution_button_[Übung-Nr.]">Lösung anzeigen</button>
     </div>
     <div id="solution_[Übung-Nr.]" class="solution">
-        <!-- Element hier leer lassen -> Wird später mittels einer JavaScript-Funktion befüllt, basierend auf der Anzahl der korrekt zugeordneten Items -->
+        <!-- Element hier leer lassen -> Wird später durch eine JavaScript-Funktion befüllt, basierend auf der Anzahl der korrekt zugeordneten Items -->
         <div id="feedback_[Übung-Nr.]" class="feedback"></div>
         <!-- Korrekt ausgefüllte Drop-Areas als Musterlösung -->
         <div id="answer_[Übung-Nr.]" class="drop_areas">

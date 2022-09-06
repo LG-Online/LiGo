@@ -1,4 +1,46 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
 <!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
-<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Einzelvortrag" author="Sebastian Donat" creationTime="22.10.2007" label="einzelvortrag" topics="Einzelvortrag"><definition title="Einzelvortrag" label="einzelvortragdef"><LMMLtext>konkrete sprachliche Präsentation eines Verstextes, in der sich der Sprecher möglicherweise an einem <referencesLink target="vortragstyp"><referencesLink show="new" type="defines" target="vortragstypdef">Vortragstyp</referencesLink></referencesLink> orientiert, die aber dennoch eine individuelle Interpretation des <referencesLink target="rhythmusdeskonkreteneinzelverses"><referencesLink show="new" type="defines" target="rhythmusdeskonkreteneinzelversesdef">Rhythmus der Einzelverse</referencesLink></referencesLink> darstellt.</LMMLtext></definition><illustration><LMMLtext><referencesLink type="illustrates" target="beispieleinzelvortragBsp"></referencesLink></LMMLtext></illustration><section type="example" title="Beispiel Einzelvortrag" label="beispieleinzelvortragBsp"><illustration><LMMLtext>Der immense, sich keineswegs in rhythmischen Abstufungen erschöpfende Gestaltungsspielraum beim konkreten Versvortrag wird am folgenden Beispiel deutlich. Es handelt sich um zwei Varianten von Christian Morgensterns Gedicht <formatted style="buchtitel">Das Huhn</formatted>, vorgetragen von Gert Fröbe.</LMMLtext></illustration><poem authorname="Christian" authorfamily="Morgenstern" title="simple" label="beispieleinzelvortragBspIllu"><poemlinegroup><poemline>In der Bahnhofshalle, nicht für es gebaut,</poemline><poemline>geht ein Huhn</poemline><poemline>hin und her…</poemline><poemline>Wo, wo ist der Herr Stationsvorsteh’r?</poemline><poemline>Wird dem Huhn</poemline><poemline>man nichts tun?</poemline><poemline>Hoffen wir es! Sagen wir es laut:</poemline><poemline>daß ihm unsre Sympathie gehört,</poemline><poemline>selbst an dieser Stätte, wo es – „stört"!</poemline></poemlinegroup></poem><illustration><LMMLtext><externalLink show="embed" uri="einzelvortragBsp1.wma"></externalLink></LMMLtext><LMMLtext><externalLink show="embed" uri="einzelvortragBsp2.wma"></externalLink></LMMLtext></illustration></section></section></lmml>
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Einzelvortrag" author="Sebastian Donat" creationTime="22.10.2007"
+        label="einzelvortrag" topics="Einzelvortrag">
+        <definition title="Einzelvortrag" label="einzelvortragdef">
+            <LMMLtext>konkrete sprachliche Präsentation eines Verstextes, in der sich der Sprecher
+                möglicherweise an einem <referencesLink target="vortragstyp"><referencesLink
+                        show="new" type="defines" target="vortragstypdef"
+                        >Vortragstyp</referencesLink></referencesLink> orientiert, die aber dennoch
+                eine individuelle Interpretation des <referencesLink
+                    target="rhythmusdeskonkreteneinzelverses"><referencesLink show="new"
+                        type="defines" target="rhythmusdeskonkreteneinzelversesdef">Rhythmus der
+                        Einzelverse</referencesLink></referencesLink> darstellt.</LMMLtext>
+        </definition>
+        <!-- Auskommentiert, weil die dazugehörigen Audiodateien in der Datengrundlage fehlen und das Beispiel ohne diese keinen Sinn macht. -->
+        <!--<illustration>
+            <LMMLtext><referencesLink type="illustrates" target="beispieleinzelvortragBsp"
+                /></LMMLtext>
+        </illustration>
+        <section type="example" title="Beispiel Einzelvortrag" label="beispieleinzelvortragBsp">
+            <illustration>
+                <LMMLtext>Der immense, sich keineswegs in rhythmischen Abstufungen erschöpfende
+                    Gestaltungsspielraum beim konkreten Versvortrag wird am folgenden Beispiel
+                    deutlich. Es handelt sich um zwei Varianten von Christian Morgensterns Gedicht
+                        <formatted style="buchtitel">Das Huhn</formatted>, vorgetragen von Gert
+                    Fröbe.</LMMLtext>
+            </illustration>
+            <poem authorname="Christian" authorfamily="Morgenstern" title="Das Huhn"
+                label="beispieleinzelvortragBspIllu">
+                <poemlinegroup>
+                    <poemline>In der Bahnhofshalle, nicht für es gebaut,</poemline>
+                    <poemline>geht ein Huhn</poemline>
+                    <poemline>hin und her…</poemline>
+                    <poemline>Wo, wo ist der Herr Stationsvorsteh’r?</poemline>
+                    <poemline>Wird dem Huhn</poemline>
+                    <poemline>man nichts tun?</poemline>
+                    <poemline>Hoffen wir es! Sagen wir es laut:</poemline>
+                    <poemline>daß ihm unsre Sympathie gehört,</poemline>
+                    <poemline>selbst an dieser Stätte, wo es – „stört"!</poemline>
+                </poemlinegroup>
+            </poem>
+        </section>-->
+    </section>
+</lmml>

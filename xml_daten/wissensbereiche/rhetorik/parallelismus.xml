@@ -1,9 +1,87 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
 <!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
-<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Parallelismus" author="Uwe Spörl" creationTime="08.04.2007" label="parallelismus" topics="Parallelismus"><definition title="Parallelismus" label="parallelismusdef"><LMMLtext>Wortfigur: symmetrische Wiederholung gleichrangiger syntaktischer Einheiten </LMMLtext></definition><illustration><LMMLtext>Der Parallelismus ist eine Wortfigur, bei der syntaktisch äquivalente Einheiten (insbes. Wörter, Wortgruppen, Teilsätze, Sätze) in (beinahe) unmittelbarer Abfolge parallel nebeneinander gestellt sind, sich also strukturidentisch wiederholen: ‘A B ׀ A B’.</LMMLtext><LMMLtext>Das Gegenstück zum Parallelismus ist der <referencesLink show="new" type="defines" target="chiasmusdef"><referencesLink target="chiasmus">Chiasmus</referencesLink></referencesLink>, der sich durch eine Überkreuzstellung entsprechender Einheiten auszeichnet.</LMMLtext><LMMLtext>Der Parallelismus verstärkt die gleichartige Strukturierung und somit die Prägnanz entsprechender Formulierungen. Er kann zudem insbesondere die Gleichartigkeit oder Analogie der parallel zum Ausdruck gebrachten Gedanken oder Sachverhalte hervorheben, er kann aber – umgekehrt – auch <referencesLink show="new" type="defines" target="antithesemitoxymoronundparadoxondef"><referencesLink target="antithesemitoxymoronundparadoxon">Antithesen</referencesLink></referencesLink> oder allgemein: Geneüberstellungen zum Ausdruck bringen, dann nämlich, wenn sich die parallel gestellten syntaktischen Einheiten semantisch gegenüberstehen.</LMMLtext><LMMLtext><referencesLink type="illustrates" target="beispielparallelismusBsp"></referencesLink></LMMLtext></illustration><section type="example" title="Beispiel Parallelismus" label="beispielparallelismusBsp"><illustration><LMMLtext>Typische Parallelismen unterstützen durch die Parallelstellung der korrespondierenden Satzglieder oder Ausdrücke deren zum <referencesLink show="new" type="defines" target="pleonasmusdef">Pleonasmus</referencesLink>  neigende Bedeutungsähnlichkeit, etwa wenn Leicester in Schillers Maria Stuart bestürzt feststellen muss:</LMMLtext></illustration><quotation booktitle="Maria Stuart" authorname="Friedrich" authorfamily="Schiller"><LMMLtext>Ich bin entdeckt, ich bin durchschaut.</LMMLtext></quotation><illustration label="beispielparallelismusBspIllu"><LMMLtext>Oder deren (sich oft steigernde, vgl. <referencesLink show="new" type="defines" target="klimaxdef">Klimax</referencesLink>) Auflistung, etwa wenn Shakespeares Brutus auf sein Verhältnis zu Caesar zurückblickt:</LMMLtext></illustration><illustration><LMMLtext><poem authorname="William" authorfamily="Shakespeare" booktitle="Julius Caesar">
-							<poemlinegroup>
-								<poemline>As Caesar loved me, I weep for him;</poemline>
-								<poemline>as he was fortunate, I rejoice at it; as he was</poemline>
-							<poemline>valiant, I honour him: but, as he was ambitious, I</poemline><poemline>slew him.</poemline></poemlinegroup>
-						</poem></LMMLtext></illustration><illustration><LMMLtext>Aber auch Gegensätze (vgl. <referencesLink show="new" type="defines" target="antithesemitoxymoronundparadoxondef">Antithese</referencesLink>) können mit Hilfe von Parallelismen unterstrichen werden, wenn sich die syntaktisch korrespondierenden und parallel gestellten Ausdrücke semantisch gerade nicht entsprechen, etwa wenn derselbe Leicester seiner Königin den Vorschlag macht, Maria zu treffen:</LMMLtext></illustration><quotation booktitle="Maria Stuart" authorname="Friedrich" authorfamily="Schiller"><LMMLtext>Sie foderts / Als eine Gunst, gewähr es ihr als Strafe!</LMMLtext></quotation><illustration><LMMLtext>Wenn sich schließlich die Korrespondenz der einander gegenübergestellten Texteinheiten gar nicht auf deren syntaktische Funktion (A B ׀ A B), sondern nur auf ihre Bedeutung (C D ׀ D C) bezieht, liegt im engeren Sinne natürlich weiterhin ein Parallelismus vor, der gleichwohl wie ein  <referencesLink show="new" type="defines" target="chiasmus">Chiasmus</referencesLink>  aussieht und wohl auch als solcher betrachtet werden kann. Derlei ist etwa im folgenden Beispiel wieder aus Schillers <formatted style="buchtitel">Maria Stuart</formatted> der Fall, in dem der Sprecher, Burleigh, die Auseinandersetzung zwischen Maria und Elisabeth dieser gegenüber als eine auf Leben und Tod bezeichnet:</LMMLtext></illustration><quotation booktitle="Maria Stuart" authorname="Friedrich" authorfamily="Schiller"><LMMLtext>Ihr Leben ist dein Tod! Ihr Tod [ist] dein Leben!</LMMLtext></quotation></section></section></lmml>
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+	<section type="course" title="Parallelismus" author="Uwe Spörl" creationTime="08.04.2007"
+		label="parallelismus" topics="Parallelismus">
+		<definition title="Parallelismus" label="parallelismusdef">
+			<LMMLtext>Wortfigur: symmetrische Wiederholung gleichrangiger syntaktischer Einheiten
+			</LMMLtext>
+		</definition>
+		<illustration>
+			<LMMLtext>Der Parallelismus ist eine Wortfigur, bei der syntaktisch äquivalente
+				Einheiten (insbes. Wörter, Wortgruppen, Teilsätze, Sätze) in (beinahe) unmittelbarer
+				Abfolge parallel nebeneinander gestellt sind, sich also strukturidentisch
+				wiederholen: ‘A B ׀ A B’.</LMMLtext>
+			<LMMLtext>Das Gegenstück zum Parallelismus ist der <referencesLink show="new"
+					type="defines" target="chiasmusdef"><referencesLink target="chiasmus"
+						>Chiasmus</referencesLink></referencesLink>, der sich durch eine
+				Überkreuzstellung entsprechender Einheiten auszeichnet.</LMMLtext>
+			<LMMLtext>Der Parallelismus verstärkt die gleichartige Strukturierung und somit die
+				Prägnanz entsprechender Formulierungen. Er kann zudem insbesondere die
+				Gleichartigkeit oder Analogie der parallel zum Ausdruck gebrachten Gedanken oder
+				Sachverhalte hervorheben, er kann aber – umgekehrt – auch <referencesLink show="new"
+					type="defines" target="antithesemitoxymoronundparadoxondef"><referencesLink
+						target="antithesemitoxymoronundparadoxon"
+					>Antithesen</referencesLink></referencesLink> oder allgemein: Geneüberstellungen
+				zum Ausdruck bringen, dann nämlich, wenn sich die parallel gestellten syntaktischen
+				Einheiten semantisch gegenüberstehen.</LMMLtext>
+			<LMMLtext><referencesLink type="illustrates" target="beispielparallelismusBsp"
+				/></LMMLtext>
+		</illustration>
+		<section type="example" title="Beispiel Parallelismus" label="beispielparallelismusBsp">
+			<illustration>
+				<LMMLtext>Typische Parallelismen unterstützen durch die Parallelstellung der
+					korrespondierenden Satzglieder oder Ausdrücke deren zum <referencesLink
+						show="new" type="defines" target="pleonasmusdef">Pleonasmus</referencesLink>
+					neigende Bedeutungsähnlichkeit, etwa wenn Leicester in Schillers Maria Stuart
+					bestürzt feststellen muss:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Maria Stuart" authorname="Friedrich" authorfamily="Schiller">
+				<LMMLtext>Ich bin entdeckt, ich bin durchschaut.</LMMLtext>
+			</quotation>
+			<illustration label="beispielparallelismusBspIllu">
+				<LMMLtext>Oder deren (sich oft steigernde, vgl. <referencesLink show="new"
+						type="defines" target="klimaxdef">Klimax</referencesLink>) Auflistung, etwa
+					wenn Shakespeares Brutus auf sein Verhältnis zu Caesar zurückblickt:</LMMLtext>
+			</illustration>
+			<illustration>
+				<LMMLtext><poem authorname="William" authorfamily="Shakespeare"
+						booktitle="Julius Caesar">
+						<poemlinegroup>
+							<poemline>As Caesar loved me, I weep for him;</poemline>
+							<poemline>as he was fortunate, I rejoice at it; as he was</poemline>
+							<poemline>valiant, I honour him: but, as he was ambitious, I</poemline>
+							<poemline>slew him.</poemline>
+						</poemlinegroup>
+					</poem></LMMLtext>
+			</illustration>
+			<illustration>
+				<LMMLtext>Aber auch Gegensätze (vgl. <referencesLink show="new" type="defines"
+						target="antithesemitoxymoronundparadoxondef">Antithese</referencesLink>)
+					können mit Hilfe von Parallelismen unterstrichen werden, wenn sich die
+					syntaktisch korrespondierenden und parallel gestellten Ausdrücke semantisch
+					gerade nicht entsprechen, etwa wenn derselbe Leicester seiner Königin den
+					Vorschlag macht, Maria zu treffen:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Maria Stuart" authorname="Friedrich" authorfamily="Schiller">
+				<LMMLtext>Sie foderts / Als eine Gunst, gewähr es ihr als Strafe!</LMMLtext>
+			</quotation>
+			<illustration>
+				<LMMLtext>Wenn sich schließlich die Korrespondenz der einander gegenübergestellten
+					Texteinheiten gar nicht auf deren syntaktische Funktion (A B ׀ A B), sondern nur
+					auf ihre Bedeutung (C D ׀ D C) bezieht, liegt im engeren Sinne natürlich
+					weiterhin ein Parallelismus vor, der gleichwohl wie ein <referencesLink
+						show="new" type="defines" target="chiasmusdef">Chiasmus</referencesLink>
+					aussieht und wohl auch als solcher betrachtet werden kann. Derlei ist etwa im
+					folgenden Beispiel wieder aus Schillers <formatted style="buchtitel">Maria
+						Stuart</formatted> der Fall, in dem der Sprecher, Burleigh, die
+					Auseinandersetzung zwischen Maria und Elisabeth dieser gegenüber als eine auf
+					Leben und Tod bezeichnet:</LMMLtext>
+			</illustration>
+			<quotation booktitle="Maria Stuart" authorname="Friedrich" authorfamily="Schiller">
+				<LMMLtext>Ihr Leben ist dein Tod! Ihr Tod [ist] dein Leben!</LMMLtext>
+			</quotation>
+		</section>
+	</section>
+</lmml>

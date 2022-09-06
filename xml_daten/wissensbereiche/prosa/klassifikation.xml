@@ -74,22 +74,19 @@
 			<illustration label="beispielzuanachronienmitreichweiteumfangexterninternkomplettpartiellBspIllu">
 				<ulist>
 					<item>
-						<LMMLtext>Zugehörigkeit zum Erzählten <referencesLink show="new" type="defines" target="externintern">(extern/intern)</referencesLink>:</LMMLtext>
+						<LMMLtext>Zugehörigkeit zum Erzählten <referencesLink show="new" type="defines" target="externintern">(extern/intern)</referencesLink>: </LMMLtext>
 						<LMMLtext>Hier extern, weil Berthas Lebensgeschichte nicht zur Handlung der Geschichte gehört.</LMMLtext>
 					</item>
 					<item>
-						<LMMLtext>
-							<referencesLink show="new" type="defines" target="reichweite">Reichweite:</referencesLink>
-						</LMMLtext>
+						<LMMLtext><referencesLink show="new" type="defines" target="reichweite">Reichweite</referencesLink>: </LMMLtext>
 						<LMMLtext>Der Abstand zwischen der Erzählgegenwart und dem Beginn der erzählten Geschichte beträgt so viele Jahre, wie Bertha alt ist, denn sie beginnt mir ihrer Geburt.</LMMLtext>
 					</item>
 					<item>
-						<LMMLtext>
-							<referencesLink show="new" type="defines" target="umfang">Umfang</referencesLink> der Anachronie:</LMMLtext>
+						<LMMLtext><referencesLink show="new" type="defines" target="umfang">Umfang</referencesLink> der Anachronie: </LMMLtext>
 						<LMMLtext>Der Umfang der Analepse deckt sich mit der Anzahl an Jahren, die Bertha alt ist.</LMMLtext>
 					</item>
 					<item>
-						<LMMLtext>Anschluss an das Erzählte (<referencesLink show="new" type="defines" target="komplettpartiell">komplett/partiell</referencesLink>):</LMMLtext>
+						<LMMLtext>Anschluss an das Erzählte (<referencesLink show="new" type="defines" target="komplettpartiell">komplett/partiell</referencesLink>): </LMMLtext>
 						<LMMLtext>Berthas Erzählung ihrer Lebensgeschichte reicht bis an die Erzählgegenwart heran und ist damit komplett.</LMMLtext>
 					</item>
 				</ulist>

@@ -1,5 +1,5 @@
 <!-- ANWENDUNG UND ZIEL -->
-<!-- Anwenden des Stylesheets auf die [test].xml-Dateien (im daten -> xml_tests-Ordner) mit der Fragenstruktur für die einzelnen Tests -->
+<!-- Anwenden des Stylesheets auf die [test].xml-Dateien (im xml_daten -> tests-Ordner) mit der Fragenstruktur für die einzelnen Tests -->
 <!-- Generieren der [test].html-Dateien (im _pages -> tests-Ordner) mit dem Test zum jeweiligen Themengebiet -->
 <xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon" exclude-result-prefixes="saxon">
     <xsl:output method="html" indent="yes"/>
@@ -25,7 +25,7 @@
     <xsl:template match="exerciselist">
         <!-- Austatten der Überschrift mit einer ID, damit sie als Link-Anker dienen kann -> Ermöglicht den Sprung per Button-Klick zurück zur Überschrift/zum Seitenanfang -->
         <h1 id="top">Test - <xsl:value-of select="@title"/></h1>
-        <!-- Generieren des Einleitungstexts mit Infos zur Fragenanzahl, Thema und Zeitvorgabe -->
+        <!-- Generieren des Einleitungstexts mit Infos zu Fragenanzahl, Thema und Zeitvorgabe -->
         <!-- Dazu: Verwenden des seconds-to-time-Templates zur Umrechung der vorgegebenen Zeit von Sekunden in Minuten und Sekunden (-> Siehe letztes Template unten) -->
         <div class="introduction">
             Bei diesem Test sollen insgesamt <xsl:value-of select="$fragen_gesamt"/> Multiple Choice-Fragen aus dem Bereich »<xsl:value-of select="@title"/>« innerhalb von 
@@ -42,8 +42,9 @@
         </div>
         <!-- Generieren des (Bootstrap-)Fortschrittsbalkens, mit dem die verbleibende Zeit angezeigt wird -->
         <div class="progress">
-            <!-- Angeben des minimalen Zeitwerts (-> 0 Sekunden) sowie des aktuellen und maximalen Zeitwerts (-> Sekunden-Wert aus dem @time-Attribut des aktuellen <exerciseList>-Elements -->
-            <!-- Hinzufügen des max_time-Attributs, mit dem eine grüne Farbe der Leiste festgelegt wird -> Wird später mittels JavaScript gegen mid_time für blauen und min_time für roten Farbwechsel ausgetauscht (-> Siehe tests.js-Datei im assets -> js -> uebungen-Ordner) -->
+            <!-- Angeben des minimalen Zeitwerts (-> 0 Sekunden) sowie des aktuellen und maximalen Zeitwerts (-> Sekunden-Wert aus dem time-Attribut des aktuellen <exerciseList>-Elements -->
+            <!-- Hinzufügen der max_time-Klasse, mit der eine grüne Farbe des Balkens festgelegt wird (-> Siehe tests.scss-Datei im _sass-Ordner)
+                 -> Wird später mittels JavaScript gegen mid_time für blauen und min_time für roten Farbwechsel ausgetauscht (-> Siehe tests.js-Datei im assets -> js-Ordner) -->
             <div id="progress-bar" class="progress-bar max_time" role="progressbar" aria-valuemin="0">
                 <xsl:attribute name="aria-valuenow"><xsl:value-of select="@time"/></xsl:attribute>
                 <xsl:attribute name="aria-valuemax"><xsl:value-of select="@time"/></xsl:attribute>
@@ -56,7 +57,7 @@
                 </span>
             </div>
         </div>
-        <!-- Generieren des Timeout-Pop-Ups, das zunächst auf der Website verborgen bleibt -> Es erscheint automatisch, sobald die vorgegebene Zeit abgelaufen ist (-> Siehe tests.js-Datei) -->
+        <!-- Generieren des Timeout-Pop-Ups, das zunächst auf der Webseite verborgen bleibt -> Es erscheint automatisch, sobald die vorgegebene Zeit abgelaufen ist (-> Siehe tests.js-Datei) -->
         <div id="timeout_pop_up">
             <div id="timeout_content">
                 <h3>Zeit abgelaufen</h3>
@@ -66,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <!-- Generieren eines <div>-Elements mit den Übungen und weiteren Buttons, das zunächst auf der Website verborgen bleibt -> Der Inhalt wird erst angezeigt, sobald der Nutzer auf den "Test starten"-Button klickt (-> Siehe tests.js-Datei) -->
+        <!-- Generieren eines <div>-Elements mit den Übungen und weiteren Buttons, das zunächst auf der Webseite verborgen bleibt -> Der Inhalt wird erst nach einem Klick auf den 'Test starten'-Button angezeigt (-> Siehe tests.js-Datei) -->
         <div id="exercises">
             <!-- Anwenden der Templates für die einzelnen Übungen/MC-Fragen -->
             <xsl:apply-templates/>
@@ -75,7 +76,7 @@
                 <button id="solution_button">Ergebnisse auswerten</button>
                 <button id="reset_button">Test zurücksetzen</button>
             </div>
-            <!-- Generieren des Warnung-Pop-Ups, das zunächst auf der Website verborgen bleibt -> Es erscheint, falls der Nutzer auf den "Ergebnisse auswerten"-Button klickt, bevor er eine Antwort bei jeder Frage ausgewählt hat (-> Siehe tests.js-Datei) -->
+            <!-- Generieren des Warnung-Pop-Ups, das zunächst auf der Webseite verborgen bleibt -> Es erscheint nur nach einem Klick auf den 'Ergebnisse auswerten'-Button, falls noch nicht für jeder Frage eine Antwort ausgewählt wurde (-> Siehe tests.js-Datei) -->
             <div id="warning_pop_up">
                 <div id="warning_content">
                     <h3>Hinweis</h3>
@@ -96,7 +97,7 @@
         <!-- Speichern der Nummer und des Labels der Frage in je einer Variable -->
         <xsl:variable name="frage_nr"><xsl:number count="exercise" level="any"/></xsl:variable>
         <xsl:variable name="frage_label" select="@locallabel"/>
-        <!-- Zugreifen auf die eigens für diesen Zweck generierte uebungen.xml-Datei (-> Siehe uebungen.xsl-Datei) und Iterieren über sämtliche Übungen darin  -->
+        <!-- Zugreifen auf die eigens für diesen Zweck generierte uebungen.xml-Datei (-> Siehe uebungen.xsl-Datei in diesem Ordner) und Iterieren über sämtliche Übungen darin  -->
         <xsl:for-each select="document('../xml_daten/selbstgenerierte/uebungen.xml')//div[tokenize(@class,'\s')='exercise']">
             <!-- Testen, ob die ID der aktuellen Übung dem Label der gesuchten Frage für diesen Test entspricht -> Falls ja: -->
             <xsl:if test="@id = $frage_label">

@@ -1,4 +1,15 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="../stylesheets/layout.xsl" type="text/xsl"?>
 <!DOCTYPE lmml PUBLIC "-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN" "../../resources/dtd//LMML-CS.dtd">
-<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN"><section type="course" title="Topik und Entfaltung von Sachverhalt und Thema" author="Hamburg" creationTime="15.01.2006" label="topikundentfaltungvonsachverhaltundthema" topics="Topik, Thema"><illustration><LMMLtext>·	Auch innerhalb eines Gedichtes müssen Sachverhalte und Themen vermittelt, dargestellt und entfaltet werden. Ein eigenständiger Untersuchungsschritt kann daher der Topik und textinternen Entwicklungen der leitenden Motive, des Themas, der bestimmenden Konzepte gelten.</LMMLtext></illustration></section></lmml>
+<lmml version="-//DE.UNI-PASSAU.IM//DTD LMML-CS 1.1//EN">
+    <section type="course" title="Topik und Entfaltung von Sachverhalt und Thema" author="Hamburg"
+        creationTime="15.01.2006" label="topikundentfaltungvonsachverhaltundthema"
+        topics="Topik, Thema">
+        <illustration>
+            <LMMLtext>Auch innerhalb eines Gedichtes müssen Sachverhalte und Themen vermittelt,
+                dargestellt und entfaltet werden. Ein eigenständiger Untersuchungsschritt kann daher
+                der Topik und textinternen Entwicklungen der leitenden Motive, des Themas, der
+                bestimmenden Konzepte gelten.</LMMLtext>
+        </illustration>
+    </section>
+</lmml>
