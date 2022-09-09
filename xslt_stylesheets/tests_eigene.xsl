@@ -21,14 +21,14 @@
             <!-- Festlegen des Seitenlayouts, das in der default.html-Datei (im _layouts-Ordner) vorgegeben wird -->
             <!-- Festlegen des Seitentyps, der für die Zuordnung der benötigten JavaScript-Skripte in der scripts.html-Datei (im _includes-Ordner) genutzt wird -->
             <xsl:result-document href="./selbstgenerierte/{@resource}.html">---
-                title: "Test - [Wissensbereich]"
+                title: "Test – [Wissensbereich]"
                 layout: default
                 type: test
                 ---
                 <div class="test">
                     <!-- Generieren der Überschrift (-> Überschrift muss manuell/individuell für jeden Test ergänzt werden) -->
                     <!-- Austatten der Überschrift mit einer ID, damit sie als Link-Anker dienen kann -> Ermöglicht den Sprung per Button-Klick zurück zur Überschrift/zum Seitenanfang -->
-                    <h1 id="top">Test - [Wissensbereich]</h1>
+                    <h1 id="top">Test – [Wissensbereich]</h1>
                     <!-- Generieren des Einleitungstexts mit Infos zu Fragenanzahl, Thema und Zeitvorgabe (-> Infos müssen manuell/individuell für jeden Test nachgetragen werden) -->
                     <div class="introduction">
                         Bei diesem Test sollen insgesamt [Anzahl] Multiple Choice-Fragen aus dem Bereich »[Wissensbereich]« innerhalb von [Anzahl] Min. [Anzahl] Sek. beantwortet werden.
@@ -53,7 +53,7 @@
                     <div id="timeout_pop_up">
                         <div id="timeout_content">
                             <h3>Zeit abgelaufen</h3>
-                            <p id="timout_text">Ihre Bearbeitungszeit ist vorbei.</p>
+                            <p id="timeout_text">Ihre Bearbeitungszeit ist vorbei.</p>
                             <div class="exercise_buttons">
                                 <button id="timeout_button">Ergebnisse auswerten</button>
                             </div>

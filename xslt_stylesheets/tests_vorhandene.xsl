@@ -14,7 +14,7 @@
     <!-- Festlegen des Seitenlayouts, das in der default.html-Datei (im _layouts-Ordner) vorgegeben wird -->
     <!-- Festlegen des Seitentyps, der für die Zuordnung der benötigten JavaScript-Skripte in der scripts.html-Datei (im _includes-Ordner) genutzt wird -->
     <xsl:template match="/">---
-        title: "Test - <xsl:value-of select="//exerciselist[1]/@title"/>"
+        title: "Test – <xsl:value-of select="//exerciselist[1]/@title"/>"
         layout: default
         type: test
         ---
@@ -24,7 +24,7 @@
     <!-- GESAMTER TEST -->
     <xsl:template match="exerciselist">
         <!-- Austatten der Überschrift mit einer ID, damit sie als Link-Anker dienen kann -> Ermöglicht den Sprung per Button-Klick zurück zur Überschrift/zum Seitenanfang -->
-        <h1 id="top">Test - <xsl:value-of select="@title"/></h1>
+        <h1 id="top">Test – <xsl:value-of select="@title"/></h1>
         <!-- Generieren des Einleitungstexts mit Infos zu Fragenanzahl, Thema und Zeitvorgabe -->
         <!-- Dazu: Verwenden des seconds-to-time-Templates zur Umrechung der vorgegebenen Zeit von Sekunden in Minuten und Sekunden (-> Siehe letztes Template unten) -->
         <div class="introduction">
@@ -61,7 +61,7 @@
         <div id="timeout_pop_up">
             <div id="timeout_content">
                 <h3>Zeit abgelaufen</h3>
-                <p id="timout_text">Ihre Bearbeitungszeit ist vorbei.</p>
+                <p id="timeout_text">Ihre Bearbeitungszeit ist vorbei.</p>
                 <div class="exercise_buttons">
                     <button id="timeout_button">Ergebnisse auswerten</button>
                 </div>
