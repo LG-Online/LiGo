@@ -233,10 +233,10 @@ function luecken_exercise(ex_nr){
     var feedback = document.getElementById("feedback_"+ex_nr);
     var gap_text = document.getElementById("gap_text_"+ex_nr);
     const num_gaps_total = gap_text.childElementCount;
-    var num_gaps_correct = 0;
     
     // Bei Klick auf den "Lösung anzeigen"-Button: Validieren des Lückentexts
     solution_button.addEventListener('click', function validate(){
+        var num_gaps_correct = 0;
         // Iterieren über alle Lücken
         for (var p = 0; p < num_gaps_total; p++){
             var gap = gap_text.getElementsByClassName("gap")[p];
