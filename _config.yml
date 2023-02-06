@@ -21,8 +21,8 @@
 title: LiGo - Literaturwissenschaftliche Grundbegriffe online
 description: LiGo ist ein Selbstlernkurs zu literaturwissenschaftlichen Grundbegriffen.
 email: lit.grundbegriffe.online@gmail.com
-baseurl: "/LiGo" # the subpath of your site, e.g. /blog
-url: "https://lg-online.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://www.li-go.de" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: LG-Online
 
 # Build settings
